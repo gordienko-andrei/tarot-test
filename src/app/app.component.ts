@@ -4,6 +4,8 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header/header.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { OwncardsComponent } from './pages/my-own-cards/owncards/owncards.component';
+
 
 @Component({
   selector: 'app-root',
@@ -14,6 +16,7 @@ import { FooterComponent } from './components/footer/footer.component';
     HeaderComponent,
     WelcomeComponent,
     FooterComponent,
+    OwncardsComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

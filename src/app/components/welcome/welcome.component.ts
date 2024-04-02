@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { NgIf } from '@angular/common';
-import { trigger, style, transition, animate} from '@angular/animations';
+import { RouterModule } from '@angular/router';
 import { ScrollAnimationDirective } from '../../directives/appScrollAnimation';
 
 
@@ -14,6 +14,7 @@ import { ScrollAnimationDirective } from '../../directives/appScrollAnimation';
     MatSidenavModule,
     NgIf,
     ScrollAnimationDirective,
+    RouterModule,
   ],
   templateUrl: './welcome.component.html',
   styleUrl: './welcome.component.scss',
