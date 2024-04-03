@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { OwncardsComponent } from './pages/my-own-cards/owncards/owncards.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
+import { LibraryComponent } from './pages/library/library.component';
 
 export const routes: Routes = [
     { 
@@ -10,13 +11,21 @@ export const routes: Routes = [
     },
     { 
         path: 'home', 
-        component: WelcomeComponent,
-        title: "home"
+        component: WelcomeComponent, 
     },
     { 
-        path: 'owncards', 
+        path: 'spread', 
         component: OwncardsComponent,
-        title: "my cards" 
+         
+    },
+    { 
+        path: 'spread', 
+        component: OwncardsComponent,  
+    },
+    {
+        path: 'library', 
+        component: LibraryComponent,  
     }
+   
     
 ];

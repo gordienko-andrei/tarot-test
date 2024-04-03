@@ -1,0 +1,24 @@
+
+<div class="owncards-wrapper full-w bg-[#191919] flex items-center justify-center">
+    <div class="container">
+        <div appScrollAnimation [rootMargin]="'350px'" class="main_font flex items-center justify-betweeen text-8xl py-16 lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-2xl min-[320px]:py-6" >
+            <div class="flex flex-1 items-center justify-center">
+                <img class="max-w-[70%] h-[40%] rounded-2xl" src="assets/lovers.jpg" alt="lovers_img">
+            </div>
+            <div class="flex flex-1 items-start justify-center flex-col pl-[5%]">
+                <span>Get an interpretation</span>
+                <span>of your spread!</span>
+            </div>
+        </div>
+        <div class="main">
+            Card name: <input type="text" [(ngModel)]="name">
+            <button (click)="search()">Search</button>
+            <div *ngIf="response">
+                <p>{{response.meaning_up}}</p>  
+            </div>
+            <!-- <ul>
+                <li *ngFor="let card of cards" ></li>
+            </ul> -->
+        </div>
+    </div>
+</div>
