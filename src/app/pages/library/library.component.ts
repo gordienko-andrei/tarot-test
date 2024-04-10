@@ -1,9 +1,11 @@
-import { Component } from '@angular/core';
-import { NgIf } from '@angular/common';
+import { Component, OnInit } from '@angular/core';
+import { NgIf, NgFor } from '@angular/common';
 import { ScrollAnimationDirective } from '../../directives/appScrollAnimation'; 
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TarotService } from '../../services/tarot.service';
 import { FormsModule } from '@angular/forms';
+import { Card } from '../../interfaces/card.interface';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 
 @Component({
@@ -13,7 +15,8 @@ import { FormsModule } from '@angular/forms';
     ScrollAnimationDirective,
     HttpClientModule,
     FormsModule,
-    NgIf
+    NgIf, NgFor,
+    MatGridListModule
   ],
   providers: [
     TarotService,
@@ -23,17 +26,37 @@ import { FormsModule } from '@angular/forms';
   templateUrl: './library.component.html',
   styleUrl: './library.component.scss'
 })
-export class LibraryComponent {
-  name: string = "";
-  response: any = "";
+export class LibraryComponent implements OnInit {
+  // name: string = "";
+  // response: any = "";
+  cards: Card[] = [];
+  majorArcanaCards: Card[] = [];
+  pentaclesCards: Card[] = [];
+  cupsCards: Card[] = [];
+  swordsCards: Card[] = [];
+  wandsCards: Card[] = [];
 
-  constructor(private http: HttpClient){}
+  constructor(private http: HttpClient, private TarotService: TarotService){};
 
-  search() {
-    this.http.get('https://tarotapi.dev/api/v1/cards' + this.name)
-    .subscribe((response) => {
-      this.response = response;
-      console.log(this.response);
-    })
+  ngOnInit(): void {
+    this.TarotService.getCards().subscribe( data => {
+      this.cards = data.cards;
+
+      this.majorArcanaCards = this.TarotService.getCardsByCategory("major");
+      this.pentaclesCards = this.TarotService.getCardsByCategory("pentacles");
+      this.cupsCards = this.TarotService.getCardsByCategory("cups");
+      this.swordsCards = this.TarotService.getCardsByCategory("swords");
+      this.wandsCards = this.TarotService.getCardsByCategory("wands");
+    });
   }
+
 }
+
+  // search() {
+  //   this.http.get('https://tarotapi.dev/api/v1/cards/search?q=' + this.name)
+  //   .subscribe((response) => {
+  //     this.response = response;
+  //     console.log(this.response);
+  //   })
+  // }
+
