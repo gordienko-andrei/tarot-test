@@ -1,4 +1,5 @@
-import { Routes } from '@angular/router';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 import { OwncardsComponent } from './pages/my-own-cards/owncards/owncards.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { LibraryComponent } from './pages/library/library.component';
@@ -29,3 +30,11 @@ export const routes: Routes = [
    
     
 ];
+
+@NgModule({
+    imports: 
+    [ RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled' })],
+    exports: [RouterModule]
+})
+
+export class AppRoutingModule {}

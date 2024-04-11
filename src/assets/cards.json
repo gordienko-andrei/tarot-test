@@ -435,37 +435,6 @@
             }
         },                             
         {
-            "name": "Death",
-            "category": "major",
-            "image": "assets/tarotcards-img/death.jpg",
-            "meanings": {
-                "upright": {
-                    "general": "",
-                    "love": "", 
-                    "work": "",
-                    "friendship": "",
-                    "personal_state": "", 
-                    "deeper_meaning": "",
-                    "finance_home": "",
-                    "personal_relationships": "",
-                    "health": "", 
-                    "combinations": ""
-                },
-                "reversed": {
-                    "general": "", 
-                    "love": "",
-                    "work": "", 
-                    "friendship": "", 
-                    "personal_state": "", 
-                    "deeper_meaning": "", 
-                    "finance_home": "", 
-                    "personal_relationships": "", 
-                    "health": "", 
-                    "combinations": "" 
-                }
-            }
-        },
-        {
             "name": "The Hanged Man",
             "category": "major",
             "image": "assets/tarotcards-img/thehangedman.jpg",
@@ -621,6 +590,46 @@
               }
             }
         },
+        
+        {
+            "name": "The Moon",
+            "category": "major",
+            "image": "assets/tarotcards-img/themoon.jpg",
+            "meanings": {
+                "upright": {
+                    "general": "Illusion, deception, fear, hidden emotions, intuition.",
+                    "love": "Uncertainty, emotional confusion, a secret relationship.",
+                    "work": "Lack of clarity, deception at work, feeling lost in your career.",
+                    "friendship": "Misunderstandings, hidden agendas, questioning friendships.",
+                    "personal_state": "Anxiety, emotional insecurity, feeling overwhelmed by emotions.",
+                    "deeper_meaning": "Facing your fears, trusting your intuition, seeking inner guidance.",
+                    "finance_home": "Financial instability, unexpected expenses, hidden costs.",
+                    "personal_relationships": "Deception, manipulation, lack of trust.",
+                    "health": "Psychosomatic illness, emotional imbalances, hidden health issues.",
+                    "combinations": {
+                        "with The Fool": "Taking a leap of faith into the unknown.",
+                        "with The Lovers": "Confusion in love, hidden feelings, idealization.",
+                        "with Death": "Letting go of fear and illusion, emotional transformation."
+                    }
+                },
+                "reversed": {
+                    "general": "Increased intuition, emotional clarity, overcoming fears, facing reality.",
+                    "love": "Uncovering deception, resolving emotional issues, strengthening relationships.",
+                    "work": "Gaining clarity, uncovering hidden truths, new opportunities at work.",
+                    "friendship": "Reconciliation, rebuilding trust, strengthening friendships.",
+                    "personal_state": "Feeling more grounded, overcoming anxieties, trusting your inner voice.",
+                    "deeper_meaning": "Letting go of illusions, embracing the truth, emotional healing.",
+                    "finance_home": "Resolving financial issues, uncovering hidden resources, finding stability.",
+                    "personal_relationships": "Honesty and communication, building trust, healthier dynamics.",
+                    "health": "Addressing the root cause of illness, emotional healing, improved well-being.",
+                    "combinations": {
+                        "with The Fool": "Reckless action based on illusions, ignoring intuition.",
+                        "with The Lovers": "Confusion and deception leading to a break-up.",
+                        "with Death": "Difficulty letting go of fear and illusion, clinging to the past."
+                    }
+                }
+            }
+        },
         {
             "name": "The Tower",
             "category": "major",
@@ -660,67 +669,2194 @@
             }
         },
         {
-            "name": "Death",
+            "name": "Judgement",
             "category": "major",
-            "image": "assets/tarotcards-img/death.jpg",
+            "image": "assets/tarotcards-img/thejudgement.jpg",
             "meanings": {
                 "upright": {
-                    "general": "",
-                    "love": "", 
-                    "work": "",
-                    "friendship": "",
-                    "personal_state": "", 
-                    "deeper_meaning": "",
-                    "finance_home": "",
-                    "personal_relationships": "",
-                    "health": "", 
-                    "combinations": ""
+                    "general": "Rebirth, renewal, awakening, self-reflection, inner calling.",
+                    "love": "Rekindling a relationship, forgiveness, a new beginning in love.",
+                    "work": "A new job opportunity, finding your calling, recognition for your work.",
+                    "friendship": "Letting go of toxic friendships, new connections, forgiveness.",
+                    "personal_state": "A time of self-reflection, spiritual awakening, personal growth.",
+                    "deeper_meaning": "Facing your past, accepting your mistakes, moving forward.",
+                    "finance_home": "Financial abundance, unexpected opportunities, finding prosperity.",
+                    "personal_relationships": "Healthy relationships, forgiveness, new beginnings.",
+                    "health": "Healing, rejuvenation, a new lease on life.",
+                    "combinations": {
+                    "with The Fool": "A new beginning, taking a leap of faith with newfound wisdom." ,
+                    "with The World": "Completion of a cycle, achieving goals, fulfillment." ,
+                    "with Death": "Letting go of the past to make way for rebirth."
+                    }
                 },
                 "reversed": {
-                    "general": "", 
-                    "love": "",
-                    "work": "", 
-                    "friendship": "", 
-                    "personal_state": "", 
-                    "deeper_meaning": "", 
-                    "finance_home": "", 
-                    "personal_relationships": "", 
-                    "health": "", 
-                    "combinations": "" 
+                    "general": "Self-doubt, procrastination, clinging to the past, refusal to learn from mistakes.",
+                    "love": "Difficulty forgiving, unhealthy relationship patterns, holding on to past hurts.",
+                    "work": "Feeling stuck in a dead-end job, lack of recognition, fear of change.",
+                    "friendship": "Unresolved conflicts, holding onto grudges, inability to let go.",
+                    "personal_state": "Stagnation, resistance to growth, fear of self-reflection.",
+                    "deeper_meaning": "Ignoring the call to change, unwillingness to face the past.",
+                    "finance_home": "Financial stagnation, missed opportunities, poor financial decisions.",
+                    "personal_relationships": "Unhealthy dynamics, codependency, inability to move forward.",
+                    "health": "Lingering illness, psychosomatic disorders, holding onto negativity.",
+                    "combinations": {
+                        "with The Fool": "Taking a reckless leap without self-reflection.",
+                        "with The World": "An incomplete cycle, unfulfilled potential, clinging to the past.",
+                        "with Death": "Resistance to change and transformation, fearing death or rebirth."
+                    }
                 }
+            }
+        },       
+        {
+            "name": "The World",
+            "category": "major",
+            "image": "assets/tarotcards-img/theworld.jpg",
+            "meanings": {
+                "upright": {
+                    "general": "Completion, achievement, success, fulfillment, a sense of wholeness.",
+                    "love": "A committed and happy relationship, soulmate connection.",
+                    "work": "Reaching your career goals, recognition for your achievements.",
+                    "friendship": "Strong and supportive friendships, feeling connected to others.",
+                    "personal_state": "Feeling content, fulfilled, at peace with yourself and the world.",
+                    "deeper_meaning": "A time of celebration, reaping the rewards of your hard work.",
+                    "finance_home": "Financial security, abundance, prosperity.",
+                    "personal_relationships": "Healthy and fulfilling relationships.",
+                    "health": "Overall good health and well-being.",
+                    "combinations": {
+                    "with The Fool": "Taking a leap of faith that leads to success.",
+                    "with Judgement": "Completion of a cycle and the beginning of a new one.",
+                    "with The Star": "Achieving your dreams and finding fulfillment."
+                    }
+                },
+                "reversed": {
+                    "general": "Unfulfilled potential, delays, a sense of incompleteness, lack of achievement.",
+                    "love": "Feeling unfulfilled in your relationship, longing for something more.",
+                    "work": "Feeling stuck in a dead-end job, lack of progress towards your goals.",
+                    "friendship": "Feeling isolated or unsupported by your friends.",
+                    "personal_state": "Dissatisfaction, frustration, a sense of something missing.",
+                    "deeper_meaning": "Need to re-evaluate your goals and make adjustments.",
+                    "finance_home": "Financial setbacks, delays in achieving financial security.",
+                    "personal_relationships": "Strained relationships, lack of connection.",
+                    "health": "Lingering health issues, feeling unbalanced.",
+                    "combinations": {
+                        "with The Fool": "Taking a reckless leap that leads to failure.",
+                        "with Judgement": "Struggling to complete a cycle, clinging to the past.",
+                        "with The Star": "Lack of faith in your dreams, losing hope."
+                        }
+                    }
+                }
+        },
+        {
+            "name": "Ace of Pentacles",
+            "category": "pentacles",
+            "image": "assets/tarotcards-img/aceofpentacles.jpg",
+            "meanings": {
+              "upright": {
+                "general": "New beginnings, opportunities, potential, manifestation, prosperity.",
+                "love": "A new romantic relationship, a chance for a fresh start, emotional security.",
+                "work": "A new job opportunity, a chance to showcase your skills, financial success.",
+                "friendship": "New connections, supportive friendships, a sense of belonging.",
+                "personal_state": "Feeling positive, optimistic, and hopeful about the future.",
+                "deeper_meaning": "Embracing new possibilities, trusting the universe, taking action.",
+                "finance_home": "Financial abundance, unexpected opportunities, finding stability.",
+                "personal_relationships": "Healthy and fulfilling relationships, building trust.",
+                "health": "Overall good health and well-being, feeling vibrant and healthy.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith with a new opportunity.",
+                  "with The Lovers": "Finding true love and emotional fulfillment.",
+                  "with The World": "Achieving your goals and manifesting your dreams."
+                }
+              },
+              "reversed": {
+                "general": "Delays, obstacles, missed opportunities, lack of progress, stagnation.",
+                "love": "Difficulties in a relationship, emotional insecurity, lack of trust.",
+                "work": "Feeling stuck in a dead-end job, lack of motivation, financial instability.",
+                "friendship": "Unreliable friends, feeling isolated, betrayal.",
+                "personal_state": "Feeling pessimistic, discouraged, and disappointed.",
+                "deeper_meaning": "Need to re-evaluate your goals and priorities, overcoming self-doubt.",
+                "finance_home": "Financial setbacks, unexpected expenses, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of communication.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Devil": "Stagnation, addiction, self-destructive patterns.",
+                  "with The Tower": "Sudden upheaval, loss, disappointment.",
+                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
+                }
+              }
             }
         },
         {
-            "name": "Death",
-            "category": "major",
-            "image": "assets/tarotcards-img/death.jpg",
+            "name": "2 of Pentacles",
+            "category": "pentacles",
+            "image": "assets/tarotcards-img/twoofpentacles.jpg",
             "meanings": {
-                "upright": {
-                    "general": "",
-                    "love": "", 
-                    "work": "",
-                    "friendship": "",
-                    "personal_state": "", 
-                    "deeper_meaning": "",
-                    "finance_home": "",
-                    "personal_relationships": "",
-                    "health": "", 
-                    "combinations": ""
-                },
-                "reversed": {
-                    "general": "", 
-                    "love": "",
-                    "work": "", 
-                    "friendship": "", 
-                    "personal_state": "", 
-                    "deeper_meaning": "", 
-                    "finance_home": "", 
-                    "personal_relationships": "", 
-                    "health": "", 
-                    "combinations": "" 
+              "upright": {
+                "general": "Balance, harmony, juggling multiple tasks, adaptability, resourcefulness.",
+                "love": "Balancing work and personal life, finding harmony in a relationship.",
+                "work": "Managing multiple projects, finding a balance between work and life.",
+                "friendship": "Balancing different friendships, maintaining social connections.",
+                "personal_state": "Feeling in control, capable, and adaptable to change.",
+                "deeper_meaning": "Trusting your ability to handle challenges, finding inner peace.",
+                "finance_home": "Managing finances effectively, finding new sources of income.",
+                "personal_relationships": "Healthy and balanced relationships, mutual respect.",
+                "health": "Overall good health and well-being, maintaining a healthy lifestyle.",
+                "combinations": {
+                  "with The Fool": "Taking a risk with confidence and adaptability.",
+                  "with The Lovers": "Balancing love and other responsibilities.",
+                  "with The Emperor": "Maintaining authority while being flexible."
                 }
+              },
+              "reversed": {
+                "general": "Imbalance, instability, feeling overwhelmed, lack of control, chaos.",
+                "love": "Struggling to balance work and personal life, conflict in a relationship.",
+                "work": "Feeling overwhelmed at work, unable to keep up with demands.",
+                "friendship": "Feeling isolated, neglecting friendships, social anxiety.",
+                "personal_state": "Feeling stressed, anxious, and overwhelmed by challenges.",
+                "deeper_meaning": "Need to re-evaluate priorities, find balance, and let go of control.",
+                "finance_home": "Financial instability, unexpected expenses, poor financial planning.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Devil": "Overwhelm leading to addiction or self-destructive behaviors.",
+                  "with The Tower": "Sudden upheaval, loss of control, chaotic changes.",
+                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
+                }
+              }
+            }
+        }, 
+        
+        {
+            "name": "3 of Pentacles",
+            "category": "pentacles",
+            "image": "assets/tarotcards-img/threeofpentacles.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Collaboration, teamwork, cooperation, skill development, recognition.",
+                "love": "Building a strong relationship, working together towards goals.",
+                "work": "Collaboration with colleagues, teamwork, recognition for your skills.",
+                "friendship": "Building strong friendships, supporting each other, shared goals.",
+                "personal_state": "Feeling accomplished, proud of your work, confident in your abilities.",
+                "deeper_meaning": "Contributing to something larger than yourself, learning from others.",
+                "finance_home": "Financial stability, shared resources, investing in the future.",
+                "personal_relationships": "Healthy and supportive relationships, mutual respect.",
+                "health": "Overall good health and well-being, taking care of yourself.",
+                "combinations": {
+                  "with The Fool": "Learning through collaboration and teamwork.  ",
+                  "with The Lovers": "Building a strong and loving relationship.",
+                  "with The Empress": "Nurturing creativity and collaboration."
+                }
+              },
+              "reversed": {
+                "general": "Lack of teamwork, competition, conflict, feeling unrecognized, discouragement.",
+                "love": "Struggles in a relationship, lack of communication, feeling unsupported.",
+                "work": "Feeling isolated at work, lack of collaboration, feeling unappreciated.",
+                "friendship": "Competition, betrayal, feeling isolated from friends.",
+                "personal_state": "Feeling discouraged, insecure, and lacking in confidence.",
+                "deeper_meaning": "Need to learn to cooperate, overcome competition, and find support.",
+                "finance_home": "Financial instability, unexpected expenses, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Devil": "Stagnation, competition, self-destructive behaviors.",
+                  "with The Tower": "Sudden upheaval, loss of teamwork, conflict.",
+                  "with Death": "Resistance to change, clinging to old ways, fear of failure."
+                }
+              }
             }
         },
+         
+        {
+            "name": "4 of Pentacles",
+            "category": "pentacles",
+            "image": "assets/tarotcards-img/fourofpentacles.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Security, stability, possessiveness, material wealth, conservatism.",
+                "love": "A stable and committed relationship, possessiveness, fear of loss.",
+                "work": "A stable job, financial security, resistance to change.",
+                "friendship": "Long-standing friendships, loyalty, protectiveness.",
+                "personal_state": "Feeling secure, content with your life, cautious about change.",
+                "deeper_meaning": "Finding balance between security and growth, letting go of attachment to material possessions.",
+                "finance_home": "Financial stability, saving money, investing for the future.",
+                "personal_relationships": "Stable and committed relationships, loyalty, protectiveness.",
+                "health": "Overall good health and well-being, focus on preventive care.",
+                "combinations": {
+                  "with The Fool": "Taking a calculated risk for security.  ",
+                  "with The Lovers": "Building a secure and loving relationship.",
+                  "with The Emperor": "Maintaining control and security."
+                }
+              },
+              "reversed": {
+                "general": "Greed, materialism, insecurity, hoarding, fear of change.",
+                "love": "Possessiveness, jealousy, controlling behavior in a relationship.",
+                "work": "Stagnation, lack of growth, fear of losing your job.",
+                "friendship": "Clingy friendships, lack of trust, betrayal.",
+                "personal_state": "Feeling insecure, fearful, and resistant to change.",
+                "deeper_meaning": "Need to let go of material possessions, embrace change, and find security within yourself.",
+                "finance_home": "Financial instability, unexpected expenses, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Devil": "Greed, materialism, self-destructive behaviors.",
+                  "with The Tower": "Sudden upheaval, loss of security, financial instability.",
+                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
+                }
+              }
+            }
+        },
+         
+        {
+            "name": "5 of Pentacles",
+            "category": "pentacles",
+            "image": "assets/tarotcards-img/fiveofpentacles.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Hardship, poverty, struggle, isolation, feeling lost.",
+                "love": "A difficult time in a relationship, feeling unloved or unsupported.",
+                "work": "Job loss, financial difficulties, feeling stuck in a dead-end job.",
+                "friendship": "Feeling isolated from friends, lack of support.",
+                "personal_state": "Feeling discouraged, hopeless, and alone.",
+                "deeper_meaning": "Finding strength in adversity, learning to rely on yourself.",
+                "finance_home": "Financial instability, unexpected expenses, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith despite hardship.",
+                  "with The Lovers": "Finding love and support in difficult times.",
+                  "with The Emperor": "Facing challenges with strength and determination."
+                }
+              },
+              "reversed": {
+                "general": "Improvement, hope, new opportunities, overcoming challenges, finding support.",
+                "love": "Resolving issues in a relationship, finding love and support.",
+                "work": "Finding a new job, financial improvement, overcoming obstacles.",
+                "friendship": "Reconnecting with friends, finding support.",
+                "personal_state": "Feeling more hopeful, optimistic, and confident.",
+                "deeper_meaning": "Maintaining a positive attitude, trusting the universe, finding strength within yourself.",
+                "finance_home": "Financial improvement, finding new sources of income, feeling more secure.",
+                "personal_relationships": "Healthy and supportive relationships, mutual respect.",
+                "health": "Overall good health and well-being, recovering from illness.",
+                "combinations": {
+                  "with The Devil": "Overcoming addiction or self-destructive behaviors.",
+                  "with The Tower": "Finding new opportunities after upheaval.",
+                  "with Death": "Embracing change and transformation."
+                }
+              }
+            }
+        },
+          
+        {
+            "name": "6 of Pentacles",
+            "category": "pentacles",
+            "image": "assets/tarotcards-img/sixofpentacles.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Giving and receiving, charity, generosity, compassion, abundance.",
+                "love": "A loving and supportive relationship, sharing and caring.",
+                "work": "Helping others, receiving recognition for your work, financial success.",
+                "friendship": "Generous friends, helping others, feeling supported.",
+                "personal_state": "Feeling generous, compassionate, and grateful.",
+                "deeper_meaning": "Sharing your gifts with the world, making a difference.",
+                "finance_home": "Financial abundance, sharing your resources, helping others.",
+                "personal_relationships": "Healthy and supportive relationships, mutual respect.",
+                "health": "Overall good health and well-being, helping others heal.",
+                "combinations": {
+                  "with The Fool": "Sharing your gifts with the world without expecting anything in return.",
+                  "with The Lovers": "Finding love through compassion and generosity.",
+                  "with The Empress": "Nurturing abundance and sharing it with others."
+                }
+              },
+              "reversed": {
+                "general": "Selfishness, greed, taking advantage of others, feeling unworthy.",
+                "love": "A selfish or unbalanced relationship, lack of trust.",
+                "work": "Taking advantage of others, feeling exploited, financial instability.",
+                "friendship": "Unreliable friends, feeling betrayed, feeling isolated.",
+                "personal_state": "Feeling selfish, insecure, and unworthy of love and support.",
+                "deeper_meaning": "Learning to share your gifts, overcoming insecurity, finding your worth.",
+                "finance_home": "Financial instability, feeling insecure, unable to help others.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Devil": "Greed, manipulation, self-destructive behaviors.",
+                  "with The Tower": "Sudden upheaval, loss of possessions, feeling insecure.",
+                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
+                }
+              }
+            }
+        }, 
+
+        {
+            "name": "7 of Pentacles",
+            "category": "pentacles",
+            "image": "assets/tarotcards-img/sevenofpentacles.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Harvest, reward, satisfaction, progress, taking stock.",
+                "love": "A rewarding relationship, reaping the benefits of your efforts.",
+                "work": "Recognition for your hard work, financial rewards, a sense of accomplishment.",
+                "friendship": "Rewarding friendships, enjoying the company of others.",
+                "personal_state": "Feeling satisfied, content, and proud of your accomplishments.",
+                "deeper_meaning": "Enjoying the fruits of your labor, appreciating your progress.",
+                "finance_home": "Financial rewards, reaping the benefits of your investments.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual appreciation.",
+                "health": "Overall good health and well-being, enjoying life to the fullest.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love and happiness through your efforts.",
+                  "with The Emperor": "Achieving success through hard work and dedication."
+                }
+              },
+              "reversed": {
+                "general": "Disappointment, dissatisfaction, lack of progress, feeling stuck.",
+                "love": "A disappointing relationship, feeling unfulfilled.",
+                "work": "Unrecognized efforts, lack of financial rewards, feeling discouraged.",
+                "friendship": "Unsupportive friends, feeling isolated, feeling let down.",
+                "personal_state": "Feeling disappointed, frustrated, and unfulfilled.",
+                "deeper_meaning": "Re-evaluating your goals, finding new motivation, taking responsibility for your happiness.",
+                "finance_home": "Financial setbacks, unexpected expenses, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Devil": "Stagnation, addiction, self-destructive behaviors.",
+                  "with The Tower": "Sudden upheaval, loss of progress, disappointment.",
+                  "with Death": "Resistance to change, clinging to the past, fear of failure."
+                }
+              }
+            }
+        },
+          
+        {
+            "name": "8 of Pentacles",
+            "category": "pentacles",
+            "image": "assets/tarotcards-img/eightofpentacles.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Skill, mastery, craftsmanship, dedication, attention to detail.",
+                "love": "Building a strong and lasting relationship, commitment.",
+                "work": "Hard work, dedication, learning new skills, finding your passion.",
+                "friendship": "Loyal and supportive friends, teamwork, shared goals.",
+                "personal_state": "Feeling focused, motivated, and confident in your abilities.",
+                "deeper_meaning": "Finding your purpose in life, making a difference in the world.",
+                "finance_home": "Financial stability, investing in your future, building wealth.",
+                "personal_relationships": "Healthy and committed relationships, mutual respect.",
+                "health": "Overall good health and well-being, taking care of yourself.",
+                "combinations": {
+                  "with The Fool": "Taking a calculated risk based on your skills.",
+                  "with The Lovers": "Building a strong and loving relationship through dedication.",
+                  "with The Emperor": "Achieving success through hard work and discipline."
+                }
+              },
+              "reversed": {
+                "general": "Lack of focus, procrastination, boredom, feeling stuck.",
+                "love": "A stagnant relationship, lack of commitment.",
+                "work": "Uninspired work, feeling unchallenged, lack of growth.",
+                "friendship": "Disloyal friends, feeling isolated, lack of support.",
+                "personal_state": "Feeling bored, unmotivated, and lacking direction.",
+                "deeper_meaning": "Finding your passion, setting new goals, taking action.",
+                "finance_home": "Financial instability, poor spending habits, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Devil": "Stagnation, addiction, self-destructive behaviors.",
+                  "with The Tower": "Sudden upheaval, loss of direction, feeling lost.",
+                  "with Death": "Resistance to change, clinging to the past, fear of failure."
+                }
+              }
+            }
+        },
+         
+        {
+            "name": "9 of Pentacles",
+            "category": "pentacles",
+            "image": "assets/tarotcards-img/nineofpentacles.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Security, comfort, independence, self-sufficiency, contentment.",
+                "love": "A secure and loving relationship, feeling supported and cherished.",
+                "work": "A stable job, financial security, feeling valued and respected.",
+                "friendship": "Loyal and supportive friends, enjoying each other's company.",
+                "personal_state": "Feeling confident, secure, and at peace with yourself.",
+                "deeper_meaning": "Finding your inner strength, trusting the universe, living in the present moment.",
+                "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, enjoying life to the fullest.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love and happiness through self-love and security.",
+                  "with The Emperor": "Achieving success through hard work and dedication."
+                }
+              },
+              "reversed": {
+                "general": "Complacency, stagnation, fear of change, feeling trapped.",
+                "love": "A stagnant relationship, lack of excitement, feeling unfulfilled.",
+                "work": "A boring job, feeling unchallenged, lack of growth.",
+                "friendship": "Superficial friendships, feeling isolated, lack of support.",
+                "personal_state": "Feeling bored, restless, and unfulfilled.",
+                "deeper_meaning": "Stepping out of your comfort zone, embracing change, finding new challenges.",
+                "finance_home": "Financial instability, poor spending habits, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Devil": "Stagnation, addiction, self-destructive behaviors.",
+                  "with The Tower": "Sudden upheaval, loss of security, feeling shaken.",
+                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "10 of Pentacles",
+            "category": "pentacles",
+            "image": "assets/tarotcards-img/tenofpentacles.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Completion, culmination, achievement, legacy, family.",
+                "love": "A long-lasting and committed relationship, a happy family.",
+                "work": "Financial success, reaching your goals, recognition for your hard work.",
+                "friendship": "Strong and supportive friendships, a sense of community.",
+                "personal_state": "Feeling happy, fulfilled, and grateful for your blessings.",
+                "deeper_meaning": "Leaving a positive mark on the world, finding your purpose in life.",
+                "finance_home": "Financial abundance, security for the future, leaving a legacy.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual love and respect.",
+                "health": "Overall good health and well-being, enjoying life to the fullest.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love and happiness through commitment and devotion.",
+                  "with The Emperor": "Achieving success through hard work and perseverance."
+                }
+              },
+              "reversed": {
+                "general": "Materialism, greed, stagnation, lack of progress, feeling trapped.",
+                "love": "A stagnant relationship, lack of love and support, feeling unfulfilled.",
+                "work": "A boring job, lack of growth opportunities, feeling stuck.",
+                "friendship": "Superficial friendships, feeling isolated, lack of support.",
+                "personal_state": "Feeling bored, restless, and unfulfilled.",
+                "deeper_meaning": "Letting go of material possessions, finding your true values, seeking new challenges.",
+                "finance_home": "Financial instability, poor spending habits, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Devil": "Stagnation, addiction, self-destructive behaviors.",
+                  "with The Tower": "Sudden upheaval, loss of security, feeling shaken.",
+                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
+                }
+              }
+            }
+        },
+          
+        {
+            "name": "Page of Pentacles",
+            "category": "pentacles",
+            "image": "assets/tarotcards-img/pageofpentacles.jpg",
+            "meanings": {
+              "upright": {
+                "general": "New beginnings, opportunities, potential, learning, curiosity.",
+                "love": "A new relationship, exploring new possibilities, feeling excited.",
+                "work": "A new job, learning new skills, starting a new project.",
+                "friendship": "New friends, expanding your social circle, feeling connected.",
+                "personal_state": "Feeling optimistic, hopeful, and excited about the future.",
+                "deeper_meaning": "Embracing new experiences, finding your passion, taking risks.",
+                "finance_home": "New financial opportunities, starting to save money, feeling secure.",
+                "personal_relationships": "Healthy and supportive relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and embracing new possibilities.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a solid foundation for the future."
+                }
+              },
+              "reversed": {
+                "general": "Delays, obstacles, frustration, lack of progress, feeling stuck.",
+                "love": "A stagnant relationship, lack of communication, feeling unfulfilled.",
+                "work": "A boring job, lack of opportunities, feeling unchallenged.",
+                "friendship": "Superficial friendships, feeling isolated, lack of support.",
+                "personal_state": "Feeling bored, restless, and unfulfilled.",
+                "deeper_meaning": "Overcoming obstacles, finding your true path, learning from your mistakes.",
+                "finance_home": "Financial instability, poor spending habits, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Devil": "Stagnation, addiction, self-destructive behaviors.",
+                  "with The Tower": "Sudden upheaval, loss of progress, feeling shaken.",
+                  "with Death": "Resistance to change, clinging to the past, fear of failure."
+                }
+              }
+            }
+        },
+        
+        {
+            "name": "Queen of Pentacles",
+            "category": "pentacles",
+            "image": "assets/tarotcards-img/queenofpentacles.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Abundance, security, comfort, practicality, nurturing.",
+                "love": "A loving and supportive relationship, a happy family.",
+                "work": "A stable job, financial success, feeling valued and respected.",
+                "friendship": "Loyal and supportive friends, enjoying each other's company.",
+                "personal_state": "Feeling confident, secure, and at peace with yourself.",
+                "deeper_meaning": "Finding your inner strength, trusting the universe, living in the present moment.",
+                "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, enjoying life to the fullest.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love and happiness through self-love and security.",
+                  "with The Emperor": "Achieving success through hard work and dedication."
+                }
+              },
+              "reversed": {
+                "general": "Materialism, greed, insecurity, jealousy, controlling behavior.",
+                "love": "A possessive and controlling relationship, lack of trust.",
+                "work": "A job that is unfulfilling, feeling stuck, lack of opportunities.",
+                "friendship": "Superficial friendships, feeling isolated, lack of support.",
+                "personal_state": "Feeling insecure, jealous, and envious of others.",
+                "deeper_meaning": "Letting go of material possessions, finding your true values, seeking new challenges.",
+                "finance_home": "Financial instability, poor spending habits, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Devil": "Stagnation, addiction, self-destructive behaviors.",
+                  "with The Tower": "Sudden upheaval, loss of security, feeling shaken.",
+                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "King of Pentacles",
+            "category": "pentacles",
+            "image": "assets/tarotcards-img/kingofpentacles.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Abundance, security, stability, authority, generosity.",
+                "love": "A loving and committed relationship, a strong and stable partnership.",
+                "work": "A successful career, financial security, feeling valued and respected.",
+                "friendship": "Loyal and supportive friends, enjoying each other's company.",
+                "personal_state": "Feeling confident, secure, and at peace with yourself.",
+                "deeper_meaning": "Finding your inner strength, trusting the universe, living in the present moment.",
+                "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, enjoying life to the fullest.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love and happiness through self-love and security.",
+                  "with The Emperor": "Achieving success through hard work and dedication."
+                }
+              },
+              "reversed": {
+                "general": "Materialism, greed, insecurity, jealousy, controlling behavior.",
+                "love": "A possessive and controlling relationship, lack of trust.",
+                "work": "A job that is unfulfilling, feeling stuck, lack of opportunities.",
+                "friendship": "Superficial friendships, feeling isolated, lack of support.",
+                "personal_state": "Feeling insecure, jealous, and envious of others.",
+                "deeper_meaning": "Letting go of material possessions, finding your true values, seeking new challenges.",
+                "finance_home": "Financial instability, poor spending habits, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Devil": "Stagnation, addiction, self-destructive behaviors.",
+                  "with The Tower": "Sudden upheaval, loss of security, feeling shaken.",
+                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
+                }
+              }
+            }
+        },
+          
+        {
+            "name": "Ace of Cups",
+            "category": "cups",
+            "image": "assets/tarotcards-img/aceofcups.jpg",
+            "meanings": {
+              "upright": {
+                "general": "New beginnings, opportunities, potential, emotional healing, love.",
+                "love": "A new relationship, falling in love, feeling happy and fulfilled.",
+                "work": "A new job, starting a new project, feeling creative and inspired.",
+                "friendship": "New friends, expanding your social circle, feeling connected.",
+                "personal_state": "Feeling optimistic, hopeful, and excited about the future.",
+                "deeper_meaning": "Embracing new experiences, finding your passion, taking risks.",
+                "finance_home": "New financial opportunities, starting to save money, feeling secure.",
+                "personal_relationships": "Healthy and supportive relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and embracing new possibilities.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a solid foundation for the future."
+                }
+              },
+              "reversed": {
+                "general": "Disappointment, sadness, emotional turmoil, blocked opportunities.",
+                "love": "A break-up, feeling heartbroken, feeling lonely.",
+                "work": "A job loss, feeling unfulfilled, feeling stuck.",
+                "friendship": "Betrayal, feeling isolated, feeling unsupported.",
+                "personal_state": "Feeling pessimistic, hopeless, and discouraged.",
+                "deeper_meaning": "Overcoming obstacles, finding your true path, learning from your mistakes.",
+                "finance_home": "Financial instability, poor spending habits, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Devil": "Stagnation, addiction, self-destructive behaviors.",
+                  "with The Tower": "Sudden upheaval, loss of love, feeling shaken.",
+                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
+                }
+              }
+            }
+        },
+        
+        {
+            "name": "2 of Cups",
+            "category": "cups",
+            "image": "assets/tarotcards-img/twoofcups.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Love, partnership, union, harmony, cooperation.",
+                "love": "A new relationship, falling in love, feeling happy and fulfilled.",
+                "work": "A successful partnership, teamwork, feeling valued and respected.",
+                "friendship": "Loyal and supportive friends, enjoying each other's company.",
+                "personal_state": "Feeling happy, content, and at peace with yourself.",
+                "deeper_meaning": "Finding your soulmate, connecting with others, making a difference.",
+                "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, enjoying life to the fullest.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a solid foundation for the future."
+                }
+              },
+              "reversed": {
+                "general": "Disappointment, sadness, emotional turmoil, blocked opportunities.",
+                "love": "A break-up, feeling heartbroken, feeling lonely.",
+                "work": "A job loss, feeling unfulfilled, feeling stuck.",
+                "friendship": "Betrayal, feeling isolated, feeling unsupported.",
+                "personal_state": "Feeling pessimistic, hopeless, and discouraged.",
+                "deeper_meaning": "Overcoming obstacles, finding your true path, learning from your mistakes.",
+                "finance_home": "Financial instability, poor spending habits, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Devil": "Stagnation, addiction, self-destructive behaviors.",
+                  "with The Tower": "Sudden upheaval, loss of love, feeling shaken.",
+                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "3 of Cups",
+            "category": "cups",
+            "image": "assets/tarotcards-img/threeofcups.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Celebration, joy, happiness, abundance, friendship.",
+                "love": "A happy and fulfilling relationship, feeling loved and supported.",
+                "work": "A successful career, feeling valued and respected, enjoying your work.",
+                "friendship": "Loyal and supportive friends, enjoying each other's company.",
+                "personal_state": "Feeling happy, content, and at peace with yourself.",
+                "deeper_meaning": "Finding your purpose in life, making a difference in the world, living your best life.",
+                "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, enjoying life to the fullest.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and embracing new possibilities.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a solid foundation for the future."
+                }
+              },
+              "reversed": {
+                "general": "Disappointment, sadness, emotional turmoil, blocked opportunities.",
+                "love": "A break-up, feeling heartbroken, feeling lonely.",
+                "work": "A job loss, feeling unfulfilled, feeling stuck.",
+                "friendship": "Betrayal, feeling isolated, feeling unsupported.",
+                "personal_state": "Feeling pessimistic, hopeless, and discouraged.",
+                "deeper_meaning": "Overcoming obstacles, finding your true path, learning from your mistakes.",
+                "finance_home": "Financial instability, poor spending habits, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Devil": "Stagnation, addiction, self-destructive behaviors.",
+                  "with The Tower": "Sudden upheaval, loss of joy, feeling shaken.",
+                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
+                }
+              }
+            }
+        },
+          
+        {
+            "name": "4 of Cups",
+            "category": "cups",
+            "image": "assets/tarotcards-img/fourofcups.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Apathy, boredom, dissatisfaction, stagnation, missed opportunities.",
+                "love": "A stagnant relationship, feeling unfulfilled, feeling lonely.",
+                "work": "A boring job, feeling unchallenged, feeling stuck.",
+                "friendship": "Superficial friendships, feeling isolated, feeling unsupported.",
+                "personal_state": "Feeling restless, bored, and unfulfilled.",
+                "deeper_meaning": "Finding your passion, taking risks, embracing new experiences.",
+                "finance_home": "Financial insecurity, poor spending habits, feeling unstable.",
+                "personal_relationships": "Unhealthy dynamics, lack of communication, conflict.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and breaking out of your comfort zone.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a solid foundation for the future."
+                }
+              },
+              "reversed": {
+                "general": "Contentment, satisfaction, peace, gratitude, new beginnings.",
+                "love": "A happy and fulfilling relationship, feeling loved and supported.",
+                "work": "A satisfying job, feeling valued and respected, enjoying your work.",
+                "friendship": "Loyal and supportive friends, enjoying each other's company.",
+                "personal_state": "Feeling happy, content, and at peace with yourself.",
+                "deeper_meaning": "Finding your purpose in life, making a difference in the world, living your best life.",
+                "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, enjoying life to the fullest.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a strong foundation for your future success."
+                }
+              }
+            }
+        },
+          
+        {
+            "name": "5 of Cups",
+            "category": "cups",
+            "image": "assets/tarotcards-img/fiveofcups.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Disappointment, sadness, grief, loss, regret.",
+                "love": "A break-up, feeling heartbroken, feeling lonely.",
+                "work": "A job loss, feeling unfulfilled, feeling stuck.",
+                "friendship": "Betrayal, feeling isolated, feeling unsupported.",
+                "personal_state": "Feeling pessimistic, hopeless, and discouraged.",
+                "deeper_meaning": "Overcoming obstacles, finding your true path, learning from your mistakes.",
+                "finance_home": "Financial instability, poor spending habits, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a solid foundation for the future."
+                }
+              },
+              "reversed": {
+                "general": "Acceptance, hope, healing, moving on, new beginnings.",
+                "love": "Finding love after a heartbreak, feeling optimistic about the future.",
+                "work": "Finding a new job that is fulfilling, feeling valued and respected.",
+                "friendship": "Making new friends, feeling supported and loved.",
+                "personal_state": "Feeling positive, hopeful, and excited about the future.",
+                "deeper_meaning": "Finding your purpose in life, making a difference in the world, living your best life.",
+                "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, enjoying life to the fullest.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a strong foundation for your future success."
+                }
+              }
+            }
+        },
+          
+        {
+            "name": "6 of Cups",
+            "category": "cups",
+            "image": "assets/tarotcards-img/sixofcups.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Nostalgia, memories, childhood, innocence, happiness.",
+                "love": "A new relationship based on shared memories, feeling loved and supported.",
+                "work": "A job that is fulfilling and meaningful, feeling valued and respected.",
+                "friendship": "Strong and supportive friendships, enjoying each other's company.",
+                "personal_state": "Feeling happy, content, and at peace with yourself.",
+                "deeper_meaning": "Connecting with your inner child, finding your true path, living in the present moment.",
+                "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, enjoying life to the fullest.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a strong foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Disappointment, sadness, grief, loss, regret.",
+                "love": "A break-up, feeling heartbroken, feeling lonely.",
+                "work": "A job loss, feeling unfulfilled, feeling stuck.",
+                "friendship": "Betrayal, feeling isolated, feeling unsupported.",
+                "personal_state": "Feeling pessimistic, hopeless, and discouraged.",
+                "deeper_meaning": "Overcoming obstacles, finding your true path, learning from your mistakes.",
+                "finance_home": "Financial instability, poor spending habits, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a solid foundation for the future."
+                }
+              }
+            }
+        },
+
+        {
+        "name": "7 of Cups",
+        "category": "cups",
+        "image": "assets/tarotcards-img/sevenofcups.jpg",
+        "meanings": {
+            "upright": {
+                "general": "Choices, opportunities, imagination, indecision, illusion.",
+                "love": "Feeling attracted to multiple people, confusion in love, idealizing a partner.",
+                "work": "Having many career options, feeling overwhelmed by choices, difficulty making decisions.",
+                "friendship": "A large social circle, but lacking deep connections, feeling indecisive about friendships.",
+                "personal_state": "Feeling restless, daydreaming, full of ideas but lacking focus.",
+                "deeper_meaning": "Clarifying your values, setting goals, taking action to achieve your dreams.",
+                "finance_home": "Considering multiple financial options, feeling unsure about investments, difficulty managing finances.",
+                "personal_relationships": "Needing to define boundaries in relationships, avoiding commitment.",
+                "health": "Feeling indecisive about health choices, neglecting self-care.",
+                "combinations": {
+                    "with The Fool": "Taking a leap of faith and trusting your intuition when making choices.",
+                    "with The Lovers": "Finding true love by focusing on genuine connections rather than ideals.",
+                    "with The Emperor": "Implementing structure and  discipline to navigate your options effectively."
+                }
+            },
+            "reversed": {
+                "general": "Missed opportunities, disappointment, confusion, stagnation.",
+                "love": "Unrealistic expectations in love, holding onto unhealthy relationships, fear of commitment.",
+                "work": "Feeling stuck in a dead-end job, lacking motivation, missing opportunities for advancement.",
+                "friendship": "Feeling isolated, neglecting friendships, unhealthy social dynamics.",
+                "personal_state": "Feeling lost, lacking direction, overwhelmed by negativity.",
+                "deeper_meaning": "Letting go of unrealistic expectations, facing reality, taking responsibility for your choices.",
+                "finance_home": "Poor financial decisions, bad investments, feeling insecure.",
+                "personal_relationships": "Unhealthy codependency, manipulation, lack of trust.",
+                "health": "Unhealthy lifestyle choices, neglecting your health.",
+                "combinations": {
+                    "with The Fool": "Releasing control and embracing new opportunities that may arise.",
+                    "with The Lovers": "Learning to love yourself before entering a relationship.",
+                    "with The Emperor": "Taking control of your life, setting realistic goals, and taking action."
+                }
+            }
+        }
+        },
+
+        {
+            "name": "8 of Cups",
+            "category": "cups",
+            "image": "assets/tarotcards-img/eightofcups.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Letting go, moving on, new beginnings, abandoning the past, seeking new horizons.",
+                "love": "Ending a relationship that is no longer fulfilling, seeking new love, focusing on self-love.",
+                "work": "Leaving a job that is no longer satisfying, searching for a new career path, pursuing your passion.",
+                "friendship": "Moving away from friends who are no longer supportive, making new friends, prioritizing healthy relationships.",
+                "personal_state": "Feeling ready for change, leaving behind what no longer serves you, embracing new experiences.",
+                "deeper_meaning": "Discovering your true purpose, finding your inner strength, living a life that is true to yourself.",
+                "finance_home": "Releasing financial burdens, simplifying your lifestyle, finding new ways to make money.",
+                "personal_relationships": "Letting go of unhealthy relationships, setting boundaries, attracting healthy partnerships.",
+                "health": "Embracing a healthier lifestyle, letting go of stress, focusing on holistic well-being.",
+                "combinations": {
+                  "with The Fool": "Trusting the process and taking a leap of faith towards a new beginning.",
+                  "with The Lovers": "Finding love through self-love and inner peace.",
+                  "with The Emperor": "Building a solid foundation for your future based on your own values."
+                }
+              },
+              "reversed": {
+                "general": "Stagnation, fear of change, resistance, clinging to the past, missed opportunities.",
+                "love": "Staying in an unhealthy relationship, fear of being alone, sabotaging your own happiness.",
+                "work": "Staying in a job that is no longer fulfilling, fear of failure, lacking motivation.",
+                "friendship": "Holding onto unhealthy friendships, fear of being rejected, isolating yourself.",
+                "personal_state": "Feeling stuck, resisting change, living in the past, lacking self-confidence.",
+                "deeper_meaning": "Facing your fears, embracing your inner strength, taking responsibility for your life.",
+                "finance_home": "Holding onto financial burdens, living beyond your means, making poor financial decisions.",
+                "personal_relationships": "Staying in unhealthy relationships, codependency, lack of trust.",
+                "health": "Ignoring health issues, neglecting self-care, living an unhealthy lifestyle.",
+                "combinations": {
+                  "with The Fool": "Taking control of your life and breaking free from self-imposed limitations.",
+                  "with The Lovers": "Learning to love yourself before entering a relationship.",
+                  "with The Emperor": "Taking responsibility for your actions and creating a better future for yourself."
+                }
+              }
+            }
+        },
+          
+        {
+            "name": "9 of Cups",
+            "category": "cups",
+            "image": "assets/tarotcards-img/nineofcups.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Contentment, satisfaction, emotional fulfillment, wishes coming true, abundance.",
+                "love": "A happy and fulfilling relationship, feeling loved and supported, finding true love.",
+                "work": "A satisfying job that brings you joy, feeling valued and respected, achieving your goals.",
+                "friendship": "Strong and supportive friendships, enjoying each other's company, feeling connected.",
+                "personal_state": "Feeling happy, content, and at peace with yourself, grateful for what you have.",
+                "deeper_meaning": "Finding your purpose in life, making a difference in the world, living your best life.",
+                "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, enjoying life to the fullest.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a strong foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Disappointment, dissatisfaction, emotional turmoil, blocked opportunities, unfulfilled desires.",
+                "love": "A break-up, feeling heartbroken, feeling lonely.",
+                "work": "A job loss, feeling unfulfilled, feeling stuck.",
+                "friendship": "Betrayal, feeling isolated, feeling unsupported.",
+                "personal_state": "Feeling pessimistic, hopeless, and discouraged.",
+                "deeper_meaning": "Overcoming obstacles, finding your true path, learning from your mistakes.",
+                "finance_home": "Financial instability, poor spending habits, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+        
+        {
+            "name": "10 of Cups",
+            "category": "cups",
+            "image": "assets/tarotcards-img/tenofcups.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Complete happiness, emotional fulfillment, joy, love, family, lasting happiness.",
+                "love": "A happy and fulfilling relationship, finding true love, starting a family.",
+                "work": "A satisfying job that brings you joy, achieving your goals, financial security.",
+                "friendship": "Strong and supportive friendships, enjoying each other's company, feeling connected.",
+                "personal_state": "Feeling happy, content, and at peace with yourself, grateful for what you have.",
+                "deeper_meaning": "Finding your purpose in life, making a difference in the world, living your best life.",
+                "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, enjoying life to the fullest.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a strong foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Disappointment, dissatisfaction, emotional turmoil, blocked opportunities, unfulfilled desires.",
+                "love": "A break-up, feeling heartbroken, feeling lonely.",
+                "work": "A job loss, feeling unfulfilled, feeling stuck.",
+                "friendship": "Betrayal, feeling isolated, feeling unsupported.",
+                "personal_state": "Feeling pessimistic, hopeless, and discouraged.",
+                "deeper_meaning": "Overcoming obstacles, finding your true path, learning from your mistakes.",
+                "finance_home": "Financial instability, poor spending habits, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+        
+        {
+            "name": "Page of Cups",
+            "category": "cups",
+            "image": "assets/tarotcards-img/pageofcups.jpg",
+            "meanings": {
+              "upright": {
+                "general": "New beginnings, intuition, imagination, creativity, sensitivity.",
+                "love": "A new relationship, starting a family, feeling romantic.",
+                "work": "A new job opportunity, starting a creative project, feeling inspired.",
+                "friendship": "Making new friends, connecting with people who share your interests.",
+                "personal_state": "Feeling hopeful, optimistic, and excited about the future.",
+                "deeper_meaning": "Exploring your inner child, connecting with your emotions, finding your true path.",
+                "finance_home": "New financial opportunities, starting a business, feeling secure.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, enjoying life to the fullest.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a strong foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Disappointment, missed opportunities, lack of creativity, emotional turmoil.",
+                "love": "A break-up, feeling heartbroken, feeling lonely.",
+                "work": "A job loss, feeling unfulfilled, feeling stuck.",
+                "friendship": "Betrayal, feeling isolated, feeling unsupported.",
+                "personal_state": "Feeling pessimistic, hopeless, and discouraged.",
+                "deeper_meaning": "Overcoming obstacles, finding your true path, learning from your mistakes.",
+                "finance_home": "Financial instability, poor spending habits, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "Queen of Cups",
+            "category": "cups",
+            "image": "assets/tarotcards-img/queenofcups.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Compassion, intuition, creativity, emotional intelligence, nurturing.",
+                "love": "A loving and supportive relationship, finding true love, being a good partner.",
+                "work": "A job that is fulfilling and meaningful, feeling valued and respected, being a good leader.",
+                "friendship": "Strong and supportive friendships, enjoying each other's company, being a good friend.",
+                "personal_state": "Feeling happy, content, and at peace with yourself, being a good person.",
+                "deeper_meaning": "Connecting with your inner child, finding your true path, living in the present moment.",
+                "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, enjoying life to the fullest.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a strong foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Emotional manipulation, insecurity, jealousy, neediness, self-pity.",
+                "love": "A toxic relationship, feeling heartbroken, feeling lonely.",
+                "work": "A job that is unfulfilling and stressful, feeling unvalued and disrespected.",
+                "friendship": "Unhealthy friendships, feeling isolated, feeling unsupported.",
+                "personal_state": "Feeling unhappy, discontent, and at odds with yourself.",
+                "deeper_meaning": "Overcoming obstacles, finding your true path, learning from your mistakes.",
+                "finance_home": "Financial instability, poor spending habits, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "King of Cups",
+            "category": "cups",
+            "image": "assets/tarotcards-img/kingofcups.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Compassion, understanding, emotional maturity, stability, security.",
+                "love": "A loving and supportive relationship, finding true love, being a good partner.",
+                "work": "A job that is fulfilling and meaningful, feeling valued and respected, being a good leader.",
+                "friendship": "Strong and supportive friendships, enjoying each other's company, being a good friend.",
+                "personal_state": "Feeling happy, content, and at peace with yourself, being a good person.",
+                "deeper_meaning": "Connecting with your inner wisdom, finding your true path, living in the present moment.",
+                "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, enjoying life to the fullest.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a strong foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Emotional manipulation, insecurity, jealousy, neediness, self-pity.",
+                "love": "A toxic relationship, feeling heartbroken, feeling lonely.",
+                "work": "A job that is unfulfilling and stressful, feeling unvalued and disrespected.",
+                "friendship": "Unhealthy friendships, feeling isolated, feeling unsupported.",
+                "personal_state": "Feeling unhappy, discontent, and at odds with yourself.",
+                "deeper_meaning": "Overcoming obstacles, finding your true path, learning from your mistakes.",
+                "finance_home": "Financial instability, poor spending habits, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "Ace of Swords",
+            "category": "swords",
+            "image": "assets/tarotcards-img/aceofswords.jpg",
+            "meanings": {
+              "upright": {
+                "general": "New beginnings, clarity, breakthrough, victory, strength of mind.",
+                "love": "A new relationship, starting a family, feeling romantic.",
+                "work": "A new job opportunity, starting a creative project, feeling inspired.",
+                "friendship": "Making new friends, connecting with people who share your interests.",
+                "personal_state": "Feeling hopeful, optimistic, and excited about the future.",
+                "deeper_meaning": "Exploring your inner wisdom, finding your true path, living in the present moment.",
+                "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, enjoying life to the fullest.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a strong foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Confusion, indecision, delay, obstacles, weakness of mind.",
+                "love": "A break-up, feeling heartbroken, feeling lonely.",
+                "work": "A job loss, feeling unfulfilled, feeling stuck.",
+                "friendship": "Betrayal, feeling isolated, feeling unsupported.",
+                "personal_state": "Feeling pessimistic, hopeless, and discouraged.",
+                "deeper_meaning": "Overcoming obstacles, finding your true path, learning from your mistakes.",
+                "finance_home": "Financial instability, poor spending habits, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "2 of Swords",
+            "category": "swords",
+            "image": "assets/tarotcards-img/twoofswords.png",
+            "meanings": {
+              "upright": {
+                "general": "Balance, peace, harmony, truce, stalemate.",
+                "love": "A calm and stable relationship, feeling loved and supported.",
+                "work": "A job that is balanced and fulfilling, feeling valued and respected.",
+                "friendship": "Strong and supportive friendships, enjoying each other's company.",
+                "personal_state": "Feeling happy, content, and at peace with yourself.",
+                "deeper_meaning": "Finding your true path, living in the present moment, accepting what is.",
+                "finance_home": "Financial stability, feeling secure.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling balanced.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a strong foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Unbalance, conflict, tension, disagreement, indecision.",
+                "love": "A turbulent relationship, feeling unloved and unsupported.",
+                "work": "A job that is stressful and unfulfilling, feeling unvalued and disrespected.",
+                "friendship": "Unhealthy friendships, feeling isolated and unsupported.",
+                "personal_state": "Feeling unhappy, discontent, and at odds with yourself.",
+                "deeper_meaning": "Overcoming obstacles, finding your true path, learning from your mistakes.",
+                "finance_home": "Financial instability, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "3 of Swords",
+            "category": "swords",
+            "image": "assets/tarotcards-img/threeofswords.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Heartbreak, sorrow, sadness, disappointment, betrayal.",
+                "love": "A break-up, feeling heartbroken, feeling lonely.",
+                "work": "A job loss, feeling unfulfilled, feeling stuck.",
+                "friendship": "Betrayal, feeling isolated, feeling unsupported.",
+                "personal_state": "Feeling pessimistic, hopeless, and discouraged.",
+                "deeper_meaning": "Overcoming obstacles, finding your true path, learning from your mistakes.",
+                "finance_home": "Financial instability, poor spending habits, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Healing, forgiveness, moving on, letting go, hope.",
+                "love": "Moving on from a break-up, finding love again, feeling hopeful.",
+                "work": "Finding a new job, feeling fulfilled, feeling motivated.",
+                "friendship": "Making new friends, feeling supported, feeling connected.",
+                "personal_state": "Feeling optimistic, hopeful, and excited about the future.",
+                "deeper_meaning": "Finding your true purpose, living your best life, making a difference in the world.",
+                "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a strong foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "4 of Swords",
+            "category": "swords",
+            "image": "assets/tarotcards-img/fourofswords.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Rest, peace, relaxation, meditation, introspection.",
+                "love": "A break in a relationship, time to reflect, feeling alone.",
+                "work": "A leave of absence from work, time for self-care, feeling burned out.",
+                "friendship": "Taking a break from friends, time for self-reflection, feeling overwhelmed.",
+                "personal_state": "Feeling tired, stressed, and in need of a break.",
+                "deeper_meaning": "Connecting with your inner self, finding your true path, healing your wounds.",
+                "finance_home": "Taking a financial break, time to save money, feeling secure.",
+                "personal_relationships": "Taking a break from relationships, time for self-reflection, feeling alone.",
+                "health": "Taking a break from physical activity, time to rest and recover, feeling unwell.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Restlessness, anxiety, boredom, stagnation, procrastination.",
+                "love": "Feeling restless in a relationship, wanting to break free, feeling unfulfilled.",
+                "work": "Feeling restless at work, wanting to change jobs, feeling unmotivated.",
+                "friendship": "Feeling restless with friends, wanting to make new friends, feeling isolated.",
+                "personal_state": "Feeling restless, anxious, and unable to relax.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a strong foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "5 of Swords",
+            "category": "swords",
+            "image": "assets/tarotcards-img/fiveofswords.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Conflict, defeat, victory at a cost, betrayal, humiliation.",
+                "love": "A toxic relationship, feeling heartbroken, feeling lonely.",
+                "work": "A stressful job, feeling unfulfilled, feeling stuck.",
+                "friendship": "Unhealthy friendships, feeling isolated, feeling unsupported.",
+                "personal_state": "Feeling unhappy, discontent, and at odds with yourself.",
+                "deeper_meaning": "Learning from your mistakes, finding your true path, overcoming obstacles.",
+                "finance_home": "Financial instability, poor spending habits, feeling insecure.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Moving on, forgiveness, learning from mistakes, redemption.",
+                "love": "Moving on from a break-up, finding love again, feeling hopeful.",
+                "work": "Finding a new job, feeling fulfilled, feeling motivated.",
+                "friendship": "Making new friends, feeling supported, feeling connected.",
+                "personal_state": "Feeling optimistic, hopeful, and excited about the future.",
+                "deeper_meaning": "Finding your true purpose, living your best life, making a difference in the world.",
+                "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a strong foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "6 of Swords",
+            "category": "swords",
+            "image": "assets/tarotcards-img/sixofswords.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Transition, change, moving on, letting go, new beginnings.",
+                "love": "Moving on from a break-up, finding love again, feeling hopeful.",
+                "work": "Finding a new job, feeling fulfilled, feeling motivated.",
+                "friendship": "Making new friends, feeling supported, feeling connected.",
+                "personal_state": "Feeling optimistic, hopeful, and excited about the future.",
+                "deeper_meaning": "Finding your true purpose, living your best life, making a difference in the world.",
+                "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a strong foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Hesitation, fear of change, resistance, holding on to the past.",
+                "love": "Feeling stuck in a relationship, wanting to break free, feeling unfulfilled.",
+                "work": "Feeling stuck at work, wanting to change jobs, feeling unmotivated.",
+                "friendship": "Feeling stuck in friendships, wanting to make new friends, feeling isolated.",
+                "personal_state": "Feeling pessimistic, hopeless, and discouraged.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "7 of Swords",
+            "category": "swords",
+            "image": "assets/tarotcards-img/sevenofswords.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Deception, betrayal, dishonesty, manipulation, trickery.",
+                "love": "A cheating partner, feeling betrayed, feeling alone.",
+                "work": "A dishonest boss, feeling unfulfilled, feeling stuck.",
+                "friendship": "A fake friend, feeling isolated, feeling unsupported.",
+                "personal_state": "Feeling pessimistic, hopeless, and discouraged.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Clarity, honesty, integrity, self-awareness, facing the truth.",
+                "love": "Coming clean in a relationship, rebuilding trust, feeling hopeful.",
+                "work": "Finding a new job, feeling fulfilled, feeling motivated.",
+                "friendship": "Making new friends, feeling supported, feeling connected.",
+                "personal_state": "Feeling optimistic, hopeful, and excited about the future.",
+                "deeper_meaning": "Finding your true purpose, living your best life, making a difference in the world.",
+                "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a strong foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "8 of Swords",
+            "category": "swords",
+            "image": "assets/tarotcards-img/eightofswords.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Trapped, stuck, self-imposed limitations, fear, anxiety.",
+                "love": "Feeling trapped in a relationship, wanting to break free, feeling unfulfilled.",
+                "work": "Feeling stuck at work, wanting to change jobs, feeling unmotivated.",
+                "friendship": "Feeling stuck in friendships, wanting to make new friends, feeling isolated.",
+                "personal_state": "Feeling pessimistic, hopeless, and discouraged.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Overcoming obstacles, breaking free, finding your true path, empowerment.",
+                "love": "Breaking free from a toxic relationship, finding love again, feeling hopeful.",
+                "work": "Finding a new job, feeling fulfilled, feeling motivated.",
+                "friendship": "Making new friends, feeling supported, feeling connected.",
+                "personal_state": "Feeling optimistic, hopeful, and excited about the future.",
+                "deeper_meaning": "Finding your true purpose, living your best life, making a difference in the world.",
+                "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a strong foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "9 of Swords",
+            "category": "swords",
+            "image": "assets/tarotcards-img/nineofswords.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Anxiety, worry, fear, nightmares, despair.",
+                "love": "Feeling heartbroken, feeling lonely, feeling hopeless.",
+                "work": "Feeling stressed at work, feeling unfulfilled, feeling burned out.",
+                "friendship": "Feeling isolated, feeling unsupported, feeling betrayed.",
+                "personal_state": "Feeling overwhelmed, exhausted, and unable to cope.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Release, relief, hope, optimism, moving on.",
+                "love": "Moving on from a break-up, finding love again, feeling hopeful.",
+                "work": "Finding a new job, feeling fulfilled, feeling motivated.",
+                "friendship": "Making new friends, feeling supported, feeling connected.",
+                "personal_state": "Feeling optimistic, hopeful, and excited about the future.",
+                "deeper_meaning": "Finding your true purpose, living your best life, making a difference in the world.",
+                "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a strong foundation for your future success."
+                }
+              }
+            }
+        },
+        {
+            "name": "10 of Swords",
+            "category": "swords",
+            "image": "assets/tarotcards-img/tenofswords.png",
+            "meanings": {
+              "upright": {
+                "general": "Betrayal, failure, defeat, rock bottom, النهاية.",
+                "love": "A broken heart, feeling alone, feeling hopeless.",
+                "work": "Losing your job, feeling unfulfilled, feeling burned out.",
+                "friendship": "Losing a friend, feeling isolated, feeling betrayed.",
+                "personal_state": "Feeling overwhelmed, exhausted, and unable to cope.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial ruin, feeling insecure, losing everything.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Serious health issues, feeling drained, feeling hopeless.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Rebirth, new beginnings, hope, resilience, redemption.",
+                "love": "Moving on from a break-up, finding love again, feeling hopeful.",
+                "work": "Finding a new job, feeling fulfilled, feeling motivated.",
+                "friendship": "Making new friends, feeling supported, feeling connected.",
+                "personal_state": "Feeling optimistic, hopeful, and excited about the future.",
+                "deeper_meaning": "Finding your true purpose, living your best life, making a difference in the world.",
+                "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a strong foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "Page of Swords",
+            "category": "swords",
+            "image": "assets/tarotcards-img/pageofswords.jpg",
+            "meanings": {
+              "upright": {
+                "general": "New beginnings, new ideas, new projects, potential, curiosity.",
+                "love": "A new relationship, feeling excited, feeling hopeful.",
+                "work": "A new job, feeling challenged, feeling motivated.",
+                "friendship": "Making new friends, feeling supported, feeling connected.",
+                "personal_state": "Feeling optimistic, hopeful, and excited about the future.",
+                "deeper_meaning": "Finding your true purpose, living your best life, making a difference in the world.",
+                "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Delays, obstacles, challenges, frustration, impatience.",
+                "love": "A relationship that is not moving forward, feeling frustrated, feeling disappointed.",
+                "work": "A job that is not fulfilling, feeling stuck, feeling unmotivated.",
+                "friendship": "Friendships that are not supportive, feeling isolated, feeling alone.",
+                "personal_state": "Feeling pessimistic, hopeless, and discouraged.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "Queen of Swords",
+            "category": "swords",
+            "image": "assets/tarotcards-img/queenofswords.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Logic, intellect, clarity, independence, strength.",
+                "love": "A strong and independent partner, feeling secure, feeling loved.",
+                "work": "A successful career, feeling challenged, feeling fulfilled.",
+                "friendship": "Loyal and supportive friends, feeling connected, feeling valued.",
+                "personal_state": "Feeling confident, capable, and in control of your life.",
+                "deeper_meaning": "Finding your true purpose, living your best life, making a difference in the world.",
+                "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Emotional coldness, harshness, judgment, manipulation, control.",
+                "love": "A cold and distant partner, feeling insecure, feeling unloved.",
+                "work": "A difficult job, feeling stressed, feeling unfulfilled.",
+                "friendship": "Unhealthy friendships, feeling isolated, feeling alone.",
+                "personal_state": "Feeling insecure, doubtful, and lacking confidence.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "King of Swords",
+            "category": "swords",
+            "image": "assets/tarotcards-img/kingofswords.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Authority, power, control, intellect, logic.",
+                "love": "A strong and decisive partner, feeling secure, feeling loved.",
+                "work": "A successful career, feeling challenged, feeling fulfilled.",
+                "friendship": "Loyal and supportive friends, feeling connected, feeling valued.",
+                "personal_state": "Feeling confident, capable, and in control of your life.",
+                "deeper_meaning": "Finding your true purpose, living your best life, making a difference in the world.",
+                "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Tyranny, oppression, manipulation, coldness, harshness.",
+                "love": "A controlling and demanding partner, feeling insecure, feeling unloved.",
+                "work": "A difficult job, feeling stressed, feeling unfulfilled.",
+                "friendship": "Unhealthy friendships, feeling isolated, feeling alone.",
+                "personal_state": "Feeling insecure, doubtful, and lacking confidence.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "Ace of Wands",
+            "category": "wands",
+            "image": "assets/tarotcards-img/aceofwands.jpg",
+            "meanings": {
+              "upright": {
+                "general": "New beginnings, new ideas, new projects, potential, inspiration.",
+                "love": "A new relationship, feeling excited, feeling hopeful.",
+                "work": "A new job, feeling challenged, feeling motivated.",
+                "friendship": "Making new friends, feeling supported, feeling connected.",
+                "personal_state": "Feeling optimistic, hopeful, and excited about the future.",
+                "deeper_meaning": "Finding your true purpose, living your best life, making a difference in the world.",
+                "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Delays, obstacles, challenges, frustration, impatience.",
+                "love": "A relationship that is not moving forward, feeling frustrated, feeling disappointed.",
+                "work": "A job that is not fulfilling, feeling stuck, feeling unmotivated.",
+                "friendship": "Friendships that are not supportive, feeling isolated, feeling alone.",
+                "personal_state": "Feeling pessimistic, hopeless, and discouraged.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "2 of Wands",
+            "category": "wands",
+            "image": "assets/tarotcards-img/twoofwands.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Planning, anticipation, preparation, new opportunities, challenges.",
+                "love": "A new relationship that is developing slowly, feeling hopeful, feeling excited.",
+                "work": "A new job that is challenging but rewarding, feeling motivated, feeling fulfilled.",
+                "friendship": "Making new friends who share your interests, feeling supported, feeling connected.",
+                "personal_state": "Feeling optimistic, hopeful, and excited about the future.",
+                "deeper_meaning": "Finding your true purpose, living your best life, making a difference in the world.",
+                "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Delays, obstacles, challenges, frustration, impatience.",
+                "love": "A relationship that is not moving forward, feeling frustrated, feeling disappointed.",
+                "work": "A job that is not fulfilling, feeling stuck, feeling unmotivated.",
+                "friendship": "Friendships that are not supportive, feeling isolated, feeling alone.",
+                "personal_state": "Feeling pessimistic, hopeless, and discouraged.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "3 of Wands",
+            "category": "wands",
+            "image": "assets/tarotcards-img/threeofwands.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Progress, growth, development, new opportunities, success.",
+                "love": "A relationship that is growing and developing, feeling happy, feeling fulfilled.",
+                "work": "A job that is challenging and rewarding, feeling motivated, feeling successful.",
+                "friendship": "Strong and supportive friendships, feeling connected, feeling loved.",
+                "personal_state": "Feeling optimistic, confident, and in control of your life.",
+                "deeper_meaning": "Finding your true purpose, living your best life, making a difference in the world.",
+                "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Delays, obstacles, challenges, frustration, impatience.",
+                "love": "A relationship that is not moving forward, feeling frustrated, feeling disappointed.",
+                "work": "A job that is not fulfilling, feeling stuck, feeling unmotivated.",
+                "friendship": "Friendships that are not supportive, feeling isolated, feeling alone.",
+                "personal_state": "Feeling pessimistic, hopeless, and discouraged.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "4 of Wands",
+            "category": "wands",
+            "image": "assets/tarotcards-img/fourofwands.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Stability, security, harmony, celebration, completion.",
+                "love": "A stable and loving relationship, feeling happy, feeling fulfilled.",
+                "work": "A stable and rewarding job, feeling motivated, feeling successful.",
+                "friendship": "Strong and supportive friendships, feeling connected, feeling loved.",
+                "personal_state": "Feeling optimistic, confident, and at peace with yourself.",
+                "deeper_meaning": "Finding your true purpose, living your best life, making a difference in the world.",
+                "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Stagnation, boredom, complacency, lack of progress, feeling trapped.",
+                "love": "A stagnant relationship, feeling bored, feeling unfulfilled.",
+                "work": "A boring and unfulfilling job, feeling stuck, feeling unmotivated.",
+                "friendship": "Unsupportive friendships, feeling isolated, feeling alone.",
+                "personal_state": "Feeling pessimistic, hopeless, and discouraged.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "5 of Wands",
+            "category": "wands",
+            "image": "assets/tarotcards-img/fiveofwands.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Competition, conflict, struggle, challenge, change.",
+                "love": "A competitive relationship, feeling insecure, feeling jealous.",
+                "work": "A competitive job, feeling stressed, feeling overwhelmed.",
+                "friendship": "Competitive friendships, feeling isolated, feeling alone.",
+                "personal_state": "Feeling anxious, stressed, and overwhelmed.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Defeat, surrender, giving up, letting go, moving on.",
+                "love": "A relationship that is ending, feeling sad, feeling disappointed.",
+                "work": "A job that is not working out, feeling stuck, feeling unmotivated.",
+                "friendship": "Unsupportive friendships, feeling isolated, feeling alone.",
+                "personal_state": "Feeling pessimistic, hopeless, and discouraged.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "6 of Wands",
+            "category": "wands",
+            "image": "assets/tarotcards-img/sixofwands.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Success, victory, achievement, recognition, reward.",
+                "love": "A successful relationship, feeling happy, feeling fulfilled.",
+                "work": "A successful job, feeling motivated, feeling accomplished.",
+                "friendship": "Strong and supportive friendships, feeling connected, feeling loved.",
+                "personal_state": "Feeling optimistic, confident, and proud of your accomplishments.",
+                "deeper_meaning": "Finding your true purpose, living your best life, making a difference in the world.",
+                "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Delays, obstacles, challenges, setbacks, disappointment.",
+                "love": "A relationship that is not going well, feeling frustrated, feeling disappointed.",
+                "work": "A job that is not fulfilling, feeling stuck, feeling unmotivated.",
+                "friendship": "Unsupportive friendships, feeling isolated, feeling alone.",
+                "personal_state": "Feeling pessimistic, discouraged, and lacking confidence.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "7 of Wands",
+            "category": "wands",
+            "image": "assets/tarotcards-img/sevenofwands.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Competition, challenge, struggle, determination, perseverance.",
+                "love": "A competitive relationship, feeling insecure, feeling jealous.",
+                "work": "A competitive job, feeling stressed, feeling overwhelmed.",
+                "friendship": "Competitive friendships, feeling isolated, feeling alone.",
+                "personal_state": "Feeling anxious, stressed, and determined to succeed.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Defeat, surrender, giving up, letting go, moving on.",
+                "love": "A relationship that is ending, feeling sad, feeling disappointed.",
+                "work": "A job that is not working out, feeling stuck, feeling unmotivated.",
+                "friendship": "Unsupportive friendships, feeling isolated, feeling alone.",
+                "personal_state": "Feeling pessimistic, hopeless, and discouraged.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "8 of Wands",
+            "category": "wands",
+            "image": "assets/tarotcards-img/eightofwands.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Movement, progress, action, speed, change.",
+                "love": "A relationship that is moving quickly, feeling excited, feeling passionate.",
+                "work": "A job that is fast-paced and exciting, feeling motivated, feeling accomplished.",
+                "friendship": "Friendships that are supportive and fun, feeling connected, feeling loved.",
+                "personal_state": "Feeling optimistic, excited, and ready for anything.",
+                "deeper_meaning": "Finding your true purpose, living your best life, making a difference in the world.",
+                "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Delays, obstacles, challenges, setbacks, disappointment.",
+                "love": "A relationship that is not going well, feeling frustrated, feeling disappointed.",
+                "work": "A job that is not fulfilling, feeling stuck, feeling unmotivated.",
+                "friendship": "Unsupportive friendships, feeling isolated, feeling alone.",
+                "personal_state": "Feeling pessimistic, discouraged, and lacking confidence.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "9 of Wands",
+            "category": "wands",
+            "image": "assets/tarotcards-img/nineofwands.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Resilience, perseverance, strength, determination, vigilance.",
+                "love": "A relationship that is strong and lasting, feeling committed, feeling secure.",
+                "work": "A job that is challenging but rewarding, feeling motivated, feeling accomplished.",
+                "friendship": "Friendships that are supportive and reliable, feeling connected, feeling loved.",
+                "personal_state": "Feeling optimistic, confident, and ready to face any challenges.",
+                "deeper_meaning": "Finding your true purpose, living your best life, making a difference in the world.",
+                "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Exhaustion, burnout, defensiveness, insecurity, paranoia.",
+                "love": "A relationship that is draining and stressful, feeling frustrated, feeling insecure.",
+                "work": "A job that is overwhelming and unfulfilling, feeling stuck, feeling unmotivated.",
+                "friendship": "Unsupportive friendships, feeling isolated, feeling alone.",
+                "personal_state": "Feeling pessimistic, discouraged, and lacking confidence.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "10 of Wands",
+            "category": "wands",
+            "image": "assets/tarotcards-img/tenofwands.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Burden, overwhelm, pressure, responsibility, struggle.",
+                "love": "A relationship that is demanding and stressful, feeling burdened, feeling unhappy.",
+                "work": "A job that is overwhelming and unfulfilling, feeling stuck, feeling unmotivated.",
+                "friendship": "Unsupportive friendships, feeling isolated, feeling alone.",
+                "personal_state": "Feeling pessimistic, discouraged, and exhausted.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Relief, release, surrender, letting go, new beginnings.",
+                "love": "A relationship that is ending, feeling sad, feeling disappointed.",
+                "work": "A job that is not working out, feeling stuck, feeling unmotivated.",
+                "friendship": "Unsupportive friendships, feeling isolated, feeling alone.",
+                "personal_state": "Feeling pessimistic, discouraged, and lacking confidence.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "Page of Wands",
+            "category": "wands",
+            "image": "assets/tarotcards-img/pageofwands.jpg",
+            "meanings": {
+              "upright": {
+                "general": "New beginnings, enthusiasm, creativity, inspiration, potential.",
+                "love": "A new relationship, feeling excited, feeling passionate.",
+                "work": "A new job, feeling motivated, feeling challenged.",
+                "friendship": "New friendships, feeling connected, feeling supported.",
+                "personal_state": "Feeling optimistic, excited, and ready for new adventures.",
+                "deeper_meaning": "Finding your true purpose, living your best life, making a difference in the world.",
+                "finance_home": "Financial opportunities, feeling secure, enjoying the fruits of your labor.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Delays, obstacles, challenges, setbacks, disappointment.",
+                "love": "A relationship that is not going well, feeling frustrated, feeling disappointed.",
+                "work": "A job that is not fulfilling, feeling stuck, feeling unmotivated.",
+                "friendship": "Unsupportive friendships, feeling isolated, feeling alone.",
+                "personal_state": "Feeling pessimistic, discouraged, and lacking confidence.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "Queen of Wands",
+            "category": "wands",
+            "image": "assets/tarotcards-img/queenofwands.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Creativity, passion, confidence, determination, independence.",
+                "love": "A passionate and fulfilling relationship, feeling loved, feeling respected.",
+                "work": "A successful career, feeling motivated, feeling accomplished.",
+                "friendship": "Strong and supportive friendships, feeling connected, feeling loved.",
+                "personal_state": "Feeling optimistic, confident, and ready to take on any challenges.",
+                "deeper_meaning": "Finding your true purpose, living your best life, making a difference in the world.",
+                "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Insecurity, jealousy, possessiveness, manipulation, control.",
+                "love": "A relationship that is not going well, feeling frustrated, feeling insecure.",
+                "work": "A job that is not fulfilling, feeling stuck, feeling unmotivated.",
+                "friendship": "Unsupportive friendships, feeling isolated, feeling alone.",
+                "personal_state": "Feeling pessimistic, discouraged, and lacking confidence.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+
+        {
+            "name": "King of Wands",
+            "category": "wands",
+            "image": "assets/tarotcards-img/kingofwands.jpg",
+            "meanings": {
+              "upright": {
+                "general": "Leadership, vision, charisma, authority, confidence.",
+                "love": "A strong and passionate relationship, feeling loved, feeling respected.",
+                "work": "A successful career, feeling motivated, feeling accomplished.",
+                "friendship": "Strong and supportive friendships, feeling connected, feeling loved.",
+                "personal_state": "Feeling optimistic, confident, and ready to take on any challenges.",
+                "deeper_meaning": "Finding your true purpose, living your best life, making a difference in the world.",
+                "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
+                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                "health": "Overall good health and well-being, feeling energized.",
+                "combinations": {
+                  "with The Fool": "Embracing new possibilities with a positive attitude.",
+                  "with The Lovers": "Finding love through shared interests and values.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              },
+              "reversed": {
+                "general": "Domination, arrogance, stubbornness, inflexibility, lack of vision.",
+                "love": "A relationship that is not going well, feeling frustrated, feeling insecure.",
+                "work": "A job that is not fulfilling, feeling stuck, feeling unmotivated.",
+                "friendship": "Unsupportive friendships, feeling isolated, feeling alone.",
+                "personal_state": "Feeling pessimistic, discouraged, and lacking confidence.",
+                "deeper_meaning": "Facing your fears, overcoming obstacles, finding your true path.",
+                "finance_home": "Financial instability, feeling insecure, worrying about money.",
+                "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
+                "health": "Lingering health issues, feeling drained, psychosomatic illness.",
+                "combinations": {
+                  "with The Fool": "Taking a leap of faith and trusting the process.",
+                  "with The Lovers": "Finding love through self-love and appreciation.",
+                  "with The Emperor": "Building a solid foundation for your future success."
+                }
+              }
+            }
+        },
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+          
         {
             "name": "Death",
             "category": "major",
