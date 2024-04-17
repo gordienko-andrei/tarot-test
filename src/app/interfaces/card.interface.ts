@@ -1,5 +1,6 @@
 export interface Card {
     name: string;
+    id: string;
     category: string;
     image: string;
     meanings: {

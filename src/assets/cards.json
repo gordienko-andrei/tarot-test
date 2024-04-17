@@ -2,11 +2,12 @@
     "cards": [
         {
             "name": "The Fool",
+            "id": "TheFool",
             "category": "major",
-            "image": "assets/tarotcards-img/thefool.jpg",
+            "image": "assets/tarotcards-img/thefool.webp",
             "meanings": {
                 "upright": {
-                    "general": "Freedom",
+                    "general": "The Fool is a card of opportunity, potential, and new experiences. It encourages you to have an open, curious mind and a sense of excitement. Throw caution to the wind and be ready to embrace the unknown, leaving behind any fear, worry, or anxiety about what may or may not happen. This is about personal growth, development, and adventure. The time is NOW! Take that leap of faith, even if you do not feel 100% ready or equipped for what is coming. Seriously, what are you waiting for? Do you think you need to have everything mapped out before you can begin? No way! Not with The Fool. He ventures out on his journey with just his essential belongings – and now he invites you to do the same. You don’t need to wait for someone to give you the green light or hold off until you have all the skills, tools, and resources you think you might need. Trust the process, embrace the unknown, and let your inner Fool guide you toward new adventures! 🌟",
                     "love": "Free-spirited love, non-conformity, surprises in relationships", 
                     "work": "New beginnings, innovative ideas, passion projects",
                     "friendship": "New friends, adventures, social spontaneity",
@@ -33,8 +34,9 @@
         },
         {
             "name": "The Magician",
+            "id": "TheMagician",
             "category": "major",
-            "image": "assets/tarotcards-img/themagician.jpg",
+            "image": "assets/tarotcards-img/themagician.webp",
             "meanings": {
                 "upright": {
                     "general": "TThe Magician represents the power of will, focused action, and manifestation. It suggests that you have the skills, resources, and knowledge to turn your ideas into reality. This card is a reminder that you are the co-creator of your own destiny.",
@@ -64,8 +66,9 @@
         },
         {
             "name": "Death",
+            "id": "Death",
             "category": "major",
-            "image": "assets/tarotcards-img/death.jpg",
+            "image": "assets/tarotcards-img/death.webp",
             "meanings": {
                 "upright": {
                     "general": "Transformation, endings, cycles, change. While death may seem scary, in this context, it represents the inevitable change and rebirth that is a natural part of life. It's about letting go of the old to make way for the new.",
@@ -95,8 +98,9 @@
         },
         {
             "name": "The Sun",
+            "id": "TheSun",
             "category": "major",
-            "image": "assets/tarotcards-img/thesun.jpg",
+            "image": "assets/tarotcards-img/thesun.webp",
             "meanings": {
               "upright": {
                 "general": "Happiness, joy, abundance, success. The Sun brings a sense of optimism and vitality. It signifies a time of fulfillment and achievement.",
@@ -126,8 +130,9 @@
         }, 
         {
             "name": "The High Priestess",
+            "id": "TheHighPriestess",
             "category": "major",
-            "image": "assets/tarotcards-img/thehighpriestess.jpg",
+            "image": "assets/tarotcards-img/thehighpriestess.webp",
             "meanings": {
                 "upright": {
                     "general": "Intuition, subconscious mind, inner guidance. The High Priestess represents a connection to the subconscious mind and the mysteries of the universe. It signifies a time of intuition, introspection, and inner wisdom.",
@@ -157,8 +162,9 @@
         },
         {
             "name": "The Empress",
+            "id": "TheEmpress",
             "category": "major",
-            "image": "assets/tarotcards-img/theempress.jpg",
+            "image": "assets/tarotcards-img/theempress.webp",
             "meanings": {
                 "upright": {
                     "general": "Nurturing, abundance, fertility. The Empress represents a time of nurturing and growth. It signifies abundance, creativity, and fertility in all aspects of life.",
@@ -188,8 +194,9 @@
         },
         {
             "name": "The Emperor",
+            "id": "TheEmperor",
             "category": "major",
-            "image": "assets/tarotcards-img/theemperator.jpg",
+            "image": "assets/tarotcards-img/theemperator.webp",
             "meanings": {
                 "upright": {
                     "general": "Authority, stability, leadership. The Emperor represents a time of stability and authority. It signifies leadership, structure, and order in all aspects of life.",
@@ -219,8 +226,9 @@
         },
         {
             "name": "The Hierophant",
+            "id": "TheHierophant",
             "category": "major",
-            "image": "assets/tarotcards-img/thehierophant.jpg",
+            "image": "assets/tarotcards-img/thehierophant.webp",
             "meanings": {
                 "upright": {
                     "general": "Tradition, spirituality, religious beliefs. The Hierophant represents tradition and spirituality. It signifies religious beliefs, moral values, and cultural customs.",
@@ -251,7 +259,7 @@
         {
             "name": "The Lovers",
             "category": "major",
-            "image": "assets/tarotcards-img/thelovers.jpg",
+            "image": "assets/tarotcards-img/thelovers.webp",
             "meanings": {
                 "upright": {
                     "general": "Love, relationships, harmony. The Lovers represents a deep connection and harmony between two individuals. It signifies love, partnerships, and mutual respect.",
@@ -282,7 +290,7 @@
         {
             "name": "The Chariot",
             "category": "major",
-            "image": "assets/tarotcards-img/thechariot.jpg",
+            "image": "assets/tarotcards-img/thechariot.webp",
             "meanings": {
                 "upright": {
                     "general": "Victory, determination, willpower. The Chariot represents victory and success through determination and willpower. It signifies overcoming obstacles and achieving goals.",
@@ -313,7 +321,7 @@
         {
             "name": "Strength",
             "category": "major",
-            "image": "assets/tarotcards-img/strength.jpg",
+            "image": "assets/tarotcards-img/strength.webp",
             "meanings": {
                 "upright": {
                     "general": "Strength, courage, inner fortitude. Strength represents inner strength and courage. It signifies overcoming challenges with grace and resilience.",
@@ -344,7 +352,7 @@
         {
             "name": "The Hermit",
             "category": "major",
-            "image": "assets/tarotcards-img/thehermit.jpg",
+            "image": "assets/tarotcards-img/thehermit.webp",
             "meanings": {
                 "upright": {
                     "general": "Introspection, solitude, inner guidance. The Hermit represents introspection and solitude. It signifies seeking inner guidance and wisdom.",
@@ -375,7 +383,7 @@
         {
             "name": "Wheel of Fortune",
             "category": "major",
-            "image": "assets/tarotcards-img/wheeloffortune.jpg",
+            "image": "assets/tarotcards-img/wheeloffortune.webp",
             "meanings": {
                 "upright": {
                     "general": "Change, destiny, luck. The Wheel of Fortune represents change and destiny. It signifies luck and unexpected opportunities.",
@@ -406,7 +414,7 @@
         {
             "name": "Justice",
             "category": "major",
-            "image": "assets/tarotcards-img/justice.jpg",
+            "image": "assets/tarotcards-img/justice.webp",
             "meanings": {
                 "upright": {
                     "general": "Fairness, truth, balance. Justice represents fairness and truth. It signifies balance and impartiality in decision-making.",
@@ -437,7 +445,7 @@
         {
             "name": "The Hanged Man",
             "category": "major",
-            "image": "assets/tarotcards-img/thehangedman.jpg",
+            "image": "assets/tarotcards-img/thehangedman.webp",
             "meanings": {
               "upright": {
                 "general": "Surrender, sacrifice, new perspectives, letting go.",
@@ -476,7 +484,7 @@
         {
             "name": "Temperance",
             "category": "major",
-            "image": "assets/tarotcards-img/thetemperance.jpg",
+            "image": "assets/tarotcards-img/thetemperance.webp",
             "meanings": {
               "upright": {
                 "general": "Balance, moderation, harmony, patience, finding the middle way.",
@@ -515,7 +523,7 @@
         {
             "name": "The Devil",
             "category": "major",
-            "image": "assets/tarotcards-img/thedevil.jpg",
+            "image": "assets/tarotcards-img/thedevil.webp",
             "meanings": {
               "upright": {
                 "general": "Temptation, materialism, addiction, attachment, shadow work.",
@@ -554,7 +562,7 @@
         {
             "name": "The Star",
             "category": "major",
-            "image": "assets/tarotcards-img/thestar.jpg",
+            "image": "assets/tarotcards-img/thestar.webp",
             "meanings": {
               "upright": {
                 "general": "Hope, inspiration, faith, optimism, new beginnings.",
@@ -594,7 +602,7 @@
         {
             "name": "The Moon",
             "category": "major",
-            "image": "assets/tarotcards-img/themoon.jpg",
+            "image": "assets/tarotcards-img/themoon.webp",
             "meanings": {
                 "upright": {
                     "general": "Illusion, deception, fear, hidden emotions, intuition.",
@@ -633,7 +641,7 @@
         {
             "name": "The Tower",
             "category": "major",
-            "image": "assets/tarotcards-img/thetower.jpg",
+            "image": "assets/tarotcards-img/thetower.webp",
             "meanings": {
                 "upright": {
                     "general": "Sudden upheaval, chaos, disruption, unexpected change.",
@@ -671,7 +679,7 @@
         {
             "name": "Judgement",
             "category": "major",
-            "image": "assets/tarotcards-img/thejudgement.jpg",
+            "image": "assets/tarotcards-img/thejudgement.webp",
             "meanings": {
                 "upright": {
                     "general": "Rebirth, renewal, awakening, self-reflection, inner calling.",
@@ -710,7 +718,7 @@
         {
             "name": "The World",
             "category": "major",
-            "image": "assets/tarotcards-img/theworld.jpg",
+            "image": "assets/tarotcards-img/theworld.webp",
             "meanings": {
                 "upright": {
                     "general": "Completion, achievement, success, fulfillment, a sense of wholeness.",
@@ -749,7 +757,7 @@
         {
             "name": "Ace of Pentacles",
             "category": "pentacles",
-            "image": "assets/tarotcards-img/aceofpentacles.jpg",
+            "image": "assets/tarotcards-img/aceofpentacles.webp",
             "meanings": {
               "upright": {
                 "general": "New beginnings, opportunities, potential, manifestation, prosperity.",
@@ -788,7 +796,7 @@
         {
             "name": "2 of Pentacles",
             "category": "pentacles",
-            "image": "assets/tarotcards-img/twoofpentacles.jpg",
+            "image": "assets/tarotcards-img/twoofpentacles.webp",
             "meanings": {
               "upright": {
                 "general": "Balance, harmony, juggling multiple tasks, adaptability, resourcefulness.",
@@ -828,7 +836,7 @@
         {
             "name": "3 of Pentacles",
             "category": "pentacles",
-            "image": "assets/tarotcards-img/threeofpentacles.jpg",
+            "image": "assets/tarotcards-img/threeofpentacles.webp",
             "meanings": {
               "upright": {
                 "general": "Collaboration, teamwork, cooperation, skill development, recognition.",
@@ -868,7 +876,7 @@
         {
             "name": "4 of Pentacles",
             "category": "pentacles",
-            "image": "assets/tarotcards-img/fourofpentacles.jpg",
+            "image": "assets/tarotcards-img/fourofpentacles.webp",
             "meanings": {
               "upright": {
                 "general": "Security, stability, possessiveness, material wealth, conservatism.",
@@ -908,7 +916,7 @@
         {
             "name": "5 of Pentacles",
             "category": "pentacles",
-            "image": "assets/tarotcards-img/fiveofpentacles.jpg",
+            "image": "assets/tarotcards-img/fiveofpentacles.webp",
             "meanings": {
               "upright": {
                 "general": "Hardship, poverty, struggle, isolation, feeling lost.",
@@ -948,7 +956,7 @@
         {
             "name": "6 of Pentacles",
             "category": "pentacles",
-            "image": "assets/tarotcards-img/sixofpentacles.jpg",
+            "image": "assets/tarotcards-img/sixofpentacles.webp",
             "meanings": {
               "upright": {
                 "general": "Giving and receiving, charity, generosity, compassion, abundance.",
@@ -988,7 +996,7 @@
         {
             "name": "7 of Pentacles",
             "category": "pentacles",
-            "image": "assets/tarotcards-img/sevenofpentacles.jpg",
+            "image": "assets/tarotcards-img/sevenofpentacles.webp",
             "meanings": {
               "upright": {
                 "general": "Harvest, reward, satisfaction, progress, taking stock.",
@@ -1028,7 +1036,7 @@
         {
             "name": "8 of Pentacles",
             "category": "pentacles",
-            "image": "assets/tarotcards-img/eightofpentacles.jpg",
+            "image": "assets/tarotcards-img/eightofpentacles.webp",
             "meanings": {
               "upright": {
                 "general": "Skill, mastery, craftsmanship, dedication, attention to detail.",
@@ -1068,7 +1076,7 @@
         {
             "name": "9 of Pentacles",
             "category": "pentacles",
-            "image": "assets/tarotcards-img/nineofpentacles.jpg",
+            "image": "assets/tarotcards-img/nineofpentacles.webp",
             "meanings": {
               "upright": {
                 "general": "Security, comfort, independence, self-sufficiency, contentment.",
@@ -1108,7 +1116,7 @@
         {
             "name": "10 of Pentacles",
             "category": "pentacles",
-            "image": "assets/tarotcards-img/tenofpentacles.jpg",
+            "image": "assets/tarotcards-img/tenofpentacles.webp",
             "meanings": {
               "upright": {
                 "general": "Completion, culmination, achievement, legacy, family.",
@@ -1148,7 +1156,7 @@
         {
             "name": "Page of Pentacles",
             "category": "pentacles",
-            "image": "assets/tarotcards-img/pageofpentacles.jpg",
+            "image": "assets/tarotcards-img/pageofpentacles.webp",
             "meanings": {
               "upright": {
                 "general": "New beginnings, opportunities, potential, learning, curiosity.",
@@ -1188,7 +1196,7 @@
         {
             "name": "Queen of Pentacles",
             "category": "pentacles",
-            "image": "assets/tarotcards-img/queenofpentacles.jpg",
+            "image": "assets/tarotcards-img/queenofpentacles.webp",
             "meanings": {
               "upright": {
                 "general": "Abundance, security, comfort, practicality, nurturing.",
@@ -1228,7 +1236,7 @@
         {
             "name": "King of Pentacles",
             "category": "pentacles",
-            "image": "assets/tarotcards-img/kingofpentacles.jpg",
+            "image": "assets/tarotcards-img/kingofpentacles.webp",
             "meanings": {
               "upright": {
                 "general": "Abundance, security, stability, authority, generosity.",
@@ -1268,7 +1276,7 @@
         {
             "name": "Ace of Cups",
             "category": "cups",
-            "image": "assets/tarotcards-img/aceofcups.jpg",
+            "image": "assets/tarotcards-img/aceofcups.webp",
             "meanings": {
               "upright": {
                 "general": "New beginnings, opportunities, potential, emotional healing, love.",
@@ -1308,7 +1316,7 @@
         {
             "name": "2 of Cups",
             "category": "cups",
-            "image": "assets/tarotcards-img/twoofcups.jpg",
+            "image": "assets/tarotcards-img/twoofcups.webp",
             "meanings": {
               "upright": {
                 "general": "Love, partnership, union, harmony, cooperation.",
@@ -1348,7 +1356,7 @@
         {
             "name": "3 of Cups",
             "category": "cups",
-            "image": "assets/tarotcards-img/threeofcups.jpg",
+            "image": "assets/tarotcards-img/threeofcups.webp",
             "meanings": {
               "upright": {
                 "general": "Celebration, joy, happiness, abundance, friendship.",
@@ -1388,7 +1396,7 @@
         {
             "name": "4 of Cups",
             "category": "cups",
-            "image": "assets/tarotcards-img/fourofcups.jpg",
+            "image": "assets/tarotcards-img/fourofcups.webp",
             "meanings": {
               "upright": {
                 "general": "Apathy, boredom, dissatisfaction, stagnation, missed opportunities.",
@@ -1428,7 +1436,7 @@
         {
             "name": "5 of Cups",
             "category": "cups",
-            "image": "assets/tarotcards-img/fiveofcups.jpg",
+            "image": "assets/tarotcards-img/fiveofcups.webp",
             "meanings": {
               "upright": {
                 "general": "Disappointment, sadness, grief, loss, regret.",
@@ -1468,7 +1476,7 @@
         {
             "name": "6 of Cups",
             "category": "cups",
-            "image": "assets/tarotcards-img/sixofcups.jpg",
+            "image": "assets/tarotcards-img/sixofcups.webp",
             "meanings": {
               "upright": {
                 "general": "Nostalgia, memories, childhood, innocence, happiness.",
@@ -1508,7 +1516,7 @@
         {
         "name": "7 of Cups",
         "category": "cups",
-        "image": "assets/tarotcards-img/sevenofcups.jpg",
+        "image": "assets/tarotcards-img/sevenofcups.webp",
         "meanings": {
             "upright": {
                 "general": "Choices, opportunities, imagination, indecision, illusion.",
@@ -1548,7 +1556,7 @@
         {
             "name": "8 of Cups",
             "category": "cups",
-            "image": "assets/tarotcards-img/eightofcups.jpg",
+            "image": "assets/tarotcards-img/eightofcups.webp",
             "meanings": {
               "upright": {
                 "general": "Letting go, moving on, new beginnings, abandoning the past, seeking new horizons.",
@@ -1588,7 +1596,7 @@
         {
             "name": "9 of Cups",
             "category": "cups",
-            "image": "assets/tarotcards-img/nineofcups.jpg",
+            "image": "assets/tarotcards-img/nineofcups.webp",
             "meanings": {
               "upright": {
                 "general": "Contentment, satisfaction, emotional fulfillment, wishes coming true, abundance.",
@@ -1628,7 +1636,7 @@
         {
             "name": "10 of Cups",
             "category": "cups",
-            "image": "assets/tarotcards-img/tenofcups.jpg",
+            "image": "assets/tarotcards-img/tenofcups.webp",
             "meanings": {
               "upright": {
                 "general": "Complete happiness, emotional fulfillment, joy, love, family, lasting happiness.",
@@ -1668,7 +1676,7 @@
         {
             "name": "Page of Cups",
             "category": "cups",
-            "image": "assets/tarotcards-img/pageofcups.jpg",
+            "image": "assets/tarotcards-img/pageofcups.webp",
             "meanings": {
               "upright": {
                 "general": "New beginnings, intuition, imagination, creativity, sensitivity.",
@@ -1708,7 +1716,7 @@
         {
             "name": "Queen of Cups",
             "category": "cups",
-            "image": "assets/tarotcards-img/queenofcups.jpg",
+            "image": "assets/tarotcards-img/queenofcups.webp",
             "meanings": {
               "upright": {
                 "general": "Compassion, intuition, creativity, emotional intelligence, nurturing.",
@@ -1748,7 +1756,7 @@
         {
             "name": "King of Cups",
             "category": "cups",
-            "image": "assets/tarotcards-img/kingofcups.jpg",
+            "image": "assets/tarotcards-img/kingofcups.webp",
             "meanings": {
               "upright": {
                 "general": "Compassion, understanding, emotional maturity, stability, security.",
@@ -1788,7 +1796,7 @@
         {
             "name": "Ace of Swords",
             "category": "swords",
-            "image": "assets/tarotcards-img/aceofswords.jpg",
+            "image": "assets/tarotcards-img/aceofswords.webp",
             "meanings": {
               "upright": {
                 "general": "New beginnings, clarity, breakthrough, victory, strength of mind.",
@@ -1868,7 +1876,7 @@
         {
             "name": "3 of Swords",
             "category": "swords",
-            "image": "assets/tarotcards-img/threeofswords.jpg",
+            "image": "assets/tarotcards-img/threeofswords.webp",
             "meanings": {
               "upright": {
                 "general": "Heartbreak, sorrow, sadness, disappointment, betrayal.",
@@ -1908,7 +1916,7 @@
         {
             "name": "4 of Swords",
             "category": "swords",
-            "image": "assets/tarotcards-img/fourofswords.jpg",
+            "image": "assets/tarotcards-img/fourofswords.webp",
             "meanings": {
               "upright": {
                 "general": "Rest, peace, relaxation, meditation, introspection.",
@@ -1948,7 +1956,7 @@
         {
             "name": "5 of Swords",
             "category": "swords",
-            "image": "assets/tarotcards-img/fiveofswords.jpg",
+            "image": "assets/tarotcards-img/fiveofswords.webp",
             "meanings": {
               "upright": {
                 "general": "Conflict, defeat, victory at a cost, betrayal, humiliation.",
@@ -1988,7 +1996,7 @@
         {
             "name": "6 of Swords",
             "category": "swords",
-            "image": "assets/tarotcards-img/sixofswords.jpg",
+            "image": "assets/tarotcards-img/sixofswords.webp",
             "meanings": {
               "upright": {
                 "general": "Transition, change, moving on, letting go, new beginnings.",
@@ -2028,7 +2036,7 @@
         {
             "name": "7 of Swords",
             "category": "swords",
-            "image": "assets/tarotcards-img/sevenofswords.jpg",
+            "image": "assets/tarotcards-img/sevenofswords.webp",
             "meanings": {
               "upright": {
                 "general": "Deception, betrayal, dishonesty, manipulation, trickery.",
@@ -2068,7 +2076,7 @@
         {
             "name": "8 of Swords",
             "category": "swords",
-            "image": "assets/tarotcards-img/eightofswords.jpg",
+            "image": "assets/tarotcards-img/eightofswords.webp",
             "meanings": {
               "upright": {
                 "general": "Trapped, stuck, self-imposed limitations, fear, anxiety.",
@@ -2108,7 +2116,7 @@
         {
             "name": "9 of Swords",
             "category": "swords",
-            "image": "assets/tarotcards-img/nineofswords.jpg",
+            "image": "assets/tarotcards-img/nineofswords.webp",
             "meanings": {
               "upright": {
                 "general": "Anxiety, worry, fear, nightmares, despair.",
@@ -2187,7 +2195,7 @@
         {
             "name": "Page of Swords",
             "category": "swords",
-            "image": "assets/tarotcards-img/pageofswords.jpg",
+            "image": "assets/tarotcards-img/pageofswords.webp",
             "meanings": {
               "upright": {
                 "general": "New beginnings, new ideas, new projects, potential, curiosity.",
@@ -2227,7 +2235,7 @@
         {
             "name": "Queen of Swords",
             "category": "swords",
-            "image": "assets/tarotcards-img/queenofswords.jpg",
+            "image": "assets/tarotcards-img/queenofswords.webp",
             "meanings": {
               "upright": {
                 "general": "Logic, intellect, clarity, independence, strength.",
@@ -2267,7 +2275,7 @@
         {
             "name": "King of Swords",
             "category": "swords",
-            "image": "assets/tarotcards-img/kingofswords.jpg",
+            "image": "assets/tarotcards-img/kingofswords.webp",
             "meanings": {
               "upright": {
                 "general": "Authority, power, control, intellect, logic.",
@@ -2307,7 +2315,7 @@
         {
             "name": "Ace of Wands",
             "category": "wands",
-            "image": "assets/tarotcards-img/aceofwands.jpg",
+            "image": "assets/tarotcards-img/aceofwands.webp",
             "meanings": {
               "upright": {
                 "general": "New beginnings, new ideas, new projects, potential, inspiration.",
@@ -2347,7 +2355,7 @@
         {
             "name": "2 of Wands",
             "category": "wands",
-            "image": "assets/tarotcards-img/twoofwands.jpg",
+            "image": "assets/tarotcards-img/twoofwands.webp",
             "meanings": {
               "upright": {
                 "general": "Planning, anticipation, preparation, new opportunities, challenges.",
@@ -2387,7 +2395,7 @@
         {
             "name": "3 of Wands",
             "category": "wands",
-            "image": "assets/tarotcards-img/threeofwands.jpg",
+            "image": "assets/tarotcards-img/threeofwands.webp",
             "meanings": {
               "upright": {
                 "general": "Progress, growth, development, new opportunities, success.",
@@ -2427,7 +2435,7 @@
         {
             "name": "4 of Wands",
             "category": "wands",
-            "image": "assets/tarotcards-img/fourofwands.jpg",
+            "image": "assets/tarotcards-img/fourofwands.webp",
             "meanings": {
               "upright": {
                 "general": "Stability, security, harmony, celebration, completion.",
@@ -2467,7 +2475,7 @@
         {
             "name": "5 of Wands",
             "category": "wands",
-            "image": "assets/tarotcards-img/fiveofwands.jpg",
+            "image": "assets/tarotcards-img/fiveofwands.webp",
             "meanings": {
               "upright": {
                 "general": "Competition, conflict, struggle, challenge, change.",
@@ -2507,7 +2515,7 @@
         {
             "name": "6 of Wands",
             "category": "wands",
-            "image": "assets/tarotcards-img/sixofwands.jpg",
+            "image": "assets/tarotcards-img/sixofwands.webp",
             "meanings": {
               "upright": {
                 "general": "Success, victory, achievement, recognition, reward.",
@@ -2547,7 +2555,7 @@
         {
             "name": "7 of Wands",
             "category": "wands",
-            "image": "assets/tarotcards-img/sevenofwands.jpg",
+            "image": "assets/tarotcards-img/sevenofwands.webp",
             "meanings": {
               "upright": {
                 "general": "Competition, challenge, struggle, determination, perseverance.",
@@ -2587,7 +2595,7 @@
         {
             "name": "8 of Wands",
             "category": "wands",
-            "image": "assets/tarotcards-img/eightofwands.jpg",
+            "image": "assets/tarotcards-img/eightofwands.webp",
             "meanings": {
               "upright": {
                 "general": "Movement, progress, action, speed, change.",
@@ -2627,7 +2635,7 @@
         {
             "name": "9 of Wands",
             "category": "wands",
-            "image": "assets/tarotcards-img/nineofwands.jpg",
+            "image": "assets/tarotcards-img/nineofwands.webp",
             "meanings": {
               "upright": {
                 "general": "Resilience, perseverance, strength, determination, vigilance.",
@@ -2667,7 +2675,7 @@
         {
             "name": "10 of Wands",
             "category": "wands",
-            "image": "assets/tarotcards-img/tenofwands.jpg",
+            "image": "assets/tarotcards-img/tenofwands.webp",
             "meanings": {
               "upright": {
                 "general": "Burden, overwhelm, pressure, responsibility, struggle.",
@@ -2707,7 +2715,7 @@
         {
             "name": "Page of Wands",
             "category": "wands",
-            "image": "assets/tarotcards-img/pageofwands.jpg",
+            "image": "assets/tarotcards-img/pageofwands.webp",
             "meanings": {
               "upright": {
                 "general": "New beginnings, enthusiasm, creativity, inspiration, potential.",
@@ -2747,7 +2755,7 @@
         {
             "name": "Queen of Wands",
             "category": "wands",
-            "image": "assets/tarotcards-img/queenofwands.jpg",
+            "image": "assets/tarotcards-img/queenofwands.webp",
             "meanings": {
               "upright": {
                 "general": "Creativity, passion, confidence, determination, independence.",
@@ -2787,7 +2795,7 @@
         {
             "name": "King of Wands",
             "category": "wands",
-            "image": "assets/tarotcards-img/kingofwands.jpg",
+            "image": "assets/tarotcards-img/kingofwands.webp",
             "meanings": {
               "upright": {
                 "general": "Leadership, vision, charisma, authority, confidence.",
@@ -2860,7 +2868,7 @@
         {
             "name": "Death",
             "category": "major",
-            "image": "assets/tarotcards-img/death.jpg",
+            "image": "assets/tarotcards-img/death.webp",
             "meanings": {
                 "upright": {
                     "general": "",

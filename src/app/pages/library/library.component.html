@@ -6,15 +6,15 @@
                 <img class="max-w-[70%] h-[40%] rounded-2xl" src="assets/lovers.jpg" alt="lovers_img">
             </div>
             <div class="flex flex-1 items-start justify-center flex-col pl-[5%]">
-                <span>Get an interpretation</span>
-                <span>of your spread!</span>
+                <span>Learn and explore</span>
+                <span>cards meanings!</span>
             </div>
         </div>
         <div>
             <h2 class="main_font !text-6xl lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-2xl min-[320px]:py-6 flex justify-center">Major Arcana cards</h2>
             <mat-grid-list cols="3" rowHeight="1:1" class="full-w">
-                <mat-grid-tile *ngFor="let card of majorArcanaCards">
-                    <a href="#" class="flex flex-col justify-center items-center">
+                <mat-grid-tile *ngFor="let card of majorArcanaCards" (click)="onCardClick(card)">
+                    <a [routerLink]="['/cardinfo', card.id]" class="flex flex-col justify-center items-center">
                         <img class="max-w-[40%] full-w rounded" [src]="card.image" loading="lazy" alt="card image">
                         <h3 class="text-2xl text-white">{{card.name}}</h3>
                     </a>
@@ -24,8 +24,8 @@
         <div>
             <h2 class="main_font !text-6xl lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-2xl min-[320px]:py-6 flex justify-center">Pentacles</h2>
             <mat-grid-list cols="3" rowHeight="1:1" class="full-w">
-                <mat-grid-tile *ngFor="let card of pentaclesCards">
-                    <a href="#" class="flex flex-col justify-center items-center">
+                <mat-grid-tile *ngFor="let card of pentaclesCards" (click)="onCardClick(card)">
+                    <a [routerLink]="['/cardinfo', card.id]" class="flex flex-col justify-center items-center">
                         <img class="max-w-[40%] full-w rounded" [src]="card.image" loading="lazy" alt="card image">
                         <h3 class="text-2xl text-white">{{card.name}}</h3>
                     </a>
@@ -35,8 +35,8 @@
         <div>
             <h2 class="main_font !text-6xl lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-2xl min-[320px]:py-6 flex justify-center">Cups</h2>
             <mat-grid-list cols="3" rowHeight="1:1" class="full-w">
-                <mat-grid-tile *ngFor="let card of cupsCards">
-                    <a href="#" class="flex flex-col justify-center items-center">
+                <mat-grid-tile *ngFor="let card of cupsCards" (click)="onCardClick(card)">
+                    <a [routerLink]="['/cardinfo', card.id]" class="flex flex-col justify-center items-center">
                         <img class="max-w-[40%] full-w rounded" [src]="card.image" loading="lazy" alt="card image">
                         <h3 class="text-2xl text-white">{{card.name}}</h3>
                     </a>
@@ -46,8 +46,8 @@
         <div>
             <h2 class="main_font !text-6xl lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-2xl min-[320px]:py-6 flex justify-center">Swords</h2>
             <mat-grid-list cols="3" rowHeight="1:1" class="full-w">
-                <mat-grid-tile *ngFor="let card of swordsCards">
-                    <a href="#" class="flex flex-col justify-center items-center">
+                <mat-grid-tile *ngFor="let card of swordsCards" (click)="onCardClick(card)">
+                    <a [routerLink]="['/cardinfo', card.id]" class="flex flex-col justify-center items-center">
                         <img class="max-w-[40%] full-w rounded" [src]="card.image" loading="lazy" alt="card image">
                         <h3 class="text-2xl text-white">{{card.name}}</h3>
                     </a>
@@ -57,8 +57,8 @@
         <div>
             <h2 class="main_font !text-6xl lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-2xl min-[320px]:py-6 flex justify-center">Wands</h2>
             <mat-grid-list cols="3" rowHeight="1:1" class="full-w">
-                <mat-grid-tile *ngFor="let card of wandsCards">
-                    <a href="#" class="flex flex-col justify-center items-center">
+                <mat-grid-tile *ngFor="let card of wandsCards" (click)="onCardClick(card)">
+                    <a [routerLink]="['/cardinfo', card.id]" class="flex flex-col justify-center items-center">
                         <img class="max-w-[40%] full-w rounded" [src]="card.image" loading="lazy" alt="card image">
                         <h3 class="text-2xl text-white">{{card.name}}</h3>
                     </a>

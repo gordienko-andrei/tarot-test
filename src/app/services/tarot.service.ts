@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { catchError, tap } from 'rxjs/operators'
+import { catchError, map, tap } from 'rxjs/operators'
 import { Card } from '../interfaces/card.interface';
 
 @Injectable({
@@ -25,6 +25,13 @@ export class TarotService {
   public getCardsByCategory(category: string){
     return this.cards.filter( card => card.category === category);
   };
+
+  public getCardById(id: string): Observable<Card | null | undefined> {
+    return this.getCards().pipe(
+      map(data => data.cards.find(card => card.id === id))
+    );
+  }
+  
  
   
   // getAllCards(): Observable<any> {
@@ -36,3 +43,4 @@ export class TarotService {
     
   // }
 }
+

@@ -6,6 +6,7 @@ import { TarotService } from '../../services/tarot.service';
 import { FormsModule } from '@angular/forms';
 import { Card } from '../../interfaces/card.interface';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { RouterModule } from '@angular/router';
 
 
 @Component({
@@ -16,7 +17,8 @@ import { MatGridListModule } from '@angular/material/grid-list';
     HttpClientModule,
     FormsModule,
     NgIf, NgFor,
-    MatGridListModule
+    MatGridListModule,
+    RouterModule,
   ],
   providers: [
     TarotService,
@@ -35,8 +37,13 @@ export class LibraryComponent implements OnInit {
   cupsCards: Card[] = [];
   swordsCards: Card[] = [];
   wandsCards: Card[] = [];
+  selectedCard: Card | null = null;
 
   constructor(private http: HttpClient, private TarotService: TarotService){};
+
+  onCardClick(card: Card): void {
+    this.selectedCard = card;
+  }
 
   ngOnInit(): void {
     this.TarotService.getCards().subscribe( data => {
@@ -48,6 +55,7 @@ export class LibraryComponent implements OnInit {
       this.swordsCards = this.TarotService.getCardsByCategory("swords");
       this.wandsCards = this.TarotService.getCardsByCategory("wands");
     });
+
   }
 
 }

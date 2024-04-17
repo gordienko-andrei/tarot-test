@@ -7,6 +7,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { OwncardsComponent } from './pages/my-own-cards/owncards/owncards.component';
 import { LibraryComponent } from './pages/library/library.component';
 import { HttpClientModule } from '@angular/common/http';
+import { CardinfoComponent } from './pages/cardinfo/cardinfo.component';
 
 
 
@@ -22,6 +23,7 @@ import { HttpClientModule } from '@angular/common/http';
     OwncardsComponent,
     LibraryComponent,
     HttpClientModule,
+    CardinfoComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
