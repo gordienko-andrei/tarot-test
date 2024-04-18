@@ -1,0 +1,86 @@
+
+<div class="owncards-wrapper full-w bg-[#191919] flex items-center justify-center">
+    <div class="container">
+        <button class="back-btn text-white main_font py-4 min-[320px]:py-2" routerLink="/home" >
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-10 md:h-10" viewBox="0 0 24 24" fill="#FFDFAC">
+                <path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8.009 8.009 0 0 1-8 8z"/>
+                <path d="M13.293 7.293 8.586 12l4.707 4.707 1.414-1.414L11.414 12l3.293-3.293-1.414-1.414z"/>
+            </svg>                                    
+        </button>
+        <div class="main_font flex items-center justify-betweeen text-8xl pb-4 min-[320px]:flex-col sm:flex-row lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-2xl" >
+            <div class="flex flex-1 items-center justify-center">
+                <img class="min-w-[320px]:max-w-full lg:max-w-[70%] lg:h-[40%] rounded-2xl pb-4" src="assets/lovers.jpg" alt="lovers_img">
+            </div>
+            <div class="flex flex-1 items-start justify-center flex-col pl-[5%]">
+                <span>Learn and explore</span>
+                <span>cards meanings!</span>
+            </div>
+        </div>
+        <div>
+            <p class="main_font lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-lg min-[320px]:py-6 flex justify-center">Major Arcana cards</p>
+            <mat-grid-list [cols]="getColsCount()" rowHeight="1:1" class="full-w">
+                <mat-grid-tile *ngFor="let card of majorArcanaCards" (click)="onCardClick(card)">
+                    <a [routerLink]="['/cardinfo', card.id]" class="flex flex-col justify-center items-center">
+                        <img class="max-w-[40%] full-w rounded" [src]="card.image" loading="lazy" alt="card image">
+                        <h3 class="text-2xl text-white">{{card.name}}</h3>
+                    </a>
+                </mat-grid-tile>
+            </mat-grid-list>
+        </div>
+        <div>
+            <p class="main_font lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-lg min-[320px]:py-6 flex justify-center">Pentacles</p>
+            <mat-grid-list [cols]="getColsCount()" rowHeight="1:1" class="full-w">
+                <mat-grid-tile *ngFor="let card of pentaclesCards" (click)="onCardClick(card)">
+                    <a [routerLink]="['/cardinfo', card.id]" class="flex flex-col justify-center items-center">
+                        <img class="max-w-[40%] full-w rounded" [src]="card.image" loading="lazy" alt="card image">
+                        <h3 class="text-2xl text-white">{{card.name}}</h3>
+                    </a>
+                </mat-grid-tile>
+            </mat-grid-list>
+        </div>
+        <div>
+            <p class="main_font text-6xl lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-lg min-[320px]:py-6 flex justify-center">Cups</p>
+            <mat-grid-list [cols]="getColsCount()" rowHeight="1:1" class="full-w">
+                <mat-grid-tile *ngFor="let card of cupsCards" (click)="onCardClick(card)">
+                    <a [routerLink]="['/cardinfo', card.id]" class="flex flex-col justify-center items-center">
+                        <img class="max-w-[40%] full-w rounded" [src]="card.image" loading="lazy" alt="card image">
+                        <h3 class="text-2xl text-white">{{card.name}}</h3>
+                    </a>
+                </mat-grid-tile>
+            </mat-grid-list>
+        </div>
+        <div>
+            <p class="main_font text-6xl lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-lg min-[320px]:py-6 flex justify-center">Swords</p>
+            <mat-grid-list [cols]="getColsCount()" rowHeight="1:1" class="full-w">
+                <mat-grid-tile *ngFor="let card of swordsCards" (click)="onCardClick(card)">
+                    <a [routerLink]="['/cardinfo', card.id]" class="flex flex-col justify-center items-center">
+                        <img class="max-w-[40%] full-w rounded" [src]="card.image" loading="lazy" alt="card image">
+                        <h3 class="text-2xl text-white">{{card.name}}</h3>
+                    </a>
+                </mat-grid-tile>
+            </mat-grid-list>
+        </div>
+        <div>
+            <p class="main_font text-6xl lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-lg min-[320px]:py-6 flex justify-center">Wands</p>
+            <mat-grid-list [cols]="getColsCount()" rowHeight="1:1" class="full-w">
+                <mat-grid-tile *ngFor="let card of wandsCards" (click)="onCardClick(card)">
+                    <a [routerLink]="['/cardinfo', card.id]" class="flex flex-col justify-center items-center">
+                        <img class="max-w-[40%] full-w rounded" [src]="card.image" loading="lazy" alt="card image">
+                        <h3 class="text-2xl text-white">{{card.name}}</h3>
+                    </a>
+                </mat-grid-tile>
+            </mat-grid-list>
+        </div>
+        
+       
+            <!-- Card name: <input type="text" [(ngModel)]="name">
+            <button (click)="search()">Search</button>
+            <div *ngIf="response && response.cards && response.cards.length > 0">
+                <p class="text-white text-2xl">{{response.cards[0].meaning_up}}</p>  
+            </div> -->
+            <!-- <ul>
+                <li *ngFor="let card of cards" ></li>
+            </ul> -->
+        
+    </div>
+</div>
