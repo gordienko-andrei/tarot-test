@@ -7,7 +7,7 @@ import { CardinfoComponent } from './pages/cardinfo/cardinfo.component';
 
 export const routes: Routes = [
     { 
-        path: ' ', 
+        path: 'https://gordienko-andrei.github.io/tarot-test/tarot-project-new/', 
         redirectTo: '/home', 
         pathMatch: 'full' 
     },
