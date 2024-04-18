@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewChecked, Component, OnInit } from '@angular/core';
 import { NgIf, NgFor } from '@angular/common';
 import { ScrollAnimationDirective } from '../../directives/appScrollAnimation'; 
 import { HttpClient, HttpClientModule } from '@angular/common/http';
@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { Card } from '../../interfaces/card.interface';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { RouterModule } from '@angular/router';
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 
 
 @Component({
@@ -19,16 +20,19 @@ import { RouterModule } from '@angular/router';
     NgIf, NgFor,
     MatGridListModule,
     RouterModule,
+
   ],
   providers: [
     TarotService,
     HttpClient,
     FormsModule,
+    BreakpointObserver,
+    
   ],
   templateUrl: './library.component.html',
   styleUrl: './library.component.scss'
 })
-export class LibraryComponent implements OnInit {
+export class LibraryComponent implements OnInit, AfterViewChecked {
   // name: string = "";
   // response: any = "";
   cards: Card[] = [];
@@ -38,14 +42,28 @@ export class LibraryComponent implements OnInit {
   swordsCards: Card[] = [];
   wandsCards: Card[] = [];
   selectedCard: Card | null = null;
+  isScrolled: boolean = false;
+  isSmallScreen: boolean = false;
 
-  constructor(private http: HttpClient, private TarotService: TarotService){};
+  constructor(private http: HttpClient, private TarotService: TarotService, private breakpointObserver: BreakpointObserver){};
 
   onCardClick(card: Card): void {
     this.selectedCard = card;
+  };
+
+  getColsCount(): number {
+    return this.isSmallScreen ? 2 : 3;
   }
 
+
   ngOnInit(): void {
+    this.breakpointObserver.observe([
+      Breakpoints.XSmall,
+      Breakpoints.Small
+    ]).subscribe(result => {
+      this.isSmallScreen = result.matches;
+    });
+
     this.TarotService.getCards().subscribe( data => {
       this.cards = data.cards;
 
@@ -58,6 +76,14 @@ export class LibraryComponent implements OnInit {
 
   }
 
+  ngAfterViewChecked(): void {
+    if (!this.isScrolled) {
+      window.scrollTo(0, 0); 
+      this.isScrolled = true;
+    }
+  }
+
+  
 }
 
   // search() {

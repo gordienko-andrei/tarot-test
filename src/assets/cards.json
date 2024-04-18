@@ -7,9 +7,9 @@
             "image": "assets/tarotcards-img/thefool.webp",
             "meanings": {
                 "upright": {
-                    "general": "The Fool is a card of opportunity, potential, and new experiences. It encourages you to have an open, curious mind and a sense of excitement. Throw caution to the wind and be ready to embrace the unknown, leaving behind any fear, worry, or anxiety about what may or may not happen. This is about personal growth, development, and adventure. The time is NOW! Take that leap of faith, even if you do not feel 100% ready or equipped for what is coming. Seriously, what are you waiting for? Do you think you need to have everything mapped out before you can begin? No way! Not with The Fool. He ventures out on his journey with just his essential belongings – and now he invites you to do the same. You don’t need to wait for someone to give you the green light or hold off until you have all the skills, tools, and resources you think you might need. Trust the process, embrace the unknown, and let your inner Fool guide you toward new adventures! 🌟",
-                    "love": "Free-spirited love, non-conformity, surprises in relationships", 
-                    "work": "New beginnings, innovative ideas, passion projects",
+                    "general": "The Fool is a card of opportunity, potential, and new experiences. It encourages you to have an open, curious mind and a sense of excitement. Throw caution to the wind and be ready to embrace the unknown, leaving behind any fear, worry, or anxiety about what may or may not happen. This is about personal growth, development, and adventure. The time is NOW! Take that leap of faith, even if you do not feel 100% ready or equipped for what is coming. Seriously, what are you waiting for? Do you think you need to have everything mapped out before you can begin? No way! Not with The Fool. He ventures out on his journey with just his essential belongings – and now he invites you to do the same. You don’t need to wait for someone to give you the green light or hold off until you have all the skills, tools, and resources you think you might need. Trust the process, embrace the unknown, and let your inner Fool guide you toward new adventures!",
+                    "love": "The Fool card in the realm of love suggests a journey into the unknown, an adventure that begins with a sense of innocence and spontaneity. It signifies taking risks and embracing the excitement of new experiences without fear or inhibition. In relationships, The Fool represents a fresh start, a chance to explore connections with a carefree and open-hearted approach. It encourages individuals to trust their instincts and follow their hearts, even if it means deviating from conventional paths. This card may indicate a need for liberation from past emotional baggage and a willingness to embrace vulnerability in matters of the heart. It advises being present in the moment and enjoying the journey rather than focusing solely on the destination. The Fool encourages individuals to maintain a sense of optimism and curiosity in their romantic endeavors, as each encounter has the potential to lead to valuable lessons and personal growth.", 
+                    "work": "The Fool card in a upright position in terms of work signifies embarking on a new career path or creative endeavor with a sense of enthusiasm and fearlessness. It suggests taking a leap of faith and embracing opportunities for growth and exploration in one's professional life. The Fool encourages individuals to trust their instincts and pursue their passions with a fresh perspective, unencumbered by preconceived limitations or expectations. It may indicate a time for innovation and taking unconventional approaches to problem-solving, as well as a willingness to embrace uncertainty and adaptability in the face of change. This card reminds individuals to stay open to new possibilities and to approach their work with a spirit of adventure and spontaneity, as each step taken on this journey has the potential to lead to exciting discoveries and unexpected success.",
                     "friendship": "New friends, adventures, social spontaneity",
                     "personal_state": "Feeling adventurous, ready for new experiences", 
                     "deeper_meaning": "Embracing the unknown, trusting the journey",
@@ -39,7 +39,7 @@
             "image": "assets/tarotcards-img/themagician.webp",
             "meanings": {
                 "upright": {
-                    "general": "TThe Magician represents the power of will, focused action, and manifestation. It suggests that you have the skills, resources, and knowledge to turn your ideas into reality. This card is a reminder that you are the co-creator of your own destiny.",
+                    "general": "The Magician represents the power of will, focused action, and manifestation. It suggests that you have the skills, resources, and knowledge to turn your ideas into reality. This card is a reminder that you are the co-creator of your own destiny.",
                     "love": "The Magician indicates a time for initiative in your relationships. It could signify the start of a new romance or a transformation within an existing one. Be clear about your desires and take action to create the love life you want.", 
                     "work": "This card is a call to take ownership of your career path. It's a good time to develop your skills, network strategically, and go after opportunities. The Magician signifies the potential for success through dedication and focused effort.",
                     "friendship": "The Magician encourages you to cultivate your friendships. Invest time and energy into the connections that are important to you. This card can also represent using your skills and resources to help others.",
@@ -258,6 +258,7 @@
         }, 
         {
             "name": "The Lovers",
+            "id": "TheLovers",
             "category": "major",
             "image": "assets/tarotcards-img/thelovers.webp",
             "meanings": {
@@ -289,6 +290,7 @@
         },
         {
             "name": "The Chariot",
+            "id": "TheChariot",
             "category": "major",
             "image": "assets/tarotcards-img/thechariot.webp",
             "meanings": {
@@ -320,6 +322,7 @@
         },
         {
             "name": "Strength",
+            "id": "Strength",
             "category": "major",
             "image": "assets/tarotcards-img/strength.webp",
             "meanings": {
@@ -351,6 +354,7 @@
         },
         {
             "name": "The Hermit",
+            "id": "TheHermit",
             "category": "major",
             "image": "assets/tarotcards-img/thehermit.webp",
             "meanings": {
@@ -382,6 +386,7 @@
         },
         {
             "name": "Wheel of Fortune",
+            "id": "Wheeloffortune",
             "category": "major",
             "image": "assets/tarotcards-img/wheeloffortune.webp",
             "meanings": {
@@ -413,6 +418,7 @@
         },
         {
             "name": "Justice",
+            "id": "Justice",
             "category": "major",
             "image": "assets/tarotcards-img/justice.webp",
             "meanings": {
@@ -444,6 +450,7 @@
         },                             
         {
             "name": "The Hanged Man",
+            "id": "Thehangedman",
             "category": "major",
             "image": "assets/tarotcards-img/thehangedman.webp",
             "meanings": {
@@ -483,6 +490,7 @@
         },
         {
             "name": "Temperance",
+            "id": "Temperance",
             "category": "major",
             "image": "assets/tarotcards-img/thetemperance.webp",
             "meanings": {
@@ -522,6 +530,7 @@
         },
         {
             "name": "The Devil",
+            "id": "Thedevil",
             "category": "major",
             "image": "assets/tarotcards-img/thedevil.webp",
             "meanings": {
@@ -561,6 +570,7 @@
         },
         {
             "name": "The Star",
+            "id": "thestar",
             "category": "major",
             "image": "assets/tarotcards-img/thestar.webp",
             "meanings": {
@@ -601,6 +611,7 @@
         
         {
             "name": "The Moon",
+            "id": "themoon",
             "category": "major",
             "image": "assets/tarotcards-img/themoon.webp",
             "meanings": {
@@ -640,6 +651,7 @@
         },
         {
             "name": "The Tower",
+            "id": "thetower",
             "category": "major",
             "image": "assets/tarotcards-img/thetower.webp",
             "meanings": {
@@ -678,6 +690,7 @@
         },
         {
             "name": "Judgement",
+            "id": "judgement",
             "category": "major",
             "image": "assets/tarotcards-img/thejudgement.webp",
             "meanings": {
@@ -717,6 +730,7 @@
         },       
         {
             "name": "The World",
+            "id": "theworld",
             "category": "major",
             "image": "assets/tarotcards-img/theworld.webp",
             "meanings": {
@@ -756,6 +770,7 @@
         },
         {
             "name": "Ace of Pentacles",
+            "id": "aceofpentacles",
             "category": "pentacles",
             "image": "assets/tarotcards-img/aceofpentacles.webp",
             "meanings": {
@@ -795,6 +810,7 @@
         },
         {
             "name": "2 of Pentacles",
+            "id": "twoofpentacles",
             "category": "pentacles",
             "image": "assets/tarotcards-img/twoofpentacles.webp",
             "meanings": {
@@ -835,6 +851,7 @@
         
         {
             "name": "3 of Pentacles",
+            "id": "threeofpentacles",
             "category": "pentacles",
             "image": "assets/tarotcards-img/threeofpentacles.webp",
             "meanings": {
@@ -875,6 +892,7 @@
          
         {
             "name": "4 of Pentacles",
+            "id": "fourofpentacles",
             "category": "pentacles",
             "image": "assets/tarotcards-img/fourofpentacles.webp",
             "meanings": {
@@ -915,6 +933,7 @@
          
         {
             "name": "5 of Pentacles",
+            "id": "fiveofpentacles",
             "category": "pentacles",
             "image": "assets/tarotcards-img/fiveofpentacles.webp",
             "meanings": {
@@ -955,6 +974,7 @@
           
         {
             "name": "6 of Pentacles",
+            "id": "sixofpentacles",
             "category": "pentacles",
             "image": "assets/tarotcards-img/sixofpentacles.webp",
             "meanings": {
@@ -995,6 +1015,7 @@
 
         {
             "name": "7 of Pentacles",
+            "id": "sevenofpentacles",
             "category": "pentacles",
             "image": "assets/tarotcards-img/sevenofpentacles.webp",
             "meanings": {
@@ -1035,6 +1056,7 @@
           
         {
             "name": "8 of Pentacles",
+            "id": "eightofpentacles",
             "category": "pentacles",
             "image": "assets/tarotcards-img/eightofpentacles.webp",
             "meanings": {
@@ -1075,6 +1097,7 @@
          
         {
             "name": "9 of Pentacles",
+            "id": "nineofpentacles",
             "category": "pentacles",
             "image": "assets/tarotcards-img/nineofpentacles.webp",
             "meanings": {
@@ -1115,6 +1138,7 @@
 
         {
             "name": "10 of Pentacles",
+            "id": "tenofpentacles",
             "category": "pentacles",
             "image": "assets/tarotcards-img/tenofpentacles.webp",
             "meanings": {
@@ -1155,6 +1179,7 @@
           
         {
             "name": "Page of Pentacles",
+            "id": "pageofpentacles",
             "category": "pentacles",
             "image": "assets/tarotcards-img/pageofpentacles.webp",
             "meanings": {
@@ -1195,6 +1220,7 @@
         
         {
             "name": "Queen of Pentacles",
+            "id": "queenofpentacles",
             "category": "pentacles",
             "image": "assets/tarotcards-img/queenofpentacles.webp",
             "meanings": {
@@ -1235,6 +1261,7 @@
 
         {
             "name": "King of Pentacles",
+            "id": "kingofpentacles",
             "category": "pentacles",
             "image": "assets/tarotcards-img/kingofpentacles.webp",
             "meanings": {
@@ -1275,6 +1302,7 @@
           
         {
             "name": "Ace of Cups",
+            "id": "aceofcups",
             "category": "cups",
             "image": "assets/tarotcards-img/aceofcups.webp",
             "meanings": {
@@ -1315,6 +1343,7 @@
         
         {
             "name": "2 of Cups",
+            "id": "twoofcups",
             "category": "cups",
             "image": "assets/tarotcards-img/twoofcups.webp",
             "meanings": {
@@ -1355,6 +1384,7 @@
 
         {
             "name": "3 of Cups",
+            "id": "threeofcups",
             "category": "cups",
             "image": "assets/tarotcards-img/threeofcups.webp",
             "meanings": {
@@ -1395,6 +1425,7 @@
           
         {
             "name": "4 of Cups",
+            "id": "fourofcups",
             "category": "cups",
             "image": "assets/tarotcards-img/fourofcups.webp",
             "meanings": {
@@ -1435,6 +1466,7 @@
           
         {
             "name": "5 of Cups",
+            "id": "fiveofcups",
             "category": "cups",
             "image": "assets/tarotcards-img/fiveofcups.webp",
             "meanings": {
@@ -1475,6 +1507,7 @@
           
         {
             "name": "6 of Cups",
+            "id": "sixofcups",
             "category": "cups",
             "image": "assets/tarotcards-img/sixofcups.webp",
             "meanings": {
@@ -1515,6 +1548,7 @@
 
         {
         "name": "7 of Cups",
+        "id": "sevenofcups",
         "category": "cups",
         "image": "assets/tarotcards-img/sevenofcups.webp",
         "meanings": {
@@ -1555,6 +1589,7 @@
 
         {
             "name": "8 of Cups",
+            "id": "eightofcups",
             "category": "cups",
             "image": "assets/tarotcards-img/eightofcups.webp",
             "meanings": {
@@ -1595,6 +1630,7 @@
           
         {
             "name": "9 of Cups",
+            "id": "nineofcups",
             "category": "cups",
             "image": "assets/tarotcards-img/nineofcups.webp",
             "meanings": {
@@ -1635,6 +1671,7 @@
         
         {
             "name": "10 of Cups",
+            "id": "tenofcups",
             "category": "cups",
             "image": "assets/tarotcards-img/tenofcups.webp",
             "meanings": {
@@ -1675,6 +1712,7 @@
         
         {
             "name": "Page of Cups",
+            "id": "pageofcups",
             "category": "cups",
             "image": "assets/tarotcards-img/pageofcups.webp",
             "meanings": {
@@ -1715,6 +1753,7 @@
 
         {
             "name": "Queen of Cups",
+            "id": "queenofcups",
             "category": "cups",
             "image": "assets/tarotcards-img/queenofcups.webp",
             "meanings": {
@@ -1755,6 +1794,7 @@
 
         {
             "name": "King of Cups",
+            "id": "kingofcups",
             "category": "cups",
             "image": "assets/tarotcards-img/kingofcups.webp",
             "meanings": {
@@ -1795,6 +1835,7 @@
 
         {
             "name": "Ace of Swords",
+            "id": "aceofswords",
             "category": "swords",
             "image": "assets/tarotcards-img/aceofswords.webp",
             "meanings": {
@@ -1835,6 +1876,7 @@
 
         {
             "name": "2 of Swords",
+            "id": "twoofswords",
             "category": "swords",
             "image": "assets/tarotcards-img/twoofswords.png",
             "meanings": {
@@ -1875,6 +1917,7 @@
 
         {
             "name": "3 of Swords",
+            "id": "threeofswords",
             "category": "swords",
             "image": "assets/tarotcards-img/threeofswords.webp",
             "meanings": {
@@ -1915,6 +1958,7 @@
 
         {
             "name": "4 of Swords",
+            "id": "fourofswords",
             "category": "swords",
             "image": "assets/tarotcards-img/fourofswords.webp",
             "meanings": {
@@ -1955,6 +1999,7 @@
 
         {
             "name": "5 of Swords",
+            "id": "fiveofswords",
             "category": "swords",
             "image": "assets/tarotcards-img/fiveofswords.webp",
             "meanings": {
@@ -1995,6 +2040,7 @@
 
         {
             "name": "6 of Swords",
+            "id": "sixofswords",
             "category": "swords",
             "image": "assets/tarotcards-img/sixofswords.webp",
             "meanings": {
@@ -2035,6 +2081,7 @@
 
         {
             "name": "7 of Swords",
+            "id": "sevenofswords",
             "category": "swords",
             "image": "assets/tarotcards-img/sevenofswords.webp",
             "meanings": {
@@ -2075,6 +2122,7 @@
 
         {
             "name": "8 of Swords",
+            "id": "eightofswords",
             "category": "swords",
             "image": "assets/tarotcards-img/eightofswords.webp",
             "meanings": {
@@ -2115,6 +2163,7 @@
 
         {
             "name": "9 of Swords",
+            "id": "nineofswords",
             "category": "swords",
             "image": "assets/tarotcards-img/nineofswords.webp",
             "meanings": {
@@ -2154,6 +2203,7 @@
         },
         {
             "name": "10 of Swords",
+            "id": "tenofswords",
             "category": "swords",
             "image": "assets/tarotcards-img/tenofswords.png",
             "meanings": {
@@ -2194,6 +2244,7 @@
 
         {
             "name": "Page of Swords",
+            "id": "pageofswords",
             "category": "swords",
             "image": "assets/tarotcards-img/pageofswords.webp",
             "meanings": {
@@ -2234,6 +2285,7 @@
 
         {
             "name": "Queen of Swords",
+            "id": "queenofswords",
             "category": "swords",
             "image": "assets/tarotcards-img/queenofswords.webp",
             "meanings": {
@@ -2274,6 +2326,7 @@
 
         {
             "name": "King of Swords",
+            "id": "kingofswords",
             "category": "swords",
             "image": "assets/tarotcards-img/kingofswords.webp",
             "meanings": {
@@ -2314,6 +2367,7 @@
 
         {
             "name": "Ace of Wands",
+            "id": "aceofwands",
             "category": "wands",
             "image": "assets/tarotcards-img/aceofwands.webp",
             "meanings": {
@@ -2354,6 +2408,7 @@
 
         {
             "name": "2 of Wands",
+            "id": "twoofwands",
             "category": "wands",
             "image": "assets/tarotcards-img/twoofwands.webp",
             "meanings": {
@@ -2394,6 +2449,7 @@
 
         {
             "name": "3 of Wands",
+            "id": "threeofwands",
             "category": "wands",
             "image": "assets/tarotcards-img/threeofwands.webp",
             "meanings": {
@@ -2434,6 +2490,7 @@
 
         {
             "name": "4 of Wands",
+            "id": "fourofwands",
             "category": "wands",
             "image": "assets/tarotcards-img/fourofwands.webp",
             "meanings": {
@@ -2474,6 +2531,7 @@
 
         {
             "name": "5 of Wands",
+            "id": "fiveofwands",
             "category": "wands",
             "image": "assets/tarotcards-img/fiveofwands.webp",
             "meanings": {
@@ -2514,6 +2572,7 @@
 
         {
             "name": "6 of Wands",
+            "id": "sixofwands",
             "category": "wands",
             "image": "assets/tarotcards-img/sixofwands.webp",
             "meanings": {
@@ -2554,6 +2613,7 @@
 
         {
             "name": "7 of Wands",
+            "id": "sevenofwands",
             "category": "wands",
             "image": "assets/tarotcards-img/sevenofwands.webp",
             "meanings": {
@@ -2594,6 +2654,7 @@
 
         {
             "name": "8 of Wands",
+            "id": "eightofwands",
             "category": "wands",
             "image": "assets/tarotcards-img/eightofwands.webp",
             "meanings": {
@@ -2634,6 +2695,7 @@
 
         {
             "name": "9 of Wands",
+            "id": "nineofwands",
             "category": "wands",
             "image": "assets/tarotcards-img/nineofwands.webp",
             "meanings": {
@@ -2674,6 +2736,7 @@
 
         {
             "name": "10 of Wands",
+            "id": "tenofwands",
             "category": "wands",
             "image": "assets/tarotcards-img/tenofwands.webp",
             "meanings": {
@@ -2714,6 +2777,7 @@
 
         {
             "name": "Page of Wands",
+            "id": "pageofwands",
             "category": "wands",
             "image": "assets/tarotcards-img/pageofwands.webp",
             "meanings": {
@@ -2754,6 +2818,7 @@
 
         {
             "name": "Queen of Wands",
+            "id": "queenofwands",
             "category": "wands",
             "image": "assets/tarotcards-img/queenofwands.webp",
             "meanings": {
@@ -2794,6 +2859,7 @@
 
         {
             "name": "King of Wands",
+            "id": "kingofwands",
             "category": "wands",
             "image": "assets/tarotcards-img/kingofwands.webp",
             "meanings": {
@@ -2830,7 +2896,7 @@
                 }
               }
             }
-        },
+        }
           
           
           
@@ -2865,38 +2931,7 @@
           
         
           
-        {
-            "name": "Death",
-            "category": "major",
-            "image": "assets/tarotcards-img/death.webp",
-            "meanings": {
-                "upright": {
-                    "general": "",
-                    "love": "", 
-                    "work": "",
-                    "friendship": "",
-                    "personal_state": "", 
-                    "deeper_meaning": "",
-                    "finance_home": "",
-                    "personal_relationships": "",
-                    "health": "", 
-                    "combinations": ""
-                },
-                "reversed": {
-                    "general": "", 
-                    "love": "",
-                    "work": "", 
-                    "friendship": "", 
-                    "personal_state": "", 
-                    "deeper_meaning": "", 
-                    "finance_home": "", 
-                    "personal_relationships": "", 
-                    "health": "", 
-                    "combinations": "" 
-                }
-            }
-        }
-
+        
     ]
 }
 
