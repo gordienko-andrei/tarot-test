@@ -7,8 +7,7 @@ import { CardinfoComponent } from './pages/cardinfo/cardinfo.component';
 
 export const routes: Routes = [
     { 
-        path: '', 
-        component: WelcomeComponent,
+        path: ' ', 
         redirectTo: '/home', 
         pathMatch: 'full' 
     },
@@ -20,10 +19,6 @@ export const routes: Routes = [
         path: 'spread', 
         component: OwncardsComponent,
          
-    },
-    { 
-        path: 'spread', 
-        component: OwncardsComponent,  
     },
     {
         path: 'library', 
@@ -37,10 +32,3 @@ export const routes: Routes = [
     
 ];
 
-@NgModule({
-    imports: 
-    [ RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled' })],
-    exports: [RouterModule]
-})
-
-export class AppRoutingModule {}
