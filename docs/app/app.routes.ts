@@ -8,6 +8,7 @@ import { CardinfoComponent } from './pages/cardinfo/cardinfo.component';
 export const routes: Routes = [
     { 
         path: '', 
+        component: WelcomeComponent,
         redirectTo: '/home', 
         pathMatch: 'full' 
     },
