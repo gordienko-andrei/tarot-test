@@ -1,0 +1,73 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  width: 90%;
+  max-width: 1300px;
+  display: block;
+  margin: 0 auto;
+  
+
+}
+
+
+.main_font {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #FFDFAC;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+}
+  
+.fadeIn {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.headerh2 {
+  font-size: 5rem; 
+}
+
+
+
+@media (min-width: 1024px) {
+  .mat-h2, .mat-headline-6, .mat-typography .mat-h2, .mat-typography .mat-headline-6, .mat-typography h2 {
+    font-size: 5rem; 
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .mat-h2, .mat-headline-6, .mat-typography .mat-h2, .mat-typography .mat-headline-6, .mat-typography h2 {
+    font-size: 3.125rem; 
+  }
+}
+
+
+@media (min-width: 640px) and (max-width: 767px) {
+  .mat-h2, .mat-headline-6, .mat-typography .mat-h2, .mat-typography .mat-headline-6, .mat-typography h2 {
+    font-size: 3.125rem;
+  }
+}
+
+
+@media (max-width: 639px) {
+  .mat-h2, .mat-headline-6, .mat-typography .mat-h2, .mat-typography .mat-headline-6, .mat-typography h2 {
+    font-size: 1.125rem; 
+  }
+}
