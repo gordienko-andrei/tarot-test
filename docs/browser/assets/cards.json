@@ -4,6 +4,7 @@
             "name": "The Fool",
             "id": "TheFool",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/thefool.webp",
             "meanings": {
                 "daily": "Today, as you embody the spirit of The Fool, you embark on a journey of endless possibilities. The Fool is a symbol of new beginnings, a call to adventure, and the promise of a fresh start. Embrace the unknown with open arms and a light heart, for it is in the spaces of the uncharted that magic happens. <strong>Trust in the journey</strong> even if the destination is not yet clear, and know that each step is a part of the grand dance of life. <strong> Be open to spontaneity </strong> and allow curiosity to be your guide. The Fool encourages you to <strong> live in the moment </strong> and to approach life with a sense of wonder and excitement. <strong>Take risks</strong> and leap into new experiences with the faith that the universe will catch you. Today, let The Fool inspire you to believe in the power of potential and the beauty of beginnings. With every step, you are creating your path, one filled with joy and the freedom to be truly you.",
@@ -37,6 +38,7 @@
             "name": "The Magician",
             "id": "TheMagician",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/themagician.webp",
             "meanings": {
                 "daily": "Today, the essence of The Magician invigorates your spirit, igniting a spark of creativity and willpower within you. The Magician is a symbol of manifestation, a conduit of the universe's infinite energy, and a reminder of your own inner potential. Harness this vibrant energy with intention and focus, for you have the tools and resources at your disposal to turn visions into reality. <strong>Believe in your abilities</strong> and align your actions with your goals. The Magician encourages you to <strong>use your talents</strong> to craft the life you desire. <strong>Communicate your ideas</strong> with clarity and conviction, and watch as the seeds of your thoughts bloom into existence. <strong>Embrace your resourcefulness</strong> and let your intuition guide you through the alchemy of transformation. Today, let The Magician remind you that you are the architect of your destiny, empowered to shape your journey with each deliberate choice. With the magic of The Magician at your fingertips, you are ready to create wonders.",
@@ -70,6 +72,7 @@
             "name": "Death",
             "id": "Death",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/death.webp",
             "meanings": {
                 "daily": "Today, the transformative energy of The Death card sweeps through your life, signaling a time of significant change and renewal. The Death card is not a literal harbinger of physical demise, but rather a metaphor for the end of one phase and the rebirth into another. Embrace the cycle of endings and beginnings, for it is through this process that we evolve. <strong>Let go of the old</strong> to make room for the new. The Death card encourages you to <strong>release outdated beliefs</strong> and patterns that no longer serve you. <strong>Accept the transition</strong> with grace, understanding that transformation is a necessary part of growth. <strong>Prepare for rebirth</strong>, as you stand at the threshold of a fresh chapter in your life. Today, let The Death card remind you that every ending is an opportunity for a new dawn, and with each conclusion comes the promise of a new start. With courage and openness, you are ready to step into the next phase of your journey, transformed and renewed.",
@@ -103,6 +106,7 @@
             "name": "The Sun",
             "id": "TheSun",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/thesun.webp",
             "meanings": {
               "daily": "Today, the radiant energy of The Sun card bathes you in warmth and positivity, illuminating your path with clarity and joy. The Sun is a symbol of success, vitality, and enlightenment, shining a light on the abundance and achievements in your life. Bask in the glow of this auspicious energy, for it brings with it the promise of happiness and fulfillment. <strong>Embrace the warmth</strong> of the universe's benevolence. The Sun encourages you to <strong>celebrate your victories</strong> and to share your light with those around you. <strong>Be confident</strong> in your abilities and let your true self shine forth. <strong>Seek out joy</strong> and let it infuse every aspect of your existence. Today, let The Sun inspire you to pursue your passions with a full heart and to recognize the beauty in the simple pleasures of life. With the brilliance of The Sun guiding you, you are empowered to chase your dreams and to radiate positivity wherever you go.",
@@ -136,6 +140,7 @@
             "name": "The High Priestess",
             "id": "TheHighPriestess",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/thehighpriestess.webp",
             "meanings": {
                 "daily": "Today, the serene wisdom of The High Priestess envelops you, inviting you to explore the depths of your inner knowledge. The High Priestess is a symbol of intuition, mystery, and the subconscious mind, beckoning you to listen to the whispers of your inner voice. Trust in the silent guidance that comes from within, for it holds the keys to understanding. <strong>Embrace the quietude</strong> and allow yourself to connect with the unseen realms of your psyche. The High Priestess encourages you to <strong>seek knowledge</strong> not just externally, but also within the hidden corridors of your soul. <strong>Reflect on your dreams</strong> and the symbols that appear in your day-to-day life, as they may carry messages meant for you. <strong>Be receptive</strong> to the subtle energies around you and trust in the wisdom that they impart. Today, let The High Priestess inspire you to honor your intuition and to acknowledge the dualities that exist in life. With her gentle presence, you are guided to find balance and harmony in both the light and the shadows.",
@@ -169,6 +174,7 @@
             "name": "The Empress",
             "id": "TheEmpress",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/theempress.webp",
             "meanings": {
                 "daily": "Today, the nurturing embrace of The Empress surrounds you, encouraging a connection with the natural world and the creative forces within. The Empress is a symbol of fertility, abundance, and sensuality, inviting you to cultivate beauty and harmony in your life. Revel in the richness of your surroundings and the love that flows to and from you. <strong>Nurture your ideas</strong> and watch them grow into tangible expressions of your talent. The Empress urges you to <strong>embrace your femininity</strong>—regardless of gender—as a source of strength and inspiration. <strong>Indulge in self-care</strong> and allow yourself to be pampered, for you deserve to feel loved and valued. <strong>Connect with nature</strong> and find peace in its effortless beauty. Today, let The Empress remind you of the power of compassion and the importance of caring for yourself and others. With her guidance, you are empowered to create an environment of warmth and comfort, where all can thrive.",
@@ -202,6 +208,7 @@
             "name": "The Emperor",
             "id": "TheEmperor",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/theemperator.webp",
             "meanings": {
                 "daily": "Today, the authoritative energy of The Emperor stands with you, providing a foundation of stability and order. The Emperor is a symbol of structure, control, and leadership, calling you to assert your power and take charge of your life. Stand firm in your convictions and set clear boundaries. <strong>Embrace discipline</strong> and organization as you navigate through the day. The Emperor encourages you to <strong>lead with confidence</strong> and to be decisive in your actions. <strong>Plan strategically</strong> and execute your tasks with precision and authority. <strong>Uphold your responsibilities</strong> and be a pillar of strength for yourself and others. Today, let The Emperor inspire you to embody leadership qualities and to create order out of chaos. With his guidance, you are empowered to rule over your personal empire with wisdom and courage.",
@@ -235,12 +242,12 @@
             "name": "The Hierophant",
             "id": "TheHierophant",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/thehierophant.webp",
             "meanings": {
                 "daily": "Today, the guiding light of The Hierophant shines upon you, offering wisdom and a connection to tradition and shared values. The Hierophant is a symbol of spiritual authority, conformity, and education, encouraging you to seek knowledge and guidance from established structures. Honor the lessons of the past as they provide a foundation for the present. <strong>Embrace the teachings</strong> that resonate with your spirit. The Hierophant urges you to <strong>find comfort in community</strong> and to respect the collective wisdom that has stood the test of time. <strong>Adhere to principles</strong> that align with your moral compass and seek to understand the deeper meanings behind established customs. <strong>Share your insights</strong> and contribute to the continuity of knowledge. Today, let The Hierophant inspire you to bridge the old with the new, allowing the light of tradition to illuminate your path towards understanding and unity.",
                 "upright": {
-                    "general": "Tradition, spirituality, religious beliefs. The Hierophant represents tradition and spirituality. It signifies religious beliefs, moral values, and cultural customs.",
-                    "love": "Spiritual connection, traditional values, commitment. The Hierophant indicates a deep spiritual connection and shared values in relationships. It signifies commitment and loyalty to your partner.",
+                    "general": "The Hierophant is a symbol of traditional values and structures, often depicted as a religious figure or spiritual guide. This card represents conformity to social expectations and adherence to established societal norms. The Hierophant is typically shown seated between two pillars, symbolizing law and order, with followers or acolytes at his feet, indicating his role as a teacher and transmitter of knowledge. He holds a triple scepter, representing dominion over the three worlds of the material, the intellectual, and the spiritual. His raised right hand is a gesture of blessing, signifying that he is a conduit for divine wisdom. The crossed keys at his feet represent the keys to heaven and the unlocking of mysteries. The number 5 is associated with this card, reflecting challenge and the need for adaptation. The Hierophant invites us to explore our belief systems, seek spiritual counsel, and find comfort in the shared human experience. He encourages us to learn from the past and respect the wisdom of tradition, while also reminding us that personal convictions are just as important as collective ones. This card may suggest seeking mentorship or guidance, and it emphasizes the importance of moral integrity and ethical conduct.",                    "love": "Spiritual connection, traditional values, commitment. The Hierophant indicates a deep spiritual connection and shared values in relationships. It signifies commitment and loyalty to your partner.",
                     "work": "Mentorship, guidance, adherence to rules. The Hierophant signifies mentorship and guidance in your work or career. It's a good time to follow established rules and traditions.",
                     "friendship": "Shared beliefs, spiritual connections, guidance. The Hierophant indicates shared beliefs and spiritual connections with friends. It signifies guidance and support from your social circle.",
                     "personal_state": "Seeking meaning, spiritual guidance, moral values. The Hierophant signifies a time of seeking meaning and spiritual guidance. It's a good time to reflect on your moral values and beliefs.",
@@ -268,12 +275,12 @@
             "name": "The Lovers",
             "id": "TheLovers",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/thelovers.webp",
             "meanings": {
                 "daily": "Today, the harmonious energy of The Lovers graces your day, highlighting the beauty of intimate connections and meaningful choices. The Lovers symbolize relationships, unity, and moral decisions, inviting you to align your actions with your heart's true desires. Cherish the bonds that bring joy to your soul and consider the choices that lead to genuine fulfillment. <strong>Embrace love</strong> in all its forms, and let it guide your decisions. The Lovers encourage you to <strong>seek harmony</strong> in your personal interactions and to find balance between your own needs and those of others. <strong>Communicate openly</strong> with those you care about and foster understanding and mutual respect. <strong>Be true to yourself</strong> as you navigate the complexities of relationships and the choices they present. Today, let The Lovers inspire you to cultivate love, both within and around you, as you walk the path of life with compassion and authenticity.",
                 "upright": {
-                    "general": "Love, relationships, harmony. The Lovers represents a deep connection and harmony between two individuals. It signifies love, partnerships, and mutual respect.",
-                    "love": "Soulmate connection, deep love, union. The Lovers indicates a soulmate connection and deep love in relationships. It signifies a strong bond and commitment to each other.",
+                    "general": "The Lovers card is rich with symbolism, often representing a perfect union, harmony, and mutual attraction. This card typically depicts two figures, standing in a garden or a natural setting, suggesting the Garden of Eden and themes of innocence. Above them, an angel is usually shown blessing their union, which symbolizes the presence of higher powers in matters of love and relationships. The sun shines brightly, indicating warmth and positivity. The Lovers card is associated with the number 6, which stands for balance and choice. The imagery on the card can also represent a crossroads or a decision to be made, often pertaining to a romantic relationship or a deep personal belief. It invites us to align our values with our actions, to make choices that are true to ourselves, and to seek harmony in our relationships. The Lovers encourages us to combine forces and energies, to unite rather than divide, and to remember that love—in its many forms—is the driving force of the universe.",                    "love": "Soulmate connection, deep love, union. The Lovers indicates a soulmate connection and deep love in relationships. It signifies a strong bond and commitment to each other.",
                     "work": "Collaboration, partnerships, shared goals. The Lovers signifies collaboration and partnerships in your work or career. It's a good time to work together towards shared goals.",
                     "friendship": "Close friendships, mutual support, harmony. The Lovers indicates close friendships and mutual support. It signifies harmony and understanding between friends.",
                     "personal_state": "Alignment of values, inner harmony, choices. The Lovers signifies an alignment of values and inner harmony. It's a good time to make choices that resonate with your heart.",
@@ -301,12 +308,12 @@
             "name": "The Chariot",
             "id": "TheChariot",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/thechariot.webp",
             "meanings": {
                 "daily": "Today, the dynamic energy of The Chariot propels you forward, signifying a period of momentum and determination. The Chariot is a symbol of conquest, willpower, and direction, urging you to take the reins and steer your life towards your goals. Embrace the challenges that come your way as opportunities to demonstrate your resolve. <strong>Stay focused</strong> on your path and maintain discipline amidst the distractions. The Chariot encourages you to <strong>assert your will</strong> and to use your inner strength to overcome obstacles. <strong>Drive with purpose</strong> and let your ambition lead you to victory. <strong>Balance the opposing forces</strong> within you, harnessing them to move in unison towards your aspirations. Today, let The Chariot inspire you to channel your energy constructively and to navigate the journey of life with confidence and mastery.",
                 "upright": {
-                    "general": "Victory, determination, willpower. The Chariot represents victory and success through determination and willpower. It signifies overcoming obstacles and achieving goals.",
-                    "love": "Triumph over obstacles, assertiveness, victory in love. The Chariot indicates triumph over obstacles in love. It signifies assertiveness and victory in romantic relationships.",
+                    "general": "The Chariot card symbolizes conquest, victory, and overcoming obstacles through confidence and control. Often depicted as a charioteer, clad in armor, the figure stands within or rides a chariot, pulled by two sphinxes or horses. The creatures pulling the chariot may face opposite directions, representing the need to harness opposing forces or energies to move forward. The city walls behind the chariot signify the successful overcoming of a challenge or an obstacle. The star canopy above the charioteer symbolizes celestial influences and the spiritual victory over the material world. The number 7 is associated with this card, indicating reflection, assessment, and understanding. The Chariot encourages us to assert ourselves, be ambitious, and maintain focus on our goals. It calls for control over the emotions and desires that may pull us in different directions, and it serves as a reminder that success comes from willpower and determination. The card is a sign to stay the course and push through adversity with confidence and discipline.",                   "love": "Triumph over obstacles, assertiveness, victory in love. The Chariot indicates triumph over obstacles in love. It signifies assertiveness and victory in romantic relationships.",
                     "work": "Ambition, career advancement, success. The Chariot signifies ambition and career advancement. It's a good time to pursue your goals with determination and focus.",
                     "friendship": "Supportive friends, teamwork, achieving goals together. The Chariot indicates supportive friends and teamwork. It signifies achieving goals together through determination.",
                     "personal_state": "Self-confidence, inner strength, overcoming challenges. The Chariot signifies self-confidence and inner strength. It's a good time to overcome challenges and pursue your dreams.",
@@ -334,12 +341,12 @@
             "name": "Strength",
             "id": "Strength",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/strength.webp",
             "meanings": {
                 "daily": "Today, the empowering energy of The Strength card infuses your being, symbolizing courage, resilience, and inner fortitude. The Strength card represents not just physical strength, but the strength of character, the power of compassion, and the courage of conviction. Embrace this inner might as you face the day's challenges. <strong>Exhibit patience</strong> and gentleness in your interactions. The Strength card encourages you to <strong>overcome adversity</strong> with grace and to harness your inner resolve. <strong>Act with confidence</strong> and let your actions be guided by your moral compass. <strong>Channel your passions</strong> constructively and allow your spirit to shine through with kindness and perseverance. Today, let The Strength card remind you that true power lies in the ability to remain composed and compassionate, even in the face of difficulty. With this card's influence, you are equipped to navigate any situation with dignity and poise.",
                 "upright": {
-                    "general": "Strength, courage, inner fortitude. Strength represents inner strength and courage. It signifies overcoming challenges with grace and resilience.",
-                    "love": "Courage in love, compassion, patience. Strength indicates courage and compassion in love. It signifies patience and understanding in relationships.",
+                    "general": "The Strength card is a representation of inner strength, courage, and resilience. It often depicts a figure calmly closing the jaws of a lion, symbolizing the overcoming of fears and challenges through inner spirit and fortitude. The infinity symbol above the figure's head suggests that true strength is eternal and limitless. The serene expression on the figure's face conveys confidence and peace, indicating that strength comes from within rather than from brute force. The number 8 is associated with this card, reflecting balance and power. The Strength card encourages us to harness our emotions and use them as a source of power, to approach our problems with compassion and patience, and to have the courage to face our fears. It reminds us that we possess the inner strength to achieve our goals and to withstand life's obstacles.",                    "love": "Courage in love, compassion, patience. Strength indicates courage and compassion in love. It signifies patience and understanding in relationships.",
                     "work": "Persistence, determination, success. Strength signifies persistence and determination in work. It's a good time to stay focused on your goals and push through obstacles.",
                     "friendship": "Supportive friendships, loyalty, trust. Strength indicates supportive friendships and loyalty. It signifies trusting others and being there for each other.",
                     "personal_state": "Resilience, self-confidence, overcoming adversity. Strength represents resilience and self-confidence. It's a good time to overcome adversity and believe in yourself.",
@@ -367,12 +374,12 @@
             "name": "The Hermit",
             "id": "TheHermit",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/thehermit.webp",
             "meanings": {
                 "daily": "Today, the introspective energy of The Hermit invites you to seek solitude and inner reflection. The Hermit is a symbol of wisdom, guidance, and contemplation, encouraging you to turn inward to find the answers you seek. Embrace the quiet and the opportunity it presents for deep thought and personal insight. <strong>Seek wisdom</strong> from within and from the experiences you've accumulated over time. The Hermit encourages you to <strong>take a step back</strong> from the noise of the outside world and to find peace in stillness. <strong>Illuminate your path</strong> with the light of self-awareness and let it guide you towards understanding. <strong>Value the lessons</strong> learned in silence and allow them to shape your perspective. Today, let The Hermit inspire you to honor the wisdom that comes from introspection and to cherish the growth that solitude can bring.",
                 "upright": {
-                    "general": "Introspection, solitude, inner guidance. The Hermit represents introspection and solitude. It signifies seeking inner guidance and wisdom.",
-                    "love": "Soul-searching, self-discovery, spiritual connection. The Hermit indicates soul-searching and self-discovery in love. It signifies a deep spiritual connection with your partner.",
+                    "general": "The Hermit card signifies introspection, guidance, and solitude. It typically depicts an elderly figure standing alone at the peak of a mountain, holding a lantern to light the way. The mountain symbolizes accomplishment, growth, and challenges that have been overcome. The lantern, often with a six-pointed star inside, represents the search for truth and the inner light that guides us. The Hermit is clothed in a gray robe, illustrating his neutrality and wisdom. The number 9 is associated with this card, symbolizing attainment, fulfillment, and the completion of a cycle. The Hermit encourages us to take time for contemplation, to seek our inner wisdom, and to approach life's questions with patience and depth. It reminds us that sometimes, withdrawing from the noise of the world is necessary to find clarity and that the answers we seek often come from within. This card may appear when we need to listen more closely to our inner voice and trust our intuition on our life's journey.",                    "love": "Soul-searching, self-discovery, spiritual connection. The Hermit indicates soul-searching and self-discovery in love. It signifies a deep spiritual connection with your partner.",
                     "work": "Independent work, self-reflection, mentorship. The Hermit signifies independent work and self-reflection in your career. It may indicate mentorship or seeking guidance.",
                     "friendship": "Supportive mentor, wise advice, solitude. The Hermit indicates a supportive mentor and wise advice from friends. It signifies finding solace in solitude.",
                     "personal_state": "Inner wisdom, self-awareness, spiritual growth. The Hermit represents inner wisdom and self-awareness. It's a good time for spiritual growth and self-discovery.",
@@ -400,11 +407,12 @@
             "name": "Wheel of Fortune",
             "id": "Wheeloffortune",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/wheeloffortune.webp",
             "meanings": {
                 "daily": "Today, the ever-turning Wheel of Fortune reminds you that life is a cycle of changes, a constant blend of opportunities and challenges. The Wheel of Fortune symbolizes luck, karma, and destiny, inviting you to trust in the flow of life's events. Embrace the turns of the wheel with grace, knowing that each rotation brings a new perspective. <strong>Be adaptable</strong> as circumstances evolve and shift around you. The Wheel of Fortune encourages you to <strong>remain optimistic</strong> through the ups and downs, recognizing that every experience is a chance for growth. <strong>Seize the moment</strong> when fortune smiles upon you, and learn from the lessons when it seems to turn away. <strong>Stay centered</strong> amidst the whirlwind of change, and you will find stability within. Today, let The Wheel of Fortune inspire you to accept the ebb and flow of life with equanimity and to look forward to the new opportunities that await with each spin of the wheel.",
                 "upright": {
-                    "general": "Change, destiny, luck. The Wheel of Fortune represents change and destiny. It signifies luck and unexpected opportunities.",
+                    "general": "The Wheel of Fortune card represents the cyclical nature of life, change, and destiny. It typically features a large wheel surrounded by various creatures, each holding books or scrolls, symbolizing wisdom and knowledge. The wheel itself may have symbols or letters inscribed on it, representing the universal laws and the eternal flow of time. At the center of the wheel is a rosette, the symbol of enlightenment and cosmic consciousness. The figures on the card are often shown in motion, suggesting the continuous rotation of life's events. The number 10 is associated with this card, indicating cycles, progression, and potential turning points. The Wheel of Fortune encourages us to accept the ups and downs of life, to understand that change is the only constant, and to trust that the universe has a plan for us. It reminds us that every situation has the potential to evolve and that we are participants in the larger tapestry of fate.",
                     "love": "Fate, soulmate connection, positive change. The Wheel of Fortune indicates fate and soulmate connection in love. It signifies positive changes and new beginnings.",
                     "work": "Opportunity, success, turning point. The Wheel of Fortune signifies opportunity and success in your career. It's a turning point where luck is on your side.",
                     "friendship": "Fortunate encounters, karmic connections, growth. The Wheel of Fortune indicates fortunate encounters and karmic connections in friendships. It signifies personal growth and development.",
@@ -433,11 +441,12 @@
             "name": "Justice",
             "id": "Justice",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/justice.webp",
             "meanings": {
                 "daily": "Today, the balanced scales of Justice bring a focus on fairness, truth, and the law of cause and effect. The Justice card symbolizes equilibrium, accountability, and honesty, urging you to weigh your decisions carefully and to act with integrity. Embrace the principles of justice as you navigate through your day. <strong>Seek truth</strong> and strive for transparency in all your dealings. The Justice card encourages you to <strong>make impartial decisions</strong> and to consider the consequences of your actions. <strong>Uphold fairness</strong> and treat others as you would like to be treated. <strong>Balance your heart and mind</strong> when making choices, ensuring that logic and compassion are in harmony. Today, let The Justice card inspire you to live by your ethical standards and to create a life that reflects your values. With the guidance of Justice, you are empowered to act with moral clarity and to contribute to a more equitable world.",
                 "upright": {
-                    "general": "Fairness, truth, balance. Justice represents fairness and truth. It signifies balance and impartiality in decision-making.",
+                    "general": "The Justice card symbolizes fairness, balance, and the need for a clear, unbiased perspective. It is often depicted as a figure seated between two pillars, similar to The High Priestess, representing law and order. The figure holds a sword in one hand, signifying logical, objective thought, and scales in the other, indicating balance and impartiality. The square clasp on the figure's garment symbolizes the protection of the law and the need for structure. The number 11 is associated with this card, reflecting the idea of karma and the law of cause and effect. Justice calls for us to weigh our decisions carefully, to be honest with ourselves, and to understand that our actions have consequences. It serves as a reminder to strive for fairness in all dealings and to recognize that truth and integrity will ultimately lead to a just outcome. This card may appear when legal matters or decisions requiring discernment are at the forefront.",
                     "love": "Fairness, accountability, honesty. Justice indicates fairness and accountability in love. It signifies honesty and open communication in relationships.",
                     "work": "Legal matters, contracts, fairness. Justice signifies legal matters and contracts in work. It's a time for fairness and upholding ethical standards.",
                     "friendship": "Equality, loyalty, integrity. Justice indicates equality and loyalty in friendships. It signifies maintaining integrity and honesty with friends.",
@@ -466,12 +475,12 @@
             "name": "The Hanged Man",
             "id": "Thehangedman",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/thehangedman.webp",
             "meanings": {
               "daily": "Today, the contemplative energy of The Hanged Man invites you to pause and view the world from a different angle. The Hanged Man symbolizes sacrifice, letting go, and new perspectives, urging you to embrace a period of introspection and surrender. Accept the things you cannot change and find wisdom in stillness. <strong>Release control</strong> and allow yourself to see situations with fresh eyes. The Hanged Man encourages you to <strong>let go of old patterns</strong> and to consider alternative approaches. <strong>Find peace</strong> in the act of suspension, knowing that this temporary pause can bring valuable insights. <strong>Reflect on your beliefs</strong> and be open to the lessons that come from a place of quietude and acceptance. Today, let The Hanged Man inspire you to approach life's challenges with patience and to discover the strength that comes from willing vulnerability.",
               "upright": {
-                "general": "Surrender, sacrifice, new perspectives, letting go.",
-                "love": "Acceptance, release of unhealthy attachments, new beginnings in love.",
+                "general": "The Hanged Man card symbolizes sacrifice, letting go, and new perspectives. It typically shows a figure suspended upside-down by one foot, often with a serene or enlightened expression, suggesting a voluntary surrender to circumstances. The tree or cross that the figure is hanging from represents life and knowledge, while the halo around the head signifies awareness and spiritual insight. The number 12 is associated with this card, which can signify a pause or a need for reflection. The Hanged Man invites us to embrace a period of suspension to gain new perspectives, to release outdated attitudes or beliefs, and to understand that sometimes stepping back or giving up control can lead to significant progress. It is a call to review our life's direction, to let go of the materialistic view, and to look at things from a different angle. This card often appears when a period of introspection is needed, and it encourages us to accept and learn from the sacrifices we make.",                "love": "Acceptance, release of unhealthy attachments, new beginnings in love.",
                 "work": "A time of waiting, taking a step back, reevaluating priorities.",
                 "friendship": "Letting go of toxic friendships, new connections.",
                 "personal_state": "A period of introspection, spiritual growth, finding peace.",
@@ -507,12 +516,12 @@
             "name": "Temperance",
             "id": "Temperance",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/thetemperance.webp",
             "meanings": {
               "daily": "Today, the calming energy of The Temperance card washes over you, bringing balance, moderation, and harmony into your life. The Temperance card symbolizes the middle path, the blending of opposites, and the integration of all aspects of your being. Embrace the flow of Temperance's gentle influence as you find your equilibrium. <strong>Practice moderation</strong> in your actions and thoughts. The Temperance card encourages you to <strong>combine diverse elements</strong> in your life to create something new and meaningful. <strong>Seek harmony</strong> within yourself and in your relationships with others. <strong>Be patient</strong> as you work towards your goals, knowing that balance is key to long-term success. Today, let The Temperance card inspire you to walk the path of peace and to cultivate a tranquil spirit, even amidst life's inevitable fluctuations.",
               "upright": {
-                "general": "Balance, moderation, harmony, patience, finding the middle way.",
-                "love": "Compromise, healthy relationships, emotional balance.",
+                "general": "The Temperance card represents balance, moderation, and patience. It typically depicts an angelic figure pouring liquid between two cups, symbolizing the flow and alchemy of life. The angel stands with one foot on land and the other in water, suggesting a balance between the material and spiritual realms. The card often includes a path or a river that leads to the sun, indicating the journey towards enlightenment. The number 14 is associated with this card, which can signify a period of tranquility and a harmonious state of being. Temperance invites us to find middle ground, to blend opposites, and to recognize the value in taking a measured approach. It is a reminder to practice self-control, to adapt to changing circumstances, and to integrate diverse elements in life to achieve a state of inner calm. This card often appears when a situation requires compromise or when it's necessary to stay composed and avoid extremes.",                "love": "Compromise, healthy relationships, emotional balance.",
                 "work": "Collaboration, teamwork, finding a healthy work-life balance.",
                 "friendship": "Healthy communication, supportive relationships, building trust.",
                 "personal_state": "A period of peace, inner harmony, finding your center.",
@@ -548,11 +557,12 @@
             "name": "The Devil",
             "id": "Thedevil",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/thedevil.webp",
             "meanings": {
               "daily": "Today, the challenging energy of The Devil card may test your resolve, representing the facing of temptations and the understanding of one's own shadows. The Devil symbolizes materialism, excess, and bondage, but also the opportunity for liberation and self-awareness. Recognize the chains that bind you, whether they be habits, thoughts, or dependencies, and consider how you might break free. <strong>Confront your limitations</strong> and strive to overcome them. The Devil encourages you to <strong>acknowledge your desires</strong> and to understand their power over you. <strong>Exercise self-control</strong> and remember that you have the strength to choose a different path. <strong>Seek empowerment</strong> by taking responsibility for your actions and by asserting your personal freedom. Today, let The Devil card remind you that true liberation comes from within, and that each choice you make can lead you closer to or further from the life you wish to lead.",
               "upright": {
-                "general": "Temptation, materialism, addiction, attachment, shadow work.",
+                "general": "The Devil card represents bondage, materialism, and the shadow self. It typically depicts a large, horned figure sitting on a throne, with two figures chained below him, symbolizing domination and the feeling of being trapped by material or earthly matters. The chains, however, are often loose, suggesting that the bondage is self-imposed and escape is possible. The card often includes dark and foreboding imagery, such as a black void or flames, indicating the presence of destructive patterns or negative influences. The number 15 is associated with this card, which can signify temptation, obsession, or being caught in a cycle of unhealthy behavior. The Devil invites us to confront our fears, to recognize the chains we have placed on ourselves, and to understand the nature of our attachments. It is a reminder to examine our shadow side, to break free from limitations, and to seek liberation from the things that hold us back. This card often appears when it's necessary to acknowledge and address unhealthy or toxic elements in our lives.",
                 "love": "Unhealthy relationships, codependency, power struggles.",
                 "work": "Workaholism, exploitation, feeling trapped in your job.",
                 "friendship": "Toxic friendships, manipulation, betrayal.",
@@ -589,11 +599,12 @@
             "name": "The Star",
             "id": "thestar",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/thestar.webp",
             "meanings": {
               "daily": "Today, the hopeful light of The Star shines upon you, offering inspiration and renewed faith in the future. The Star is a symbol of hope, healing, and the rejuvenation of spirit, reminding you that after every storm comes a calm, clear sky. Embrace the serenity that The Star brings, allowing its tranquil energy to soothe your soul. <strong>Look forward</strong> with optimism and let the promise of a brighter tomorrow guide your actions today. The Star encourages you to <strong>trust in the universe</strong> and to believe in the benevolent forces that are at work in your life. <strong>Nurture your dreams</strong> and give them the space to flourish. <strong>Seek inner peace</strong> and let it radiate outward, touching all aspects of your existence. Today, let The Star remind you that you are a beacon of light, capable of overcoming any darkness with grace and confidence.",
               "upright": {
-                "general": "Hope, inspiration, faith, optimism, new beginnings.",
+                "general": "The Star card represents hope, inspiration, and serenity. It typically depicts a naked woman kneeling at the edge of a water body, pouring water into it and onto the land, symbolizing the nourishment of the earth and the cycle of life. Above her, stars shine brightly, with one large star surrounded by seven smaller stars, representing the chakras or energy centers. The card often includes a bird or a butterfly, indicating freedom and transcendence. The number 17 is associated with this card, which can signify renewal, clarity, and the healing power of the universe. The Star invites us to remain optimistic, to trust in the future, and to believe in the power of our dreams. It is a reminder to stay connected to our higher selves, to follow our inner guidance, and to open our hearts to the possibilities around us. This card often appears when a sense of peace and calm is needed, and it encourages us to have faith and to look to the stars for direction.",   
                 "love": "Finding true love, a soulmate connection, a deep emotional connection.",
                 "work": "Finding your passion, meaningful work, creative expression.",
                 "friendship": "Building strong friendships, finding support, feeling connected.",
@@ -631,11 +642,12 @@
             "name": "The Moon",
             "id": "themoon",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/themoon.webp",
             "meanings": {
               "daily": "Today, the enigmatic energy of The Moon bathes your path in a soft, reflective light, inviting introspection and the unveiling of hidden truths. The Moon is a symbol of intuition, dreams, and the unconscious, urging you to trust the insights that arise from the depths of your psyche. Embrace the mysteries that The Moon illuminates and explore the secrets that lie just beneath the surface. <strong>Listen to your intuition</strong> and allow it to guide you through the shadows. The Moon encourages you to <strong>face your fears</strong> and to confront the illusions that may be clouding your judgment. <strong>Seek clarity</strong> in the midst of uncertainty, and trust that the light of understanding will eventually dawn. <strong>Reflect on your emotions</strong> and consider the messages they are conveying. Today, let The Moon inspire you to navigate the night with a sense of wonder and to find solace in the knowledge that every phase of darkness is followed by the promise of light.",  
               "upright": {
-                    "general": "Illusion, deception, fear, hidden emotions, intuition.",
+                "general": "The Moon card represents illusion, intuition, and the unconscious mind. It typically depicts a night scene with a full moon hanging in the sky, often with a crayfish or lobster emerging from water, symbolizing the depths of the subconscious. Two pillars or towers flank a path that leads into the distance, suggesting a journey through the unknown. The Moon's light can bring clarity but also casts shadows, creating a sense of uncertainty and mystery. The number 18 is associated with this card, which can signify cycles, reflection, or the need to navigate through confusion. The Moon invites us to trust our instincts, to explore our inner landscapes, and to be aware of potential deception or self-deception. It is a reminder to pay attention to dreams and symbols, to embrace the ebb and flow of emotions, and to look beyond the surface. This card often appears when it's necessary to confront fears and anxieties, and it encourages us to seek truth in the midst of illusions.",
                     "love": "Uncertainty, emotional confusion, a secret relationship.",
                     "work": "Lack of clarity, deception at work, feeling lost in your career.",
                     "friendship": "Misunderstandings, hidden agendas, questioning friendships.",
@@ -672,11 +684,12 @@
             "name": "The Tower",
             "id": "thetower",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/thetower.webp",
             "meanings": {
               "daily": "Today, the disruptive energy of The Tower signifies sudden change, upheaval, and revelation. The Tower is a symbol of the collapse of structures and beliefs that are no longer stable or true. Embrace the chaos, for it brings the opportunity for a profound breakthrough. <strong>Face the upheaval</strong> with courage, knowing that it clears the way for new foundations. The Tower encourages you to <strong>release attachments</strong> to outdated systems and to seek truth in the rubble. <strong>Expect the unexpected</strong>, and find strength in your ability to adapt. <strong>Rebuild stronger</strong>, wiser, and more authentic than before. Today, let The Tower remind you that sometimes things must fall apart to make room for better things to come. With resilience and openness, you are ready to transform challenges into stepping stones for growth.", 
               "upright": {
-                    "general": "Sudden upheaval, chaos, disruption, unexpected change.",
+                "general": "The Tower card represents sudden upheaval, chaos, and revelation. It typically depicts a tall tower struck by lightning and ablaze, with figures falling from the structure, symbolizing a sudden shift or catastrophe that brings about change. The destruction of the tower signifies the breakdown of existing forms, beliefs, or structures in one's life. The lightning bolt represents a flash of insight or a surge of power that leads to a breakthrough or breakdown. The number 16 is associated with this card, which can signify disruption, liberation from bondage, or the need to rebuild. The Tower invites us to release old paradigms, to embrace the transformative power of destruction, and to understand that from the ruins, new foundations can be laid. It is a reminder that sometimes life's most tumultuous events can catalyze profound growth and change. This card often appears when it's necessary to break free from constriction and to face the truth, no matter how startling it may be.",
                     "love": "Relationship breakdown, heartbreak, sudden separation.",
                     "work": "Job loss, financial instability, major changes at work.",
                     "friendship": "Betrayal, conflict, unexpected changes in friendships.",
@@ -712,11 +725,12 @@
             "name": "Judgement",
             "id": "judgement",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/thejudgement.webp",
             "meanings": {
               "daily": "Today, the clarion call of The Judgment card resonates within you, heralding a time of reflection, evaluation, and transformation. The Judgment card symbolizes awakening, rebirth, and the culmination of experiences, urging you to review your past actions and their consequences. Embrace the opportunity for renewal and the chance to rectify past mistakes. <strong>Heed the call</strong> to higher consciousness and rise up to meet your higher self. The Judgment card encourages you to <strong>make amends</strong> where necessary and to forgive yourself and others. <strong>Embrace change</strong> and prepare to shed what no longer serves your growth. <strong>Answer your inner calling</strong> and step into the life that awaits you with a clear conscience. Today, let The Judgment card inspire you to release the old and welcome the new, as you stand on the brink of a profound personal evolution.",  
               "upright": {
-                    "general": "Rebirth, renewal, awakening, self-reflection, inner calling.",
+                "general": "The Judgement card represents rebirth, inner calling, and absolution. It typically depicts an angelic figure sounding a trumpet, with people below rising from graves, symbolizing awakening and renewal. The trumpet call heralds a moment of resurrection and judgement, inviting reflection on past actions and decisions. The card often includes bright light or rays, indicating clarity, salvation, and the divine truth being revealed. The number 20 is associated with this card, which can signify a time of reckoning, the culmination of a significant phase, or the need for evaluation. The Judgement invites us to heed our higher calling, to embrace transformation, and to seek redemption. It is a reminder to let go of the past, to rise above previous limitations, and to make a fresh start. This card often appears when it's necessary to make a critical decision, to forgive oneself or others, and to step into a new, more fulfilling phase of life.",
                     "love": "Rekindling a relationship, forgiveness, a new beginning in love.",
                     "work": "A new job opportunity, finding your calling, recognition for your work.",
                     "friendship": "Letting go of toxic friendships, new connections, forgiveness.",
@@ -753,12 +767,12 @@
             "name": "The World",
             "id": "theworld",
             "category": "major",
+            "isRotated": false,
             "image": "assets/tarotcards-img/theworld.webp",
             "meanings": {
               "daily": "Today, the encompassing energy of The World card signifies completion, fulfillment, and the culmination of a journey. The World represents wholeness, achievement, and integration, inviting you to celebrate the milestones you've reached and the lessons you've learned. Embrace the sense of accomplishment that comes with this card. <strong>Reflect on your successes</strong> and acknowledge the efforts that brought you here. The World encourages you to <strong>enjoy the fruits of your labor</strong> and to share your achievements with others. <strong>Feel connected</strong> to the universe and recognize your place within its vast tapestry. <strong>Prepare for the next cycle</strong>, as every ending is a new beginning. Today, let The World inspire you to close chapters with gratitude and to look forward to the next phase of your life's adventure with excitement and hope.",  
               "upright": {
-                    "general": "Completion, achievement, success, fulfillment, a sense of wholeness.",
-                    "love": "A committed and happy relationship, soulmate connection.",
+                    "general": "The World card represents completion, harmony, and accomplishment. It typically depicts a figure surrounded by a wreath, often dancing or floating, symbolizing the end of a cycle and the joy of achievement. The figure is usually encircled by four figures or symbols in the corners of the card, representing the four elements or the four evangelists, indicating balance and unity in all aspects of life. The card often includes a ribbon or a lemniscate, signifying infinity and the ongoing flow of life's journey. The number 21 is associated with this card, which can signify fulfillment, wholeness, and the realization of goals. The World invites us to celebrate our successes, to recognize the interconnectedness of all things, and to embrace the totality of our experiences. It is a reminder to honor our accomplishments, to integrate the lessons we've learned, and to look forward to new opportunities with a sense of completeness. This card often appears when a significant phase or project has come to an end, and it encourages us to acknowledge our progress and to prepare for the next stage of our lives.",                    "love": "A committed and happy relationship, soulmate connection.",
                     "work": "Reaching your career goals, recognition for your achievements.",
                     "friendship": "Strong and supportive friendships, feeling connected to others.",
                     "personal_state": "Feeling content, fulfilled, at peace with yourself and the world.",
@@ -794,11 +808,12 @@
             "name": "Ace of Pentacles",
             "id": "aceofpentacles",
             "category": "pentacles",
+            "isRotated": false,
             "image": "assets/tarotcards-img/aceofpentacles.webp",
             "meanings": {
               "daily": "Today, the grounding energy of the Ace of Pentacles heralds a period of prosperity, opportunity, and material gain. The Ace of Pentacles represents new financial beginnings, the promise of wealth, and the manifestation of tangible results. Embrace the potential for abundance that this card signifies. <strong>Be open to new opportunities</strong> that may lead to increased stability and security. The Ace of Pentacles encourages you to <strong>invest in your future</strong> and to trust in the growth process. <strong>Plant the seeds</strong> of your endeavors with care and attention, knowing that they have the potential to flourish. <strong>Appreciate the value</strong> of the resources at your disposal and use them wisely. Today, let the Ace of Pentacles inspire you to ground your dreams in reality and to build a foundation for lasting success.",
               "upright": {
-                "general": "New beginnings, opportunities, potential, manifestation, prosperity.",
+                "general": "The Ace of Pentacles represents opportunity, prosperity, and new ventures. It typically depicts a hand emerging from a cloud, holding a large coin or pentacle, symbolizing the manifestation of material and financial rewards. The card often includes a garden or lush landscape in the background, indicating abundance and the beginning of a fruitful journey. The Ace signifies a seed being planted in the physical world, which can grow into tangible success. It invites us to embrace new opportunities, to invest in our future, and to trust in the stability and potential of our endeavors. It is a reminder to ground our dreams in reality, to plan carefully, and to take practical steps towards achieving our goals. This card often appears when a new business, investment, or financial opening is on the horizon, and it encourages us to seize the moment and to cultivate the resources we have at our disposal.",
                 "love": "A new romantic relationship, a chance for a fresh start, emotional security.",
                 "work": "A new job opportunity, a chance to showcase your skills, financial success.",
                 "friendship": "New connections, supportive friendships, a sense of belonging.",
@@ -835,11 +850,12 @@
             "name": "2 of Pentacles",
             "id": "twoofpentacles",
             "category": "pentacles",
+            "isRotated": false,
             "image": "assets/tarotcards-img/twoofpentacles.webp",
             "meanings": {
               "daily": "Today, the balancing act of the Two of Pentacles comes into play, highlighting the need for adaptability and juggling multiple responsibilities. The Two of Pentacles represents flexibility, change, and the equilibrium of opposing demands. Embrace the dance of coordination as you navigate through your tasks. <strong>Find your rhythm</strong> in the ebb and flow of life's demands. The Two of Pentacles encourages you to <strong>manage your resources wisely</strong> and to maintain a sense of humor amidst the chaos. <strong>Adapt to fluctuations</strong> with grace and maintain your poise as you handle the varied aspects of your day. <strong>Prioritize your tasks</strong> and remember that balance is key to managing the dualities of life. Today, let the Two of Pentacles inspire you to move with the waves of change and to find joy in the dynamic balance of life's many facets.",
               "upright": {
-                "general": "Balance, harmony, juggling multiple tasks, adaptability, resourcefulness.",
+                "general": "The Two of Pentacles represents balance, adaptability, and change. It typically depicts a figure juggling two pentacles in an infinite loop, symbolizing the continuous balancing act between various aspects of one's life. The card often includes a lemniscate, or infinity symbol, around the pentacles, indicating the dynamic flow of energy and the need for flexibility. The background usually features ships riding the waves, representing the ups and downs of life and the ability to stay afloat amidst change. The Two of Pentacles invites us to manage our priorities, to adapt to fluctuating circumstances, and to maintain equilibrium through life's challenges. It is a reminder to stay agile, to handle transitions with grace, and to find harmony in multitasking. This card often appears when there is a need to balance work and play, financial matters, or any other dual aspects of life, encouraging us to remain composed and resourceful.",
                 "love": "Balancing work and personal life, finding harmony in a relationship.",
                 "work": "Managing multiple projects, finding a balance between work and life.",
                 "friendship": "Balancing different friendships, maintaining social connections.",
@@ -877,11 +893,12 @@
             "name": "3 of Pentacles",
             "id": "threeofpentacles",
             "category": "pentacles",
+            "isRotated": false,
             "image": "assets/tarotcards-img/threeofpentacles.webp",
             "meanings": {
               "daily": "Today, the collaborative spirit of the Three of Pentacles encourages teamwork, shared goals, and the mastery of skills. The Three of Pentacles represents craftsmanship, planning, and the execution of complex projects. Embrace the value of cooperation as you work with others towards a common purpose. <strong>Appreciate the expertise</strong> of each team member and the contributions they bring. The Three of Pentacles encourages you to <strong>focus on quality</strong> and to take pride in your work. <strong>Plan diligently</strong> and be open to feedback, as it will refine and enhance the final outcome. <strong>Build on a strong foundation</strong> of mutual respect and shared vision. Today, let the Three of Pentacles inspire you to combine forces with others, creating something greater than the sum of its parts through collaboration and dedication.",
               "upright": {
-                "general": "Collaboration, teamwork, cooperation, skill development, recognition.",
+                "general": "The Three of Pentacles represents collaboration, skill, and achievement. It typically depicts a craftsman working on a cathedral or church, with two figures observing his work, symbolizing the value of teamwork and planning. The card often includes architectural drawings or blueprints, indicating the importance of a well-thought-out approach and the mastery of one's craft. The Three of Pentacles invites us to combine our efforts with others, to learn from expertise, and to contribute our knowledge to a collective goal. It is a reminder to appreciate the quality of work, to seek out collaboration, and to recognize the role of each individual in a successful endeavor. This card often appears when there is a need to work harmoniously with others, to focus on quality, and to achieve recognition for one's contributions.",
                 "love": "Building a strong relationship, working together towards goals.",
                 "work": "Collaboration with colleagues, teamwork, recognition for your skills.",
                 "friendship": "Building strong friendships, supporting each other, shared goals.",
@@ -919,6 +936,7 @@
             "name": "4 of Pentacles",
             "id": "fourofpentacles",
             "category": "pentacles",
+            "isRotated": false,
             "image": "assets/tarotcards-img/fourofpentacles.webp",
             "meanings": {
               "daily": "Today, the stabilizing energy of the Four of Pentacles suggests a focus on security, control, and the careful management of resources. The Four of Pentacles represents conservation, frugality, and the desire to protect one's possessions. Embrace the need for financial stability and consider the ways you can ensure a secure foundation. <strong>Hold on to what you value</strong> but be mindful not to become too rigid or possessive. The Four of Pentacles encourages you to <strong>evaluate your relationship with material wealth</strong> and to find a balance between saving and spending. <strong>Practice prudent financial planning</strong> and be cautious of becoming overly attached to material success. <strong>Seek security</strong> in both the material and emotional realms, understanding that true wealth comes from a sense of contentment and well-being. Today, let the Four of Pentacles inspire you to build a stable base for your future, without losing sight of the intangible treasures that life offers.",
@@ -961,11 +979,12 @@
             "name": "5 of Pentacles",
             "id": "fiveofpentacles",
             "category": "pentacles",
+            "isRotated": false,
             "image": "assets/tarotcards-img/fiveofpentacles.webp",
             "meanings": {
               "daily": "Today, the challenging energy of the Five of Pentacles may highlight areas of scarcity or hardship in your life. The Five of Pentacles represents financial struggle, health issues, or a sense of exclusion and worry. Embrace the lessons that come with this card, as they can lead to a deeper understanding of your own resilience. <strong>Seek support</strong> and remember that help is available, even if it's not immediately apparent. The Five of Pentacles encourages you to <strong>address your needs</strong> and to be proactive in finding solutions to your challenges. <strong>Focus on healing</strong> and recovery, whether it's financial, physical, or emotional. <strong>Find strength</strong> in your community and in the knowledge that this period is temporary. Today, let the Five of Pentacles remind you that every experience, no matter how difficult, is an opportunity for growth and eventual renewal.",
               "upright": {
-                "general": "Hardship, poverty, struggle, isolation, feeling lost.",
+                "general": "The 5 of Pentacles often represents financial loss, poverty, and insecurity. It typically depicts two figures, one of whom may be injured or disabled, walking through snow outside a stained glass window, suggesting a sense of exclusion or neglect. The card's imagery can include snow, signifying the coldness of their situation, and a lighted window, which may represent hope and support that the figures are not yet able to see or reach. The number 5 is associated with this card, which can signify instability, challenge, and the need for change. The 5 of Pentacles invites us to consider our struggles, particularly those related to material and physical well-being, and to seek support or new solutions. It is a reminder that while we may face hardships, there are resources and help available, even if they are not immediately apparent. This card often appears when we are feeling left out or in financial difficulty, and it encourages us to reach out for help and to remember that tough times are often temporary and can lead to personal growth and resilience.",
                 "love": "A difficult time in a relationship, feeling unloved or unsupported.",
                 "work": "Job loss, financial difficulties, feeling stuck in a dead-end job.",
                 "friendship": "Feeling isolated from friends, lack of support.",
@@ -1003,11 +1022,12 @@
             "name": "6 of Pentacles",
             "id": "sixofpentacles",
             "category": "pentacles",
+            "isRotated": false,
             "image": "assets/tarotcards-img/sixofpentacles.webp",
             "meanings": {
               "daily": "Today, the generous spirit of the Six of Pentacles influences your interactions, highlighting the flow of giving and receiving. The Six of Pentacles represents charity, fairness, and the distribution of wealth. Embrace the act of sharing and the balance between helping others and allowing yourself to receive aid. <strong>Practice generosity</strong> and be mindful of the needs of those around you. The Six of Pentacles encourages you to <strong>give with kindness</strong> and to accept help without pride. <strong>Seek equity</strong> in your exchanges and strive for a fair distribution of resources. <strong>Be a source of support</strong> for others, just as you would welcome their support in your own times of need. Today, let the Six of Pentacles inspire you to engage in the cycle of generosity, creating a ripple effect of goodwill and abundance in your community.",
               "upright": {
-                "general": "Giving and receiving, charity, generosity, compassion, abundance.",
+                "general": "The 6 of Pentacles is often associated with generosity, charity, and giving. It typically depicts a wealthy individual distributing coins to the needy, while holding a balanced scale, symbolizing fairness and reciprocity. The card's imagery may include figures receiving or begging for assistance, representing the flow of material resources between people. The number 6 is associated with this card, which can signify harmony, balance, and the cycle of giving and receiving. The 6 of Pentacles invites us to consider our relationship with wealth and the importance of sharing and kindness. It is a reminder that generosity not only aids others but also enriches our own lives, creating a sense of community and support. This card often appears when there is an opportunity to help others or when we should be open to accepting help from those who can afford to give. It encourages us to be mindful of the balance between self-sufficiency and interdependence.",
                 "love": "A loving and supportive relationship, sharing and caring.",
                 "work": "Helping others, receiving recognition for your work, financial success.",
                 "friendship": "Generous friends, helping others, feeling supported.",
@@ -1045,11 +1065,12 @@
             "name": "7 of Pentacles",
             "id": "sevenofpentacles",
             "category": "pentacles",
+            "isRotated": false,
             "image": "assets/tarotcards-img/sevenofpentacles.webp",
             "meanings": {
               "daily": "Today, the reflective energy of the Seven of Pentacles invites you to pause and assess your progress. The Seven of Pentacles represents patience, long-term investment, and the evaluation of efforts. Embrace this moment of contemplation to consider the fruits of your labor. <strong>Review your achievements</strong> and the work that has led to them. The Seven of Pentacles encourages you to <strong>be patient</strong> as you wait for your plans to come to fruition. <strong>Reflect on your strategies</strong> and determine if they align with your desired outcomes. <strong>Appreciate the value</strong> of perseverance and the importance of timing. Today, let the Seven of Pentacles inspire you to understand that meaningful accomplishments often require time and dedication, and that the wait can be just as significant as the reward.",
               "upright": {
-                "general": "Harvest, reward, satisfaction, progress, taking stock.",
+                "general": "The 7 of Pentacles represents patience, perseverance, and investment. It typically depicts a figure looking at a flourishing vine with pentacles attached, symbolizing the fruits of one's labor. The card's imagery may include a garden or farmland, representing growth and the passage of time. The number 7 is associated with this card, which can signify reflection, assessment, and the need for strategic planning. The 7 of Pentacles invites us to consider the value of long-term effort and the importance of waiting for the right moment to harvest rewards. It is a reminder that success often requires time and that we should pause to evaluate our progress and plan our next steps carefully. This card often appears when we are in the midst of a project or endeavor that requires continued dedication, and it encourages us to maintain our efforts while being mindful of the outcomes we wish to achieve.",
                 "love": "A rewarding relationship, reaping the benefits of your efforts.",
                 "work": "Recognition for your hard work, financial rewards, a sense of accomplishment.",
                 "friendship": "Rewarding friendships, enjoying the company of others.",
@@ -1087,11 +1108,12 @@
             "name": "8 of Pentacles",
             "id": "eightofpentacles",
             "category": "pentacles",
+            "isRotated": false,
             "image": "assets/tarotcards-img/eightofpentacles.webp",
             "meanings": {
               "daily": "Today, the diligent energy of the Eight of Pentacles encourages a focus on skill development, attention to detail, and a commitment to craftsmanship. The Eight of Pentacles represents hard work, dedication, and the pursuit of excellence. Embrace the process of learning and the satisfaction that comes from honing your abilities. <strong>Apply yourself fully</strong> to your tasks and take pride in the work you produce. The Eight of Pentacles encourages you to <strong>master your craft</strong> and to recognize the value of continuous improvement. <strong>Be meticulous</strong> in your efforts and patient in your progress. <strong>Invest in your growth</strong>, knowing that the skills you develop now will serve you well in the future. Today, let the Eight of Pentacles inspire you to persevere in your endeavors and to celebrate the small victories along the path to expertise.",
               "upright": {
-                "general": "Skill, mastery, craftsmanship, dedication, attention to detail.",
+                "general": "The 8 of Pentacles symbolizes dedication, mastery, and attention to detail. It often depicts a craftsman engrossed in his work, carefully carving out pentacles with precision, representing skillful labor and commitment to quality. The card's imagery may include a workbench and tools, highlighting the importance of patience and practice in achieving excellence. The number 8 is associated with this card, which can signify ambition, education, and the pursuit of a craft or career. The 8 of Pentacles invites us to focus on our tasks and to hone our skills through persistent effort. It is a reminder that hard work and perseverance lead to self-improvement and success. This card often appears when we are engaged in learning a new trade or perfecting an existing one, and it encourages us to continue our education and to take pride in our accomplishments.",
                 "love": "Building a strong and lasting relationship, commitment.",
                 "work": "Hard work, dedication, learning new skills, finding your passion.",
                 "friendship": "Loyal and supportive friends, teamwork, shared goals.",
@@ -1129,23 +1151,25 @@
             "name": "9 of Pentacles",
             "id": "nineofpentacles",
             "category": "pentacles",
+            "isRotated": false,
             "image": "assets/tarotcards-img/nineofpentacles.webp",
             "meanings": {
-              "daily": "Today, the Ten of Pentacles brings a message of lasting prosperity and strong foundations. The Ten of Pentacles represents wealth, legacy, and the culmination of a successful journey. Embrace the stability and security that come from established efforts. <strong>Celebrate the abundance</strong> that life offers and the sense of completion that fills your day. The Ten of Pentacles encourages you to <strong>appreciate the bonds</strong> of family and community that support and enrich your life. <strong>Be generous</strong> with your resources and wisdom, knowing that your contributions will have a lasting impact. <strong>Invest in your legacy</strong>, understanding that the prosperity you enjoy now is a testament to your hard work and foresight. Today, let the Ten of Pentacles inspire you to cherish the connections and achievements that contribute to a full and rewarding life.",              "upright": {
-                "general": "Security, comfort, independence, self-sufficiency, contentment.",
-                "love": "A secure and loving relationship, feeling supported and cherished.",
-                "work": "A stable job, financial security, feeling valued and respected.",
-                "friendship": "Loyal and supportive friends, enjoying each other's company.",
-                "personal_state": "Feeling confident, secure, and at peace with yourself.",
-                "deeper_meaning": "Finding your inner strength, trusting the universe, living in the present moment.",
-                "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
-                "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
-                "health": "Overall good health and well-being, enjoying life to the fullest.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love and happiness through self-love and security.",
-                  "with The Emperor": "Achieving success through hard work and dedication."
-                }
+              "daily": "Today, the Ten of Pentacles brings a message of lasting prosperity and strong foundations. The Ten of Pentacles represents wealth, legacy, and the culmination of a successful journey. Embrace the stability and security that come from established efforts. <strong>Celebrate the abundance</strong> that life offers and the sense of completion that fills your day. The Ten of Pentacles encourages you to <strong>appreciate the bonds</strong> of family and community that support and enrich your life. <strong>Be generous</strong> with your resources and wisdom, knowing that your contributions will have a lasting impact. <strong>Invest in your legacy</strong>, understanding that the prosperity you enjoy now is a testament to your hard work and foresight. Today, let the Ten of Pentacles inspire you to cherish the connections and achievements that contribute to a full and rewarding life.",            
+                "upright": {
+                  "general": "The 9 of Pentacles represents self-sufficiency, abundance, and financial stability. It typically depicts a well-dressed individual standing in a lush garden surrounded by ripe grapevines, with a bird of prey perched on their hand, symbolizing control and accomplishment. The card's imagery may include a luxurious estate or a private garden, highlighting the rewards of hard work and self-reliance. The number 9 is associated with this card, which can signify personal achievement, gratification, and well-being. The 9 of Pentacles invites us to appreciate the fruits of our labor and to enjoy the comfort and security we have created for ourselves. It is a reminder that through diligence and discipline, we can achieve a level of independence that allows us to savor life's pleasures. This card often appears when we have reached a point of financial comfort and are encouraged to relish in our success while maintaining the efforts that brought us there.",
+                  "love": "A secure and loving relationship, feeling supported and cherished.",
+                  "work": "A stable job, financial security, feeling valued and respected.",
+                  "friendship": "Loyal and supportive friends, enjoying each other's company.",
+                  "personal_state": "Feeling confident, secure, and at peace with yourself.",
+                  "deeper_meaning": "Finding your inner strength, trusting the universe, living in the present moment.",
+                  "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
+                  "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
+                  "health": "Overall good health and well-being, enjoying life to the fullest.",
+                  "combinations": {
+                    "with The Fool": "Taking a leap of faith and trusting the process.",
+                    "with The Lovers": "Finding love and happiness through self-love and security.",
+                    "with The Emperor": "Achieving success through hard work and dedication."
+                  }
               },
               "reversed": {
                 "general": "Complacency, stagnation, fear of change, feeling trapped.",
@@ -1170,23 +1194,25 @@
             "name": "10 of Pentacles",
             "id": "tenofpentacles",
             "category": "pentacles",
+            "isRotated": false,
             "image": "assets/tarotcards-img/tenofpentacles.webp",
             "meanings": {
-                "daily": "Today, the Ten of Pentacles brings a message of lasting prosperity and strong foundations. The Ten of Pentacles represents wealth, legacy, and the culmination of a successful journey. Embrace the stability and security that come from established efforts. <strong>Celebrate the abundance</strong> that life offers and the sense of completion that fills your day. The Ten of Pentacles encourages you to <strong>appreciate the bonds</strong> of family and community that support and enrich your life. <strong>Be generous</strong> with your resources and wisdom, knowing that your contributions will have a lasting impact. <strong>Invest in your legacy</strong>, understanding that the prosperity you enjoy now is a testament to your hard work and foresight. Today, let the Ten of Pentacles inspire you to cherish the connections and achievements that contribute to a full and rewarding life.",              "upright": {
-                "general": "Completion, culmination, achievement, legacy, family.",
-                "love": "A long-lasting and committed relationship, a happy family.",
-                "work": "Financial success, reaching your goals, recognition for your hard work.",
-                "friendship": "Strong and supportive friendships, a sense of community.",
-                "personal_state": "Feeling happy, fulfilled, and grateful for your blessings.",
-                "deeper_meaning": "Leaving a positive mark on the world, finding your purpose in life.",
-                "finance_home": "Financial abundance, security for the future, leaving a legacy.",
-                "personal_relationships": "Healthy and fulfilling relationships, mutual love and respect.",
-                "health": "Overall good health and well-being, enjoying life to the fullest.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love and happiness through commitment and devotion.",
-                  "with The Emperor": "Achieving success through hard work and perseverance."
-                }
+                "daily": "Today, the Ten of Pentacles brings a message of lasting prosperity and strong foundations. The Ten of Pentacles represents wealth, legacy, and the culmination of a successful journey. Embrace the stability and security that come from established efforts. <strong>Celebrate the abundance</strong> that life offers and the sense of completion that fills your day. The Ten of Pentacles encourages you to <strong>appreciate the bonds</strong> of family and community that support and enrich your life. <strong>Be generous</strong> with your resources and wisdom, knowing that your contributions will have a lasting impact. <strong>Invest in your legacy</strong>, understanding that the prosperity you enjoy now is a testament to your hard work and foresight. Today, let the Ten of Pentacles inspire you to cherish the connections and achievements that contribute to a full and rewarding life.",
+                "upright": {
+                  "general": "The 10 of Pentacles represents wealth, legacy, and family. It often depicts a multi-generational family gathered in a courtyard, with an elder figure seated prominently, symbolizing accumulated wealth and established structures. The card's imagery may include a family estate or castle, highlighting the idea of inheritance and long-term financial security. The number 10 is associated with this card, which can signify completion, tradition, and the culmination of material success. The 10 of Pentacles invites us to think about our legacy and the impact of our accomplishments on our family and community. It is a reminder that wealth and success can be shared and passed down, creating a foundation for future generations. This card often appears when we are considering our long-term goals and investments, and it encourages us to build and maintain a stable and prosperous environment for ourselves and our loved ones.",
+                  "love": "A long-lasting and committed relationship, a happy family.",
+                  "work": "Financial success, reaching your goals, recognition for your hard work.",
+                  "friendship": "Strong and supportive friendships, a sense of community.",
+                  "personal_state": "Feeling happy, fulfilled, and grateful for your blessings.",
+                  "deeper_meaning": "Leaving a positive mark on the world, finding your purpose in life.",
+                  "finance_home": "Financial abundance, security for the future, leaving a legacy.",
+                  "personal_relationships": "Healthy and fulfilling relationships, mutual love and respect.",
+                  "health": "Overall good health and well-being, enjoying life to the fullest.",
+                  "combinations": {
+                    "with The Fool": "Taking a leap of faith and trusting the process.",
+                    "with The Lovers": "Finding love and happiness through commitment and devotion.",
+                    "with The Emperor": "Achieving success through hard work and perseverance."
+                  }
               },
               "reversed": {
                 "general": "Materialism, greed, stagnation, lack of progress, feeling trapped.",
@@ -1211,11 +1237,12 @@
             "name": "Page of Pentacles",
             "id": "pageofpentacles",
             "category": "pentacles",
+            "isRotated": false,
             "image": "assets/tarotcards-img/pageofpentacles.webp",
             "meanings": {
               "daily": "Today, the Page of Pentacles heralds a time of opportunity and the beginning of a new venture. The Page of Pentacles represents ambition, desire to learn, and the promise of future success. Seize the chance to <strong>explore new prospects</strong> and to lay the groundwork for your aspirations. <strong>Embrace the learning process</strong> and be open to the lessons that come with each new experience. The Page of Pentacles encourages you to <strong>be practical</strong> in your approach and to plan for the long term. <strong>Be diligent</strong> in your studies or work, knowing that the efforts you put in now are building blocks for your future. <strong>Invest in your potential</strong>, confident that your pursuit of knowledge and skill will lead to rewarding opportunities. Today, let the Page of Pentacles inspire you to take the first steps towards realizing your dreams and to appreciate the journey of growth.",
               "upright": {
-                "general": "New beginnings, opportunities, potential, learning, curiosity.",
+                "general": "The Page of Pentacles represents opportunity, ambition, and desire to learn. It typically depicts a young figure holding a single pentacle with great focus and fascination, symbolizing the beginning of a new venture or the pursuit of knowledge. The card's imagery may include a lush landscape or garden, highlighting potential growth and the seeds of future success. The Page, as a court card, can signify a person or an aspect of personality that is studious, practical, and eager to turn dreams into reality. The Page of Pentacles invites us to embrace new opportunities with enthusiasm and to approach our goals with diligence and attention to detail. It is a reminder that through study, hard work, and perseverance, we can achieve tangible results. This card often appears when we are considering starting a new educational path, job, or financial endeavor, and it encourages us to move forward with optimism and a willingness to learn.",
                 "love": "A new relationship, exploring new possibilities, feeling excited.",
                 "work": "A new job, learning new skills, starting a new project.",
                 "friendship": "New friends, expanding your social circle, feeling connected.",
@@ -1253,11 +1280,12 @@
             "name": "Queen of Pentacles",
             "id": "queenofpentacles",
             "category": "pentacles",
+            "isRotated": false,
             "image": "assets/tarotcards-img/queenofpentacles.webp",
             "meanings": {
               "daily": "Today, the Queen of Pentacles embodies nurturing abundance and practical care. The Queen of Pentacles represents resourcefulness, comfort, and a down-to-earth approach to life. Take the time to <strong>nurture yourself and others</strong>, and to create a warm, welcoming environment. <strong>Embrace your role</strong> as a provider, whether it's through preparing a meal, offering wise counsel, or ensuring financial stability. The Queen of Pentacles encourages you to <strong>trust in your ability</strong> to maintain a balanced and prosperous life. <strong>Be kind</strong> and generous, knowing that your capacity to give and receive love is a form of wealth. <strong>Invest in your home and community</strong>, understanding that these are the foundations of your personal empire. Today, let the Queen of Pentacles inspire you to cultivate a life of plenty, not just for yourself, but for those you care about.",
               "upright": {
-                "general": "Abundance, security, comfort, practicality, nurturing.",
+                "general": "The Queen of Pentacles represents nurturing, practicality, and a down-to-earth nature. It typically depicts a queen sitting on her throne in a lush, verdant garden, holding a pentacle, symbolizing her connection to the earth and material abundance. The card's imagery may include a rabbit or other small animals, highlighting fertility and the comfort of the home environment. The Queen, as a court card, can signify a person or an aspect of personality that is generous, caring, and resourceful. The Queen of Pentacles invites us to ground ourselves and to approach our responsibilities with wisdom and grace. It is a reminder that prosperity comes from attentiveness to both the needs of others and the practical demands of our daily lives. This card often appears when we need to balance work and home life, and it encourages us to create a nurturing space where we and others can thrive.",
                 "love": "A loving and supportive relationship, a happy family.",
                 "work": "A stable job, financial success, feeling valued and respected.",
                 "friendship": "Loyal and supportive friends, enjoying each other's company.",
@@ -1295,11 +1323,12 @@
             "name": "King of Pentacles",
             "id": "kingofpentacles",
             "category": "pentacles",
+            "isRotated": false,
             "image": "assets/tarotcards-img/kingofpentacles.webp",
             "meanings": {
               "daily": "Today, the King of Pentacles signifies a day of mastery over material wealth and business acumen. The King of Pentacles represents success, abundance, and leadership. Take the opportunity to <strong>lead with confidence</strong> and to make decisions that will further your goals. <strong>Embrace your achievements</strong> and the respect you've earned through your competence and reliability. The King of Pentacles encourages you to <strong>act with authority</strong> and to use your resources wisely. <strong>Be strategic</strong> in your endeavors, knowing that your experience and practicality are valuable assets. <strong>Invest in your future</strong>, understanding that your current prosperity is a result of your foresight and hard work. Today, let the King of Pentacles inspire you to continue building your empire with diligence and to enjoy the rewards of your labor.",
               "upright": {
-                "general": "Abundance, security, stability, authority, generosity.",
+                "general": "The King of Pentacles represents wealth, business acumen, and leadership. It typically depicts a king seated on a throne adorned with carvings of bulls, symbolizing his connection to the earth and material success. The card's imagery may include a lush landscape and a golden sky, highlighting prosperity and the king's mastery over the physical world. The King, as a court card, can signify a person or an aspect of personality that is affluent, reliable, and has a talent for turning ventures into success. The King of Pentacles invites us to lead with confidence and to utilize our resources wisely. It is a reminder that ambition combined with practicality can lead to great achievements. This card often appears when we are called to take charge of our financial future or when we need to make important decisions regarding our career or investments, encouraging us to act with authority and integrity.",
                 "love": "A loving and committed relationship, a strong and stable partnership.",
                 "work": "A successful career, financial security, feeling valued and respected.",
                 "friendship": "Loyal and supportive friends, enjoying each other's company.",
@@ -1337,11 +1366,12 @@
             "name": "Ace of Cups",
             "id": "aceofcups",
             "category": "cups",
+            "isRotated": false,
             "image": "assets/tarotcards-img/aceofcups.webp",
             "meanings": {
               "daily": "Today, the Ace of Cups overflows with the promise of emotional fulfillment and new beginnings. The Ace of Cups represents love, intuition, and the wellspring of emotions. Open your heart to <strong>receive the blessings</strong> and opportunities for deep connections. <strong>Embrace the flow of feelings</strong> that may arise, and let them guide you towards compassion and empathy. The Ace of Cups encourages you to <strong>trust in your inner voice</strong> and to be receptive to the love that surrounds you. <strong>Be generous</strong> with your affection, knowing that what you give will return to you manifold. <strong>Invest in your emotional growth</strong>, understanding that the capacity to love and be loved is the greatest gift. Today, let the Ace of Cups inspire you to start a new chapter of emotional richness and to celebrate the joy of being alive.",
               "upright": {
-                "general": "New beginnings, opportunities, potential, emotional healing, love.",
+                "general": "The Ace of Cups symbolizes emotional beginnings, intuition, and love. It typically depicts a hand extending from a cloud, holding a cup that overflows with five streams of water, symbolizing the abundant and infinite flow of emotions, love, and spirit. The card's imagery may include a dove descending towards the cup, representing divine love and the blessing of the spirit. The number one, or Ace, is associated with this card, which can signify new emotional experiences, such as the start of a friendship, romance, or a new phase in one's emotional life. The Ace of Cups invites us to open our hearts and embrace the new feelings that are emerging. It is a reminder that love and happiness are available to us, and that emotional fulfillment begins with self-love and acceptance. This card often appears when there is a potential for emotional growth, deep connections, and the joy of living from the heart.",
                 "love": "A new relationship, falling in love, feeling happy and fulfilled.",
                 "work": "A new job, starting a new project, feeling creative and inspired.",
                 "friendship": "New friends, expanding your social circle, feeling connected.",
@@ -1379,11 +1409,12 @@
             "name": "2 of Cups",
             "id": "twoofcups",
             "category": "cups",
+            "isRotated": false,
             "image": "assets/tarotcards-img/twoofcups.webp",
             "meanings": {
               "daily": "Today, the Two of Cups signifies a union of hearts and the beauty of shared emotions. The Two of Cups represents partnership, mutual attraction, and the coming together of equals. Open yourself to <strong>forming meaningful connections</strong> and to the harmony that arises from balanced relationships. <strong>Embrace the exchange of support</strong> and affection that is the hallmark of true companionship. The Two of Cups encourages you to <strong>trust in the bonds</strong> you form and to believe in the power of partnership. <strong>Be open</strong> to giving and receiving love, knowing that it is through connection that we find strength. <strong>Invest in your relationships</strong>, understanding that they are the pillars upon which happiness is built. Today, let the Two of Cups inspire you to celebrate the love that enriches your life and to cherish the moments of togetherness.",
               "upright": {
-                "general": "Love, partnership, union, harmony, cooperation.",
+                "general": "The 2 of Cups represents connection, partnership, and mutual attraction. It typically depicts two individuals exchanging cups, symbolizing the shared understanding and emotional reciprocity between them. The card's imagery often includes a caduceus of Hermes or a lion's head above the cups, representing balance, healing, and a strong bond. The number 2 is associated with this card, which can signify unity, love, and the beginning of a close relationship. The 2 of Cups invites us to honor the partnerships in our lives, whether romantic, business, or platonic, and to nurture the bonds that bring us together. It is a reminder that cooperation and respect are the foundations of any strong relationship. This card often appears when a new partnership is forming or when it is time to reaffirm the commitment to an existing one, encouraging us to move forward with trust and open-heartedness.",
                 "love": "A new relationship, falling in love, feeling happy and fulfilled.",
                 "work": "A successful partnership, teamwork, feeling valued and respected.",
                 "friendship": "Loyal and supportive friends, enjoying each other's company.",
@@ -1421,11 +1452,12 @@
             "name": "3 of Cups",
             "id": "threeofcups",
             "category": "cups",
+            "isRotated": false,
             "image": "assets/tarotcards-img/threeofcups.webp",
             "meanings": {
               "daily": "Today, the Three of Cups celebrates the joy of friendship and the warmth of community. The Three of Cups represents gatherings, festivities, and shared happiness. Take the time to <strong>appreciate the bonds</strong> of friendship and the support of your social circle. <strong>Embrace the spirit of togetherness</strong> and the collective joy that comes from celebrating life's milestones with others. The Three of Cups encourages you to <strong>relish in the camaraderie</strong> and to contribute to the group's collective enthusiasm. <strong>Be open</strong> to the infectious energy of group dynamics, knowing that it is in the company of friends that we often find our greatest joy. <strong>Invest in your relationships</strong>, understanding that the shared experiences are the ones that truly enrich our lives. Today, let the Three of Cups inspire you to join in the dance of friendship and to savor the sweet moments of unity.",
               "upright": {
-                "general": "Celebration, joy, happiness, abundance, friendship.",
+                "general": "The 3 of Cups is a card of celebration, friendship, and collaboration. It typically depicts three figures toasting with their cups raised, symbolizing shared joy and success. The card's imagery often includes an abundance of fruits or a festive gathering, representing the culmination of hard work leading to a time of merriment. The number 3 is associated with this card, which can signify creativity, growth, and the power of community. The 3 of Cups invites us to enjoy the company of others and to recognize the value of social bonds and communal support. It is a reminder that happiness is multiplied when shared, and that social interactions are essential to our well-being. This card often appears when there is a reason to celebrate, such as a wedding, a reunion, or a successful collaboration, encouraging us to engage fully in the festivities and to appreciate the love and support around us.",
                 "love": "A happy and fulfilling relationship, feeling loved and supported.",
                 "work": "A successful career, feeling valued and respected, enjoying your work.",
                 "friendship": "Loyal and supportive friends, enjoying each other's company.",
@@ -1463,11 +1495,12 @@
             "name": "4 of Cups",
             "id": "fourofcups",
             "category": "cups",
+            "isRotated": false,
             "image": "assets/tarotcards-img/fourofcups.webp",
             "meanings": {
               "daily": "Today, the Four of Cups invites you to reflect on your emotional state and to consider opportunities that may be going unnoticed. The Four of Cups represents contemplation, apathy, and re-evaluation. Take a moment to **consider what truly matters** to you and to recognize the gifts that are already in your life. The Four of Cups encourages you to **open your eyes** to the possibilities around you and to overcome feelings of dissatisfaction. **Be mindful** of your emotional well-being and avoid becoming too engrossed in self-absorption. **Invest in your personal growth**, knowing that contentment comes from a balance of acceptance and aspiration. Today, let the Four of Cups remind you that opportunities for happiness and fulfillment are often closer than they appear.",
               "upright": {
-                "general": "Apathy, boredom, dissatisfaction, stagnation, missed opportunities.",
+                "general": "The 4 of Cups represents contemplation, apathy, and reevaluation. It typically depicts a figure sitting under a tree with arms crossed, looking contemplatively at three cups standing on the ground, while a fourth cup is being offered by a hand extending from a cloud, symbolizing opportunities being presented. The card's imagery may include a landscape that suggests a mood of reflection and introspection. The number 4 is associated with this card, which can signify stability but also stagnation or lack of motivation. The 4 of Cups invites us to look within and consider our emotional or spiritual fulfillment. It is a reminder that while it is important to be self-aware, we should also be open to new possibilities that may bring joy and enthusiasm. This card often appears when we are feeling disenchanted or disconnected from our desires, encouraging us to reassess our priorities and to be mindful of the gifts that life offers.",
                 "love": "A stagnant relationship, feeling unfulfilled, feeling lonely.",
                 "work": "A boring job, feeling unchallenged, feeling stuck.",
                 "friendship": "Superficial friendships, feeling isolated, feeling unsupported.",
@@ -1505,6 +1538,7 @@
             "name": "5 of Cups",
             "id": "fiveofcups",
             "category": "cups",
+            "isRotated": false,
             "image": "assets/tarotcards-img/fiveofcups.webp",
             "meanings": {
               "daily": "Today, the Five of Cups speaks to the feelings of loss and the importance of moving past sorrow. The Five of Cups represents mourning, regret, and focusing on what has been lost. Acknowledge the emotions that arise from disappointment, but also **turn your attention to what remains**. The Five of Cups encourages you to **seek the silver lining** in your situation and to understand that not all is lost. **Be open** to the process of healing and to the lessons that come with hardship. **Invest in your emotional recovery**, knowing that through overcoming challenges, you grow stronger. Today, let the Five of Cups remind you that while grief is a part of life, so too is the resilience and hope that follow.",
@@ -1547,6 +1581,7 @@
             "name": "6 of Cups",
             "id": "sixofcups",
             "category": "cups",
+            "isRotated": false,
             "image": "assets/tarotcards-img/sixofcups.webp",
             "meanings": {
               "daily": "Today, the Six of Cups evokes a sense of nostalgia and the warmth of memories. The Six of Cups represents innocence, childhood joys, and a return to familiar places. Take a moment to <strong>reminisce and cherish the past</strong>, allowing it to bring you comfort and happiness. The Six of Cups encourages you to <strong>reconnect with old friends</strong> or revisit cherished locations that hold special meaning. <strong>Be open</strong> to the simple pleasures that life offers and the connections that have stood the test of time. <strong>Invest in your relationships</strong>, understanding that the bonds formed in the past can continue to bring joy in the present. Today, let the Six of Cups inspire you to embrace the sweetness of memory and the enduring nature of love.",
@@ -1589,6 +1624,7 @@
         "name": "7 of Cups",
         "id": "sevenofcups",
         "category": "cups",
+        "isRotated": false,
         "image": "assets/tarotcards-img/sevenofcups.webp",
         "meanings": {
           "daily": "Today, the Seven of Cups symbolizes the myriad choices and opportunities that life presents. The Seven of Cups represents dreams, illusions, and the challenge of making decisions. Take a moment to <strong>contemplate your options</strong> and the consequences they may bring. The Seven of Cups encourages you to <strong>distinguish between fantasy and reality</strong> and to be clear about what you truly desire. <strong>Be discerning</strong> in your choices, knowing that not all that glitters is gold. <strong>Invest in your decision-making process</strong>, understanding that the paths you choose now will shape your future. Today, let the Seven of Cups inspire you to navigate the waters of possibility with wisdom and clarity.",  
@@ -1631,6 +1667,7 @@
             "name": "8 of Cups",
             "id": "eightofcups",
             "category": "cups",
+            "isRotated": false,
             "image": "assets/tarotcards-img/eightofcups.webp",
             "meanings": {
               "daily": "Today, the Eight of Cups speaks to the need for a deeper sense of purpose and the courage to leave behind what no longer serves you. The Eight of Cups represents emotional transitions, the search for truth, and the willingness to embark on a new journey. Take the time to <strong>reflect on your personal fulfillment</strong> and to consider if the path you're on aligns with your innermost desires. The Eight of Cups encourages you to <strong>seek authenticity</strong> and to trust in the journey towards self-discovery. <strong>Be brave</strong> in your quest for meaning, knowing that it's okay to walk away from situations that have run their course. <strong>Invest in your spiritual journey</strong>, understanding that growth often requires change. Today, let the Eight of Cups inspire you to pursue a life that resonates with your true self.",
@@ -1673,6 +1710,7 @@
             "name": "9 of Cups",
             "id": "nineofcups",
             "category": "cups",
+            "isRotated": false,
             "image": "assets/tarotcards-img/nineofcups.webp",
             "meanings": {
               "daily": "Today, the Nine of Cups signifies a day of contentment and wish fulfillment. The Nine of Cups represents satisfaction, gratitude, and the realization of dreams. Take a moment to <strong>acknowledge your accomplishments</strong> and the joy that comes from seeing your desires come to fruition. <strong>Embrace the happiness</strong> that surrounds you and the sense of well-being that fills your heart. The Nine of Cups encourages you to <strong>relish in the pleasures</strong> of life and to maintain a positive outlook. <strong>Be thankful</strong> for the abundance you've experienced, knowing that a grateful heart attracts more blessings. <strong>Invest in your happiness</strong>, understanding that it's the simple things that often bring the most joy. Today, let the Nine of Cups inspire you to enjoy the rewards of your hard work and to share your happiness with others.",
@@ -1715,6 +1753,7 @@
             "name": "10 of Cups",
             "id": "tenofcups",
             "category": "cups",
+            "isRotated": false,
             "image": "assets/tarotcards-img/tenofcups.webp",
             "meanings": {
               "daily": "Today, the Ten of Cups overflows with the joy of harmonious relationships and emotional fulfillment. The Ten of Cups represents family unity, happiness, and the realization of an emotional dream. Take a moment to <strong>celebrate the love and support</strong> that surrounds you and the peace that comes from a sense of belonging. <strong>Embrace the bonds</strong> that tie you to your loved ones and the collective contentment that can be found in your personal relationships. The Ten of Cups encourages you to <strong>cherish these connections</strong> and to recognize the richness they bring to your life. <strong>Be open</strong> to sharing your feelings and to the mutual care that strengthens these ties. <strong>Invest in your emotional wealth</strong>, understanding that the happiness of your inner circle contributes to your own. Today, let the Ten of Cups inspire you to appreciate the beauty of shared love and the comfort of home.",
@@ -1757,6 +1796,7 @@
             "name": "Page of Cups",
             "id": "pageofcups",
             "category": "cups",
+            "isRotated": false,
             "image": "assets/tarotcards-img/pageofcups.webp",
             "meanings": {
               "daily": "Today, the Page of Cups brings a gentle reminder to stay open to the whispers of your heart and the stirrings of your intuition. The Page of Cups represents emotional curiosity, the beginning of artistic or romantic endeavors, and the joy of youth. Allow yourself to <strong>experience the full spectrum of your emotions</strong> and to express them with the innocence of the Page. <strong>Embrace the creative impulses</strong> that arise and consider exploring new artistic outlets. The Page of Cups encourages you to <strong>listen to your inner voice</strong> and to be receptive to messages from your subconscious. <strong>Be playful</strong> in your emotional expression, knowing that sincerity and vulnerability are strengths. <strong>Invest in your emotional intelligence</strong>, understanding that it will guide you in forming meaningful connections. Today, let the Page of Cups inspire you to approach the world with wonder and to find magic in the mundane.",
@@ -1799,6 +1839,7 @@
             "name": "Queen of Cups",
             "id": "queenofcups",
             "category": "cups",
+            "isRotated": false,
             "image": "assets/tarotcards-img/queenofcups.webp",
             "meanings": {
               "daily": "Today, the Queen of Cups symbolizes compassion, emotional security, and the nurturing spirit. The Queen of Cups represents intuitive understanding, empathy, and the care that comes from deep within. Take a moment to <strong>connect with your emotions</strong> and to provide a caring ear to those around you. <strong>Embrace the role of the confidant</strong>, offering wisdom and understanding to those in need. The Queen of Cups encourages you to <strong>trust in your intuition</strong> and to use your emotional depth as a source of strength. <strong>Be kind</strong> and gentle with yourself and others, knowing that kindness can heal wounds and comfort souls. <strong>Invest in your emotional well-being</strong>, understanding that your capacity for love and compassion is boundless. Today, let the Queen of Cups inspire you to create an atmosphere of warmth and to cherish the bonds of the heart.",
@@ -1841,6 +1882,7 @@
             "name": "King of Cups",
             "id": "kingofcups",
             "category": "cups",
+            "isRotated": false,
             "image": "assets/tarotcards-img/kingofcups.webp",
             "meanings": {
               "daily": "Today, the King of Cups represents a beacon of emotional stability and the wisdom of the heart. The King of Cups symbolizes emotional maturity, diplomacy, and the ability to balance feelings with intellect. Take the opportunity to <strong>lead with empathy</strong> and to provide guidance that comes from a place of understanding. <strong>Embrace the calm authority</strong> that comes with emotional intelligence and use it to navigate through any interpersonal dynamics. The King of Cups encourages you to <strong>trust in your emotional insights</strong> and to act with compassion. <strong>Be a pillar of support</strong> for those around you, knowing that your ability to listen and counsel is invaluable. <strong>Invest in your emotional leadership</strong>, understanding that your influence extends beyond words and actions to the very essence of your presence. Today, let the King of Cups inspire you to embody grace under pressure and to be the calm in the storm.",
@@ -1883,6 +1925,7 @@
             "name": "Ace of Swords",
             "id": "aceofswords",
             "category": "swords",
+            "isRotated": false,
             "image": "assets/tarotcards-img/aceofswords.webp",
             "meanings": {
               "daily": "Today, the Ace of Swords cuts through confusion to bring clarity and breakthrough thinking. The Ace of Swords represents new ideas, mental clarity, and the power of communication. Seize the opportunity to <strong>think critically</strong> and to articulate your thoughts with precision. <strong>Embrace the truth</strong> that comes with clear understanding and the courage to speak it. The Ace of Swords encourages you to <strong>act with decisiveness</strong> and to use your intellect to navigate challenges. <strong>Be honest</strong> in your interactions, knowing that integrity will lead to respect and trust. <strong>Invest in your intellectual growth</strong>, understanding that your thoughts and words have the power to create reality. Today, let the Ace of Swords inspire you to embrace a new level of awareness and to communicate your vision with confidence",
@@ -1925,6 +1968,7 @@
             "name": "2 of Swords",
             "id": "twoofswords",
             "category": "swords",
+            "isRotated": false,
             "image": "assets/tarotcards-img/twoofswords.png",
             "meanings": {
               "daily": "Today, the Two of Swords presents a moment of choice and the need for balance in decision-making. The Two of Swords represents indecision, stalemate, and the delicate equilibrium between opposing forces. Take the time to <strong>weigh your options carefully</strong> and to seek inner peace before making a choice. <strong>Embrace the process of deliberation</strong> and the value of compromise. The Two of Swords encourages you to <strong>find clarity</strong> amidst confusion and to trust in your ability to navigate through uncertainty. <strong>Be impartial</strong> in your judgment, knowing that sometimes the best decision comes from a place of calm and neutrality. <strong>Invest in your mental poise</strong>, understanding that your inner balance is key to facing the challenges ahead. Today, let the Two of Swords inspire you to achieve harmony within and to choose your path with wisdom.",
@@ -1967,6 +2011,7 @@
             "name": "3 of Swords",
             "id": "threeofswords",
             "category": "swords",
+            "isRotated": false,
             "image": "assets/tarotcards-img/threeofswords.webp",
             "meanings": {
               "daily": "Today, the Three of Swords pierces through the veil of emotional pain to bring about healing and understanding. The Three of Swords represents heartache, sorrow, and the acceptance of loss. Allow yourself to <strong>acknowledge the hurt</strong> and to process the emotions that surface. <strong>Embrace the catharsis</strong> that comes with expressing your feelings and the growth that comes from facing your trials. The Three of Swords encourages you to <strong>seek resolution</strong> and to find the lessons within the pain. <strong>Be courageous</strong> in your journey through grief, knowing that each step forward is a move towards recovery. <strong>Invest in your emotional resilience</strong>, understanding that the strength you gain now will help you in future challenges. Today, let the Three of Swords remind you that even in the midst of sorrow, there is hope for a brighter tomorrow.",
@@ -2009,6 +2054,7 @@
             "name": "4 of Swords",
             "id": "fourofswords",
             "category": "swords",
+            "isRotated": false,
             "image": "assets/tarotcards-img/fourofswords.webp",
             "meanings": {
               "daily": "Today, the Four of Swords calls for a period of rest and recovery. The Four of Swords represents meditation, contemplation, and the need for a respite from strife. Take this time to <strong>seek tranquility</strong> and to recharge your mental and emotional batteries. <strong>Embrace the stillness</strong> that comes with stepping back and the clarity that arises from introspection. The Four of Swords encourages you to <strong>find peace within</strong> and to use this period of rest to prepare for future challenges. <strong>Be patient</strong> with yourself, knowing that rest is not idleness but a vital part of the healing process. <strong>Invest in your well-being</strong>, understanding that a calm mind and spirit are your greatest assets when facing life's battles. Today, let the Four of Swords inspire you to honor your need for a pause and to cultivate inner serenity.",
@@ -2051,6 +2097,7 @@
             "name": "5 of Swords",
             "id": "fiveofswords",
             "category": "swords",
+            "isRotated": false,
             "image": "assets/tarotcards-img/fiveofswords.webp",
             "meanings": {
               "daily": "Today, the Five of Swords may indicate a situation where conflict and tension are present. The Five of Swords represents challenges, disagreements, and the potential for discord. It's important to <strong>choose your battles wisely</strong> and to consider the consequences of strife. <strong>Embrace the lessons</strong> that come from difficult interactions and the opportunity to grow from them. The Five of Swords encourages you to <strong>seek resolution</strong> rather than victory, and to prioritize peace over proving a point. <strong>Be mindful</strong> of the impact your words and actions have on others, knowing that sometimes the cost of winning can be greater than the reward. <strong>Invest in your relationships</strong>, understanding that harmony is often more valuable than being right. Today, let the Five of Swords remind you that true strength lies in the ability to navigate conflict with grace and integrity.",
@@ -2093,6 +2140,7 @@
             "name": "6 of Swords",
             "id": "sixofswords",
             "category": "swords",
+            "isRotated": false,
             "image": "assets/tarotcards-img/sixofswords.webp",
             "meanings": {
               "daily": "Today, the Six of Swords signifies a journey towards healing and a transition to a more peaceful state. The Six of Swords represents movement, progress, and the passage from rough waters to calmer shores. Take this time to <strong>move forward</strong> with purpose and to leave behind that which no longer serves you. <strong>Embrace the changes</strong> that are occurring and the growth that comes with new experiences. The Six of Swords encourages you to <strong>seek resolution</strong> and to find solace in the knowledge that brighter days are ahead. <strong>Be open</strong> to the lessons learned from past challenges, knowing that they pave the way for a smoother path. <strong>Invest in your journey</strong>, understanding that every step taken is a step towards tranquility. Today, let the Six of Swords inspire you to navigate life's transitions with hope and to look forward to a future of peace.",
@@ -2135,6 +2183,7 @@
             "name": "7 of Swords",
             "id": "sevenofswords",
             "category": "swords",
+            "isRotated": false,
             "image": "assets/tarotcards-img/sevenofswords.webp",
             "meanings": {
               "daily": "Today, the Seven of Swords calls for vigilance and strategic thinking. The Seven of Swords represents caution, discretion, and the need to navigate tricky situations with tact. Take a moment to <strong>assess your surroundings</strong> and to plan your actions carefully. <strong>Embrace the value of foresight</strong> and the importance of considering potential outcomes. The Seven of Swords encourages you to <strong>act with prudence</strong> and to be wary of taking shortcuts. <strong>Be mindful</strong> of the intentions of those around you, knowing that not every situation is as it appears. <strong>Invest in your strategic planning</strong>, understanding that sometimes the best approach is one of subtlety and patience. Today, let the Seven of Swords inspire you to move with caution and to think several steps ahead.",
@@ -2177,6 +2226,7 @@
             "name": "8 of Swords",
             "id": "eightofswords",
             "category": "swords",
+            "isRotated": false,
             "image": "assets/tarotcards-img/eightofswords.webp",
             "meanings": {
               "daily": "Today, the Eight of Swords may signify a feeling of restriction or being trapped by your own thoughts. The Eight of Swords represents self-imposed limitations, mental constraints, and the need to free oneself from negative thinking. Take a moment to <strong>assess the barriers</strong> you've created in your mind and to recognize that you have the power to release them. <strong>Embrace the possibility of liberation</strong> and the clarity that comes with overcoming your fears. The Eight of Swords encourages you to <strong>seek solutions</strong> rather than dwelling on the obstacles. <strong>Be courageous</strong> in facing your anxieties, knowing that you hold the keys to your own freedom. <strong>Invest in your mental emancipation</strong>, understanding that the first step towards change is acknowledging the need for it. Today, let the Eight of Swords inspire you to cut through the ties that bind and to step into a space of empowerment.",
@@ -2219,6 +2269,7 @@
             "name": "9 of Swords",
             "id": "nineofswords",
             "category": "swords",
+            "isRotated": false,
             "image": "assets/tarotcards-img/nineofswords.webp",
             "meanings": {
               "daily": "Today, the <strong>Nine of Swords</strong> may surface feelings of anxiety or worry that seem to cloud your mind. The <strong>Nine of Swords</strong> symbolizes the dark night of the soul, where fears and doubts loom large. It's a call to <strong>acknowledge your inner turmoil</strong> and confront the shadows that haunt your thoughts. Take this day to <strong>reflect on the sources</strong> of your distress and understand that these worries are often magnified in the silence of the night. <strong>Seek comfort</strong> in knowing that daylight brings new perspectives and the possibility of resolution. The <strong>Nine of Swords</strong> invites you to <strong>find solace</strong> in sharing your concerns with someone you trust, as voicing your fears can be the first step towards dispelling them. <strong>Be kind to yourself</strong> and remember that each day offers a chance for healing and hope. Let the <strong>Nine of Swords</strong> remind you that the courage to face your fears is also the courage to forge a path towards peace of mind.",
@@ -2260,6 +2311,7 @@
             "name": "10 of Swords",
             "id": "tenofswords",
             "category": "swords",
+            "isRotated": false,
             "image": "assets/tarotcards-img/tenofswords.png",
             "meanings": {
               "daily": "Today, the <strong>Ten of Swords</strong> may indicate a time of significant transformation and conclusion. The <strong>Ten of Swords</strong> often represents a dramatic end or the feeling of hitting rock bottom. It's a sign to <strong>acknowledge the completion</strong> of a cycle or the finality of a situation that no longer serves you. This day calls for <strong>acceptance of the present circumstances</strong> and the understanding that from the depths of despair, new opportunities for growth can arise. <strong>Release the past</strong> and look towards the horizon for the dawn of a new beginning. The <strong>Ten of Swords</strong> encourages you to <strong>embrace the lessons learned</strong> and prepare for a rebirth. It's time to <strong>let go of old wounds</strong> and trust that the universe has better plans in store. Today, let the <strong>Ten of Swords</strong> be a reminder that after the darkest night, the sun will rise again, bringing hope and renewal.",
@@ -2302,6 +2354,7 @@
             "name": "Page of Swords",
             "id": "pageofswords",
             "category": "swords",
+            "isRotated": false,
             "image": "assets/tarotcards-img/pageofswords.webp",
             "meanings": {
               "daily": "Today, the <strong>Page of Swords</strong> appears, bringing with it the energy of curiosity and mental agility. The <strong>Page of Swords</strong> often represents a person who is eager to learn and communicate ideas. It's a sign to <strong>embrace your quest for knowledge</strong> and to remain alert to the information swirling around you. This day encourages you to <strong>engage in intellectual pursuits</strong> and to use your wit and understanding to navigate through challenges. <strong>Be honest</strong> in your dealings and <strong>seek the truth</strong> with a clear and open mind. The <strong>Page of Swords</strong> invites you to <strong>express your thoughts</strong> and to be ready for lively debates or discussions. <strong>Prepare for discovery</strong>, as this card can also indicate news or messages that may require your attention. Today, let the <strong>Page of Swords</strong> inspire you to sharpen your perceptions and to approach the day with mental clarity and direct communication.",
@@ -2344,6 +2397,7 @@
             "name": "Queen of Swords",
             "id": "queenofswords",
             "category": "swords",
+            "isRotated": false,
             "image": "assets/tarotcards-img/queenofswords.webp",
             "meanings": {
               "daily": "Today, the <strong>Queen of Swords</strong> calls upon you to embody her clarity of thought and direct communication. The <strong>Queen of Swords</strong> represents a figure of authority who wields her intellect with precision and isn't afraid to speak the truth. It's a sign to <strong>use discernment</strong> in your judgments and to approach situations with a clear and unbiased mind. This day invites you to <strong>lead with honesty</strong> and to cut through any confusion or misinformation that stands in your way. <strong>Be assertive</strong> in expressing your thoughts and <strong>stand firm</strong> in your convictions. The <strong>Queen of Swords</strong> encourages you to <strong>embrace independence</strong> of thought and to trust in your ability to communicate effectively. <strong>Seek wisdom</strong> and let your experiences guide you to make informed decisions. Today, let the <strong>Queen of Swords</strong> inspire you to rise above the noise and to govern your realm of thoughts with confidence and grace.",
@@ -2386,6 +2440,7 @@
             "name": "King of Swords",
             "id": "kingofswords",
             "category": "swords",
+            "isRotated": false,
             "image": "assets/tarotcards-img/kingofswords.webp",
             "meanings": {
               "daily": "Today, the <strong>King of Swords</strong> signifies a powerful energy of intellect and authority. The <strong>King of Swords</strong> represents a figure who is a master of logic and reason, someone who makes decisions based on clear understanding and fairness. It's a day to <strong>embrace leadership</strong> and to use your mental sharpness to cut through challenges. This card encourages you to <strong>communicate with confidence</strong> and to stand by your principles with conviction. <strong>Seek justice</strong> and truth in all dealings, and be prepared to make tough decisions if necessary. The <strong>King of Swords</strong> also reminds you to <strong>remain impartial</strong> and to consider all sides before passing judgment. <strong>Value integrity</strong> and honesty, and use your intellectual power to lead by example. Today, let the <strong>King of Swords</strong> inspire you to govern your thoughts with wisdom and to articulate your truth with clarity and eloquence.",
@@ -2428,6 +2483,7 @@
             "name": "Ace of Wands",
             "id": "aceofwands",
             "category": "wands",
+            "isRotated": false,
             "image": "assets/tarotcards-img/aceofwands.webp",
             "meanings": {
               "daily": "Today, the <strong>Ace of Wands</strong> ignites a spark of inspiration and a surge of creative energy. The <strong>Ace of Wands</strong> symbolizes a new beginning, brimming with potential and enthusiasm. It's a day to <strong>embrace new ideas</strong> and to be bold in pursuing your passions. This card encourages you to <strong>act on your impulses</strong> and to trust in the vitality of your vision. <strong>Seize the moment</strong> and initiate the projects that excite you, for the Ace of Wands heralds a time of great opportunity. <strong>Be courageous</strong> in taking the first steps towards manifesting your dreams. The <strong>Ace of Wands</strong> also reminds you to <strong>remain open to the wonders</strong> that the universe has to offer. <strong>Let your creativity flow</strong> and watch as new paths unfold before you. Today, let the <strong>Ace of Wands</strong> be a beacon of possibility, lighting the way to a journey of discovery and success.",
@@ -2470,6 +2526,7 @@
             "name": "2 of Wands",
             "id": "twoofwands",
             "category": "wands",
+            "isRotated": false,
             "image": "assets/tarotcards-img/twoofwands.webp",
             "meanings": {
               "daily": "Today, the <strong>Two of Wands</strong> brings a message of planning and future progress. The <strong>Two of Wands</strong> symbolizes the point where potential meets possibility, where you stand on the verge of setting forth on a new journey. It's a day to <strong>consider your long-term goals</strong> and to map out the path to achieve them. This card encourages you to <strong>take a broad view</strong> of your life's direction and to contemplate the choices that lay before you. <strong>Be bold</strong> in your ambitions and <strong>confident</strong> in your abilities to make them a reality. The <strong>Two of Wands</strong> invites you to <strong>partner with others</strong> who share your vision and to combine your strengths for greater success. <strong>Embrace the world</strong> as your canvas and paint your future with strokes of innovation and purpose. Today, let the <strong>Two of Wands</strong> inspire you to step into your power and to cast your gaze towards the horizon, where opportunities await.",
@@ -2512,6 +2569,7 @@
             "name": "3 of Wands",
             "id": "threeofwands",
             "category": "wands",
+            "isRotated": false,
             "image": "assets/tarotcards-img/threeofwands.webp",
             "meanings": {
               "daily": "Today, the <strong>Three of Wands</strong> signifies a period of foresight and expansion. The <strong>Three of Wands</strong> represents the moment of looking ahead to the future, with anticipation of upcoming achievements. It's a day to <strong>focus on forward momentum</strong> and to consider the vast opportunities that await you. This card encourages you to <strong>expand your horizons</strong> and to think big in terms of your life's journey. <strong>Be proactive</strong> in your planning and <strong>bold</strong> in taking the steps necessary to realize your ambitions. The <strong>Three of Wands</strong> invites you to <strong>explore new ventures</strong> and to be open to collaboration and new experiences. <strong>Trust in your vision</strong> and know that your efforts will soon start to bear fruit. Today, let the <strong>Three of Wands</strong> inspire you to reach out into the unknown with confidence and to embrace the potential of what is yet to come.",
@@ -2554,6 +2612,7 @@
             "name": "4 of Wands",
             "id": "fourofwands",
             "category": "wands",
+            "isRotated": false,
             "image": "assets/tarotcards-img/fourofwands.webp",
             "meanings": {
               "daily": "Today, the <strong>Four of Wands</strong> brings a sense of celebration and joy. The <strong>Four of Wands</strong> symbolizes a time of harmony and stability, often associated with family gatherings, community events, or personal milestones. It's a day to <strong>appreciate the bonds</strong> you share with others and to recognize the support system around you. This card encourages you to <strong>enjoy the fruits of your labor</strong> and to take a moment to savor the successes you've achieved. <strong>Be grateful</strong> for the peace and contentment that come with well-earned rest. The <strong>Four of Wands</strong> invites you to <strong>participate in communal joy</strong> and to contribute to a collective sense of accomplishment. <strong>Embrace the festivities</strong> and let the positive energy uplift your spirit. Today, let the <strong>Four of Wands</strong> inspire you to create lasting memories and to cherish the love and unity that surround you.",
@@ -2596,6 +2655,7 @@
             "name": "5 of Wands",
             "id": "fiveofwands",
             "category": "wands",
+            "isRotated": false,
             "image": "assets/tarotcards-img/fiveofwands.webp",
             "meanings": {
               "daily": "Today, the <strong>Five of Wands</strong> suggests a day of competition and conflict. The <strong>Five of Wands</strong> often represents a struggle or challenge that requires you to assert yourself. It's a day to <strong>stand your ground</strong> and to face any rivalry with courage. This card encourages you to <strong>embrace the healthy aspects of competition</strong> and to use it as a catalyst for personal growth. <strong>Be prepared</strong> to navigate through disagreements or debates and to defend your position with confidence. The <strong>Five of Wands</strong> invites you to <strong>rise above petty squabbles</strong> and to focus on the bigger picture. <strong>Seek collaboration</strong> amidst the chaos and find ways to channel the dynamic energy into constructive outcomes. Today, let the <strong>Five of Wands</strong> inspire you to overcome obstacles with determination and to harness the passion of friendly competition to sharpen your skills and resolve.",
@@ -2638,6 +2698,7 @@
             "name": "6 of Wands",
             "id": "sixofwands",
             "category": "wands",
+            "isRotated": false,
             "image": "assets/tarotcards-img/sixofwands.webp",
             "meanings": {
               "daily": "Today, the <strong>Six of Wands</strong> heralds a day of recognition and victory. The <strong>Six of Wands</strong> signifies success and the public acknowledgment of your efforts. It's a day to <strong>celebrate your achievements</strong> and to bask in the admiration of others. This card encourages you to <strong>take pride</strong> in your accomplishments and to allow yourself to enjoy the spotlight. <strong>Be gracious</strong> in your triumph and <strong>share the glory</strong> with those who supported you along the way. The <strong>Six of Wands</strong> invites you to <strong>use this moment of success</strong> as a stepping stone to greater endeavors. <strong>Stay humble</strong>, yet confident, as you set your sights on new goals. Today, let the <strong>Six of Wands</strong> inspire you to carry forward with optimism and to let your light shine brightly for all to see.",
@@ -2680,6 +2741,7 @@
             "name": "7 of Wands",
             "id": "sevenofwands",
             "category": "wands",
+            "isRotated": false,
             "image": "assets/tarotcards-img/sevenofwands.webp",
             "meanings": {
               "daily": "Today, the <strong>Seven of Wands</strong> stands as a symbol of resilience and determination. The <strong>Seven of Wands</strong> represents a position of strength amidst adversity, suggesting that you may need to defend your territory or beliefs. It's a day to <strong>stand firm</strong> in the face of challenges and to assert your convictions with courage. This card encourages you to <strong>hold your ground</strong> and to trust in your inner strength to overcome opposition. <strong>Be confident</strong> in your stance and <strong>fight for what you believe in</strong>, even if it means standing alone. The <strong>Seven of Wands</strong> invites you to <strong>rise above the fray</strong> and to maintain your position with poise and determination. <strong>Face the competition</strong> with a steadfast heart, knowing that perseverance will lead to triumph. Today, let the <strong>Seven of Wands</strong> inspire you to embrace the spirit of a warrior, ready to conquer any battle that comes your way.",
@@ -2722,6 +2784,7 @@
             "name": "8 of Wands",
             "id": "eightofwands",
             "category": "wands",
+            "isRotated": false,
             "image": "assets/tarotcards-img/eightofwands.webp",
             "meanings": {
               "daily": "Today, the <strong>Eight of Wands</strong> signifies a flurry of activity and swift progress. The <strong>Eight of Wands</strong> represents a period where things are moving quickly, and you must be ready to act. It's a day to <strong>seize opportunities</strong> as they come and to trust in the momentum that's building. This card encourages you to <strong>go with the flow</strong> of energy and to embrace the changes that are occurring. <strong>Be decisive</strong> and clear in your intentions, as the pace of the day may not allow for hesitation. The <strong>Eight of Wands</strong> invites you to <strong>communicate effectively</strong> and to ensure that your message is understood by all involved. <strong>Prepare for a swift journey</strong>, as this card can also indicate travel or the rapid completion of a project. Today, let the <strong>Eight of Wands</strong> inspire you to fly with the winds of change and to harness the power of speed and direction in your endeavors.",
@@ -2764,6 +2827,7 @@
             "name": "9 of Wands",
             "id": "nineofwands",
             "category": "wands",
+            "isRotated": false,
             "image": "assets/tarotcards-img/nineofwands.webp",
             "meanings": {
               "daily": "Today, the <strong>Nine of Wands</strong> speaks to your resilience and preparedness. The <strong>Nine of Wands</strong> symbolizes a moment of perseverance despite feeling weary or close to your limit. It's a day to <strong>gather your strength</strong> and to stand ready to face any challenges that come your way. This card encourages you to <strong>remain vigilant</strong> and to protect what you've worked hard to achieve. <strong>Be persistent</strong> and trust in your ability to endure, as the end of a struggle may be near. The <strong>Nine of Wands</strong> invites you to <strong>draw upon your inner reserves</strong> of courage and to brace yourself for the final push. <strong>Stay determined</strong>, knowing that your efforts will soon pay off. Today, let the <strong>Nine of Wands</strong> inspire you to maintain your guard and to honor the wisdom gained through your trials.",
@@ -2806,6 +2870,7 @@
             "name": "10 of Wands",
             "id": "tenofwands",
             "category": "wands",
+            "isRotated": false,
             "image": "assets/tarotcards-img/tenofwands.webp",
             "meanings": {
               "daily": "Today, the <strong>Ten of Wands</strong> may feel like a heavy burden, a sign that you're carrying a significant load. The <strong>Ten of Wands</strong> symbolizes the weight of responsibilities or the stress of having too many obligations. It's a day to <strong>acknowledge the strain</strong> and to consider how you might lighten your load. This card encourages you to <strong>delegate tasks</strong> or to ask for help, reminding you that it's okay to share the weight you carry. <strong>Be mindful</strong> of your limits and <strong>take time to rest</strong> if needed. The <strong>Ten of Wands</strong> invites you to <strong>reassess your priorities</strong> and to let go of anything that is not serving your higher purpose. <strong>Focus on what truly matters</strong>, and give yourself permission to release any excess burdens. Today, let the <strong>Ten of Wands</strong> inspire you to find balance and to move forward with a lighter, more manageable load.",
@@ -2848,9 +2913,9 @@
             "name": "Page of Wands",
             "id": "pageofwands",
             "category": "wands",
+            "isRotated": false,
             "image": "assets/tarotcards-img/pageofwands.webp",
-            "meanings": {
-              
+            "meanings": {           
               "upright": {
                 "general": "New beginnings, enthusiasm, creativity, inspiration, potential.",
                 "love": "A new relationship, feeling excited, feeling passionate.",
@@ -2890,6 +2955,7 @@
             "name": "Queen of Wands",
             "id": "queenofwands",
             "category": "wands",
+            "isRotated": false,
             "image": "assets/tarotcards-img/queenofwands.webp",
             "meanings": {
               "daily": "Today, the <strong>Queen of Wands</strong> radiates confidence and dynamic energy. The <strong>Queen of Wands</strong> symbolizes a person who is charismatic and full of life, often taking the lead with warmth and enthusiasm. It's a day to <strong>embrace your personal power</strong> and to inspire others with your optimism and zest for life. This card encourages you to <strong>be bold</strong> in your actions and to pursue your goals with determination. <strong>Be generous</strong> with your spirit and <strong>share your light</strong> with those around you. The <strong>Queen of Wands</strong> invites you to <strong>express your creativity</strong> and to let your unique personality shine through. <strong>Stay open</strong> to new connections and <strong>lead with your heart</strong> as well as your mind. Today, let the <strong>Queen of Wands</strong> inspire you to walk with grace and to spread positivity wherever you go.",
@@ -2932,6 +2998,7 @@
             "name": "King of Wands",
             "id": "kingofwands",
             "category": "wands",
+            "isRotated": false,
             "image": "assets/tarotcards-img/kingofwands.webp",
             "meanings": {
               "daily": "Today, the <strong>Queen of Wands</strong> radiates confidence and dynamic energy. The <strong>Queen of Wands</strong> symbolizes a person who is charismatic and full of life, often taking the lead with warmth and enthusiasm. It's a day to <strong>embrace your personal power</strong> and to inspire others with your optimism and zest for life. This card encourages you to <strong>be bold</strong> in your actions and to pursue your goals with determination. <strong>Be generous</strong> with your spirit and <strong>share your light</strong> with those around you. The <strong>Queen of Wands</strong> invites you to <strong>express your creativity</strong> and to let your unique personality shine through. <strong>Stay open</strong> to new connections and <strong>lead with your heart</strong> as well as your mind. Today, let the <strong>Queen of Wands</strong> inspire you to walk with grace and to spread positivity wherever you go.",
