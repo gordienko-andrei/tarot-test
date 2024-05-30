@@ -19,7 +19,7 @@
                     "finance_home": "In terms of finance, The Fool suggests a period of innovation and unconventional thinking. It may be time to take a calculated risk or to invest in an idea that others might overlook. This card encourages you to follow your intuition when it comes to financial decisions and to be open to opportunities that may arise in unexpected places. It’s also a sign that moving or changing your environment could bring a fresh perspective and new energy into your life.",
                     "personal_relationships": "When it comes to personal relationships, The Fool embodies the spirit of adventure and the willingness to experience love in its myriad forms. It suggests that you may encounter relationships that challenge traditional norms and encourage you to grow. This card is a reminder to remain open-hearted and to let go of fears that may hold you back from deep connections. It’s a time to celebrate love’s unpredictability and to enjoy the journey it takes you on.",
                     "health": "In the context of health, The Fool card suggests a time of vitality and the beginning of a new journey towards better health. It encourages you to be open to new health practices or treatments, especially those that might seem unconventional. This card is a reminder to listen to your body and to be proactive about your well-being. It’s a time to experiment with different forms of exercise, nutrition, and self-care that resonate with your personal needs.The Fool in health also represents the potential for healing, not just physically, but emotionally and spiritually as well. It’s about embracing a holistic approach to health, recognizing the interconnectedness of mind, body, and spirit. This card encourages you to trust your intuition when it comes to making health decisions and to be fearless in trying out new paths to wellness.", 
-                    "combinations": "When combined with 'The Magician', indicates a powerful new venture"
+                    "partner_analysis": "The Fool card symbolizes the beginning of a journey, full of opportunities and surprises. This means that the person has the spirit of an adventurer and eternal seeker. They are open to new ideas, experiences, and are not afraid to step into the unknown. They may be somewhat naive and sometimes act without thinking, but this stems from their pure-hearted faith in life and people. They are not burdened by prejudices and stereotypes, which allows them to live a full and free life. In love, they can be unpredictable and full of surprises, but always sincere and enthusiastic."
                 },
                 "reversed": {
                     "general": "Recklessness, taken advantage of, inconsideration", 
@@ -30,8 +30,8 @@
                     "deeper_meaning": "When it comes to deeper meaning, a reversed Fool might signal a disconnect from your spiritual path or a resistance to new experiences that could lead to personal growth. It encourages you to break free from limiting beliefs and to embrace the lessons that come with life’s uncertainties.", 
                     "finance_home": "In finance, the reversed Fool warns against impulsive financial decisions or investments. It suggests that now is the time for careful planning and consideration, rather than taking leaps of faith. In terms of home, it may indicate a reluctance to change your living situation, even if it could be beneficial.", 
                     "personal_relationships": "The reversed Fool in personal relationships points to potential misunderstandings or miscommunications. It suggests taking the time to truly listen and connect with others on a deeper level. This card reversed can also indicate a fear of commitment or difficulty in adapting to the dynamics of a relationship.", 
-                    "health": "Regarding health, the reversed Fool advises caution and preventative care. It may be a sign to pay closer attention to your body’s signals and to avoid neglecting your health. This card reversed can also suggest that you might be ignoring important health issues or warnings.", 
-                    "combinations": "Paired with 'The Tower', suggests a sudden upheaval or change" 
+                    "health": "Regarding health, the reversed Fool advises caution and preventative care. It may be a sign to pay closer attention to your body’s signals and to avoid neglecting your health. This card reversed can also suggest that you might be ignoring important health issues or warnings.",
+                    "partner_analysis": "The reversed Fool may indicate recklessness, carelessness, or taking unnecessary risks. This person might be acting on impulse without considering the consequences, leading to potential mistakes or accidents. In relationships, this card suggests a partner who may need to be more cautious and considerate." 
                 }
             }
         },
@@ -54,7 +54,7 @@
                     "finance_home": "Financially, The Magician is a sign of prosperity and the ability to manifest wealth. It encourages wise investments and suggests that your efforts will lead to financial success.",
                     "personal_relationships": "In personal relationships, The Magician indicates strong bonds formed through clear communication and a shared vision. It suggests that you can build deep and meaningful connections with those around you.",
                     "health": "Regarding health, The Magician signifies vitality and the power to improve your physical well-being. It encourages proactive health measures and a positive mindset towards healing and wellness.", 
-                    "combinations": "When paired with The Death, The Magician suggests a powerful transformation or rebirth that you have the power to influence."
+                    "partner_analysis": "The Magician card is a symbol of manifestation, skill, and mastery. This person harnesses the power of the elements and the universe to make things happen. With the tools at their disposal, they craft their reality with precision and intent. They are a conduit for turning ideas into reality, often indicating a strategic and analytical mind. In relationships, they bring dynamism and a transformative energy, always pushing the boundaries of what is possible."
                 },
                 "reversed": {
                     "general": "The reversed Magician indicates a blockage in your creative energy. You may be feeling stuck, unmotivated, or lacking in direction. This card can also represent a fear of taking action or using your full potential.", 
@@ -65,8 +65,8 @@
                     "deeper_meaning": "The reversed Magician can represent a fear of death (symbolic or literal) or a resistance to the natural cycle of change.", 
                     "finance_home": "The reversed Magician signifies financial instability or clinging to possessions that no longer serve you. It's a time to be resourceful and make wise financial decisions.", 
                     "personal_relationships": "The reversed Magician suggests difficulty letting go of unhealthy attachments in your relationships. It's important to set boundaries and prioritize your own well-being.", 
-                    "health": "The reversed Magician can represent denial of health issues or clinging to unhealthy habits. It's a time to take charge of your health and make positive changes.", 
-                    "combinations": "Paired with The Tower, the reversed Magician suggests a sudden and negative change that could have been avoided by embracing necessary endings." 
+                    "health": "The reversed Magician can represent denial of health issues or clinging to unhealthy habits. It's a time to take charge of your health and make positive changes.",
+                    "partner_analysis": "The reversed Magician can represent manipulation, poor planning, or untapped potential. This person may be experiencing a lack of direction or using their skills unethically. In relationships, this card warns of a partner who might be deceitful or not using their abilities for the common good." 
                 }
             }
         },
@@ -89,7 +89,7 @@
                     "finance_home": "Financial transformation, unexpected income or loss. Moving or changes in your living situation.",
                     "personal_relationships": "Releasing unhealthy attachments, space needed for growth in relationships.",
                     "health": "Transformation of health habits, recovery from illness.", 
-                    "combinations": "When paired with The Magician it signifies a powerful transformation or rebirth that you have the power to influence."
+                    "partner_analysis":  "The Death card is not about physical death but signifies endings and beginnings, transformation, and transition. This person is experiencing a profound change, shedding the old skin for a new one. They embrace the cyclical nature of life and understand that with every ending comes a new start. They may be a catalyst for change, representing the conclusion of one phase and the start of another, often with wisdom and acceptance."
                 },
                 "reversed": {
                     "general": "Stagnation, clinging to the past, resistance to change. Fear of endings and new beginnings.", 
@@ -100,8 +100,8 @@
                     "deeper_meaning": " Fear of death (symbolic or literal). Resistance to the natural cycle of change.", 
                     "finance_home": " Financial instability, clinging to possessions. Difficulty letting go of a living situation that no longer serves you.", 
                     "personal_relationships": "Difficulty letting go of unhealthy attachments.", 
-                    "health": "Denial of health issues, clinging to unhealthy habits.", 
-                    "combinations": "Paired with The Tower suggests a sudden and negative change that could have been avoided by embracing necessary endings." 
+                    "health": "Denial of health issues, clinging to unhealthy habits.",
+                    "partner_analysis": "The reversed Death card signifies resistance to change, personal transformation, or an inability to move on. This person may be clinging to the past or refusing to adapt to new circumstances. In relationships, this card suggests a partner who is struggling with letting go and moving forward."
                 }
             }
         },
@@ -124,7 +124,7 @@
                 "finance_home": "Financial security, abundance, and prosperity. The Sun signifies a time of financial stability and well-being. It's a good time to invest in your future.",
                 "personal_relationships": "Open communication, honesty, and trust. The Sun signifies a time of strong and healthy relationships with loved ones.",
                 "health": "Vitality, good health, and a sense of well-being. The Sun signifies a time of feeling energetic and healthy.",
-                "combinations": "When paired with The Wheel of Fortune, The Sun suggests a time of unexpected joy and good fortune."
+                "partner_analysis": "The Sun card radiates positivity, vitality, and clarity. This person is a beacon of joy and enthusiasm, bringing light to all situations. They embody success and abundance, often achieving what they set out to do with a sunny disposition. Their presence is uplifting, and in relationships, they offer warmth, happiness, and a strong sense of loyalty. They represent the best of life's offerings, from success to happiness and all the celebrations in between."
               },
               "reversed": {
                 "general": "Lack of joy, negativity, disappointment. The reversed Sun indicates a feeling of letdown, disappointment, or lack of fulfillment.",
@@ -136,7 +136,7 @@
                 "finance_home": "Financial instability, unexpected expenses, or loss. The reversed Sun signifies a time of financial hardship or setbacks.",
                 "personal_relationships": "Miscommunication, dishonesty, or conflict. The reversed Sun signifies challenges or tension in your relationships with loved ones.",
                 "health": "Lack of energy, feeling drained or run down. The reversed Sun signifies a time of feeling unwell or lacking vitality.",
-                "combinations": "Paired with The Tower, the reversed Sun suggests a sudden and unexpected loss or disappointment."
+                "partner_analysis": "The reversed Sun may indicate a lack of clarity, pessimism, or feeling down. This person could be experiencing temporary setbacks or a loss of confidence. In relationships, this card suggests a partner who may be going through a rough patch but still has a positive foundation to return to."
               }
             }
         }, 
@@ -159,7 +159,7 @@
                     "finance_home": "Financial intuition, trusting your instincts with money. The High Priestess signifies a time of relying on your intuition and inner wisdom in financial matters.",
                     "personal_relationships": "Deep emotional connections, spiritual understanding. The High Priestess indicates a time of forming deep and meaningful relationships based on spiritual connection.",
                     "health": "Intuition in health matters, inner healing. The High Priestess signifies a time of trusting your intuition and seeking inner healing for physical and emotional well-being.",
-                    "combinations": "Paired with The Magician, the High Priestess suggests a time of manifesting your desires through intuition and inner guidance."
+                    "partner_analysis":  "The High Priestess card is a deep well of intuition and the subconscious. This person is in touch with their inner wisdom and the mysteries of the universe. They are often a keeper of hidden knowledge, understanding the ebb and flow of energies that others cannot perceive. In relationships, they offer depth, understanding, and a connection that goes beyond the surface. They embody the divine feminine, offering insight, intuition, and a perspective that is both ancient and timeless."
                 },
                 "reversed": {
                     "general": "Ignoring intuition, repressed feelings, hidden agendas. The reversed High Priestess indicates a time of ignoring your intuition or suppressing your emotions. It may signify hidden motives or deceit.",
@@ -171,7 +171,7 @@
                     "finance_home": "Financial losses, poor decisions, ignoring financial intuition. The reversed High Priestess signifies a time of financial losses or poor decision-making due to ignoring your intuition. It may indicate a need to trust your instincts with money.",
                     "personal_relationships": "Lack of understanding, emotional distance, intuitive blockage. The reversed High Priestess suggests a lack of understanding or emotional distance in relationships. It may indicate a need to listen to your intuition.",
                     "health": "Ignoring health intuition, lack of inner healing. The reversed High Priestess signifies a time of ignoring your intuition regarding health matters or feeling disconnected from inner healing. It may indicate a need to trust your instincts for well-being.",
-                    "combinations": "Paired with The Moon, the reversed High Priestess suggests confusion or illusions blocking your intuition."
+                    "partner_analysis": "The reversed High Priestess can represent secrets, disconnected intuition, or ignored inner voice. This person might be out of touch with their subconscious or ignoring their gut feelings. In relationships, this card warns of a partner who may not be fully open or in tune with their emotions."
                 }
             }
         },
@@ -194,7 +194,7 @@
                     "finance_home": "Financial stability, abundance, material comfort. The Empress signifies a time of financial stability and abundance. It's a good time to focus on creating a comfortable and secure home environment.",
                     "personal_relationships": "Nurturing relationships, emotional support, maternal love. The Empress indicates a time of nurturing and supportive relationships with loved ones.",
                     "health": "Physical well-being, fertility, vitality. The Empress signifies a time of good health and vitality. It's a good time to focus on nurturing your body and physical well-being.",
-                    "combinations": "Paired with The Emperor, The Empress suggests a balanced and harmonious partnership based on mutual respect and support."
+                    "partner_analysis":  "The Empress card embodies fertility, creativity, and abundance. This person is nurturing and caring, often associated with motherhood and the power of nature. They bring growth and harmony to their surroundings, encouraging others to connect with their senses and emotions. In relationships, The Empress represents a supportive partner who provides love and comfort, fostering a deep, sensual connection." 
                 },
                 "reversed": {
                     "general": "Emotional instability, neglect, lack of nurturing. The reversed Empress indicates a time of emotional instability or neglect. It may signify a lack of nurturing or care in your life.",
@@ -206,7 +206,7 @@
                     "finance_home": "Financial insecurity, lack of abundance, instability. The reversed Empress signifies financial insecurity or instability. It may indicate a lack of abundance or material comfort.",
                     "personal_relationships": "Emotional distance, lack of support, maternal issues. The reversed Empress suggests emotional distance or lack of support in relationships. It may indicate maternal issues or unresolved family conflicts.",
                     "health": "Poor health, lack of vitality, reproductive issues. The reversed Empress signifies poor health or lack of vitality. It may indicate reproductive issues or hormonal imbalances.",
-                    "combinations": "Paired with The Tower, the reversed Empress suggests a sudden and unexpected loss or disruption in your nurturing environment."
+                    "partner_analysis": "The reversed Empress suggests issues with nurturing, creativity, or abundance. This person may be feeling unproductive or smothering. In relationships, this card indicates a partner who might be overbearing or experiencing a block in their caring nature." 
                 }
             }
         },
@@ -229,7 +229,7 @@
                     "finance_home": "Financial security, investments, long-term planning. The Emperor signifies financial security and stability. It's a good time to focus on investments and long-term financial planning.",
                     "personal_relationships": "Protective energy, loyalty, stability. The Emperor indicates protective energy and stability in relationships. It signifies loyalty and commitment to your loved ones.",
                     "health": "Physical health, strength, resilience. The Emperor signifies physical health and strength. It's a good time to focus on maintaining your health and building resilience.",
-                    "combinations": "Paired with The Empress, The Emperor suggests a balanced and harmonious partnership based on mutual respect and support."
+                    "partner_analysis":  "The Emperor card signifies authority, structure, and control. This person is a figure of power and stability, often taking on the role of protector and provider. They value discipline and order, creating a solid foundation upon which to build. In relationships, The Emperor can represent a dependable partner who values tradition and seeks to create a secure environment."
                 },
                 "reversed": {
                     "general": "Authoritarianism, control issues, lack of stability. The reversed Emperor indicates a time of authoritarianism or control issues. It may signify a lack of stability or structure in your life.",
@@ -241,7 +241,7 @@
                     "finance_home": "Financial instability, poor investments, lack of planning. The reversed Emperor signifies financial instability or poor investments. It may indicate a lack of long-term planning or foresight.",
                     "personal_relationships": "Lack of protection, instability, broken trust. The reversed Emperor suggests a lack of protection or stability in relationships. It may indicate broken trust or disloyalty.",
                     "health": "Weakness, susceptibility to illness, lack of strength. The reversed Emperor indicates weakness or susceptibility to illness. It may indicate a lack of physical strength or resilience.",
-                    "combinations": "Paired with The Tower, the reversed Emperor suggests a sudden and unexpected loss of stability or upheaval in your life."
+                    "partner_analysis": "The reversed Emperor signifies a lack of authority, rigid control, or domination. This person could be displaying tyrannical behaviors or lacking discipline. In relationships, this card suggests a partner who may be overly controlling or unable to provide stability."
                 }
             }
         },
@@ -263,7 +263,7 @@
                     "finance_home": "Financial guidance, adherence to financial principles. The Hierophant signifies financial guidance and adherence to financial principles. It's a good time to follow established financial rules.",
                     "personal_relationships": "Spiritual bonds, commitment, shared values. The Hierophant indicates spiritual bonds and commitment in relationships. It signifies shared values and loyalty to your loved ones.",
                     "health": "Healing rituals, spiritual well-being, adherence to health practices. The Hierophant signifies healing rituals and spiritual well-being. It's a good time to focus on adhering to health practices.",
-                    "combinations": "Paired with The High Priestess, The Hierophant suggests seeking spiritual guidance and wisdom from within."
+                    "partner_analysis": "The Hierophant card represents tradition, spiritual wisdom, and guidance. This person is a mentor and advisor, often serving as a bridge between the earthly and the divine. They uphold societal norms and values, offering counsel and moral direction. In relationships, The Hierophant may indicate a relationship built on shared beliefs and cultural or religious bonds."
                 },
                 "reversed": {
                     "general": "Rebellion against tradition, challenging beliefs, nonconformity. The reversed Hierophant indicates rebellion against tradition or challenging established beliefs. It may signify nonconformity or rejection of authority.",
@@ -275,7 +275,7 @@
                     "finance_home": "Financial irresponsibility, ignoring financial advice, unconventional investments. The reversed Hierophant signifies financial irresponsibility or ignoring financial advice. It may indicate unconventional investments or risky financial decisions.",
                     "personal_relationships": "Lack of commitment, conflicting values, spiritual disconnection. The reversed Hierophant suggests a lack of commitment or conflicting values in relationships. It may indicate spiritual disconnection or lack of loyalty.",
                     "health": "Neglecting spiritual well-being, adherence to unhealthy practices. The reversed Hierophant signifies neglecting spiritual well-being or adherence to unhealthy practices. It may indicate ignoring health advice or spiritual healing.",
-                    "combinations": "Paired with The Devil, the reversed Hierophant suggests spiritual manipulation or deception leading to negative consequences."
+                    "partner_analysis": "The reversed Hierophant may suggest nonconformity, breaking traditions, or challenging established norms. This person might be questioning societal or personal beliefs and seeking a path that is more aligned with their true self. In relationships, this card can indicate a partner who is exploring unconventional approaches or challenging the status quo."
                 }
             }
         }, 
@@ -297,7 +297,7 @@
                     "finance_home": "Financial agreements, shared finances, investments. The Lovers signifies financial agreements and shared finances. It's a good time to make investments together or plan for the future.",
                     "personal_relationships": "Harmonious relationships, mutual respect, unity. The Lovers indicates harmonious relationships and mutual respect. It signifies unity and commitment in personal relationships.",
                     "health": "Emotional well-being, balance, healing. The Lovers signifies emotional well-being and balance. It's a good time to focus on healing and maintaining a healthy balance in life.",
-                    "combinations": "Paired with The Devil, The Lovers suggests overcoming challenges and temptations through love and understanding."
+                    "partner_analysis": "The Lovers card symbolizes love, harmony, and alignment of values. This person embodies the concept of choice and the merging of dualities. They are at a crossroads, facing decisions that will shape their destiny. In relationships, The Lovers signify a deep, meaningful connection where both individuals are respected, and their union is based on mutual understanding and emotional fulfillment."
                 },
                 "reversed": {
                     "general": "Unbalanced relationships, disharmony, conflict. The reversed Lovers indicates unbalanced relationships and disharmony. It may signify conflicts or disagreements with loved ones.",
@@ -309,7 +309,7 @@
                     "finance_home": "Financial disputes, mismanaged finances, debts. The reversed Lovers signifies financial disputes and mismanaged finances. It may indicate debts or financial difficulties.",
                     "personal_relationships": "Relationship discord, lack of respect, separation. The reversed Lovers suggests relationship discord and lack of respect. It may indicate a need for space or separation.",
                     "health": "Emotional imbalance, stress, relationship issues. The reversed Lovers signifies emotional imbalance and stress. It may indicate health issues related to relationship problems.",
-                    "combinations": "Paired with The Tower, the reversed Lovers suggests sudden and unexpected disruptions in relationships or partnerships."
+                    "partner_analysis": "The reversed Lovers card can represent disharmony, imbalance, or misaligned values. This person may be experiencing conflict in their relationships or facing a difficult choice that challenges their principles. In relationships, this card suggests a partner who may be struggling with commitment or facing a crossroads." 
                 }
             }
         },
@@ -331,7 +331,7 @@
                     "finance_home": "Financial success, drive, taking control. The Chariot signifies financial success and taking control of your finances. It's a good time to be proactive and assertive in financial matters.",
                     "personal_relationships": "Assertiveness, taking charge, overcoming conflicts. The Chariot indicates assertiveness and taking charge in relationships. It signifies overcoming conflicts and achieving harmony.",
                     "health": "Physical strength, vitality, overcoming illness. The Chariot signifies physical strength and vitality. It's a good time to focus on maintaining your health and overcoming illness.",
-                    "combinations": "Paired with The Sun, The Chariot suggests achieving success and recognition through determination and positive energy."
+                    "partner_analysis": "The Chariot card signifies determination, control, and victory. This person is characterized by their willpower and ambition, often pursuing their goals with relentless drive. They have a commanding presence and are able to overcome obstacles through focus and perseverance. In relationships, The Chariot may represent a partner who is goal-oriented and values triumph through challenges."
                 },
                 "reversed": {
                     "general": "Self-doubt, lack of direction, obstacles. The reversed Chariot indicates self-doubt and lack of direction. It may signify obstacles or setbacks in achieving your goals.",
@@ -343,7 +343,7 @@
                     "finance_home": "Financial setbacks, lack of control, reckless spending. The reversed Chariot indicates financial setbacks and lack of control. It may indicate reckless spending or financial instability.",
                     "personal_relationships": "Passive-aggressive behavior, conflicts, lack of direction. The reversed Chariot suggests passive-aggressive behavior and conflicts in relationships. It may indicate a lack of direction or assertiveness.",
                     "health": "Weakness, lack of energy, health issues. The reversed Chariot signifies weakness and lack of energy. It may indicate health issues or susceptibility to illness.",
-                    "combinations": "Paired with The Tower, the reversed Chariot suggests unexpected obstacles or sudden changes thwarting your plans."
+                    "partner_analysis": "The reversed Chariot signifies a lack of direction, loss of control, or aggression. This person might be feeling as if they are being pulled in different directions or that their willpower is being tested. In relationships, this card can indicate a partner who is experiencing setbacks or conflicts of interest."
                 }
             }
         },
@@ -365,7 +365,7 @@
                     "finance_home": "Financial stability, resourcefulness, wise investments. Strength signifies financial stability and resourcefulness. It's a good time to make wise investments and secure your finances.",
                     "personal_relationships": "Emotional resilience, forgiveness, harmony. Strength indicates emotional resilience and forgiveness in relationships. It signifies harmony and balance with loved ones.",
                     "health": "Physical strength, vitality, healing. Strength represents physical strength and vitality. It's a good time to focus on healing and maintaining your health.",
-                    "combinations": "Paired with The Hermit, Strength suggests finding inner strength and wisdom through introspection and solitude."
+                    "partner_analysis": "The Strength card embodies inner strength, courage, and resilience. This person is known for their patience and composure, facing life's adversities with grace and self-confidence. They possess a quiet power that comes from a place of love and compassion. In relationships, Strength suggests a partner who is supportive and nurturing, offering strength in times of need."
                 },
                 "reversed": {
                     "general": "Weakness, self-doubt, insecurity. The reversed Strength indicates weakness and self-doubt. It may signify insecurity or feeling powerless in the face of challenges.",
@@ -377,7 +377,7 @@
                     "finance_home": "Financial instability, overspending, poor investments. The reversed Strength signifies financial instability and poor investments. It may indicate overspending or financial mismanagement.",
                     "personal_relationships": "Power struggles, conflict, lack of trust. The reversed Strength suggests power struggles and conflict in relationships. It may indicate a lack of trust or emotional manipulation.",
                     "health": "Weakness, susceptibility to illness, lack of vitality. The reversed Strength signifies weakness and susceptibility to illness. It may indicate a lack of vitality or energy.",
-                    "combinations": "Paired with The Tower, the reversed Strength suggests unexpected crises or disruptions challenging your resilience and inner strength."
+                    "partner_analysis": "The reversed Strength card indicates weakness, self-doubt, or a lack of confidence. This person may be dealing with feelings of inadequacy or struggling to manage their emotions. In relationships, this card suggests a partner who needs to cultivate inner strength and resilience." 
                 }
             }
         },
@@ -400,7 +400,7 @@
                     "finance_home": "Financial planning, frugality, savings. The Hermit represents financial planning and frugality. It's a good time to focus on savings and long-term financial security.",
                     "personal_relationships": "Solitude, introspection, spiritual connection. The Hermit indicates solitude and introspection in relationships. It signifies a deep spiritual connection with loved ones.",
                     "health": "Healing solitude, self-care, rest. The Hermit signifies healing solitude and self-care. It's a good time to focus on rest and rejuvenation for better health.",
-                    "combinations": "Paired with The Star, The Hermit suggests finding inner peace and guidance through introspection and hope."
+                    "partner_analysis": "The Hermit card represents introspection, guidance, and wisdom. This person is a seeker of truth, often preferring solitude to contemplate life's deeper questions. They are a beacon of light for others, offering insights gained from their reflective journey. In relationships, The Hermit may indicate a partner who values personal space and inner growth." 
                 },
                 "reversed": {
                     "general": "Isolation, loneliness, withdrawal. The reversed Hermit indicates isolation and loneliness. It may signify withdrawing from others or avoiding introspection.",
@@ -412,7 +412,7 @@
                     "finance_home": "Financial irresponsibility, overspending, debt. The reversed Hermit represents financial irresponsibility and overspending. It may indicate accumulating debt or financial instability.",
                     "personal_relationships": "Avoidance, lack of communication, disconnection. The reversed Hermit suggests avoidance and lack of communication in relationships. It may indicate feeling disconnected or distant.",
                     "health": "Neglect, ignoring health needs, burnout. The reversed Hermit signifies neglecting health needs and ignoring self-care. It may indicate burnout or exhaustion.",
-                    "combinations": "Paired with The Moon, the reversed Hermit suggests confusion and illusion leading to a sense of spiritual disconnection or darkness."
+                    "partner_analysis": "The reversed Hermit can represent isolation, loneliness, or withdrawal. This person might be avoiding introspection or feeling disconnected from others. They may be resisting a period of self-reflection. In relationships, this card suggests a partner who may be feeling cut off or needing space to reconnect with themselves." 
                 }
             }
         },
@@ -435,7 +435,7 @@
                     "finance_home": "Financial luck, windfall, investment opportunities. The Wheel of Fortune represents financial luck and windfall. It signifies investment opportunities and favorable financial outcomes.",
                     "personal_relationships": "Fateful encounters, serendipity, harmony. The Wheel of Fortune indicates fateful encounters and serendipity in relationships. It signifies harmony and alignment with destiny.",
                     "health": "Recovery, positive changes, cycles. The Wheel of Fortune represents recovery and positive changes in health. It signifies cycles of improvement and well-being.",
-                    "combinations": "Paired with The Magician, The Wheel of Fortune suggests harnessing your willpower and skills to seize opportunities and create positive change."
+                    "partner_analysis": "The Wheel of Fortune card symbolizes cycles, fate, and the turning points of life. This person understands the transient nature of fortune and embraces the ups and downs of existence. They are adaptable and optimistic, knowing that change is the only constant. In relationships, Wheel of Fortune can suggest a partner who is open to the twists and turns of life, finding opportunity in every situation." 
                 },
                 "reversed": {
                     "general": "Bad luck, resistance to change, delays. The reversed Wheel of Fortune indicates bad luck and resistance to change. It may signify delays or missed opportunities.",
@@ -447,7 +447,7 @@
                     "finance_home": "Financial losses, missed opportunities, bad investments. The reversed Wheel of Fortune represents financial losses and missed opportunities. It may indicate bad investments or financial instability.",
                     "personal_relationships": "Missed connections, disharmony, bad luck. The reversed Wheel of Fortune suggests missed connections and disharmony in relationships. It may indicate bad luck or misfortune in love.",
                     "health": "Health setbacks, stagnation, lack of improvement. The reversed Wheel of Fortune signifies health setbacks and stagnation. It may indicate a lack of improvement or worsening health conditions.",
-                    "combinations": "Paired with The Tower, the reversed Wheel of Fortune suggests unexpected crises or sudden changes leading to further setbacks or challenges."
+                    "partner_analysis": "The reversed Wheel of Fortune suggests bad luck, resistance to change, or negative external forces. This person may be experiencing a turn for the worse or feeling as though they are stuck in a cycle of misfortune. In relationships, this card can indicate a partner who is dealing with unexpected challenges or setbacks."
                 }
             }
         },
@@ -470,7 +470,7 @@
                     "finance_home": "Financial decisions, fairness, legal matters. Justice represents financial decisions and fairness. It signifies resolving financial disputes and upholding legal obligations.",
                     "personal_relationships": "Equality, mutual respect, harmony. Justice indicates equality and mutual respect in relationships. It signifies maintaining harmony and balance with loved ones.",
                     "health": "Healthcare decisions, balance, fairness. Justice signifies healthcare decisions and balance in health matters. It's a time for fair treatment and seeking equilibrium.",
-                    "combinations": "Paired with The Hierophant, Justice suggests seeking guidance and wisdom to make fair and ethical decisions."
+                    "partner_analysis": "The Justice card represents fairness, balance, and the law of cause and effect. This person is known for their strong sense of right and wrong, striving for equilibrium in all aspects of life. They believe in honesty and integrity, often serving as a mediator. In relationships, Justice suggests a partner who seeks harmony and is willing to work through issues with a sense of fairness."
                 },
                 "reversed": {
                     "general": "Unfairness, dishonesty, imbalance. The reversed Justice indicates unfairness and dishonesty. It may signify imbalance or bias in decision-making.",
@@ -482,7 +482,7 @@
                     "finance_home": "Financial disputes, unfair agreements, dishonesty. The reversed Justice represents financial disputes and unfair agreements. It may indicate dishonesty or manipulation in financial matters.",
                     "personal_relationships": "Inequality, disrespect, unfair treatment. The reversed Justice suggests inequality and disrespect in relationships. It may indicate unfair treatment or manipulation by others.",
                     "health": "Unfair treatment, misdiagnosis, imbalances. The reversed Justice signifies unfair treatment and misdiagnosis in health matters. It may indicate imbalances or unresolved health issues.",
-                    "combinations": "Paired with The Devil, the reversed Justice suggests facing the consequences of unethical behavior or dealing with injustice in a difficult situation."
+                    "partner_analysis": "The reversed Justice card may suggest injustice, unfairness, or lack of accountability. This person might be experiencing a situation where they feel wronged or where justice has not been served. In relationships, this card can indicate a partner who may be dealing with unresolved issues or a sense of imbalance." 
                 }
             }
         },                             
@@ -504,11 +504,7 @@
                 "finance_home": "Unexpected delays, financial reevaluation, finding new opportunities.",
                 "personal_relationships": "Acceptance of challenges, deeper understanding, forgiveness.",
                 "health": "Healing, psychosomatic illness, holistic approaches.",
-                "combinations": {
-                  "with The Fool":" New beginnings, taking a leap of faith.",
-                  "with The Lovers": "Releasing unhealthy attachments, finding true love.",
-                  "with Death": "Major transformation, rebirth, letting go of the past."
-                }
+                "partner_analysis": "The Hanged Man card symbolizes surrender, letting go, and seeing things from a new perspective. This person is often in a state of pause, reflecting on life's situations differently. They embrace the art of patience and are not afraid to sacrifice immediate gratification for a greater good. In relationships, The Hanged Man may indicate a partner who is contemplative and willing to look at things from a different angle."
               },
               "reversed": {
                 "general": "Procrastination, fear of change, resistance to new perspectives.",
@@ -520,11 +516,7 @@
                 "finance_home": "Financial instability, missed opportunities, poor planning.",
                 "personal_relationships": "Unresolved conflicts, unhealthy dynamics, resistance to change.",
                 "health": "Chronic illness, psychosomatic disorders, ignoring symptoms.",
-                "combinations": {
-                  "with The Devil":" Stagnation, addiction, self-destructive patterns.",
-                  "with The Tower": "Sudden upheaval, forced change, chaos.",
-                  "with Death": "Resistance to change, fear of the unknown, clinging to the past."
-                }
+                "partner_analysis": "The reversed Hanged Man can represent stagnation, unwillingness to sacrifice, or inability to see things from a different perspective. This person may be resisting change or refusing to let go of detrimental patterns. In relationships, this card suggests a partner who is stuck in their ways and may need to adopt a new outlook."
               }
             }
         },
@@ -546,11 +538,7 @@
                 "finance_home": "Financial stability, wise investments, finding abundance.",
                 "personal_relationships": "Healthy communication, mutual respect, committed partnerships.",
                 "health": "Holistic healing, balance of mind, body, and spirit.",
-                "combinations": {
-                  "with The Fool": "Finding your path, trusting your intuition.",
-                  "with The Lovers": "Balanced relationships, harmonious partnerships.",
-                  "with Justice":" Fairness, equality, seeking justice for all."
-                }
+                "partner_analysis":  "The Temperance card signifies moderation, balance, and the blending of opposites. This person is a natural healer and peacemaker, always seeking to bring harmony into their environment. They are patient and diplomatic, able to blend diverse elements into a cohesive whole. In relationships, Temperance represents a partner who is calm, collected, and nurturing, promoting a balanced and healthy partnership."
               },
               "reversed": {
                 "general": "Imbalance, extremism, lack of moderation, impatience.",
@@ -562,11 +550,7 @@
                 "finance_home": "Financial instability, poor spending habits, risky investments.",
                 "personal_relationships": "Unhealthy dynamics, lack of communication, conflict.",
                 "health": "Illness, stress-related disorders, imbalance of mind, body, and spirit.",
-                "combinations": {
-                  "with The Devil":" Addiction, self-destructive patterns, imbalance.",
-                  "with The Tower":" Sudden upheaval, chaos, loss of control.",
-                  "with Death": "Major change, transformation, letting go of the past."
-                }
+                "partner_analysis": "The reversed Temperance card signifies imbalance, excess, and lack of long-term vision. This person might be going to extremes or struggling to find harmony in their life. They may be acting impulsively. In relationships, this card indicates a partner who may need to restore balance and practice moderation."
               }
             }
         },
@@ -589,11 +573,7 @@
                 "finance_home": "Financial instability, debt, materialism.",
                 "personal_relationships": "Unhealthy dynamics, power struggles, manipulation.",
                 "health": "Addiction, psychosomatic illness, self-destructive behaviors.",
-                "combinations": {
-                  "with The Fool": "Being misled by temptation, falling into a trap.",
-                  "with The Lovers": "Unhealthy relationships, codependency, love addiction.",
-                  "with Death": "Letting go of unhealthy attachments, releasing the past."
-                }
+                "partner_analysis":  "The Devil card represents materialism, temptation, and the shadow self. This person may be dealing with issues of control, addiction, or unhealthy attachments. They are encouraged to confront their inner fears and desires, breaking free from self-imposed chains. In relationships, The Devil can suggest a partner who is passionate and intense, but may need to address underlying issues for the relationship to evolve positively."
               },
               "reversed": {
                 "general": "Breaking free from addiction, overcoming temptation, releasing control.",
@@ -605,11 +585,7 @@
                 "finance_home": "Financial freedom, getting out of debt, wise investments.",
                 "personal_relationships": "Healthy communication, mutual respect, building trust.",
                 "health": "Recovery from addiction, holistic healing, finding balance.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith, trusting your intuition.",
-                  "with The Lovers": "Finding true love, building a healthy relationship.",
-                  "with Temperance": "Finding balance, moderation, and harmony."
-                }
+                "partner_analysis": "The reversed Devil card represents breaking free, overcoming challenges, or rejecting unhealthy attachments. This person is likely in the process of liberating themselves from restrictions or negative influences. In relationships, this card suggests a partner who is working to overcome dependencies or constraints."
               }
             }
         },
@@ -632,11 +608,7 @@
                 "finance_home": "Financial abundance, unexpected opportunities, finding prosperity.",
                 "personal_relationships": "Healthy relationships, deep love, commitment.",
                 "health": "Healing, rejuvenation, feeling vibrant and healthy.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith, trusting your intuition.",
-                  "with The Lovers": "Finding true love, a soulmate connection.",
-                  "with The World": "Achieving your goals, fulfilling your dreams."
-                }
+                "partner_analysis":  "The Star card represents hope, inspiration, and serenity. This person is optimistic and rejuvenating, often providing a sense of calm after a storm. They inspire others with their vision and faith in the future. In relationships, The Star suggests a partner who brings light into the darkest situations, offering hope and guidance." 
               },
               "reversed": {
                 "general": "Disappointment, pessimism, lack of faith, feeling lost.",
@@ -648,11 +620,7 @@
                 "finance_home": "Financial instability, unexpected expenses, feeling insecure.",
                 "personal_relationships": "Unhealthy relationships, conflict, betrayal.",
                 "health": "Illness, fatigue, feeling drained.",
-                "combinations": {
-                  "with The Devil": "Temptation, addiction, self-destructive behaviors.",
-                  "with The Tower": "Sudden upheaval, loss, disappointment.",
-                  "with Death": "Letting go of hope, giving up on your dreams."
-                }
+                "partner_analysis": "The reversed Star may indicate despair, lack of faith, or disillusionment. This person could be feeling hopeless or disconnected from their sense of guidance and purpose. In relationships, this card suggests a partner who may be experiencing a loss of inspiration or confidence."
               }
             }
         },
@@ -666,21 +634,17 @@
             "meanings": {
               "daily": "Today, the enigmatic energy of The Moon bathes your path in a soft, reflective light, inviting introspection and the unveiling of hidden truths. The Moon is a symbol of intuition, dreams, and the unconscious, urging you to trust the insights that arise from the depths of your psyche. Embrace the mysteries that The Moon illuminates and explore the secrets that lie just beneath the surface. <strong>Listen to your intuition</strong> and allow it to guide you through the shadows. The Moon encourages you to <strong>face your fears</strong> and to confront the illusions that may be clouding your judgment. <strong>Seek clarity</strong> in the midst of uncertainty, and trust that the light of understanding will eventually dawn. <strong>Reflect on your emotions</strong> and consider the messages they are conveying. Today, let The Moon inspire you to navigate the night with a sense of wonder and to find solace in the knowledge that every phase of darkness is followed by the promise of light.",  
               "bottom_of_deck": "The Moon card at the bottom of the deck signifies the presence of subconscious influences and hidden fears that are not immediately apparent. This position suggests that there are illusions or misconceptions that may be clouding your judgment or affecting your path. 'The Moon' represents the deeper, often darker aspects of the psyche, indicating that these elements may be at work beneath the surface of your conscious mind. When found at the bottom, it may imply that you are not fully aware of the internal or external deceptions that could be leading you astray. It's a call to explore your subconscious mind and to confront the fears and anxieties that reside there. The card encourages you to trust your intuition and to seek clarity in situations where uncertainty prevails. The presence of 'The Moon' here is a reminder to pay attention to your dreams and the messages they may hold, and to be wary of letting fear dictate your decisions. It also signifies a potential for misunderstanding or misinterpretation, urging you to seek the truth beyond the illusions and to rely on your inner guidance to navigate through the complexities of life.",
-              "upright": {
-                "general": "The Moon card represents illusion, intuition, and the unconscious mind. It typically depicts a night scene with a full moon hanging in the sky, often with a crayfish or lobster emerging from water, symbolizing the depths of the subconscious. Two pillars or towers flank a path that leads into the distance, suggesting a journey through the unknown. The Moon's light can bring clarity but also casts shadows, creating a sense of uncertainty and mystery. The number 18 is associated with this card, which can signify cycles, reflection, or the need to navigate through confusion. The Moon invites us to trust our instincts, to explore our inner landscapes, and to be aware of potential deception or self-deception. It is a reminder to pay attention to dreams and symbols, to embrace the ebb and flow of emotions, and to look beyond the surface. This card often appears when it's necessary to confront fears and anxieties, and it encourages us to seek truth in the midst of illusions.",
-                    "love": "Uncertainty, emotional confusion, a secret relationship.",
-                    "work": "Lack of clarity, deception at work, feeling lost in your career.",
-                    "friendship": "Misunderstandings, hidden agendas, questioning friendships.",
-                    "personal_state": "Anxiety, emotional insecurity, feeling overwhelmed by emotions.",
-                    "deeper_meaning": "Facing your fears, trusting your intuition, seeking inner guidance.",
-                    "finance_home": "Financial instability, unexpected expenses, hidden costs.",
-                    "personal_relationships": "Deception, manipulation, lack of trust.",
-                    "health": "Psychosomatic illness, emotional imbalances, hidden health issues.",
-                    "combinations": {
-                        "with The Fool": "Taking a leap of faith into the unknown.",
-                        "with The Lovers": "Confusion in love, hidden feelings, idealization.",
-                        "with Death": "Letting go of fear and illusion, emotional transformation."
-                    }
+                "upright": {
+                  "general": "The Moon card represents illusion, intuition, and the unconscious mind. It typically depicts a night scene with a full moon hanging in the sky, often with a crayfish or lobster emerging from water, symbolizing the depths of the subconscious. Two pillars or towers flank a path that leads into the distance, suggesting a journey through the unknown. The Moon's light can bring clarity but also casts shadows, creating a sense of uncertainty and mystery. The number 18 is associated with this card, which can signify cycles, reflection, or the need to navigate through confusion. The Moon invites us to trust our instincts, to explore our inner landscapes, and to be aware of potential deception or self-deception. It is a reminder to pay attention to dreams and symbols, to embrace the ebb and flow of emotions, and to look beyond the surface. This card often appears when it's necessary to confront fears and anxieties, and it encourages us to seek truth in the midst of illusions.",
+                  "love": "Uncertainty, emotional confusion, a secret relationship.",
+                  "work": "Lack of clarity, deception at work, feeling lost in your career.",
+                  "friendship": "Misunderstandings, hidden agendas, questioning friendships.",
+                  "personal_state": "Anxiety, emotional insecurity, feeling overwhelmed by emotions.",
+                  "deeper_meaning": "Facing your fears, trusting your intuition, seeking inner guidance.",
+                  "finance_home": "Financial instability, unexpected expenses, hidden costs.",
+                  "personal_relationships": "Deception, manipulation, lack of trust.",
+                  "health": "Psychosomatic illness, emotional imbalances, hidden health issues.",
+                  "partner_analysis": "The Moon card symbolizes intuition, dreams, and the unconscious. This person is deeply emotional and sensitive, with a rich inner world. They may be mysterious and difficult to understand at times. In relationships, The Moon can indicate a partner who is empathetic and nurturing, but also prone to mood swings and illusions." 
                 },
                 "reversed": {
                     "general": "Increased intuition, emotional clarity, overcoming fears, facing reality.",
@@ -692,11 +656,7 @@
                     "finance_home": "Resolving financial issues, uncovering hidden resources, finding stability.",
                     "personal_relationships": "Honesty and communication, building trust, healthier dynamics.",
                     "health": "Addressing the root cause of illness, emotional healing, improved well-being.",
-                    "combinations": {
-                        "with The Fool": "Reckless action based on illusions, ignoring intuition.",
-                        "with The Lovers": "Confusion and deception leading to a break-up.",
-                        "with Death": "Difficulty letting go of fear and illusion, clinging to the past."
-                    }
+                    "partner_analysis": "The reversed Moon card symbolizes confusion, fear, and misunderstanding. This person may be struggling with anxiety, unclear situations, or deception. They are encouraged to seek clarity. In relationships, this card indicates a partner who might be facing illusions or emotional uncertainty."                   
                 }
             }
         },
@@ -719,11 +679,7 @@
                     "finance_home": "Financial upheaval, unexpected expenses, loss of property.",
                     "personal_relationships": "Sudden changes, relationship breakdown, new beginnings.",
                     "health": "Sudden illness, accidents, unexpected health challenges.",
-                    "combinations": {
-                    "with The Fool": "Taking a leap of faith, embracing the unknown.",
-                    "with Death": "Major transformation, rebirth, letting go of the past.",
-                    "with The World": "Completion, success, new beginnings."
-                    }
+                    "partner_analysis": "The Tower card signifies sudden change, upheaval, and revelation. This person may experience dramatic transformations that can be both destructive and liberating. They challenge the status quo and break down existing structures. In relationships, The Tower can represent a partner who is a catalyst for major shifts, often leading to a fresh start."
                 },
                 "reversed": {
                     "general": "Delayed change, clinging to the past, fear of the unknown.",
@@ -734,11 +690,7 @@
                     "deeper_meaning": "Ignoring the need for change, resistance to growth.",
                     "finance_home": "Financial instability, missed opportunities, poor planning.",
                     "personal_relationships": "Unhealthy dynamics, fear of change, unresolved conflicts.",
-                    "combinations": {
-                    "with The Fool": "Taking a chance, but hesitantly.",
-                    "with Death": "Stagnation, clinging to the past, fearing death.",
-                    "with The World": "Delayed completion, unfulfilled goals, clinging to the old."
-                    }
+                    "partner_analysis": "The reversed Tower may suggest avoiding disaster, fear of change, or experiencing the aftermath of a crisis. This person might be in denial about necessary transformations or trying to maintain the status quo despite warning signs. In relationships, this card can indicate a partner who is reluctant to face deep-seated issues or upheavals." 
                 }
             }
         },
@@ -761,11 +713,7 @@
                     "finance_home": "Financial abundance, unexpected opportunities, finding prosperity.",
                     "personal_relationships": "Healthy relationships, forgiveness, new beginnings.",
                     "health": "Healing, rejuvenation, a new lease on life.",
-                    "combinations": {
-                    "with The Fool": "A new beginning, taking a leap of faith with newfound wisdom." ,
-                    "with The World": "Completion of a cycle, achieving goals, fulfillment." ,
-                    "with Death": "Letting go of the past to make way for rebirth."
-                    }
+                    "partner_analysis": "The Judgement card represents rebirth, inner calling, and absolution. This person is self-aware and undergoing a period of reflection and evaluation. They are seeking higher truths and purpose. In relationships, Judgement suggests a partner who is honest and seeks deeper meaning, striving for mutual growth and understanding."
                 },
                 "reversed": {
                     "general": "Self-doubt, procrastination, clinging to the past, refusal to learn from mistakes.",
@@ -777,11 +725,7 @@
                     "finance_home": "Financial stagnation, missed opportunities, poor financial decisions.",
                     "personal_relationships": "Unhealthy dynamics, codependency, inability to move forward.",
                     "health": "Lingering illness, psychosomatic disorders, holding onto negativity.",
-                    "combinations": {
-                        "with The Fool": "Taking a reckless leap without self-reflection.",
-                        "with The World": "An incomplete cycle, unfulfilled potential, clinging to the past.",
-                        "with Death": "Resistance to change and transformation, fearing death or rebirth."
-                    }
+                    "partner_analysis": "The reversed Judgement card signifies self-doubt, inner criticism, and ignoring the call to action. This person may be struggling with self-reflection and failing to learn from past experiences. They might be delaying an important decision. In relationships, this card suggests a partner who is hesitant to make a significant change or to forgive and move on." 
                 }
             }
         },       
@@ -803,11 +747,7 @@
                     "finance_home": "Financial security, abundance, prosperity.",
                     "personal_relationships": "Healthy and fulfilling relationships.",
                     "health": "Overall good health and well-being.",
-                    "combinations": {
-                    "with The Fool": "Taking a leap of faith that leads to success.",
-                    "with Judgement": "Completion of a cycle and the beginning of a new one.",
-                    "with The Star": "Achieving your dreams and finding fulfillment."
-                    }
+                    "partner_analysis": "The World card embodies completion, wholeness, and accomplishment. This person has a sense of fulfillment and unity with the universe. They have reached a significant milestone and are ready to begin a new cycle. In relationships, The World indicates a partner who is worldly and experienced, bringing a sense of completion and harmony."
                 },
                 "reversed": {
                     "general": "Unfulfilled potential, delays, a sense of incompleteness, lack of achievement.",
@@ -819,13 +759,10 @@
                     "finance_home": "Financial setbacks, delays in achieving financial security.",
                     "personal_relationships": "Strained relationships, lack of connection.",
                     "health": "Lingering health issues, feeling unbalanced.",
-                    "combinations": {
-                        "with The Fool": "Taking a reckless leap that leads to failure.",
-                        "with Judgement": "Struggling to complete a cycle, clinging to the past.",
-                        "with The Star": "Lack of faith in your dreams, losing hope."
-                        }
-                    }
-                }
+                    "partner_analysis": "The reversed World represents incomplete projects, lack of closure, or unfulfilled goals. This person may be feeling a sense of incompletion or dissatisfaction with their current state. They could be close to achieving their objectives but are facing some final hurdles. In relationships, this card indicates a partner who may be struggling to reach a sense of completion or harmony."
+                    
+                  }
+            }
         },
         {
             "name": "Ace of Pentacles",
@@ -846,11 +783,7 @@
                 "finance_home": "Financial abundance, unexpected opportunities, finding stability.",
                 "personal_relationships": "Healthy and fulfilling relationships, building trust.",
                 "health": "Overall good health and well-being, feeling vibrant and healthy.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith with a new opportunity.",
-                  "with The Lovers": "Finding true love and emotional fulfillment.",
-                  "with The World": "Achieving your goals and manifesting your dreams."
-                }
+                "partner_analysis": "The Ace of Pentacles represents new financial opportunities, prosperity, and potential. This person may be starting a new venture or entering a phase of increased stability and security. They value material success and are likely to be practical and grounded. In relationships, this card suggests a partner who is generous and reliable, offering a solid foundation for the future."
               },
               "reversed": {
                 "general": "Delays, obstacles, missed opportunities, lack of progress, stagnation.",
@@ -862,11 +795,7 @@
                 "finance_home": "Financial setbacks, unexpected expenses, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of communication.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Devil": "Stagnation, addiction, self-destructive patterns.",
-                  "with The Tower": "Sudden upheaval, loss, disappointment.",
-                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
-                }
+                "partner_analysis": "The reversed Ace of Pentacles may suggest missed opportunities, financial setbacks, or lack of planning. This person might be experiencing a delay in success or struggling with material issues. In relationships, this card can indicate a partner who is facing financial difficulties or uncertainty about investments."
               }
             }
         },
@@ -889,11 +818,7 @@
                 "finance_home": "Managing finances effectively, finding new sources of income.",
                 "personal_relationships": "Healthy and balanced relationships, mutual respect.",
                 "health": "Overall good health and well-being, maintaining a healthy lifestyle.",
-                "combinations": {
-                  "with The Fool": "Taking a risk with confidence and adaptability.",
-                  "with The Lovers": "Balancing love and other responsibilities.",
-                  "with The Emperor": "Maintaining authority while being flexible."
-                }
+                "partner_analysis": "The 2 of Pentacles symbolizes balance, adaptability, and juggling multiple responsibilities. This person is skilled at managing their resources and time, often multitasking with ease. They may be facing fluctuating circumstances but handle them with grace. In relationships, this card indicates a partner who is flexible and capable of maintaining harmony amidst life's complexities."
               },
               "reversed": {
                 "general": "Imbalance, instability, feeling overwhelmed, lack of control, chaos.",
@@ -905,11 +830,7 @@
                 "finance_home": "Financial instability, unexpected expenses, poor financial planning.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Devil": "Overwhelm leading to addiction or self-destructive behaviors.",
-                  "with The Tower": "Sudden upheaval, loss of control, chaotic changes.",
-                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
-                }
+                "partner_analysis": "The reversed 2 of Pentacles symbolizes imbalance, disorganization, and financial stress. This person may be overwhelmed by their responsibilities and unable to juggle their commitments effectively. In relationships, this card suggests a partner who is struggling to maintain balance and may need support."
               }
             }
         }, 
@@ -933,11 +854,7 @@
                 "finance_home": "Financial stability, shared resources, investing in the future.",
                 "personal_relationships": "Healthy and supportive relationships, mutual respect.",
                 "health": "Overall good health and well-being, taking care of yourself.",
-                "combinations": {
-                  "with The Fool": "Learning through collaboration and teamwork.  ",
-                  "with The Lovers": "Building a strong and loving relationship.",
-                  "with The Empress": "Nurturing creativity and collaboration."
-                }
+                "partner_analysis": "The 3 of Pentacles represents collaboration, skill, and quality work. This person values teamwork and the exchange of ideas, often excelling in their craft or profession. They are recognized for their expertise and contribution. In relationships, this card suggests a partner who is committed to building something meaningful and lasting together."
               },
               "reversed": {
                 "general": "Lack of teamwork, competition, conflict, feeling unrecognized, discouragement.",
@@ -949,11 +866,7 @@
                 "finance_home": "Financial instability, unexpected expenses, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Devil": "Stagnation, competition, self-destructive behaviors.",
-                  "with The Tower": "Sudden upheaval, loss of teamwork, conflict.",
-                  "with Death": "Resistance to change, clinging to old ways, fear of failure."
-                }
+                "partner_analysis": "The reversed 3 of Pentacles represents lack of teamwork, poor quality, and disregard for skills. This person might be feeling undervalued or unable to collaborate effectively. They may be facing challenges in their work or projects. In relationships, this card indicates a partner who may be experiencing frustration with group dynamics or a lack of recognition." 
               }
             }
         },
@@ -977,11 +890,7 @@
                 "finance_home": "Financial stability, saving money, investing for the future.",
                 "personal_relationships": "Stable and committed relationships, loyalty, protectiveness.",
                 "health": "Overall good health and well-being, focus on preventive care.",
-                "combinations": {
-                  "with The Fool": "Taking a calculated risk for security.  ",
-                  "with The Lovers": "Building a secure and loving relationship.",
-                  "with The Emperor": "Maintaining control and security."
-                }
+                "partner_analysis": "The 4 of Pentacles signifies security, control, and possession. This person may have a strong desire for financial stability and can be cautious with their resources. They might hold onto things tightly, sometimes to the point of being possessive. In relationships, this card can indicate a partner who seeks security and may need to learn the value of sharing and openness." 
               },
               "reversed": {
                 "general": "Greed, materialism, insecurity, hoarding, fear of change.",
@@ -993,11 +902,7 @@
                 "finance_home": "Financial instability, unexpected expenses, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Devil": "Greed, materialism, self-destructive behaviors.",
-                  "with The Tower": "Sudden upheaval, loss of security, financial instability.",
-                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
-                }
+                "partner_analysis": "The reversed 4 of Pentacles signifies greed, material insecurity, or reckless spending. This person could be holding onto their resources too tightly or, conversely, may be spending carelessly. In relationships, this card suggests a partner who may be overly concerned with wealth or may need to reassess their financial stability." 
               }
             }
         },
@@ -1021,11 +926,7 @@
                 "finance_home": "Financial instability, unexpected expenses, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith despite hardship.",
-                  "with The Lovers": "Finding love and support in difficult times.",
-                  "with The Emperor": "Facing challenges with strength and determination."
-                }
+                "partner_analysis": "The 5 of Pentacles indicates hardship, loss, and insecurity. This person may be experiencing financial or emotional challenges, feeling left out in the cold. They may need support and reassurance. In relationships, this card suggests a partner who is going through tough times but has the potential for recovery and growth with mutual support."
               },
               "reversed": {
                 "general": "Improvement, hope, new opportunities, overcoming challenges, finding support.",
@@ -1037,11 +938,7 @@
                 "finance_home": "Financial improvement, finding new sources of income, feeling more secure.",
                 "personal_relationships": "Healthy and supportive relationships, mutual respect.",
                 "health": "Overall good health and well-being, recovering from illness.",
-                "combinations": {
-                  "with The Devil": "Overcoming addiction or self-destructive behaviors.",
-                  "with The Tower": "Finding new opportunities after upheaval.",
-                  "with Death": "Embracing change and transformation."
-                }
+                "partner_analysis": "The reversed 5 of Pentacles indicates recovery from hardship, regaining stability, or feeling excluded. This person may be starting to overcome financial or emotional challenges but still feels outside the community or support system. In relationships, this card suggests a partner who is slowly finding their footing after a period of difficulty."
               }
             }
         },
@@ -1065,11 +962,7 @@
                 "finance_home": "Financial abundance, sharing your resources, helping others.",
                 "personal_relationships": "Healthy and supportive relationships, mutual respect.",
                 "health": "Overall good health and well-being, helping others heal.",
-                "combinations": {
-                  "with The Fool": "Sharing your gifts with the world without expecting anything in return.",
-                  "with The Lovers": "Finding love through compassion and generosity.",
-                  "with The Empress": "Nurturing abundance and sharing it with others."
-                }
+                "partner_analysis": "The 6 of Pentacles represents generosity, charity, and sharing. This person is kind-hearted and willing to help others, often sharing their wealth and resources. They believe in the flow of give and take. In relationships, this card indicates a partner who is caring and supportive, willing to provide help when needed and appreciative of reciprocity."
               },
               "reversed": {
                 "general": "Selfishness, greed, taking advantage of others, feeling unworthy.",
@@ -1081,11 +974,7 @@
                 "finance_home": "Financial instability, feeling insecure, unable to help others.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Devil": "Greed, manipulation, self-destructive behaviors.",
-                  "with The Tower": "Sudden upheaval, loss of possessions, feeling insecure.",
-                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
-                }
+                "partner_analysis": "The reversed 6 of Pentacles represents debt, selfishness, or one-sided charity. This person might be dealing with financial inequality or feeling the strain of being either the giver or receiver without balance. In relationships, this card can indicate a partner who may need to address issues of fairness and support."
               }
             }
         }, 
@@ -1109,11 +998,7 @@
                 "finance_home": "Financial rewards, reaping the benefits of your investments.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual appreciation.",
                 "health": "Overall good health and well-being, enjoying life to the fullest.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love and happiness through your efforts.",
-                  "with The Emperor": "Achieving success through hard work and dedication."
-                }
+                "partner_analysis": "The 7 of Pentacles represents patience, long-term investment, and perseverance. This person is often in a period of reflection on their past efforts and considering their next steps. They understand the value of hard work over time and are willing to wait for the fruits of their labor. In relationships, this card suggests a partner who is thoughtful and planning for the future, understanding that good things take time to build."
               },
               "reversed": {
                 "general": "Disappointment, dissatisfaction, lack of progress, feeling stuck.",
@@ -1125,11 +1010,7 @@
                 "finance_home": "Financial setbacks, unexpected expenses, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Devil": "Stagnation, addiction, self-destructive behaviors.",
-                  "with The Tower": "Sudden upheaval, loss of progress, disappointment.",
-                  "with Death": "Resistance to change, clinging to the past, fear of failure."
-                }
+                "partner_analysis": "The reversed 7 of Pentacles suggests impatience, lack of reward, and wasted efforts. This person may be feeling frustrated with the lack of progress despite their hard work. They might be reconsidering their investments or efforts. In relationships, this card can indicate a partner who is dissatisfied with the current state of affairs and may be contemplating changes."
               }
             }
         },
@@ -1153,11 +1034,7 @@
                 "finance_home": "Financial stability, investing in your future, building wealth.",
                 "personal_relationships": "Healthy and committed relationships, mutual respect.",
                 "health": "Overall good health and well-being, taking care of yourself.",
-                "combinations": {
-                  "with The Fool": "Taking a calculated risk based on your skills.",
-                  "with The Lovers": "Building a strong and loving relationship through dedication.",
-                  "with The Emperor": "Achieving success through hard work and discipline."
-                }
+                "partner_analysis": "The 8 of Pentacles symbolizes dedication, mastery, and attention to detail. This person is a hard worker, focused on improving their skills and producing high-quality work. They are committed to their craft and are often involved in continuous learning. In relationships, this card indicates a partner who is diligent and attentive, willing to put in the effort to make the relationship work."
               },
               "reversed": {
                 "general": "Lack of focus, procrastination, boredom, feeling stuck.",
@@ -1169,11 +1046,7 @@
                 "finance_home": "Financial instability, poor spending habits, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Devil": "Stagnation, addiction, self-destructive behaviors.",
-                  "with The Tower": "Sudden upheaval, loss of direction, feeling lost.",
-                  "with Death": "Resistance to change, clinging to the past, fear of failure."
-                }
+                "partner_analysis": "The reversed 8 of Pentacles represents lack of focus, low ambition, or shoddy work. This person might be cutting corners or losing interest in their tasks. They may lack the dedication they once had. In relationships, this card suggests a partner who may be neglecting their duties or not putting in the necessary effort."
               }
             }
         },
@@ -1197,11 +1070,7 @@
                   "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
                   "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                   "health": "Overall good health and well-being, enjoying life to the fullest.",
-                  "combinations": {
-                    "with The Fool": "Taking a leap of faith and trusting the process.",
-                    "with The Lovers": "Finding love and happiness through self-love and security.",
-                    "with The Emperor": "Achieving success through hard work and dedication."
-                  }
+                  "partner_analysis": "The 9 of Pentacles signifies self-sufficiency, luxury, and well-being. This person enjoys the finer things in life and has worked hard to achieve a level of comfort and independence. They appreciate beauty and quality, often enjoying solitude and self-care. In relationships, this card suggests a partner who is confident and secure in themselves, offering stability and support." 
               },
               "reversed": {
                 "general": "Complacency, stagnation, fear of change, feeling trapped.",
@@ -1213,11 +1082,7 @@
                 "finance_home": "Financial instability, poor spending habits, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Devil": "Stagnation, addiction, self-destructive behaviors.",
-                  "with The Tower": "Sudden upheaval, loss of security, feeling shaken.",
-                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
-                }
+                "partner_analysis": "The reversed 9 of Pentacles indicates financial dependency, lack of self-discipline, or solitude. This person may be relying too much on others for support or struggling to enjoy their own company. They might be facing setbacks in achieving independence. In relationships, this card can suggest a partner who is overly dependent or struggling with self-care." 
               }
             }
         },
@@ -1241,11 +1106,7 @@
                   "finance_home": "Financial abundance, security for the future, leaving a legacy.",
                   "personal_relationships": "Healthy and fulfilling relationships, mutual love and respect.",
                   "health": "Overall good health and well-being, enjoying life to the fullest.",
-                  "combinations": {
-                    "with The Fool": "Taking a leap of faith and trusting the process.",
-                    "with The Lovers": "Finding love and happiness through commitment and devotion.",
-                    "with The Emperor": "Achieving success through hard work and perseverance."
-                  }
+                  "partner_analysis": "The 10 of Pentacles represents wealth, legacy, and family. This person values tradition and the accumulation of wealth over time. They are often concerned with providing for their family and creating a lasting legacy. In relationships, this card indicates a partner who is family-oriented and seeks to build a strong, enduring foundation for the future." 
               },
               "reversed": {
                 "general": "Materialism, greed, stagnation, lack of progress, feeling trapped.",
@@ -1257,11 +1118,7 @@
                 "finance_home": "Financial instability, poor spending habits, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Devil": "Stagnation, addiction, self-destructive behaviors.",
-                  "with The Tower": "Sudden upheaval, loss of security, feeling shaken.",
-                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
-                }
+                "partner_analysis": "The reversed 10 of Pentacles signifies family issues, financial instability, or the breakdown of structures. This person may be dealing with disputes or challenges that threaten their sense of security. They might be experiencing a shift in family dynamics. In relationships, this card indicates a partner who is concerned with familial or financial troubles."
               }
             }
         },
@@ -1285,11 +1142,7 @@
                 "finance_home": "New financial opportunities, starting to save money, feeling secure.",
                 "personal_relationships": "Healthy and supportive relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and embracing new possibilities.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a solid foundation for the future."
-                }
+                "partner_analysis": "The Page of Pentacles represents opportunity, ambition, and the desire to learn. This person is curious and eager to explore new possibilities, especially in the realm of finance or education. They are practical and responsible, often starting on a new path with enthusiasm. In relationships, this card suggests a partner who is loyal and supportive, willing to grow and learn together." 
               },
               "reversed": {
                 "general": "Delays, obstacles, frustration, lack of progress, feeling stuck.",
@@ -1301,11 +1154,7 @@
                 "finance_home": "Financial instability, poor spending habits, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Devil": "Stagnation, addiction, self-destructive behaviors.",
-                  "with The Tower": "Sudden upheaval, loss of progress, feeling shaken.",
-                  "with Death": "Resistance to change, clinging to the past, fear of failure."
-                }
+                "partner_analysis": "The reversed Page of Pentacles represents a lack of progress, procrastination, or unfocused energy. This person might be struggling to use their opportunities or failing to turn plans into action. They could be experiencing a lack of motivation. In relationships, this card suggests a partner who is hesitant to commit or move forward with plans."
               }
             }
         },
@@ -1329,11 +1178,7 @@
                 "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, enjoying life to the fullest.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love and happiness through self-love and security.",
-                  "with The Emperor": "Achieving success through hard work and dedication."
-                }
+                "partner_analysis": "The Queen of Pentacles embodies nurturing, practicality, and abundance. This person is caring and generous, often providing for others with a warm and welcoming nature. They are down-to-earth and resourceful, creating a comfortable and prosperous home environment. In relationships, this card suggests a partner who is supportive and caring, offering a sense of security and comfort."
               },
               "reversed": {
                 "general": "Materialism, greed, insecurity, jealousy, controlling behavior.",
@@ -1345,11 +1190,7 @@
                 "finance_home": "Financial instability, poor spending habits, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Devil": "Stagnation, addiction, self-destructive behaviors.",
-                  "with The Tower": "Sudden upheaval, loss of security, feeling shaken.",
-                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
-                }
+                "partner_analysis": "The reversed Queen of Pentacles can symbolize smothering care, neglect, or financial issues. This person may be overextending themselves to the point of neglecting their own needs or may be overly materialistic. In relationships, this card suggests a partner who might be struggling with balancing care for others and self-care."
               }
             }
         },
@@ -1373,11 +1214,7 @@
                 "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, enjoying life to the fullest.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love and happiness through self-love and security.",
-                  "with The Emperor": "Achieving success through hard work and dedication."
-                }
+                "partner_analysis": "The King of Pentacles represents success, wealth, and leadership. This person is accomplished and authoritative, often a successful businessperson or leader. They are reliable and responsible, with a talent for managing resources effectively. In relationships, this card suggests a partner who is stable and generous, providing a sense of security and prosperity."
               },
               "reversed": {
                 "general": "Materialism, greed, insecurity, jealousy, controlling behavior.",
@@ -1389,11 +1226,7 @@
                 "finance_home": "Financial instability, poor spending habits, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Devil": "Stagnation, addiction, self-destructive behaviors.",
-                  "with The Tower": "Sudden upheaval, loss of security, feeling shaken.",
-                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
-                }
+                "partner_analysis": "The reversed King of Pentacles indicates financial mismanagement, stubbornness, or an overbearing nature. This person may be misusing their resources or exerting control in a negative way. They might be resistant to change or advice. In relationships, this card suggests a partner who may need to reassess their approach to stability and security."
               }
             }
         },
@@ -1417,11 +1250,7 @@
                 "finance_home": "New financial opportunities, starting to save money, feeling secure.",
                 "personal_relationships": "Healthy and supportive relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and embracing new possibilities.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a solid foundation for the future."
-                }
+                "partner_analysis": "The Ace of Cups represents new beginnings in love, emotions, and intuition. This person may be experiencing a surge of new feelings or a deep spiritual connection. They are open-hearted and receptive to emotional experiences. In relationships, this card suggests a partner who offers unconditional love and emotional support."
               },
               "reversed": {
                 "general": "Disappointment, sadness, emotional turmoil, blocked opportunities.",
@@ -1433,11 +1262,7 @@
                 "finance_home": "Financial instability, poor spending habits, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Devil": "Stagnation, addiction, self-destructive behaviors.",
-                  "with The Tower": "Sudden upheaval, loss of love, feeling shaken.",
-                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
-                }
+                "partner_analysis": "The reversed Ace of Cups may suggest emotional blockages, suppressed feelings, or a missed emotional opportunity. This person might be experiencing a withdrawal of affection or a delay in the emotional fulfillment they were hoping for. In relationships, this card can indicate a partner who is struggling to open up or connect on a deeper level."
               }
             }
         },
@@ -1461,11 +1286,7 @@
                 "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, enjoying life to the fullest.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a solid foundation for the future."
-                }
+                "partner_analysis": "The 2 of Cups symbolizes a union, partnership, and mutual attraction. This person is in a harmonious relationship, characterized by a strong bond and understanding. They value equality and reciprocity in relationships. This card indicates a partner who is committed and deeply connected on an emotional level." 
               },
               "reversed": {
                 "general": "Disappointment, sadness, emotional turmoil, blocked opportunities.",
@@ -1477,11 +1298,7 @@
                 "finance_home": "Financial instability, poor spending habits, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Devil": "Stagnation, addiction, self-destructive behaviors.",
-                  "with The Tower": "Sudden upheaval, loss of love, feeling shaken.",
-                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
-                }
+                "partner_analysis": "The reversed 2 of Cups can indicate disharmony, imbalance, or misaligned values. This person may be experiencing conflict in their relationships or facing a difficult choice that challenges their principles. In relationships, this card suggests a partner who may be struggling with commitment or facing a crossroads."
               }
             }
         },
@@ -1505,11 +1322,7 @@
                 "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, enjoying life to the fullest.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and embracing new possibilities.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a solid foundation for the future."
-                }
+                "partner_analysis": "The 3 of Cups represents celebration, friendship, and community. This person enjoys social connections and sharing joy with others. They often find themselves in a supportive network of friends and loved ones. In relationships, this card suggests a partner who values camaraderie and celebrates life's milestones together." 
               },
               "reversed": {
                 "general": "Disappointment, sadness, emotional turmoil, blocked opportunities.",
@@ -1521,11 +1334,7 @@
                 "finance_home": "Financial instability, poor spending habits, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Devil": "Stagnation, addiction, self-destructive behaviors.",
-                  "with The Tower": "Sudden upheaval, loss of joy, feeling shaken.",
-                  "with Death": "Resistance to change, clinging to the past, fear of the unknown."
-                }
+                "partner_analysis": "The reversed 3 of Cups represents celebration, friendship, and community. However, in this position, it may indicate a lack of camaraderie or strained social connections. This person might be feeling left out or disconnected from their usual support network. In relationships, this card suggests a partner who may need to seek out new social circles or address existing conflicts."
               }
             }
         },
@@ -1549,11 +1358,7 @@
                 "finance_home": "Financial insecurity, poor spending habits, feeling unstable.",
                 "personal_relationships": "Unhealthy dynamics, lack of communication, conflict.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and breaking out of your comfort zone.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a solid foundation for the future."
-                }
+                "partner_analysis": "The 4 of Cups signifies contemplation, apathy, and reevaluation. This person may be feeling dissatisfied or disconnected from their emotional state. They might be overlooking potential opportunities for fulfillment. In relationships, this card can indicate a partner who needs to reconnect with their desires and emotions."
               },
               "reversed": {
                 "general": "Contentment, satisfaction, peace, gratitude, new beginnings.",
@@ -1565,11 +1370,7 @@
                 "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, enjoying life to the fullest.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a strong foundation for your future success."
-                }
+                "partner_analysis": "The reversed 4 of Cups signifies discontentment, missed opportunities, or a lack of appreciation. This person may be overlooking positive aspects of their relationships or feeling ungrateful. They might need to shift their perspective to see the blessings around them. In relationships, this card suggests a partner who may need to recognize and appreciate what they have."
               }
             }
         },
@@ -1593,11 +1394,7 @@
                 "finance_home": "Financial instability, poor spending habits, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a solid foundation for the future."
-                }
+                "partner_analysis": "The 5 of Cups represents loss, grief, and regret. This person may be focusing on past disappointments and overlooking remaining possibilities. They are learning to cope with emotional pain. In relationships, this card suggests a partner who is going through a period of sorrow but has the capacity for healing and moving forward." 
               },
               "reversed": {
                 "general": "Acceptance, hope, healing, moving on, new beginnings.",
@@ -1609,11 +1406,7 @@
                 "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, enjoying life to the fullest.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a strong foundation for your future success."
-                }
+                "partner_analysis": "The reversed 5 of Cups represents healing, acceptance, and moving forward after loss. This person may be in the process of recovering from emotional pain or disappointment. They are learning to find hope and renewal. In relationships, this card indicates a partner who is gradually overcoming past hurts and seeking emotional recovery."
               }
             }
         },
@@ -1637,11 +1430,7 @@
                 "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, enjoying life to the fullest.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a strong foundation for your future success."
-                }
+                "partner_analysis": "The 6 of Cups symbolizes nostalgia, memories, and innocence. This person cherishes the past and the simplicity of childhood joy. They may be reconnecting with someone from their past or reliving fond memories. In relationships, this card indicates a partner who brings a sense of comfort and familiarity, often reminding one of happier times."
               },
               "reversed": {
                 "general": "Disappointment, sadness, grief, loss, regret.",
@@ -1653,11 +1442,7 @@
                 "finance_home": "Financial instability, poor spending habits, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a solid foundation for the future."
-                }
+                "partner_analysis": "The reversed 6 of Cups symbolizes unresolved issues, nostalgia, or clinging to the past. This person might be holding onto memories or patterns that no longer serve them. They may need to release old attachments to move forward. In relationships, this card suggests a partner who may be hesitant to let go of past experiences or who is still influenced by childhood dynamics."
               }
             }
         },
@@ -1681,11 +1466,7 @@
                 "finance_home": "Considering multiple financial options, feeling unsure about investments, difficulty managing finances.",
                 "personal_relationships": "Needing to define boundaries in relationships, avoiding commitment.",
                 "health": "Feeling indecisive about health choices, neglecting self-care.",
-                "combinations": {
-                    "with The Fool": "Taking a leap of faith and trusting your intuition when making choices.",
-                    "with The Lovers": "Finding true love by focusing on genuine connections rather than ideals.",
-                    "with The Emperor": "Implementing structure and  discipline to navigate your options effectively."
-                }
+                "partner_analysis": "The 7 of Cups represents choices, illusions, and fantasy. This person may be facing multiple options and struggling to discern reality from illusion. They are encouraged to clarify their values and make decisions aligned with their true desires. In relationships, this card suggests a partner who is imaginative and dreamy, but may need to ground their emotions in reality." 
             },
             "reversed": {
                 "general": "Missed opportunities, disappointment, confusion, stagnation.",
@@ -1697,11 +1478,7 @@
                 "finance_home": "Poor financial decisions, bad investments, feeling insecure.",
                 "personal_relationships": "Unhealthy codependency, manipulation, lack of trust.",
                 "health": "Unhealthy lifestyle choices, neglecting your health.",
-                "combinations": {
-                    "with The Fool": "Releasing control and embracing new opportunities that may arise.",
-                    "with The Lovers": "Learning to love yourself before entering a relationship.",
-                    "with The Emperor": "Taking control of your life, setting realistic goals, and taking action."
-                }
+                "partner_analysis": "The reversed 7 of Cups may suggest clarity, focus, or overcoming illusions. This person might be gaining a clearer perspective or moving away from unrealistic fantasies. In relationships, this card can indicate a partner who is becoming more grounded and practical, seeing things as they truly are."
             }
         }
         },
@@ -1725,11 +1502,7 @@
                 "finance_home": "Releasing financial burdens, simplifying your lifestyle, finding new ways to make money.",
                 "personal_relationships": "Letting go of unhealthy relationships, setting boundaries, attracting healthy partnerships.",
                 "health": "Embracing a healthier lifestyle, letting go of stress, focusing on holistic well-being.",
-                "combinations": {
-                  "with The Fool": "Trusting the process and taking a leap of faith towards a new beginning.",
-                  "with The Lovers": "Finding love through self-love and inner peace.",
-                  "with The Emperor": "Building a solid foundation for your future based on your own values."
-                }
+                "partner_analysis": "The 8 of Cups signifies a journey, leaving behind, and seeking deeper meaning. This person is on a quest for a more fulfilling emotional or spiritual path, even if it means abandoning previous attachments. They are not afraid to walk away from what no longer serves them. In relationships, this card indicates a partner who is introspective and willing to evolve."
               },
               "reversed": {
                 "general": "Stagnation, fear of change, resistance, clinging to the past, missed opportunities.",
@@ -1741,11 +1514,7 @@
                 "finance_home": "Holding onto financial burdens, living beyond your means, making poor financial decisions.",
                 "personal_relationships": "Staying in unhealthy relationships, codependency, lack of trust.",
                 "health": "Ignoring health issues, neglecting self-care, living an unhealthy lifestyle.",
-                "combinations": {
-                  "with The Fool": "Taking control of your life and breaking free from self-imposed limitations.",
-                  "with The Lovers": "Learning to love yourself before entering a relationship.",
-                  "with The Emperor": "Taking responsibility for your actions and creating a better future for yourself."
-                }
+                "partner_analysis": "The reversed 8 of Cups symbolizes avoidance, fear of change, or reluctance to let go. This person may be resisting necessary transitions or clinging to familiar but unfulfilling situations. In relationships, this card suggests a partner who may be hesitant to leave behind what no longer serves them." 
               }
             }
         },
@@ -1769,11 +1538,7 @@
                 "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, enjoying life to the fullest.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a strong foundation for your future success."
-                }
+                "partner_analysis": "The 9 of Cups symbolizes contentment, satisfaction, and wish fulfillment. This person is experiencing a sense of emotional well-being and their desires coming to fruition. They exude happiness and confidence. In relationships, this card suggests a partner who is joyful and generous, often seen as a source of emotional fulfillment."
               },
               "reversed": {
                 "general": "Disappointment, dissatisfaction, emotional turmoil, blocked opportunities, unfulfilled desires.",
@@ -1785,11 +1550,7 @@
                 "finance_home": "Financial instability, poor spending habits, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The reversed 9 of Cups represents emotional dissatisfaction, unfulfilled wishes, or unrealistic expectations. This person might be feeling disappointed or struggling to find contentment. In relationships, this card indicates a partner who may need to adjust their expectations or seek happiness within rather than relying solely on external circumstances. "
               }
             }
         },
@@ -1813,11 +1574,7 @@
                 "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, enjoying life to the fullest.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a strong foundation for your future success."
-                }
+                "partner_analysis": "The 10 of Cups represents emotional bliss, harmony, and family happiness. This person enjoys a deep sense of connection and love within their relationships. They value a peaceful and stable home life. In relationships, this card indicates a partner who is devoted and committed to shared happiness and well-being."
               },
               "reversed": {
                 "general": "Disappointment, dissatisfaction, emotional turmoil, blocked opportunities, unfulfilled desires.",
@@ -1829,11 +1586,7 @@
                 "finance_home": "Financial instability, poor spending habits, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The reversed 10 of Cups signifies family discord, broken harmony, or unfulfilled domestic bliss. This person may be experiencing tension or conflicts within their family or home life. In relationships, this card suggests a partner who may need to address underlying issues or work towards restoring harmony. "
               }
             }
         },
@@ -1857,11 +1610,7 @@
                 "finance_home": "New financial opportunities, starting a business, feeling secure.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, enjoying life to the fullest.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a strong foundation for your future success."
-                }
+                "partner_analysis": "The Page of Cups embodies curiosity, emotional beginnings, and the messenger of love. This person is open to exploring their feelings and often experiences new emotional situations. They are sensitive and artistic. In relationships, this card suggests a partner who is gentle, kind, and willing to express their affection."
               },
               "reversed": {
                 "general": "Disappointment, missed opportunities, lack of creativity, emotional turmoil.",
@@ -1873,11 +1622,7 @@
                 "finance_home": "Financial instability, poor spending habits, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The reversed Page of Cups embodies emotional immaturity, moodiness, or creative blocks. This person might be struggling to express their feelings or lacking inspiration. In relationships, this card warns of a partner who may be emotionally unpredictable or hesitant to open up."
               }
             }
         },
@@ -1901,11 +1646,7 @@
                 "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, enjoying life to the fullest.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a strong foundation for your future success."
-                }
+                "partner_analysis": "The Queen of Cups represents compassion, calm, and an intuitive heart. This person is emotionally stable and understanding, providing a nurturing presence. They are empathetic and often serve as a confidant. In relationships, this card suggests a partner who is supportive and deeply connected to their emotions."
               },
               "reversed": {
                 "general": "Emotional manipulation, insecurity, jealousy, neediness, self-pity.",
@@ -1917,11 +1658,8 @@
                 "finance_home": "Financial instability, poor spending habits, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The reversed Queen of Cups represents emotional instability, codependency, or mood swings. This person may be overly sensitive or struggling to maintain emotional balance. In relationships, this card suggests a partner who may need to address their emotional vulnerabilities or seek healthier coping mechanisms. "
+
               }
             }
         },
@@ -1945,11 +1683,7 @@
                 "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, enjoying life to the fullest.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a strong foundation for your future success."
-                }
+                "partner_analysis": "The King of Cups signifies emotional balance, diplomacy, and maturity. This person has mastered the art of managing their emotions and often acts as a stabilizing force. They are wise and caring, offering guidance without judgment. In relationships, this card indicates a partner who is compassionate and emotionally supportive." 
               },
               "reversed": {
                 "general": "Emotional manipulation, insecurity, jealousy, neediness, self-pity.",
@@ -1961,11 +1695,7 @@
                 "finance_home": "Financial instability, poor spending habits, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The reversed King of Cups signifies emotional volatility, lack of empathy, or emotional manipulation. This person might be struggling with their emotional control or using their feelings to manipulate others. In relationships, this card warns of a partner who may be emotionally unpredictable or lacking in compassion."
               }
             }
         },
@@ -1989,11 +1719,7 @@
                 "finance_home": "Financial abundance, enjoying the fruits of your labor, feeling secure.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, enjoying life to the fullest.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a strong foundation for your future success."
-                }
+                "partner_analysis": "The Ace of Swords represents clarity, breakthrough, and mental sharpness. This person is experiencing a moment of epiphany or a surge of intellectual power. They are ready to cut through confusion and achieve clarity. In relationships, this card suggests a partner who values truth and clear communication." 
               },
               "reversed": {
                 "general": "Confusion, indecision, delay, obstacles, weakness of mind.",
@@ -2005,11 +1731,7 @@
                 "finance_home": "Financial instability, poor spending habits, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The reversed Ace of Swords suggests confusion, mental blockages, or lack of clarity. This person might be struggling to find a clear path forward or experiencing mental fog. In relationships, this card can indicate a partner who may need to overcome mental obstacles or communicate more openly."
               }
             }
         },
@@ -2033,11 +1755,7 @@
                 "finance_home": "Financial stability, feeling secure.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling balanced.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a strong foundation for your future success."
-                }
+                "partner_analysis": "The 2 of Swords symbolizes decisions, stalemate, and balanced judgement. This person may be facing a difficult choice, requiring them to stay impartial and weigh their options carefully. They seek peace and harmony in decision-making. In relationships, this card indicates a partner who strives for fairness and balance."
               },
               "reversed": {
                 "general": "Unbalance, conflict, tension, disagreement, indecision.",
@@ -2049,11 +1767,7 @@
                 "finance_home": "Financial instability, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The reversed 2 of Swords symbolizes indecision, avoidance, or refusal to face a choice. This person may be avoiding making a decision or refusing to see the truth. In relationships, this card suggests a partner who may be hesitant to address important issues or who is avoiding necessary conversations."
               }
             }
         },
@@ -2077,11 +1791,7 @@
                 "finance_home": "Financial instability, poor spending habits, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The 3 of Swords signifies heartbreak, sorrow, and emotional pain. This person may be going through a tough time, dealing with separation or loss. They are encouraged to express their grief and heal. In relationships, this card suggests a partner who is experiencing emotional challenges but is capable of recovery."
               },
               "reversed": {
                 "general": "Healing, forgiveness, moving on, letting go, hope.",
@@ -2093,11 +1803,7 @@
                 "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a strong foundation for your future success."
-                }
+                "partner_analysis": "The reversed 3 of Swords represents healing, forgiveness, or moving on from heartache. This person might be in the process of recovering from emotional pain or letting go of past hurts. In relationships, this card indicates a partner who is gradually healing and seeking emotional closure."
               }
             }
         },
@@ -2121,11 +1827,7 @@
                 "finance_home": "Taking a financial break, time to save money, feeling secure.",
                 "personal_relationships": "Taking a break from relationships, time for self-reflection, feeling alone.",
                 "health": "Taking a break from physical activity, time to rest and recover, feeling unwell.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The 4 of Swords represents rest, recuperation, and contemplation. This person is taking a break from stress, seeking tranquility and mental recovery. They understand the need for a period of healing. In relationships, this card suggests a partner who values quiet and restorative time."
               },
               "reversed": {
                 "general": "Restlessness, anxiety, boredom, stagnation, procrastination.",
@@ -2137,11 +1839,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a strong foundation for your future success."
-                }
+                "partner_analysis": "The reversed 4 of Swords signifies restlessness, lack of recovery, or inability to find peace. This person may be struggling to find rest or experiencing mental fatigue. In relationships, this card suggests a partner who may need to actively seek relaxation or address unresolved issues."
               }
             }
         },
@@ -2165,11 +1863,7 @@
                 "finance_home": "Financial instability, poor spending habits, feeling insecure.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The 5 of Swords indicates conflict, tension, and the aftermath of a battle. This person may be involved in a situation where no one truly wins, possibly leading to feelings of resentment. They are learning to pick their battles wisely. In relationships, this card suggests a partner who may need to address conflicts and strive for resolution."
               },
               "reversed": {
                 "general": "Moving on, forgiveness, learning from mistakes, redemption.",
@@ -2181,11 +1875,7 @@
                 "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a strong foundation for your future success."
-                }
+                "partner_analysis": "The reversed 5 of Swords indicates reconciliation, truce, or letting go of conflict. This person might be moving away from confrontations or seeking resolution. In relationships, this card suggests a partner who is willing to find common ground or who is releasing grudges."
               }
             }
         },
@@ -2209,11 +1899,7 @@
                 "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a strong foundation for your future success."
-                }
+                "partner_analysis": "The 6 of Swords symbolizes transition, moving on, and a journey to a calmer state. This person is leaving behind turbulent times and heading towards a more peaceful phase. They are seeking resolution and a path forward. In relationships, this card indicates a partner who is supportive during times of change and willing to navigate challenges together."
               },
               "reversed": {
                 "general": "Hesitation, fear of change, resistance, holding on to the past.",
@@ -2225,11 +1911,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The reversed 6 of Swords symbolizes resistance to change, emotional baggage, or inability to move forward. This person may be clinging to the past or refusing to embrace new opportunities. In relationships, this card indicates a partner who may need to release old patterns or fears to progress."
               }
             }
         },
@@ -2253,11 +1935,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The 7 of Swords represents deception, strategy, and the need to be cautious. This person may be using cunning or clever tactics to achieve their goals, possibly at the expense of others. They are encouraged to consider the consequences of their actions. In relationships, this card suggests a partner who may be secretive or not fully transparent."
               },
               "reversed": {
                 "general": "Clarity, honesty, integrity, self-awareness, facing the truth.",
@@ -2269,11 +1947,8 @@
                 "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a strong foundation for your future success."
-                }
+                "partner_analysis": "The reversed 7 of Swords may suggest a need for accountability, facing consequences, or the unraveling of deceit. This person might be confronting the truth or dealing with the repercussions of their actions. In relationships, this card can indicate a partner who is coming clean or rectifying dishonesty."
+                
               }
             }
         },
@@ -2297,11 +1972,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The 8 of Swords symbolizes restriction, self-imposed limitations, and feeling trapped. This person may feel stuck in their current situation, blinded to the ways they can free themselves. They are called to empower themselves and seek clarity. In relationships, this card indicates a partner who may feel confined and needs support to find their freedom."
               },
               "reversed": {
                 "general": "Overcoming obstacles, breaking free, finding your true path, empowerment.",
@@ -2313,11 +1984,7 @@
                 "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a strong foundation for your future success."
-                }
+                "partner_analysis": "The reversed 8 of Swords symbolizes liberation, self-acceptance, and new perspectives. This person may be breaking free from self-imposed restrictions or overcoming mental barriers. In relationships, this card suggests a partner who is finding ways to escape limiting beliefs or situations."
               }
             }
         },
@@ -2341,11 +2008,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The 9 of Swords signifies anxiety, worry, and mental anguish. This person is likely experiencing sleepless nights and intense stress due to their fears. They are reminded that help is available and that sharing their burdens can bring relief. In relationships, this card suggests a partner who is struggling with inner turmoil and may need compassion and understanding."
               },
               "reversed": {
                 "general": "Release, relief, hope, optimism, moving on.",
@@ -2357,11 +2020,7 @@
                 "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a strong foundation for your future success."
-                }
+                "partner_analysis": "The reversed 9 of Swords represents the beginning of healing, release from anxiety, or learning to cope with stress. This person might be finding solutions to their worries or seeking help. In relationships, this card indicates a partner who is working through fears and moving towards peace of mind."
               }
             }
         },
@@ -2384,11 +2043,7 @@
                 "finance_home": "Financial ruin, feeling insecure, losing everything.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Serious health issues, feeling drained, feeling hopeless.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The 10 of Swords represents betrayal, painful endings, and the need to accept defeat. This person may have reached a low point, feeling backstabbed or let down. It's a time for them to acknowledge the situation and begin the healing process. In relationships, this card suggests a partner who is dealing with a significant loss or conclusion."
               },
               "reversed": {
                 "general": "Rebirth, new beginnings, hope, resilience, redemption.",
@@ -2400,11 +2055,7 @@
                 "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a strong foundation for your future success."
-                }
+                "partner_analysis": "The reversed 10 of Swords signifies recovery, resilience, and the end of suffering. This person may be picking themselves up after a fall and learning from past experiences. In relationships, this card suggests a partner who is overcoming a difficult period and finding strength to start anew."
               }
             }
         },
@@ -2428,11 +2079,7 @@
                 "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The Page of Swords embodies curiosity, vigilance, and a thirst for knowledge. This person is alert and communicative, often eager to discuss ideas and share information. They may be inexperienced but possess a sharp intellect. In relationships, this card suggests a partner who is inquisitive and enjoys intellectual stimulation." 
               },
               "reversed": {
                 "general": "Delays, obstacles, challenges, frustration, impatience.",
@@ -2444,11 +2091,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The reversed Page of Swords can indicate gossip, hasty words, or a lack of planning. This person might be speaking without thinking or spreading rumors. In relationships, this card warns of a partner who may need to be more mindful of their communication and the impact of their words."
               }
             }
         },
@@ -2472,11 +2115,7 @@
                 "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The Queen of Swords represents independence, clear thinking, and direct communication. This person is honest and perceptive, often seen as a figure of authority who values truth. They are unafraid to speak their mind. In relationships, this card suggests a partner who is articulate and values intellectual connection." 
               },
               "reversed": {
                 "general": "Emotional coldness, harshness, judgment, manipulation, control.",
@@ -2488,11 +2127,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The reversed Queen of Swords represents bitterness, coldness, or miscommunication. This person may be using their intellect in a negative way or may be perceived as aloof. In relationships, this card suggests a partner who might need to soften their approach and open up emotionally."
               }
             }
         },
@@ -2516,11 +2151,7 @@
                 "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The King of Swords signifies intellectual power, authority, and ethical judgement. This person is a strategic thinker and a leader, often involved in making important decisions. They are fair and just, valuing honesty above all. In relationships, this card indicates a partner who is rational and has a strong sense of duty." 
               },
               "reversed": {
                 "general": "Tyranny, oppression, manipulation, coldness, harshness.",
@@ -2532,11 +2163,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The reversed King of Swords signifies manipulation, abuse of power, or strategic behavior for selfish ends. This person might be displaying authoritarian tendencies or using their intellect unethically. In relationships, this card warns of a partner who may be controlling or lacking moral integrity."
               }
             }
         },
@@ -2560,11 +2187,7 @@
                 "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The Ace of Wands represents a new beginning, inspiration, and potential for creative energy. This person may be feeling a surge of enthusiasm and confidence for new projects or ventures. They are passionate and have a pioneering spirit. In relationships, this card suggests a partner who brings vitality and excitement."
               },
               "reversed": {
                 "general": "Delays, obstacles, challenges, frustration, impatience.",
@@ -2576,11 +2199,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "When the Ace of Wands appears reversed, it suggests a lack of energy, diminished inspiration, missed opportunities, or delays in new ventures. In the context of a partner, this card may indicate that your potential or existing partner is currently experiencing a period of low motivation or enthusiasm. They might struggle to initiate new projects or lack the spark needed for growth. It's essential to encourage open communication and find ways to reignite their passion. "
               }
             }
         },
@@ -2604,11 +2223,7 @@
                 "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The 2 of Wands symbolizes planning, future progress, and decision-making. This person is at a point where they are considering their long-term goals and potential actions. They have the world in their hands and are ready to expand their horizons. In relationships, this card indicates a partner who is looking ahead and contemplating shared future possibilities."
               },
               "reversed": {
                 "general": "Delays, obstacles, challenges, frustration, impatience.",
@@ -2620,11 +2235,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The reversed 2 of Wands signifies fear of the unknown, lack of planning, or reluctance to step out of one's comfort zone. In a partner, this card suggests that they may be hesitant to explore new horizons or take risks. They might resist making decisions or avoid venturing into uncharted territory. Encourage them to embrace change and consider alternative paths together."
               }
             }
         },
@@ -2648,11 +2259,7 @@
                 "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The 3 of Wands represents expansion, foresight, and overseas opportunities. This person is likely to be adventurous and optimistic about their future prospects, possibly involving travel or international affairs. They are broadening their outlook. In relationships, this card suggests a partner who is supportive of joint ventures and exploration."
               },
               "reversed": {
                 "general": "Delays, obstacles, challenges, frustration, impatience.",
@@ -2664,11 +2271,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "When the 3 of Wands appears reversed, it indicates obstacles on the path to success, delayed achievements, disappointment in expectations, or partnership challenges. Your partner may face setbacks or encounter roadblocks in their endeavors. Communication and patience are crucial during this time. Support them in overcoming obstacles and adjusting their expectations."
               }
             }
         },
@@ -2692,11 +2295,7 @@
                 "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The 4 of Wands signifies celebration, joy, and stability. This person is enjoying a period of harmony and may be celebrating a milestone or special occasion. They appreciate the security they have built. In relationships, this card indicates a partner who values community and enjoys social gatherings." 
               },
               "reversed": {
                 "general": "Stagnation, boredom, complacency, lack of progress, feeling trapped.",
@@ -2708,11 +2307,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The reversed 4 of Wands suggests instability, lack of support, domestic issues, or disrupted plans. In a partner, this card warns of potential instability in the relationship. There may be tension at home or difficulties in maintaining harmony. Encourage open dialogue and work together to address any underlying issues."
               }
             }
         },
@@ -2736,11 +2331,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The 5 of Wands represents competition, conflict, and struggle. This person may be involved in a rivalry or facing challenges that require them to assert themselves. They are learning to navigate disagreements. In relationships, this card suggests a partner who may be dealing with external pressures or interpersonal conflicts."
               },
               "reversed": {
                 "general": "Defeat, surrender, giving up, letting go, moving on.",
@@ -2752,11 +2343,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "When the 5 of Wands appears reversed, it signifies avoiding conflict, loss of interest in competition, inner struggles, or a desire for peace. In the context of a partner, this card suggests that they may prefer to avoid confrontations or competitive situations. They might seek harmony and cooperation rather than engaging in unnecessary battles. Encourage compromise and understanding."
               }
             }
         },
@@ -2780,11 +2367,7 @@
                 "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The 6 of Wands symbolizes victory, success, and public recognition. This person is experiencing a period of achievement and is receiving accolades for their efforts. They are confident and proud of their accomplishments. In relationships, this card indicates a partner who is supportive and shares in the celebration of successes." 
               },
               "reversed": {
                 "general": "Delays, obstacles, challenges, setbacks, disappointment.",
@@ -2796,11 +2379,8 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The reversed 6 of Wands indicates a lack of recognition, setbacks, egoism, or a fall from grace. In a partner, this card warns that their achievements or efforts may go unnoticed or unappreciated. They might struggle with feelings of inadequacy or disappointment. Show appreciation for their contributions and celebrate their successes together."
+              
               }
             }
         },
@@ -2824,11 +2404,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The 7 of Wands represents defense, perseverance, and standing your ground. This person is determined and resilient in the face of adversity, often defending their beliefs or position. They are courageous and assertive. In relationships, this card suggests a partner who is protective and willing to fight for the relationship."
               },
               "reversed": {
                 "general": "Defeat, surrender, giving up, letting go, moving on.",
@@ -2840,11 +2416,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The reversed 7 of Wands suggests that your potential or existing partner may feel overwhelmed by challenges or competition. They might lack the confidence to defend their position or assert themselves. Encourage them to find inner strength and stand their ground."
               }
             }
         },
@@ -2868,11 +2440,7 @@
                 "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The 8 of Wands symbolizes swift action, movement, and quick developments. This person is dynamic and experiences rapid changes or progress. They are full of energy and ready to take on new challenges. In relationships, this card indicates a partner who is enthusiastic and eager to move things forward." 
               },
               "reversed": {
                 "general": "Delays, obstacles, challenges, setbacks, disappointment.",
@@ -2884,11 +2452,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "When the 8 of Wands appears reversed, it indicates delays, communication issues, or scattered energy. In a partner, this card suggests that they may struggle with expressing themselves clearly or face obstacles in their plans. Encourage patience and open communication to overcome these hurdles."
               }
             }
         },
@@ -2912,11 +2476,7 @@
                 "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The 9 of Wands signifies resilience, persistence, and nearing completion. This person has faced challenges but remains steadfast. They are wary but not defeated, prepared for any final obstacles. In relationships, this card suggests a partner who is loyal and has the strength to endure through tough times." 
               },
               "reversed": {
                 "general": "Exhaustion, burnout, defensiveness, insecurity, paranoia.",
@@ -2928,11 +2488,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The reversed 9 of Wands signifies exhaustion, burnout, or feeling overwhelmed. Your partner might be pushing themselves too hard or carrying emotional burdens. Encourage them to take breaks, seek support, and prioritize self-care."
               }
             }
         },
@@ -2956,11 +2512,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The 10 of Wands represents burden, responsibility, and hard work. This person may be feeling overwhelmed by obligations or stress. They are encouraged to delegate and prioritize. In relationships, this card suggests a partner who may be carrying a heavy load and could benefit from support." 
               },
               "reversed": {
                 "general": "Relief, release, surrender, letting go, new beginnings.",
@@ -2972,11 +2524,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "When the 10 of Wands appears reversed, it suggests releasing burdens, delegating, or letting go of unnecessary responsibilities. In a partner, this card indicates that they may need to lighten their load. Support them in finding balance and avoiding unnecessary stress."
               }
             }
         },
@@ -3000,11 +2548,7 @@
                 "finance_home": "Financial opportunities, feeling secure, enjoying the fruits of your labor.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The Page of Wands embodies enthusiasm, exploration, and the discovery of potential. This person is curious and eager for adventure, often bringing a sense of excitement and novelty. They are creative and passionate. In relationships, this card suggests a partner who is vibrant and enjoys sharing new experiences." 
               },
               "reversed": {
                 "general": "Delays, obstacles, challenges, setbacks, disappointment.",
@@ -3016,11 +2560,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The reversed Page of Wands suggests immaturity, impatience, or lack of focus. In a partner, this card warns that they might be impulsive or easily distracted. Encourage them to develop patience and consider long-term goals."
               }
             }
         },
@@ -3044,11 +2584,7 @@
                 "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The Queen of Wands represents confidence, warmth, and determination. This person is charismatic and attracts others with their energy and zest for life. They are independent and self-assured. In relationships, this card suggests a partner who is supportive and encourages personal growth."
               },
               "reversed": {
                 "general": "Insecurity, jealousy, possessiveness, manipulation, control.",
@@ -3060,11 +2596,7 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "When the Queen of Wands appears reversed, it signifies insecurity, low self-esteem, or a need for validation. Your partner may doubt their abilities or seek external approval. Show appreciation for their unique qualities and help boost their confidence."
               }
             }
         },
@@ -3088,11 +2620,7 @@
                 "finance_home": "Financial stability, feeling secure, enjoying the fruits of your labor.",
                 "personal_relationships": "Healthy and fulfilling relationships, mutual respect.",
                 "health": "Overall good health and well-being, feeling energized.",
-                "combinations": {
-                  "with The Fool": "Embracing new possibilities with a positive attitude.",
-                  "with The Lovers": "Finding love through shared interests and values.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The King of Wands signifies leadership, vision, and boldness. This person is a natural leader, inspiring others with their clarity of purpose and charisma. They are ambitious and action-oriented. In relationships, this card indicates a partner who is generous and has a strong sense of integrity." 
               },
               "reversed": {
                 "general": "Domination, arrogance, stubbornness, inflexibility, lack of vision.",
@@ -3104,11 +2632,8 @@
                 "finance_home": "Financial instability, feeling insecure, worrying about money.",
                 "personal_relationships": "Unhealthy dynamics, conflict, lack of trust.",
                 "health": "Lingering health issues, feeling drained, psychosomatic illness.",
-                "combinations": {
-                  "with The Fool": "Taking a leap of faith and trusting the process.",
-                  "with The Lovers": "Finding love through self-love and appreciation.",
-                  "with The Emperor": "Building a solid foundation for your future success."
-                }
+                "partner_analysis": "The reversed King of Wands suggests manipulation, abuse of power, or strategic behavior for selfish ends. This person might be displaying authoritarian tendencies or using their intellect unethically. In relationships, this card warns of a partner who may be controlling or lacking moral integrity."
+                
               }
             }
         }
