@@ -1,0 +1,30 @@
+
+<div *ngIf="selectedCard" class="bg-[#191919]">
+    <div class="container">
+        <button class="back-btn text-white main_font py-4" routerLink="/home" >
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-10 md:h-10" viewBox="0 0 24 24" fill="#FFDFAC">
+                <path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8.009 8.009 0 0 1-8 8z"/>
+                <path d="M13.293 7.293 8.586 12l4.707 4.707 1.414-1.414L11.414 12l3.293-3.293-1.414-1.414z"/>
+            </svg>                                    
+        </button>
+        <div class="flex flex-col">
+            <h1 class="main_font flex align-center justify-center items-center !text-2xl lg:!text-7xl">It's your daily prediction!</h1>
+            <div class="flex justify-around items-start gap-8 min-[320px]:flex-col min-[320px]:items-center lg:flex-row lg:items-start">
+                <img class="max-w-[40%] w-[200px] rounded min-[320px]:pt-4 lg:pb-16" [src]="selectedCard.image" alt="card-image">
+                <div class="flex flex-col justify-center  gap-6">
+                    <mat-card class="example-card">
+                        <mat-card-content>
+                            <div class="flex flex-1 flex-col justify-center  gap-6">
+                                <h2 class="flex justify-center text-9xl main_font">{{selectedCard.name}}</h2>
+                                <p class="text-lg daily-prediction-text" [innerHTML]="selectedCard.meanings.daily"></p>               
+                            </div>
+                        </mat-card-content>
+                    </mat-card>
+                    <div class="flex justify-center pb-4">
+                        <button routerLink="/home" mat-raised-button class="flex justify-center items-center align-center max-w-48 main_font lg:text-lg lg:py-4 lg:px-8 border-0 rounded bg-teal-900 md:px-4 md:py-4 min-[320px]:px-6 min-[320px]:py-3 min-[320px]:text-base min-[320px]:leading-tight">Back</button>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+</div>

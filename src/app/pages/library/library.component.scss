@@ -1,0 +1,23 @@
+select {
+    background-color: #191919; 
+    &:focus-visible {
+      outline: none;
+    }
+    cursor: pointer;
+}
+
+.select{
+  display: flex;        
+  align-items: center;  
+  justify-content: center; 
+  background-color: rgba(255,255,255,0.04);
+  border-radius: 16px;
+  width: 100%;
+  text-align: center;
+}
+
+option {
+  background-color: #191919;
+  cursor: pointer;
+  
+}

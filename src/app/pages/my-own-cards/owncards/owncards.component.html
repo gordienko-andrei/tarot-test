@@ -1,14 +1,188 @@
-<div class="owncards-wrapper full-w bg-[#191919]">
+<div class="owncards-wrapper full-w bg-[#191919] flex items-center justify-center">
     <div class="container">
-        <div appScrollAnimation [rootMargin]="'350px'" class="main_font flex items-center justify-betweeen text-8xl py-16 lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-2xl min-[320px]:py-6" >
+        <button class="back-btn text-white main_font py-4 min-[320px]:py-2" routerLink="/home" >
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-10 md:h-10" viewBox="0 0 24 24" fill="#FFDFAC">
+                <path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8.009 8.009 0 0 1-8 8z"/>
+                <path d="M13.293 7.293 8.586 12l4.707 4.707 1.414-1.414L11.414 12l3.293-3.293-1.414-1.414z"/>
+            </svg>                                    
+        </button>
+        <div class="main_font flex items-center justify-betweeen text-8xl pb-4 min-[320px]:flex-col sm:flex-row lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-2xl" >
             <div class="flex flex-1 items-center justify-center">
-                <img class="max-w-[70%] h-[40%] rounded-2xl" src="assets/themagician.jpg" alt="">
+                <img class="min-w-[320px]:max-w-full lg:max-w-[70%] lg:h-[40%] rounded-2xl" src="assets/themagician.jpg" alt="">
             </div>
-            <div class="flex flex-1 items-start justify-center flex-col  pl-[5%]">
+            <div class="flex flex-1 items-center lg:items-start justify-center flex-col pl-[5%] pt-4">
                 <span>Get an interpretation</span>
-                <span>of your spread!</span> 
+                <span>of your spread!</span>
             </div>
         </div>
+        <div class="disclaimer main_font">
+            <mat-card class="example-card">
+                <mat-card-content>
+                  <p class="text-lg"><strong>Keep in mind that Tarot readings hinge on the personal intuition of the reader.</strong> Our service offers insights into the symbolism and potential meanings of each card, aiding you in the interpretation process. However, it is your personal connection and understanding that will bring depth to the reading. We provide a starting point for reflection, but the full narrative of the Tarot unfolds uniquely for each individual. Trust in your inner wisdom to weave together the story that the cards are hinting at. We encourage you to explore the nuances of each card's imagery and to let your intuition guide you to the answers you seek. Good luck on your journey of discovery!</p>
+                </mat-card-content>
+            </mat-card>
+        </div>
+        <section class="spread pt-14 flex justify-center items-center flex-col">
+            <form class="choose-typeof-spread relative flex justify-center items-center lg:gap-10 w-[100%] sm:w-[50%]">
+                <input type="radio" name="spreadSelection" id="randomcards-spread" value="random" (change)="onSpreadTypeChange('random')">
+                <label for="randomcards-spread" class="randomcards-label  cursor-pointer text-lg lg:text-2xl flex justify-center items-center md:flex-col text-center relative z-10 main_font py-2 px-4 lg:py-6 lg:px-8">Generate a Spread</label>
+                <input type="radio" name="spreadSelection" id="owncards-spread" value="mycards" (change)="onSpreadTypeChange('mycards')">
+                <label for="owncards-spread" class="owncards-label  cursor-pointer text-lg lg:text-2xl flex justify-center items-center md:flex-col text-center relative z-10 main_font py-2 px-4 lg:py-6 lg:px-8">Enter Your Spread</label>
+                <div class="switcher"></div>            
+            </form>
+            <section *ngIf="selectedSpreadType === 'random'" class="randomcards-spread-section flex items-center justify-center flex-col w-[100%] pb-8">
+                <div class="flex flex-col items-center justify-center pt-4">
+                    <p class="main_font !text-white text-xl lg:text-4xl w-[80%]">Imagine the question interests you and select the category of your question</p>
+                </div>
+                <div class="category_of_question flex  items-center flex-col w-[100%] pt-8">
+                    <mat-grid-list [cols]="radioColsCount()" [rowHeight]="radioRowHeight()" class="full-w w-[80%] gap-4">
+                        <mat-grid-tile *ngFor="let category of categories" class="radio-container main_font flex items-stretch justify-stretch">
+                          <input type="radio" name="spread-category" [id]="category.id" [value]="category.value" (change)="onCategoryChange(category.value, category.label)" [checked]="category.value === 'general'">
+                          <label [for]="category.id" class="radio-label cursor-pointer text-lg lg:text-2xl px-6 py-4 !w-[95%] h-[80%]">{{ category.label }}</label>
+                        </mat-grid-tile>
+                    </mat-grid-list>
+                </div>
+                <div class="flex flex-col items-center justify-center pb-4">
+                    <p class="main_font !text-white text-xl lg:text-4xl w-[80%]">After you’ve asked the question, click the ‘add a new card’ button three times to receive your tarot reading.</p>
+                </div>
+                <div class="your_cards-spread full-w w-[100%] lg:w-[70%] relative flex flex-row gap-4 lg:pt-8">
+                    <div *ngFor="let card of spread; let i = index" class="flex flex-col justify-center items-center w-[33%]">
+                      <ng-container *ngIf="card; else emptySlot">
+                        <img class="max-w-[85%] full-w rounded cursor-pointer lg:h-[100%]" [class.rotated]="card.isRotated" [src]="card.image" loading="lazy" alt="card image">
+                      </ng-container>
+                      <ng-template #emptySlot>+</ng-template>
+                    </div>
+                    <ng-container *ngIf="spread.length < 3">
+                      <div *ngFor="let empty of [].constructor(3 - spread.length)" class="card-slot h-[160px] lg:h-[300px] text-6xl lg:text-9xl">+</div>
+                    </ng-container>
+                </div> 
+                <ng-container *ngIf="spread.length === 3, else addcard">
+                    <div class="flex justify-center items-center flex-col gap-2 w-[95%]">
+                        <button routerLink="/spreadInterpretation" (click)="saveSpread()" class="addNewCard-btn flex justify-center items-center align-center w-[60%] max-w-60 main_font mt-12 lg:text-lg lg:py-4 lg:px-4 border-0 rounded bg-teal-900 md:px-4 md:py-4 min-[320px]:px-4 min-[320px]:py-2 min-[320px]:text-base min-[320px]:leading-tight min-[400px]:px-6 min-[400px]:py-3">Get interpretation!</button>
+                        <button *ngIf="spread.length > 0" (click)="resetSpread()" class="addNewCard-btn !bg-red-600 flex justify-center items-center align-center w-[60%] max-w-60 main_font mb-12 lg:text-lg lg:py-4 lg:px-9 border-0 rounded bg-teal-900 md:px-4 md:py-4 min-[320px]:px-4 min-[320px]:py-2 min-[320px]:text-base min-[320px]:leading-tight min-[400px]:px-6 min-[400px]:py-3">Reset spread</button>
+                    </div>
+                </ng-container> 
+                <ng-template #addcard>
+                    <div class="flex justify-center items-center flex-col gap-2 w-[95%]">
+                        <button mat-raised-button (click)="onAddCardClick()" class="flex justify-center items-center align-center w-[60%] max-w-60 main_font mt-12 lg:text-lg lg:py-4 lg:px-4 border-0 rounded bg-teal-900 md:px-4 md:py-4 min-[320px]:px-6 min-[320px]:py-3 min-[320px]:text-base min-[320px]:leading-tight">Add a new card</button>
+                        <button *ngIf="spread.length > 0" (click)="resetSpread()" class="addNewCard-btn !bg-red-600 w-[60%] flex justify-center items-center align-center max-w-60 main_font mb-12 lg:text-lg lg:py-4 lg:px-5 border-0 rounded bg-teal-900 md:px-4 md:py-4 min-[320px]:px-4 min-[320px]:py-2 min-[320px]:text-base min-[320px]:leading-tight min-[400px]:px-6 min-[400px]:py-3">Reset spread</button>
+                    </div>
+                </ng-template>
+            </section>                         
+            <section *ngIf="selectedSpreadType === 'mycards'" class="mycards-spread-section pt-8 flex items-center justify-center flex-col w-[100%]">
+                <div class="flex flex-col items-center justify-center">
+                    <p class="main_font !text-white text-xl lg:text-4xl w-[80%]">Imagine the question interests you and select the category of your question</p>
+                </div>
+                <div class="category_of_question flex  items-center flex-col w-[100%] pt-8">
+                    <mat-grid-list [cols]="radioColsCount()" [rowHeight]="radioRowHeight()" class="full-w w-[80%] gap-4">
+                        <mat-grid-tile *ngFor="let category of categories" class="radio-container main_font flex items-stretch justify-stretch">
+                          <input type="radio" name="spread-category" [id]="category.id" [value]="category.value" (change)="onCategoryChange(category.value, category.label)" [checked]="category.value === 'general'">
+                          <label [for]="category.id" class="radio-label cursor-pointer text-lg lg:text-2xl px-6 py-4 !w-[95%] h-[80%]">{{ category.label }}</label>
+                        </mat-grid-tile>
+                    </mat-grid-list>
+                </div>
+                <div class="w-[100%] flex justify-center items-center gap-12">
+                    <p class="main_font !text-white text-xl lg:text-4xl w-[80%]">Perform a three-card spread with your Tarot deck and select them from the list below</p>
+                </div>
+                <div class="your_cards-spread full-w w-[100%] lg:w-[70%] relative flex flex-row gap-4 pt-8">
+                    <div *ngFor="let card of spread; let i = index" class="flex flex-col justify-center items-center w-[33%]">
+                      <ng-container *ngIf="card; else emptySlot">
+                        <img class="max-w-[85%] full-w rounded cursor-pointer lg:h-[100%]" [class.rotated]="card.isRotated" [src]="card.image" loading="lazy" alt="card image">
+                        <div class="flex items-center justify-center gap-8 pt-4">
+                            <button class="reverse-btn flex items-center justify-center" (click)="toggleRotation(card)">
+                                <!-- License: MIT. Made by michaelampr: https://github.com/michaelampr/jam -->
+                                <svg fill="#FFDFAC" width="1.5rem" height="1.5rem" viewBox="-1.5 -2.5 24 24" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" class="jam jam-refresh-reverse">
+                                    <path d='M4.859 5.308l1.594-.488a1 1 0 0 1 .585 1.913l-3.825 1.17a1 1 0 0 1-1.249-.665L.794 3.413a1 1 0 1 1 1.913-.585l.44 1.441C5.555.56 10.332-1.035 14.573.703a9.381 9.381 0 0 1 5.38 5.831 1 1 0 1 1-1.905.608A7.381 7.381 0 0 0 4.86 5.308zm12.327 8.195l-1.775.443a1 1 0 1 1-.484-1.94l3.643-.909a.997.997 0 0 1 .61-.08 1 1 0 0 1 .84.75l.968 3.88a1 1 0 0 1-1.94.484l-.33-1.322a9.381 9.381 0 0 1-16.384-1.796l-.26-.634a1 1 0 1 1 1.851-.758l.26.633a7.381 7.381 0 0 0 13.001 1.25z' />
+                                </svg>
+                            </button>
+                            <button class="flex align-center" (click)="deleteCard(i)">
+                                <mat-icon color="warn">delete</mat-icon>
+                            </button>
+                        </div>
+                      </ng-container>
+                      <ng-template #emptySlot>+</ng-template>
+                    </div>
+                    <ng-container *ngIf="spread.length < 3">
+                      <div *ngFor="let empty of [].constructor(3 - spread.length)" class="card-slot h-[160px]  lg:h-[300px] text-6xl lg:text-9xl">+</div>
+                    </ng-container>
+                </div>  
+                <div class="change_bottom_card my-4 flex flex-col items-center justify-center" *ngIf="spread.length == 3">
+                    <p class="main_font !text-white text-xl lg:text-4xl w-[80%]">Once you’ve looked at the bottom card of your Tarot deck, please select it by clicking on it from the list below.</p> 
+                    <ng-container *ngIf="bottomCard !== null && !spread.includes(bottomCard); else emptySlot">
+                        <div class="flex flex-col justify-center items-center gap-4">
+                            <img class="max-w-[40%] w-[20%] rounded cursor-pointer lg:h-[100%]" [src]="bottomCard.image" alt="">
+                            <button class="flex align-center" (click)="deleteBottomCard()">
+                                <mat-icon color="warn">delete</mat-icon>
+                            </button>
+                        </div>
+                    </ng-container>
+                    <ng-template #emptySlot>
+                        <div class="flex flex-col justify-center items-center">
+                            <div class="card-slot h-[160px] !w-[200px] lg:h-[300px] text-6xl lg:text-9xl">+</div>
+                        </div>
+                    </ng-template>
+                </div>
+                <div *ngIf="spread.length == 3 && bottomCard !== null" class="addNewCard w-[100%] flex items-center justify-center pt-8">
+                    <button routerLink="/spreadInterpretation" (click)="saveSpread()" class="addNewCard-btn w-[50%] flex justify-center items-center align-center max-w-60 main_font lg:text-lg lg:py-4 lg:px-4 border-0 rounded bg-teal-900 md:px-4 md:py-4 min-[320px]:px-4 min-[320px]:py-2 min-[320px]:text-base min-[320px]:leading-tight min-[400px]:px-6 min-[400px]:py-3">Get interpretation!</button>
+                </div>               
+                <div class="filters flex justify-center items-center gap-2 lg:gap-8 pt-8 main_font w-[100%] lg:w-[80%]">
+                    <select name="arkanas" id="arkanas" class="select cursor-pointer text-lg lg:text-2xl px-4 py-6 lg:px-2 lg:py-3 " [(ngModel)]="selectedArcanaType" [(ngModel)]="selectedOption" (change)="onSelectChange()">
+                        <option value="" disabled>Arcana Type</option>
+                        <option value="major">Major</option>
+                        <option value="minor">Minor</option>
+                    </select>
+                    <select name="elements" id="elements" class="select cursor-pointer text-lg lg:text-2xl px-4 py-6 lg:px-2 lg:py-3"  [(ngModel)]="selectedElement" [disabled]="!isElementSelectEnabled">
+                        <option value="" disabled>Select Element</option>
+                        <option value="pentacles">Pentacles</option>
+                        <option value="cups">Cups</option>
+                        <option value="swords">Swords</option>
+                        <option value="wands">Wands</option>
+                    </select>  
+                </div>                
+                <div class="allTarotCards w-[100%] pt-4">
+                    <mat-grid-list *ngIf="selectedArcanaType === 'major'" [cols]="getColsCount()" rowHeight="1:1" class="full-w">
+                        <mat-grid-tile *ngFor="let card of majorArcanaCards" (click)="onCardClick(card)">
+                            <div class="flex flex-col justify-center items-center">
+                                <img class="max-w-[40%] full-w rounded cursor-pointer" [src]="card.image" loading="lazy" alt="card image">
+                                <h3 class="text-2xl text-white">{{card.name}}</h3>
+                            </div>
+                        </mat-grid-tile>
+                    </mat-grid-list>
+                    <mat-grid-list *ngIf="selectedArcanaType === 'minor' && selectedElement === 'pentacles'" [cols]="getColsCount()" rowHeight="1:1" class="full-w">
+                        <mat-grid-tile *ngFor="let card of pentaclesCards" (click)="onCardClick(card)">
+                            <div class="flex flex-col justify-center items-center">
+                                <img class="max-w-[40%] full-w rounded cursor-pointer" [src]="card.image" loading="lazy" alt="card image">
+                                <h3 class="text-2xl text-white">{{card.name}}</h3>
+                            </div>
+                        </mat-grid-tile>
+                    </mat-grid-list>
+                    <mat-grid-list *ngIf="selectedArcanaType === 'minor' && selectedElement === 'cups'" [cols]="getColsCount()" rowHeight="1:1" class="full-w">
+                        <mat-grid-tile *ngFor="let card of cupsCards" (click)="onCardClick(card)">
+                            <div class="flex flex-col justify-center items-center">
+                                <img class="max-w-[40%] full-w rounded cursor-pointer" [src]="card.image" loading="lazy" alt="card image">
+                                <h3 class="text-2xl text-white">{{card.name}}</h3>
+                            </div>
+                        </mat-grid-tile>
+                    </mat-grid-list>
+                    <mat-grid-list *ngIf="selectedArcanaType === 'minor' && selectedElement === 'swords'" [cols]="getColsCount()" rowHeight="1:1" class="full-w">
+                        <mat-grid-tile *ngFor="let card of swordsCards" (click)="onCardClick(card)">
+                            <div class="flex flex-col justify-center items-center">
+                                <img class="max-w-[40%] full-w rounded cursor-pointer" [src]="card.image" loading="lazy" alt="card image">
+                                <h3 class="text-2xl text-white">{{card.name}}</h3>
+                            </div>
+                        </mat-grid-tile>
+                    </mat-grid-list>
+                    <mat-grid-list *ngIf="selectedArcanaType === 'minor' && selectedElement === 'wands'" [cols]="getColsCount()" rowHeight="1:1" class="full-w">
+                        <mat-grid-tile *ngFor="let card of wandsCards" (click)="onCardClick(card)">
+                            <div class="flex flex-col justify-center items-center">
+                                <img class="max-w-[40%] full-w rounded cursor-pointer" [src]="card.image" loading="lazy" alt="card image">
+                                <h3 class="text-2xl text-white">{{card.name}}</h3>
+                            </div>
+                        </mat-grid-tile>
+                    </mat-grid-list>
+                </div>
+            </section>
+        </section>       
     </div>
 </div>
 

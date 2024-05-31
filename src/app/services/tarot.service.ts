@@ -32,15 +32,5 @@ export class TarotService {
     );
   }
   
- 
-  
-  // getAllCards(): Observable<any> {
-  //   return this.http.get("https://tarotapi.dev/api/v1/cards").pipe(catchError(this.handleError));
-      
-  // }
-  // private handleError(error: any):any {
-  //   console.error('An error occured, error')
-    
-  // }
 }
 

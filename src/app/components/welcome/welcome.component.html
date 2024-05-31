@@ -1,33 +1,66 @@
 <div class="main full-w bg-[#191919] relative">
-    <img src="assets/main_bg-1.jpeg" alt="bg">
+    <section class="h-[80%]">
+        <div class="background-container min-[320px]:h-[400px] lg:h-screen">
+            <div class="absolute min-[320px]:top-[23%] min-[320px]:left-[20%] lg:top-[10%] lg:left-[10%] ">
+                <p class="main_font min-[320px]:hidden lg:block lg:text-xl shadow-2xl">Tap on the flying Tarot card <br> to reveal your daily prediction!</p>
+            </div>
+            <div *ngIf="card">
+                <a [routerLink]="['/dailyprediction', card.id]" (click)="onCardClick(card)">
+                    <img [src]="card.image" class="daily-card rounded absolute left-[46%] top-[10%]" alt="card-image">
+                </a>
+            </div>
+        </div>
+    </section>
     <div appScrollAnimation class="main_font flex items-center justify-center text-8xl py-16 lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-2xl min-[320px]:py-6" >
         <p>Welcome to the Vision!</p>
     </div>
-    <div class="relative">
-        <img class="full-w h-[60%]" src="assets/aceofwands.jpeg" alt="">
-        <div appScrollAnimation [rootMargin]="'350px'" class="main_font absolute flex flex-col items-start justify-center w-[50%] top-[10%] right-[8%] text-3xl lg:text-3xl md:text-xl min-[320px]:text-[0.575rem] min-[320px]:leading-tight">
-            <span>Embark on a Journey of Revelation with Tarot.</span>
-            <br/>
-            <span>Unveil the secrets that lie within the cards and let the symbols guide you to a deeper understanding. 
-                Each spread is a step towards self-discovery and a reflection of the infinite possibilities that await.
-            </span>
+    <section class="second_sec flex items-center justify-center lg:py-40 ">
+        <div class="second_sec-wrapper">
+            <div matBgAnimation class="flex justify-between relative z-[6] w-[100%] h-[100%] lg:w-[60%] lg:pl-20">
+                <div appScrollAnimation class="welcome_sec_text-content flex flex-col items-center justify-center lg:order-1 z-[6] main_font py-10 px-5 lg:py-0 lg:px-0 w-[100%] lg:w-[60%] text-base lg:text-2xl">
+                    <span>Embark on a Journey of Revelation with Tarot.</span>
+                    <span>Unveil the secrets that lie within the cards and let the symbols guide you to a deeper understanding. 
+                        Each spread is a step towards self-discovery and a reflection of the infinite possibilities that await.
+                    </span>
+                </div>   
+            </div>
+            <div class="portal-wrapper absolute top-[50%] right-[27%] lg:right-[0%] lg:relative lg:order-2 z-[5] flex justify-center items-center w-[40%]">
+               <div class="cards-wrapper flex justify-start items-center w-[100%]">
+                    <div portalScrollAnimation class="ml-5 border-1 rounded border-black absolute z-[5] w-[100px] h-[150px] lg:w-[200px] lg:h-[300px]"><img class="border-4 rounded border-orange-200 absolute" src="assets/tarotcards-img/aceofcups.webp" alt=""></div>
+                    <div portalScrollAnimation class="ml-4 border-1 rounded border-black absolute z-[4] w-[100px] h-[150px] lg:w-[200px] lg:h-[300px]"><img class="border-4 rounded border-orange-200 absolute" src="assets/tarotcards-img/kingofswords.webp" alt=""></div>
+                    <div portalScrollAnimation class="ml-3 border-1 rounded border-black absolute z-[3] w-[100px] h-[150px] lg:w-[200px] lg:h-[300px]"><img class="border-4 rounded border-orange-200 absolute" src="assets/tarotcards-img/pageofpentacles.webp" alt=""></div>
+                    <div portalScrollAnimation class="ml-2 border-1 rounded border-black absolute z-[2] w-[100px] h-[150px] lg:w-[200px] lg:h-[300px]"><img class="border-4 rounded border-orange-200 absolute" src="assets/tarotcards-img/threeofcups.webp" alt=""></div>
+                    <div portalScrollAnimation class="ml-1 border-1 rounded border-black absolute z-[1] w-[100px] h-[150px] lg:w-[200px] lg:h-[300px]"><img class="border-4 rounded border-orange-200 absolute" src="assets/tarotcards-img/aceofswords.webp" alt=""></div>
+               </div>        
+            </div>
         </div>
-    </div>
+    </section>
     <div appScrollAnimation class="main_font flex items-center justify-center text-8xl py-16 lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-2xl min-[320px]:py-6" >
         <p>Explore full power of Tarot!</p>
     </div>
-    <div class="relative">
-        <img class="full-w h-[60%]" src="assets/magician.jpeg" alt="">
-        <div appScrollAnimation [rootMargin]="'350px'" class="main_font absolute flex flex-col items-center justify-center w-[50%] top-[10%] right-[8%] text-3xl lg:text-3xl md:text-xl min-[320px]:text-[0.575rem] min-[320px]:leading-tight">
-            <span>Explore the ancient wisdom of Tarot cards and unlock hidden truths!</span>
-            <br/>
-            <span>Whether you have your own deck or seek guidance, the path is yours to choose.</span>
-            <br/>
-            <span>Lay out your cards for personalized insights, or request a mystical reading to glimpse your destiny.</span>
-            <div class="welcome_page_btns pt-10 flex items-center justify-center gap-6 md:pt-5 min-[320px]:pt-2 min-[320px]:gap-3">
-                <button mat-raised-button routerLink="/spread" class="getSpreadButton  main_font lg:text-base lg:py-4 lg:px-8 border-0 rounded bg-teal-900 md:px-4 md:py-2 min-[320px]:px-1 min-[320px]:py-0.5 min-[320px]:text-[0.575rem] min-[320px]:leading-tight" >My Cards Interpretation</button>
-                <button mat-raised-button routerLink="/library" class="libraryButton main_font lg:text-base lg:py-4 lg:px-8 border-0 rounded bg-teal-900 md:px-4 md:py-2 min-[320px]:px-1 min-[320px]:py-0.5 min-[320px]:text-[0.575rem] min-[320px]:leading-tight" >Card meanings</button>
+    <section class="third_sec flex items-center justify-center lg:py-40 ">
+        <div class="third_sec-wrapper">
+            <div matBgAnimation class="flex justify-end relative lg:order-2 z-[6] w-[100%] h-[100%] lg:w-[60%]">
+                <div appScrollAnimation class="welcome_sec_text-content flex flex-col items-center justify-center lg:order-2 z-[6] main_font py-10 px-5 lg:py-0 lg:px-0 w-[100%] lg:w-[60%] text-base lg:text-2xl">
+                    <span>Explore the ancient wisdom of Tarot cards and unlock hidden truths!</span>
+                    <span>Whether you have your own deck or seek guidance, the path is yours to choose.</span>
+                    <span>Lay out your cards for personalized insights, or request a mystical reading to glimpse your destiny.</span>
+                    <div class="welcome_page_btns z-[6] pt-10 flex items-center justify-center gap-6 md:pt-5 min-[320px]:pt-5 min-[320px]:gap-3">
+                        <button mat-raised-button routerLink="/spread" class="getSpreadButton flex justify-center items-center align-center max-w-60 main_font lg:text-lg lg:py-4 lg:px-4 border-0 rounded bg-teal-900 md:px-4 md:py-4 min-[320px]:px-4 min-[320px]:py-2 min-[320px]:text-base min-[320px]:leading-tight min-[400px]:px-6 min-[400px]:py-3" >Make a new spread</button>
+                        <button mat-raised-button routerLink="/library" class="libraryButton  flex justify-center items-center align-center max-w-48 main_font lg:text-lg lg:py-4 lg:px-4 border-0 rounded bg-teal-900 md:px-4 md:py-4 min-[320px]:px-4 min-[320px]:py-2 min-[320px]:text-base min-[320px]:leading-tight min-[400px]:px-6 min-[400px]:py-3" >Card meanings</button>
+                    </div>
+                </div>
             </div>
+            <div class="portal-wrapper absolute top-[40%] left-[27%] lg:left-[0] lg:relative lg:order-1 z-[5] lg:z-[6] flex justify-center items-center w-[40%]">
+                <div class="cards-wrapper-second flex justify-start items-center w-[100%]">
+                     <div portalScrollAnimation class="ml-5 border-1 rounded border-black absolute z-[5] w-[100px] h-[150px] lg:w-[200px] lg:h-[300px]"><img class="border-4 rounded border-orange-200 absolute" src="assets/tarotcards-img/wheeloffortune.webp" alt=""></div>
+                     <div portalScrollAnimation class="ml-4 border-1 rounded border-black absolute z-[4] w-[100px] h-[150px] lg:w-[200px] lg:h-[300px]"><img class="border-4 rounded border-orange-200 absolute" src="assets/tarotcards-img/death.webp" alt=""></div>
+                     <div portalScrollAnimation class="ml-3 border-1 rounded border-black absolute z-[3] w-[100px] h-[150px] lg:w-[200px] lg:h-[300px]"><img class="border-4 rounded border-orange-200 absolute" src="assets/tarotcards-img/threeofcups.webp" alt=""></div>
+                     <div portalScrollAnimation class="ml-2 border-1 rounded border-black absolute z-[2] w-[100px] h-[150px] lg:w-[200px] lg:h-[300px]"><img class="border-4 rounded border-orange-200 absolute" src="assets/tarotcards-img/thehermit.webp" alt=""></div>
+                     <div portalScrollAnimation class="ml-1 border-1 rounded border-black absolute z-[1] w-[100px] h-[150px] lg:w-[200px] lg:h-[300px]"><img class="border-4 rounded border-orange-200 absolute" src="assets/tarotcards-img/themagician.webp" alt=""></div>
+                </div>        
+            </div>
+
         </div>
-    </div>
+    </section>
 </div>

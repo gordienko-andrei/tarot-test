@@ -1,0 +1,223 @@
+.background-container {
+    background-image: url("../../../assets/main_bg-1.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.welcome_sec_text-wrapper {
+  background-color: rgba(0, 0, 0, 0.1); 
+  backdrop-filter: blur(10px); 
+  width: 100%; 
+  height: 100%;
+  animation: bgAnim .7s linear;
+}
+
+@keyframes bgAnim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.welcome_sec_text-content {
+  color: #a0f2e6;
+}
+
+.daily-card {
+    animation: fly 2s ease-in-out infinite alternate;
+}
+  
+  @keyframes fly {
+    0%, 100% {
+      top: 9%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    50% {
+      top: 10%;
+      box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.3);
+    }
+  }
+
+@media (min-width: 320px) {
+    .daily-card{
+        width: 10%;
+        max-width: 10%;
+    }
+   
+}
+@media (min-width: 640px) {
+    .daily-card{
+        width: 5%;
+        max-width: 100%;
+    }
+   
+}
+
+.second_sec,
+.third_sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  background-color: #1E1E1E;
+  overflow: hidden;
+  width: 100%;
+
+}
+
+.second_sec-wrapper,
+.third_sec-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.third_sec-wrapper {
+  justify-content: flex-end;
+}
+
+.cards-wrapper {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+.cards-wrapper-second {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transform: rotate(180deg);
+}
+
+.animated-card {
+  transform-origin: bottom center;
+}
+
+/* Определение анимаций для каждой карты */
+@keyframes fan-out-1 {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(0deg); }
+}
+
+@keyframes fan-out-2 {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(25deg); }
+}
+
+@keyframes fan-out-3 {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(50deg); } 
+}
+
+@keyframes fan-out-4 {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(75deg); }
+}
+
+@keyframes fan-out-5 {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(100deg); }
+}
+
+
+.animated-card:nth-child(1) {
+  animation: fan-out-1 1s forwards;
+}
+
+.animated-card:nth-child(2) {
+  animation: fan-out-2 1s forwards;
+}
+
+.animated-card:nth-child(3) {
+  animation: fan-out-3 1s forwards;
+}
+
+.animated-card:nth-child(4) {
+  animation: fan-out-4 1s forwards;
+}
+
+.animated-card:nth-child(5) {
+  animation: fan-out-5 1s forwards;
+}
+
+
+
+
+
+@keyframes fan-1 {
+  from { 
+    transform-origin: 0% 100%;
+    transform: rotate(0deg) translateY(0px);
+  }
+  to { 
+    transform-origin: 0% 100%;
+    transform: rotate(80deg) translateY(-100px);
+  }
+}
+
+
+@keyframes fan-2 {
+  from { 
+    transform-origin: 0% 100%;
+    transform: rotate(0deg) translateY(0px);
+  }
+  to { 
+    transform-origin: 0% 100%;
+    transform: rotate(40deg) translateY(-30%);
+  }
+}
+
+@keyframes fan-3 {
+  from { 
+    transform-origin: 0% 100%;
+    transform: rotate(0deg) translateY(0px);
+  }
+  to { 
+    transform-origin: 0% 100%;
+    transform: rotate(0deg) translateY(-20%);
+  } 
+}
+
+@keyframes fan-4 {
+  from { 
+    transform-origin: 0% 100%;
+    transform: rotate(0deg) translateY(0px);
+  }
+  to { 
+    transform-origin: 0% 100%;
+    transform: rotate(-40deg) translateX(-40%) translateY(-5%);
+  } 
+}
+
+@keyframes fan-5 {
+  from { 
+    transform-origin: 0% 100%;
+    transform: rotate(0deg) translateY(0px);
+  }
+  to { 
+    transform-origin: 0% 100%;
+    transform: rotate(-80deg) translateX(-60%) translateY(-5%);
+  }
+}
+
+
+.animated-card-mobile:nth-child(1) {
+  animation: fan-1 1s forwards;
+}
+
+.animated-card-mobile:nth-child(2) {
+  animation: fan-2 1s forwards;
+}
+
+.animated-card-mobile:nth-child(3) {
+  animation: fan-3 1s forwards;
+}
+
+.animated-card-mobile:nth-child(4) {
+  animation: fan-4 1s forwards;
+}
+
+.animated-card-mobile:nth-child(5) {
+  animation: fan-5 1s forwards;
+}

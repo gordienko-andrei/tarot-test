@@ -1,0 +1,190 @@
+<div class="full-w bg-[#191919] flex items-center justify-center">
+    <div class="container">
+        <button (click)="goBack()" class="back-btn text-white main_font py-4 min-[320px]:py-2" routerLink="/spread" >
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-10 md:h-10" viewBox="0 0 24 24" fill="#FFDFAC">
+                <path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8.009 8.009 0 0 1-8 8z"/>
+                <path d="M13.293 7.293 8.586 12l4.707 4.707 1.414-1.414L11.414 12l3.293-3.293-1.414-1.414z"/>
+            </svg>                                    
+        </button>
+        <h1 class="main_font flex align-center justify-center items-center !text-3xl lg:!text-7xl">Discover Below: Your Exclusive {{label}} Reading</h1>
+        <mat-grid-list blockScaling cols="3" [rowHeight]="radioRowHeight()" class="full-w lg:pt-4">
+            <mat-grid-tile *ngFor="let card of spread">
+                    <img class="max-w-[100%] w-[95%] h-[90%] lg:max-w-[56%] lg:h-[100%] full-w rounded"  [class.rotated]="card.isRotated" [src]="card.image" loading="lazy" alt="card image">
+            </mat-grid-tile>
+        </mat-grid-list>
+        <section *ngIf="bottomCard" class="analisis_of_spread  flex flex-col items-center w-[100%] gap-4">
+            <h2 class="text-white pt-8 pb-1 !text-2xl">Tarot spread analisis</h2>
+            <div deckRotation class="deck relative flex flex-col items-center justify-center my-8 mx-auto">
+                <div class="card-1  ml-5 border-1 rounded border-black absolute z-[1] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"><img class="rounded-lg lg:h-[300px]" src="assets/deck_surface.jpg" alt=""></div>
+                <div class="card-2  ml-5 border-1 rounded border-black absolute z-[2] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"><img class="rounded-lg lg:h-[300px] w-full border-8  border-[#c0a882]" [src]="spread[0].image" alt="bottom card image"></div>
+                <div class="card-3  ml-5 border-1 rounded border-black absolute z-[3] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"></div>
+                <div class="card-4  ml-5 border-1 rounded border-black absolute z-[4] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"></div>
+                <div class="card-5  ml-5 border-1 rounded border-black absolute z-[5] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"><img class="rounded-lg lg:h-[300px]" src="assets/deck_surface.jpg" alt=""></div>
+                <div class="card-6  ml-5 border-1 rounded border-black absolute z-[6] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"></div>
+                <div class="card-7  ml-5 border-1 rounded border-black absolute z-[7] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"></div>
+                <div class="card-8  ml-5 border-1 rounded border-black absolute z-[8] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"><img class="rounded-lg lg:h-[300px] w-full border-8  border-[#c0a882]" [src]="bottomCard.image" alt="bottom card image"></div>
+                <div class="card-9  ml-5 border-1 rounded border-black absolute z-[9] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"></div>
+                <div class="card-10  ml-5 border-1 rounded border-black absolute z-[10] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"></div>
+                <div class="card-11  ml-5 border-1 rounded border-black absolute z-[11] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"></div>
+                <div class="card-12  ml-5 border-1 rounded border-black absolute z-[12] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"></div>
+                <div class="card-13  ml-5 border-1 rounded border-black absolute z-[13] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"><img class="rounded-lg lg:h-[300px] w-full border-8  border-[#c0a882]" [src]="spread[1].image" alt="bottom card image"></div>
+                <div class="card-14  ml-5 border-1 rounded border-black absolute z-[14] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"></div>
+                <div class="card-15  ml-5 border-1 rounded border-black absolute z-[15] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"></div>
+                <div class="card-16  ml-5 border-1 rounded border-black absolute z-[16] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"></div>
+                <div class="card-17  ml-5 border-1 rounded border-black absolute z-[17] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"><img class="rounded-lg lg:h-[300px] w-full border-8  border-[#c0a882]" [src]="spread[0].image" alt="bottom card image"></div>
+                <div class="card-18  ml-5 border-1 rounded border-black absolute z-[18] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"></div>
+                <div class="card-19  ml-5 border-1 rounded border-black absolute z-[19] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"></div>
+                <div class="card-20  ml-5 border-1 rounded border-black absolute z-[20] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"></div>
+                <div class="card-21  ml-5 border-1 rounded border-black absolute z-[21] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"><img class="rounded-lg lg:h-[300px] w-full border-8  border-[#c0a882]" [src]="spread[2].image" alt="bottom card image"></div>
+                <div class="card-22  ml-5 border-1 rounded border-black absolute z-[22] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"></div>
+                <div class="card-23  ml-5 border-1 rounded border-black absolute z-[23] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"></div>
+                <div class="card-24  ml-5 border-1 rounded border-black absolute z-[24] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"></div>
+                <div class="card-25  ml-5 border-1 rounded border-black absolute z-[25] w-[120px] h-[150px] lg:w-[200px] lg:h-[300px]"><img class="rounded-lg lg:h-[300px] w-full border-8  border-[#c0a882]" [src]="bottomCard.image" alt="bottom card image"></div>
+            </div>
+            <div class="mt-16 bottom_of_deck flex flex-col justify-center items-center gap-8 w-[100%]" *ngIf="bottomCard">
+                <mat-card blockScaling class="w-[100%]">
+                    <mat-card-content class="main_font !text-white !flex flex-row items-start justify-center gap-8">
+                        <div class="flex flex-col justify-center items-center main_font">
+                            <h2 class="text-[#74AA9C]">The bottom of the deck</h2>
+                            <p class="text-white pt-4">{{bottomCard.meanings.bottom_of_deck}}</p>    
+                        </div>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+            <div class="mt-8 flex flex-col justify-center items-center gap-8 w-[100%]">
+                <mat-card blockScaling class="w-[100%]">
+                    <mat-card-content class="main_font !text-white !flex flex-row items-start justify-center gap-8">
+                        <div class="flex flex-col justify-center items-center main_font">
+                            <h2 class="text-[#74AA9C]">Arcana Analysis: Balancing Major and Minor Mysteries</h2>
+                            <p class="text-white pt-4">{{cardRatio}}</p>    
+                        </div>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+            <div class="mt-8 flex flex-col justify-center items-center gap-8 w-[100%]">
+                <mat-card blockScaling class="w-[100%]">
+                    <mat-card-content class="main_font !text-white !flex flex-row items-start justify-center gap-8">
+                        <div class="flex flex-col justify-center items-center main_font">
+                            <h2 class="text-[#74AA9C]">Suit Significance: Deciphering the Dominance in the Deck</h2>
+                            <p class="text-white pt-4">{{cardsRatioByMinorCategory}}</p>    
+                        </div>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+            <!-- <div *ngIf="category === 'general'" class="flex justify-center items-center flex-col gap-4">
+                <h2 class="general_meaning text-white pt-8 pb-1 !text-2xl">Meaning</h2>
+
+            </div> -->
+        </section>
+        <section class="interpret flex flex-col items-center w-[100%] gap-4">
+            <div *ngIf="category === 'general'" class="flex justify-center items-center flex-col gap-4">
+                <h2 class="general_meaning text-white pt-8 pb-1 !text-2xl">Meaning</h2>
+                <mat-card blockScaling *ngFor="let card of spread">
+                    <mat-card-content class="main_font !text-white flex flex-col items-center justify-center">
+                        <ng-container *ngIf="card.isRotated; else uprightMeaning">
+                            <h3 class="text-[#74AA9C]">{{card.name}} (Reversed)</h3>
+                            <p>{{card.meanings.reversed.general}}</p>
+                        </ng-container>
+                        <ng-template #uprightMeaning>
+                            <h3 class="text-[#74AA9C]">{{card.name}}</h3>
+                            <p>{{card.meanings.upright.general}}</p>
+                        </ng-template>
+                    </mat-card-content>              
+                </mat-card>
+            </div>
+            <div *ngIf="category === 'love'" class="flex justify-center items-center flex-col gap-4">
+                <h2 class="general_meaning text-white pt-8 pb-1 !text-2xl">Meaning</h2>
+                <mat-card *ngFor="let card of spread">
+                    <mat-card-content class="main_font flex flex-col items-center justify-center">
+                        <ng-container *ngIf="card.isRotated; else uprightMeaning">
+                            <h3 class="text-[#74AA9C]">{{card.name}} (Reversed)</h3>
+                            <p class="!text-white">{{card.meanings.reversed.love}}</p>
+                        </ng-container>
+                        <ng-template #uprightMeaning>
+                            <h3 class="text-[#74AA9C]">{{card.name}}</h3>
+                            <p class="!text-white">{{card.meanings.upright.love}}</p>
+                        </ng-template>
+                    </mat-card-content>              
+                </mat-card>
+            </div>
+            <div *ngIf="category === 'finance'" class="flex justify-center items-center flex-col gap-4">
+                <h2 class="general_meaning text-white pt-8 pb-1 !text-2xl">Meaning</h2>
+                <mat-card *ngFor="let card of spread">
+                    <mat-card-content class="main_font flex flex-col items-center justify-center">
+                        <ng-container *ngIf="card.isRotated; else uprightMeaning">
+                            <h3 class="text-[#74AA9C]">{{card.name}} (Reversed)</h3>
+                            <p class="!text-white">{{card.meanings.reversed.finance_home}}</p>
+                        </ng-container>
+                        <ng-template #uprightMeaning>
+                            <h3 class="text-[#74AA9C]">{{card.name}}</h3>
+                            <p class="!text-white">{{card.meanings.upright.finance_home}}</p>
+                        </ng-template>
+                    </mat-card-content>              
+                </mat-card>
+            </div>
+            <div *ngIf="category === 'health'" class="flex justify-center items-center flex-col gap-4">
+                <h2 class="general_meaning text-white pt-8 pb-1 !text-2xl">Meaning</h2>
+                <mat-card *ngFor="let card of spread">
+                    <mat-card-content class="main_font flex flex-col items-center justify-center">
+                        <ng-container *ngIf="card.isRotated; else uprightMeaning">
+                            <h3 class="text-[#74AA9C]">{{card.name}} (Reversed)</h3>
+                            <p class="!text-white">{{card.meanings.reversed.health}}</p>
+                        </ng-container>
+                        <ng-template #uprightMeaning>
+                            <h3 class="text-[#74AA9C]">{{card.name}}</h3>
+                            <p class="!text-white">{{card.meanings.upright.health}}</p>
+                        </ng-template>
+                    </mat-card-content>              
+                </mat-card>
+            </div>
+            <div *ngIf="category === 'work'" class="flex justify-center items-center flex-col gap-4">
+                <h2 class="general_meaning text-white pt-8 pb-1 !text-2xl">Meaning</h2>
+                <mat-card *ngFor="let card of spread">
+                    <mat-card-content class="main_font flex flex-col items-center justify-center">
+                        <ng-container *ngIf="card.isRotated; else uprightMeaning">
+                            <h3 class="text-[#74AA9C]">{{card.name}} (Reversed)</h3>
+                            <p class="!text-white">{{card.meanings.reversed.work}}</p>
+                        </ng-container>
+                        <ng-template #uprightMeaning>
+                            <h3 class="text-[#74AA9C]">{{card.name}}</h3>
+                            <p class="!text-white">{{card.meanings.upright.work}}</p>
+                        </ng-template>
+                    </mat-card-content>              
+                </mat-card>
+            </div>
+            <div *ngIf="category === 'personal_state'" class="flex justify-center items-center flex-col gap-4">
+                <h2 class="general_meaning text-white pt-8 pb-1 !text-2xl">Meaning</h2>
+                <mat-card *ngFor="let card of spread">
+                    <mat-card-content class="main_font flex flex-col items-center justify-center">
+                        <ng-container *ngIf="card.isRotated; else uprightMeaning">
+                            <h3 class="text-[#74AA9C]">{{card.name}} (Reversed)</h3>
+                            <p class="!text-white">{{card.meanings.reversed.personal_state}}</p>
+                        </ng-container>
+                        <ng-template #uprightMeaning>
+                            <h3 class="text-[#74AA9C]">{{card.name}}</h3>
+                            <p class="!text-white">{{card.meanings.upright.personal_state}}</p>
+                        </ng-template>
+                    </mat-card-content>              
+                </mat-card>
+            </div>
+            <div *ngIf="category === 'partner_analysis'" class="flex justify-center items-center flex-col gap-4">
+                <h2 class="general_meaning text-white pt-8 pb-1 !text-2xl">Meaning</h2>
+                <mat-card *ngFor="let card of spread">
+                    <mat-card-content class="main_font flex flex-col items-center justify-center">
+                        <ng-container *ngIf="card.isRotated; else uprightMeaning">
+                            <h3 class="text-[#74AA9C]">{{card.name}} (Reversed)</h3>
+                            <p class="!text-white">{{card.meanings.reversed.partner_analysis}}</p>
+                        </ng-container>
+                        <ng-template #uprightMeaning>
+                            <h3 class="text-[#74AA9C]">{{card.name}}</h3>
+                            <p class="!text-white">{{card.meanings.upright.partner_analysis}}</p>
+                        </ng-template>
+                    </mat-card-content>              
+                </mat-card>
+            </div>
+        </section> 
+        <div class="flex justify-center py-4">
+            <button routerLink="/spread" (click)="goBack()" mat-raised-button class="flex justify-center items-center align-center max-w-48 main_font lg:text-lg lg:py-4 lg:px-4 border-0 rounded bg-teal-900 md:px-4 md:py-4 min-[320px]:px-6 min-[320px]:py-3 min-[320px]:text-base min-[320px]:leading-tight">Make a new spread!</button>
+        </div>  
+    </div>
+</div>

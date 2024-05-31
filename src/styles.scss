@@ -19,7 +19,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .main_font {
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
   color: #FFDFAC;
 }
@@ -39,10 +39,33 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     animation: fadeIn 1s ease-in-out;
 }
 
+.block_scale {
+  animation: block-scale 700ms ease-in-out;
+}
+
+@keyframes block-scale {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
 .headerh2 {
   font-size: 5rem; 
 }
 
+strong{
+  color: #74AA9C;
+  text-decoration: 2px underline;
+}
+.daily-prediction-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #E6E6FA;
+}
 
 
 @media (min-width: 1024px) {

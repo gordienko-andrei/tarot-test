@@ -9,11 +9,15 @@
         </button>
         <div class="flex flex-col">
             <div class="flex justify-around items-start gap-8 main_font min-[320px]:flex-col min-[320px]:items-center lg:flex-row lg:items-start">
-                <img class="max-w-[40%] w-[200px] rounded" [src]="selectedCard.image" alt="">
-                <div class="flex flex-1 flex-col justify-center  gap-6">
-                    <h2 class="flex justify-center text-9xl">{{selectedCard.name}}</h2>
-                    <p class="text-lg text-white" >{{selectedCard.meanings.upright.general}}</p>
-                </div>
+                <img class="max-w-[40%] w-[200px] rounded min-[320px]:pt-4 lg:pt-16" [src]="selectedCard.image" alt="card-image">
+                <mat-card class="example-card">
+                    <mat-card-content>
+                        <div class="flex flex-1 flex-col justify-center  gap-6">
+                            <h2 class="flex justify-center text-9xl">{{selectedCard.name}}</h2>
+                            <p class="text-lg text-white" >{{selectedCard.meanings.upright.general}}</p>             
+                        </div>
+                    </mat-card-content>
+                </mat-card>
             </div>
             <div class="flex flex-col gap-6 pb-4">
                 <div class="flex flex-col gap-4 justify-center">
@@ -112,18 +116,6 @@
                             </div>
                         </ng-template>
                     </mat-expansion-panel>
-                    <mat-expansion-panel>
-                        <mat-expansion-panel-header>
-                            <div class="text-lg main_font">
-                                Combinations
-                            </div>
-                        </mat-expansion-panel-header>
-                        <ng-template matExpansionPanelContent>
-                            <div class="text-base">
-                                {{selectedCard.meanings.upright.combinations}}
-                            </div>
-                        </ng-template>
-                    </mat-expansion-panel>
                 </div>
                 <div class="flex flex-col gap-4 justify-center">
                     <h2 class="flex justify-center main_font">Reversed meanings</h2>
@@ -218,18 +210,6 @@
                         <ng-template matExpansionPanelContent>
                             <div class="text-base">
                                 {{selectedCard.meanings.reversed.health}}
-                            </div>
-                        </ng-template>
-                    </mat-expansion-panel>
-                    <mat-expansion-panel>
-                        <mat-expansion-panel-header>
-                            <div class="text-lg main_font">
-                                Combinations
-                            </div>
-                        </mat-expansion-panel-header>
-                        <ng-template matExpansionPanelContent>
-                            <div class="text-base">
-                                {{selectedCard.meanings.reversed.combinations}}
                             </div>
                         </ng-template>
                     </mat-expansion-panel>

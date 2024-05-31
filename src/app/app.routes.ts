@@ -4,11 +4,13 @@ import { OwncardsComponent } from './pages/my-own-cards/owncards/owncards.compon
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { LibraryComponent } from './pages/library/library.component';
 import { CardinfoComponent } from './pages/cardinfo/cardinfo.component';
+import { DailypredictionComponent } from './components/dailyprediction/dailyprediction.component';
+import { SpreadInterpretationComponent } from './pages/spread-interpretation/spread-interpretation.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 export const routes: Routes = [
     { 
         path: '', 
-        component: WelcomeComponent,
         redirectTo: '/home', 
         pathMatch: 'full' 
     },
@@ -21,18 +23,22 @@ export const routes: Routes = [
         component: OwncardsComponent,
          
     },
-    { 
-        path: 'spread', 
-        component: OwncardsComponent,  
-    },
     {
         path: 'library', 
         component: LibraryComponent,  
     },
     {
+        path: 'dailyprediction/:id', 
+        component: DailypredictionComponent,  
+    },
+    {
         path: 'cardinfo/:id', 
         component: CardinfoComponent,  
-    }
+    },
+    {
+        path: 'spreadInterpretation', 
+        component: SpreadInterpretationComponent,  
+    },
    
     
 ];
@@ -40,7 +46,8 @@ export const routes: Routes = [
 @NgModule({
     imports: 
     [ RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled' })],
-    exports: [RouterModule]
+    exports: [RouterModule],
+    providers: [ { provide: LocationStrategy, useClass: HashLocationStrategy }],
 })
 
 export class AppRoutingModule {}

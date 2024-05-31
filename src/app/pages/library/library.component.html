@@ -1,6 +1,6 @@
 
 <div class="owncards-wrapper full-w bg-[#191919] flex items-center justify-center">
-    <div class="container">
+    <div class="container"> 
         <button class="back-btn text-white main_font py-4 min-[320px]:py-2" routerLink="/home" >
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-10 md:h-10" viewBox="0 0 24 24" fill="#FFDFAC">
                 <path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8.009 8.009 0 0 1-8 8z"/>
@@ -9,16 +9,33 @@
         </button>
         <div class="main_font flex items-center justify-betweeen text-8xl pb-4 min-[320px]:flex-col sm:flex-row lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-2xl" >
             <div class="flex flex-1 items-center justify-center">
-                <img class="min-w-[320px]:max-w-full lg:max-w-[70%] lg:h-[40%] rounded-2xl pb-4" src="assets/lovers.jpg" alt="lovers_img">
+                <img class="min-w-[320px]:max-w-full lg:max-w-[70%] lg:h-[40%] rounded-2xl" src="assets/lovers.jpg" alt="lovers_img">
             </div>
-            <div class="flex flex-1 items-start justify-center flex-col pl-[5%]">
+            <div class="flex flex-1 items-start justify-center flex-col pl-[5%] pt-4">
                 <span>Learn and explore</span>
                 <span>cards meanings!</span>
             </div>
         </div>
-        <div>
-            <p class="main_font lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-lg min-[320px]:py-6 flex justify-center">Major Arcana cards</p>
-            <mat-grid-list [cols]="getColsCount()" rowHeight="1:1" class="full-w">
+        <div class="filters flex justify-center items-center gap-2 lg:gap-8 pt-8 main_font w-[100%]">
+            <div class="flex justify-center items-center flex-1">
+                <select name="arkanas" id="arkanas" class="select cursor-pointer text-center text-lg lg:text-2xl px-2 py-3 lg:px-2 lg:py-3 " [(ngModel)]="selectedArcanaType" [(ngModel)]="selectedOption" (change)="onSelectChange()">
+                    <option value="" disabled>Arcana Type</option>
+                    <option value="major">Major</option>
+                    <option value="minor">Minor</option>
+                </select>
+            </div>
+            <div class="flex justify-center items-center flex-1">
+                <select name="elements" id="elements" class="select cursor-pointer text-center text-lg lg:text-2xl px-2 py-3 lg:px-2 lg:py-3"  [(ngModel)]="selectedElement" [disabled]="!isElementSelectEnabled">
+                    <option value="" disabled>Select Element</option>
+                    <option value="pentacles">Pentacles</option>
+                    <option value="cups">Cups</option>
+                    <option value="swords">Swords</option>
+                    <option value="wands">Wands</option>
+                </select>  
+            </div>
+        </div>
+        <div class="allTarotCards w-[100%] pt-8">
+            <mat-grid-list *ngIf="selectedArcanaType === 'major'" [cols]="getColsCount()" rowHeight="1:1" class="full-w">
                 <mat-grid-tile *ngFor="let card of majorArcanaCards" (click)="onCardClick(card)">
                     <a [routerLink]="['/cardinfo', card.id]" class="flex flex-col justify-center items-center">
                         <img class="max-w-[40%] full-w rounded" [src]="card.image" loading="lazy" alt="card image">
@@ -26,10 +43,7 @@
                     </a>
                 </mat-grid-tile>
             </mat-grid-list>
-        </div>
-        <div>
-            <p class="main_font lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-lg min-[320px]:py-6 flex justify-center">Pentacles</p>
-            <mat-grid-list [cols]="getColsCount()" rowHeight="1:1" class="full-w">
+            <mat-grid-list *ngIf="selectedArcanaType === 'minor' && selectedElement === 'pentacles'" [cols]="getColsCount()" rowHeight="1:1" class="full-w">
                 <mat-grid-tile *ngFor="let card of pentaclesCards" (click)="onCardClick(card)">
                     <a [routerLink]="['/cardinfo', card.id]" class="flex flex-col justify-center items-center">
                         <img class="max-w-[40%] full-w rounded" [src]="card.image" loading="lazy" alt="card image">
@@ -37,10 +51,7 @@
                     </a>
                 </mat-grid-tile>
             </mat-grid-list>
-        </div>
-        <div>
-            <p class="main_font text-6xl lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-lg min-[320px]:py-6 flex justify-center">Cups</p>
-            <mat-grid-list [cols]="getColsCount()" rowHeight="1:1" class="full-w">
+            <mat-grid-list *ngIf="selectedArcanaType === 'minor' && selectedElement === 'cups'" [cols]="getColsCount()" rowHeight="1:1" class="full-w">
                 <mat-grid-tile *ngFor="let card of cupsCards" (click)="onCardClick(card)">
                     <a [routerLink]="['/cardinfo', card.id]" class="flex flex-col justify-center items-center">
                         <img class="max-w-[40%] full-w rounded" [src]="card.image" loading="lazy" alt="card image">
@@ -48,10 +59,7 @@
                     </a>
                 </mat-grid-tile>
             </mat-grid-list>
-        </div>
-        <div>
-            <p class="main_font text-6xl lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-lg min-[320px]:py-6 flex justify-center">Swords</p>
-            <mat-grid-list [cols]="getColsCount()" rowHeight="1:1" class="full-w">
+            <mat-grid-list *ngIf="selectedArcanaType === 'minor' && selectedElement === 'swords'" [cols]="getColsCount()" rowHeight="1:1" class="full-w">
                 <mat-grid-tile *ngFor="let card of swordsCards" (click)="onCardClick(card)">
                     <a [routerLink]="['/cardinfo', card.id]" class="flex flex-col justify-center items-center">
                         <img class="max-w-[40%] full-w rounded" [src]="card.image" loading="lazy" alt="card image">
@@ -59,10 +67,7 @@
                     </a>
                 </mat-grid-tile>
             </mat-grid-list>
-        </div>
-        <div>
-            <p class="main_font text-6xl lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-lg min-[320px]:py-6 flex justify-center">Wands</p>
-            <mat-grid-list [cols]="getColsCount()" rowHeight="1:1" class="full-w">
+            <mat-grid-list *ngIf="selectedArcanaType === 'minor' && selectedElement === 'wands'" [cols]="getColsCount()" rowHeight="1:1" class="full-w">
                 <mat-grid-tile *ngFor="let card of wandsCards" (click)="onCardClick(card)">
                     <a [routerLink]="['/cardinfo', card.id]" class="flex flex-col justify-center items-center">
                         <img class="max-w-[40%] full-w rounded" [src]="card.image" loading="lazy" alt="card image">
@@ -71,16 +76,68 @@
                 </mat-grid-tile>
             </mat-grid-list>
         </div>
-        
-       
-            <!-- Card name: <input type="text" [(ngModel)]="name">
-            <button (click)="search()">Search</button>
-            <div *ngIf="response && response.cards && response.cards.length > 0">
-                <p class="text-white text-2xl">{{response.cards[0].meaning_up}}</p>  
-            </div> -->
-            <!-- <ul>
-                <li *ngFor="let card of cards" ></li>
-            </ul> -->
-        
     </div>
 </div>
+
+
+
+
+
+
+
+
+<!-- <div>
+    <p class="main_font lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-lg min-[320px]:py-6 flex justify-center">Major Arcana cards</p>
+    <mat-grid-list [cols]="getColsCount()" rowHeight="1:1" class="full-w">
+        <mat-grid-tile *ngFor="let card of majorArcanaCards" (click)="onCardClick(card)">
+            <a [routerLink]="['/cardinfo', card.id]" class="flex flex-col justify-center items-center">
+                <img class="max-w-[40%] full-w rounded" [src]="card.image" loading="lazy" alt="card image">
+                <h3 class="text-2xl text-white">{{card.name}}</h3>
+            </a>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
+<div>
+    <p class="main_font lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-lg min-[320px]:py-6 flex justify-center">Pentacles</p>
+    <mat-grid-list [cols]="getColsCount()" rowHeight="1:1" class="full-w">
+        <mat-grid-tile *ngFor="let card of pentaclesCards" (click)="onCardClick(card)">
+            <a [routerLink]="['/cardinfo', card.id]" class="flex flex-col justify-center items-center">
+                <img class="max-w-[40%] full-w rounded" [src]="card.image" loading="lazy" alt="card image">
+                <h3 class="text-2xl text-white">{{card.name}}</h3>
+            </a>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
+<div>
+    <p class="main_font text-6xl lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-lg min-[320px]:py-6 flex justify-center">Cups</p>
+    <mat-grid-list [cols]="getColsCount()" rowHeight="1:1" class="full-w">
+        <mat-grid-tile *ngFor="let card of cupsCards" (click)="onCardClick(card)">
+            <a [routerLink]="['/cardinfo', card.id]" class="flex flex-col justify-center items-center">
+                <img class="max-w-[40%] full-w rounded" [src]="card.image" loading="lazy" alt="card image">
+                <h3 class="text-2xl text-white">{{card.name}}</h3>
+            </a>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
+<div>
+    <p class="main_font text-6xl lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-lg min-[320px]:py-6 flex justify-center">Swords</p>
+    <mat-grid-list [cols]="getColsCount()" rowHeight="1:1" class="full-w">
+        <mat-grid-tile *ngFor="let card of swordsCards" (click)="onCardClick(card)">
+            <a [routerLink]="['/cardinfo', card.id]" class="flex flex-col justify-center items-center">
+                <img class="max-w-[40%] full-w rounded" [src]="card.image" loading="lazy" alt="card image">
+                <h3 class="text-2xl text-white">{{card.name}}</h3>
+            </a>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
+<div>
+    <p class="main_font text-6xl lg:text-7xl md:text-5xl sm:text-5xl min-[320px]:text-lg min-[320px]:py-6 flex justify-center">Wands</p>
+    <mat-grid-list [cols]="getColsCount()" rowHeight="1:1" class="full-w">
+        <mat-grid-tile *ngFor="let card of wandsCards" (click)="onCardClick(card)">
+            <a [routerLink]="['/cardinfo', card.id]" class="flex flex-col justify-center items-center">
+                <img class="max-w-[40%] full-w rounded" [src]="card.image" loading="lazy" alt="card image">
+                <h3 class="text-2xl text-white">{{card.name}}</h3>
+            </a>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>   -->

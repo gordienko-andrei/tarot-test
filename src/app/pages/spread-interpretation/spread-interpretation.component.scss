@@ -1,0 +1,126 @@
+.rotated {
+    transform: rotate(180deg); 
+}
+
+.deck {
+  transform: rotateY(145deg) rotateX(280deg);
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+
+  
+}
+
+.deck-rotate {
+  transform: rotateX(-45deg) rotateY(10deg) rotateZ(90deg);
+  margin: 100px 0;
+  transition-delay: 1500ms;
+}
+
+.card-1 {
+  transform: translateZ(1px);
+  background-color: #c0a882;
+}
+.card-2 {
+  transform: translateZ(2.5px) rotateZ(5deg);
+  background-color: #a59273;
+}
+.card-3 {
+  transform: translateZ(3.5px);
+  background-color: #c0a882;
+}
+.card-4 {
+  transform: translateZ(4.5px);
+  background-color: #a59273;
+}
+.card-5 {
+  transform: translateZ(5.5px) rotateZ(-7deg);
+  background-color: #c0a882;
+}
+.card-6 {
+  transform: translateZ(6.5px);
+  background-color: #a59273;
+}
+.card-7 {
+  transform: translateZ(8.4px);
+  background-color: #c0a882;
+}
+.card-8 {
+  transform: translateZ(9.2px) rotateZ(-2deg);
+  background-color: #a59273;
+}
+.card-9 {
+  transform: translateZ(10.6px);
+  background-color: #c0a882;
+}
+.card-10 {
+  transform: translateZ(11.2px);
+  background-color: #a59273;
+}
+.card-11 {
+  transform: translateZ(12.7px);
+  background-color: #c0a882;
+}
+.card-12 {
+  transform: translateZ(13.9px);
+  background-color: #a59273;
+}
+.card-13 {
+  transform: translateZ(14.5px)rotateZ(5deg);
+  background-color: #c0a882;
+}
+.card-14 {
+  transform: translateZ(15.7px);
+  background-color: #a59273;
+}
+.card-15 {
+  transform: translateZ(16.1px);
+  background-color: #c0a882;
+}
+.card-16 {
+  transform: translateZ(17.6px);
+  background-color: #a59273;
+}
+.card-17 {
+  transform: translateZ(18.3px) rotateZ(-10deg);
+  background-color: #c0a882;
+}
+.card-18 {
+  transform: translateZ(19.56px);
+  background-color: #a59273;
+}
+.card-19 {
+  transform: translateZ(20.65px);
+  background-color: #c0a882;
+}
+.card-20 {
+  transform: translateZ(21.97px);
+  background-color: #a59273;
+}
+.card-21 {
+  transform: translateZ(22.5px) rotateZ(10deg);
+  background-color: #c0a882;
+}
+.card-22 {
+  transform: translateZ(23px);
+  background-color: #a59273;
+}
+.card-23 {
+  transform: translateZ(24.3px);
+  background-color: #c0a882;
+}
+.card-24 {
+  transform: translateZ(25.6px);
+  background-color: #a59273;
+}
+.card-25 {
+  transform: translateZ(26.8px);
+  background-color: #c0a882;
+}
+
+
+
+@media (max-width: 400px){
+  .deck-rotate{
+    margin:50px 0;
+  } 
+}

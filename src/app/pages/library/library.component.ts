@@ -33,19 +33,34 @@ import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
   styleUrl: './library.component.scss'
 })
 export class LibraryComponent implements OnInit, AfterViewChecked {
-  // name: string = "";
-  // response: any = "";
+  
   cards: Card[] = [];
+  selectedArcanaType: string = 'major';
+  selectedElement: string = 'pentacles';
+  selectedOption: string = 'major';
   majorArcanaCards: Card[] = [];
   pentaclesCards: Card[] = [];
   cupsCards: Card[] = [];
   swordsCards: Card[] = [];
   wandsCards: Card[] = [];
   selectedCard: Card | null = null;
+  isElementSelectEnabled: boolean = false;
+
+
+  // majorArcanaCards: Card[] = [];
+  // pentaclesCards: Card[] = [];
+  // cupsCards: Card[] = [];
+  // swordsCards: Card[] = [];
+  // wandsCards: Card[] = [];
+  // selectedCard: Card | null = null;
   isScrolled: boolean = false;
   isSmallScreen: boolean = false;
 
-  constructor(private http: HttpClient, private TarotService: TarotService, private breakpointObserver: BreakpointObserver){};
+  constructor(
+    private http: HttpClient, 
+    private TarotService: TarotService, 
+    private breakpointObserver: BreakpointObserver
+  ){};
 
   onCardClick(card: Card): void {
     this.selectedCard = card;
@@ -55,6 +70,9 @@ export class LibraryComponent implements OnInit, AfterViewChecked {
     return this.isSmallScreen ? 2 : 3;
   }
 
+  onSelectChange() {
+    this.isElementSelectEnabled = this.selectedOption === 'minor';
+  }
 
   ngOnInit(): void {
     this.breakpointObserver.observe([
@@ -73,9 +91,8 @@ export class LibraryComponent implements OnInit, AfterViewChecked {
       this.swordsCards = this.TarotService.getCardsByCategory("swords");
       this.wandsCards = this.TarotService.getCardsByCategory("wands");
     });
-
   }
-
+  
   ngAfterViewChecked(): void {
     if (!this.isScrolled) {
       window.scrollTo(0, 0); 

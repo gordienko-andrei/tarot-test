@@ -2,8 +2,11 @@ export interface Card {
     name: string;
     id: string;
     category: string;
+    isRotated: boolean;
     image: string;
     meanings: {
+        daily: string;
+        bottom_of_deck: string,
         upright: {
             general: string;
             love: string;
@@ -14,7 +17,7 @@ export interface Card {
             finance_home: string;
             personal_relationships: string;
             health: string;
-            combinations: string;
+            partner_analysis: string;
         };
         reversed: {
             general: string;
@@ -26,7 +29,7 @@ export interface Card {
             finance_home: string;
             personal_relationships: string;
             health: string;
-            combinations: string;
+            partner_analysis: string;
         }
     };
 }

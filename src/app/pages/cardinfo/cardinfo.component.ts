@@ -5,7 +5,7 @@ import { Card } from '../../interfaces/card.interface';
 import { TarotService } from '../../services/tarot.service';
 import { RouterModule } from '@angular/router';
 import { MatExpansionModule } from '@angular/material/expansion';
-
+import { MatCardModule } from '@angular/material/card';
 
 @Component({
   selector: 'app-cardinfo',
@@ -14,6 +14,7 @@ import { MatExpansionModule } from '@angular/material/expansion';
     NgIf,
     RouterModule,
     MatExpansionModule,
+    MatCardModule
   ],
   providers: [
     TarotService,
@@ -34,5 +35,7 @@ export class CardinfoComponent implements OnInit {
         this.selectedCard = card;
       });
     });
+
+    window.scrollTo(0, 0);
   }
 }

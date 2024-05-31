@@ -1,6 +1,7 @@
 <app-header></app-header>
+<div *ngIf="isLoading$ | async" class="loading-overlay flex flex-col items-center justify-center gap-4">
+  <mat-spinner></mat-spinner>
+  <p class="!text-white main_font">{{loadingPhrase}}</p>
+</div>
 <router-outlet></router-outlet>
 <app-footer></app-footer>
-
-
-
